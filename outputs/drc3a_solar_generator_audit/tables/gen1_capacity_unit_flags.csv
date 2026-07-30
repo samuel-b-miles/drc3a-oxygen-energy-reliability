@@ -1,0 +1,6 @@
+flag,facilities
+raw_as_kva,200
+raw_as_kva_large,18
+raw_as_va_or_w,6
+missing_or_nonpositive,6
+implausible_low,1

@@ -1,0 +1,31 @@
+outcome,predictor_set,n,outcome_n,cv_auc
+has_10l_conc,context,491,247,0.656807924603438
+has_10l_conc,energy_flags,491,247,0.7031260370345789
+has_10l_conc,energy_plus_context,491,247,0.7599970133404129
+has_10l_conc,energy_reliability_context,491,247,0.7630915245237937
+has_10l_conc,capacity_cost_context,491,247,0.6861352624941925
+has_5l_conc,context,491,206,0.727899846704139
+has_5l_conc,energy_flags,491,206,0.7381791858286493
+has_5l_conc,energy_plus_context,491,206,0.7984925907000511
+has_5l_conc,energy_reliability_context,491,206,0.793995912110373
+has_5l_conc,capacity_cost_context,491,206,0.7203798330778401
+has_multi_conc,context,491,211,0.7456922816519972
+has_multi_conc,energy_flags,491,211,0.7544008124576843
+has_multi_conc,energy_plus_context,491,211,0.8239421123899797
+has_multi_conc,energy_reliability_context,491,211,0.823129654705484
+has_multi_conc,capacity_cost_context,491,211,0.772029451591063
+equipment_damage_binary,context,491,235,0.5924534574468086
+equipment_damage_binary,energy_flags,491,235,0.6753324468085106
+equipment_damage_binary,energy_plus_context,491,235,0.6766539228723405
+equipment_damage_binary,energy_reliability_context,491,235,0.7396609042553192
+equipment_damage_binary,capacity_cost_context,491,235,0.6402759308510638
+Oxygen concentrator / oxygen device,context,491,70,0.6606888361045131
+Oxygen concentrator / oxygen device,energy_flags,491,70,0.6315575161180862
+Oxygen concentrator / oxygen device,energy_plus_context,491,70,0.6890057685782152
+Oxygen concentrator / oxygen device,energy_reliability_context,491,70,0.7389718357651849
+Oxygen concentrator / oxygen device,capacity_cost_context,491,70,0.6487105531048525
+reliable_v1_917,context,491,256,0.584375
+reliable_v1_917,energy_flags,491,256,0.6057347074468086
+reliable_v1_917,energy_plus_context,491,256,0.6438996010638298
+reliable_v1_917,energy_reliability_context,491,256,0.8968666888297873
+reliable_v1_917,capacity_cost_context,491,256,0.5645445478723404

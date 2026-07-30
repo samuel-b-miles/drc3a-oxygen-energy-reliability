@@ -1,0 +1,229 @@
+group,level,facilities,damage_reporting_facilities,cause_category,mentions,pct_all_facilities,pct_damage_reporting_facilities
+province,Haut Katanga,92,48,Voltage instability / fluctuation,7,7.608695652173913,14.583333333333334
+province,Haut Katanga,92,48,Power cuts / abrupt restoration,7,7.608695652173913,14.583333333333334
+province,Haut Katanga,92,48,Insufficient power / no energy,0,0.0,0.0
+province,Haut Katanga,92,48,Short circuit / burned electronics,4,4.3478260869565215,8.333333333333334
+province,Haut Katanga,92,48,Poor installation,0,0.0,0.0
+province,Haut Katanga,92,48,Lightning / atmospheric discharge,0,0.0,0.0
+province,Nord-Kivu,214,103,Voltage instability / fluctuation,8,3.7383177570093458,7.766990291262136
+province,Nord-Kivu,214,103,Power cuts / abrupt restoration,3,1.4018691588785046,2.912621359223301
+province,Nord-Kivu,214,103,Insufficient power / no energy,6,2.803738317757009,5.825242718446602
+province,Nord-Kivu,214,103,Short circuit / burned electronics,6,2.803738317757009,5.825242718446602
+province,Nord-Kivu,214,103,Poor installation,5,2.336448598130841,4.854368932038835
+province,Nord-Kivu,214,103,Lightning / atmospheric discharge,3,1.4018691588785046,2.912621359223301
+province,Sud-Kivu,185,84,Voltage instability / fluctuation,8,4.324324324324325,9.523809523809524
+province,Sud-Kivu,185,84,Power cuts / abrupt restoration,5,2.7027027027027026,5.9523809523809526
+province,Sud-Kivu,185,84,Insufficient power / no energy,7,3.7837837837837838,8.333333333333334
+province,Sud-Kivu,185,84,Short circuit / burned electronics,2,1.0810810810810811,2.380952380952381
+province,Sud-Kivu,185,84,Poor installation,1,0.5405405405405406,1.1904761904761905
+province,Sud-Kivu,185,84,Lightning / atmospheric discharge,0,0.0,0.0
+facility_type,CH,180,94,Voltage instability / fluctuation,6,3.3333333333333335,6.382978723404255
+facility_type,CH,180,94,Power cuts / abrupt restoration,7,3.888888888888889,7.446808510638298
+facility_type,CH,180,94,Insufficient power / no energy,7,3.888888888888889,7.446808510638298
+facility_type,CH,180,94,Short circuit / burned electronics,1,0.5555555555555556,1.0638297872340425
+facility_type,CH,180,94,Poor installation,2,1.1111111111111112,2.127659574468085
+facility_type,CH,180,94,Lightning / atmospheric discharge,0,0.0,0.0
+facility_type,CM,99,33,Voltage instability / fluctuation,4,4.040404040404041,12.121212121212121
+facility_type,CM,99,33,Power cuts / abrupt restoration,2,2.0202020202020203,6.0606060606060606
+facility_type,CM,99,33,Insufficient power / no energy,1,1.0101010101010102,3.0303030303030303
+facility_type,CM,99,33,Short circuit / burned electronics,3,3.0303030303030303,9.090909090909092
+facility_type,CM,99,33,Poor installation,0,0.0,0.0
+facility_type,CM,99,33,Lightning / atmospheric discharge,0,0.0,0.0
+facility_type,CSR,121,50,Voltage instability / fluctuation,3,2.479338842975207,6.0
+facility_type,CSR,121,50,Power cuts / abrupt restoration,2,1.6528925619834711,4.0
+facility_type,CSR,121,50,Insufficient power / no energy,3,2.479338842975207,6.0
+facility_type,CSR,121,50,Short circuit / burned electronics,0,0.0,0.0
+facility_type,CSR,121,50,Poor installation,2,1.6528925619834711,4.0
+facility_type,CSR,121,50,Lightning / atmospheric discharge,2,1.6528925619834711,4.0
+facility_type,HGR,88,57,Voltage instability / fluctuation,10,11.363636363636363,17.54385964912281
+facility_type,HGR,88,57,Power cuts / abrupt restoration,4,4.545454545454546,7.017543859649122
+facility_type,HGR,88,57,Insufficient power / no energy,2,2.272727272727273,3.508771929824561
+facility_type,HGR,88,57,Short circuit / burned electronics,8,9.090909090909092,14.035087719298245
+facility_type,HGR,88,57,Poor installation,2,2.272727272727273,3.508771929824561
+facility_type,HGR,88,57,Lightning / atmospheric discharge,1,1.1363636363636365,1.7543859649122806
+facility_type,HP,3,1,Voltage instability / fluctuation,0,0.0,0.0
+facility_type,HP,3,1,Power cuts / abrupt restoration,0,0.0,0.0
+facility_type,HP,3,1,Insufficient power / no energy,0,0.0,0.0
+facility_type,HP,3,1,Short circuit / burned electronics,0,0.0,0.0
+facility_type,HP,3,1,Poor installation,0,0.0,0.0
+facility_type,HP,3,1,Lightning / atmospheric discharge,0,0.0,0.0
+grid_architecture,Central Grid,132,79,Voltage instability / fluctuation,10,7.575757575757576,12.658227848101266
+grid_architecture,Central Grid,132,79,Power cuts / abrupt restoration,7,5.303030303030303,8.860759493670885
+grid_architecture,Central Grid,132,79,Insufficient power / no energy,2,1.5151515151515151,2.5316455696202533
+grid_architecture,Central Grid,132,79,Short circuit / burned electronics,4,3.0303030303030303,5.063291139240507
+grid_architecture,Central Grid,132,79,Poor installation,0,0.0,0.0
+grid_architecture,Central Grid,132,79,Lightning / atmospheric discharge,0,0.0,0.0
+grid_architecture,Community Mini-grid,96,34,Voltage instability / fluctuation,5,5.208333333333333,14.705882352941176
+grid_architecture,Community Mini-grid,96,34,Power cuts / abrupt restoration,3,3.125,8.823529411764707
+grid_architecture,Community Mini-grid,96,34,Insufficient power / no energy,1,1.0416666666666667,2.9411764705882355
+grid_architecture,Community Mini-grid,96,34,Short circuit / burned electronics,1,1.0416666666666667,2.9411764705882355
+grid_architecture,Community Mini-grid,96,34,Poor installation,1,1.0416666666666667,2.9411764705882355
+grid_architecture,Community Mini-grid,96,34,Lightning / atmospheric discharge,1,1.0416666666666667,2.9411764705882355
+grid_architecture,No Grid,138,56,Voltage instability / fluctuation,5,3.6231884057971016,8.928571428571429
+grid_architecture,No Grid,138,56,Power cuts / abrupt restoration,2,1.4492753623188406,3.5714285714285716
+grid_architecture,No Grid,138,56,Insufficient power / no energy,7,5.072463768115942,12.5
+grid_architecture,No Grid,138,56,Short circuit / burned electronics,3,2.1739130434782608,5.357142857142857
+grid_architecture,No Grid,138,56,Poor installation,4,2.898550724637681,7.142857142857143
+grid_architecture,No Grid,138,56,Lightning / atmospheric discharge,1,0.7246376811594203,1.7857142857142858
+grid_architecture,Other,58,32,Voltage instability / fluctuation,1,1.7241379310344827,3.125
+grid_architecture,Other,58,32,Power cuts / abrupt restoration,0,0.0,0.0
+grid_architecture,Other,58,32,Insufficient power / no energy,2,3.4482758620689653,6.25
+grid_architecture,Other,58,32,Short circuit / burned electronics,1,1.7241379310344827,3.125
+grid_architecture,Other,58,32,Poor installation,0,0.0,0.0
+grid_architecture,Other,58,32,Lightning / atmospheric discharge,1,1.7241379310344827,3.125
+grid_architecture,Private / Concession Grid,67,34,Voltage instability / fluctuation,2,2.985074626865672,5.882352941176471
+grid_architecture,Private / Concession Grid,67,34,Power cuts / abrupt restoration,3,4.477611940298507,8.823529411764707
+grid_architecture,Private / Concession Grid,67,34,Insufficient power / no energy,1,1.492537313432836,2.9411764705882355
+grid_architecture,Private / Concession Grid,67,34,Short circuit / burned electronics,3,4.477611940298507,8.823529411764707
+grid_architecture,Private / Concession Grid,67,34,Poor installation,1,1.492537313432836,2.9411764705882355
+grid_architecture,Private / Concession Grid,67,34,Lightning / atmospheric discharge,0,0.0,0.0
+energy_profile,Generator,8,8,Voltage instability / fluctuation,1,12.5,12.5
+energy_profile,Generator,8,8,Power cuts / abrupt restoration,0,0.0,0.0
+energy_profile,Generator,8,8,Insufficient power / no energy,0,0.0,0.0
+energy_profile,Generator,8,8,Short circuit / burned electronics,1,12.5,12.5
+energy_profile,Generator,8,8,Poor installation,1,12.5,12.5
+energy_profile,Generator,8,8,Lightning / atmospheric discharge,0,0.0,0.0
+energy_profile,Generator + Solar,46,33,Voltage instability / fluctuation,3,6.521739130434782,9.090909090909092
+energy_profile,Generator + Solar,46,33,Power cuts / abrupt restoration,2,4.3478260869565215,6.0606060606060606
+energy_profile,Generator + Solar,46,33,Insufficient power / no energy,4,8.695652173913043,12.121212121212121
+energy_profile,Generator + Solar,46,33,Short circuit / burned electronics,1,2.1739130434782608,3.0303030303030303
+energy_profile,Generator + Solar,46,33,Poor installation,2,4.3478260869565215,6.0606060606060606
+energy_profile,Generator + Solar,46,33,Lightning / atmospheric discharge,1,2.1739130434782608,3.0303030303030303
+energy_profile,Grid,79,37,Voltage instability / fluctuation,2,2.5316455696202533,5.405405405405405
+energy_profile,Grid,79,37,Power cuts / abrupt restoration,2,2.5316455696202533,5.405405405405405
+energy_profile,Grid,79,37,Insufficient power / no energy,1,1.2658227848101267,2.7027027027027026
+energy_profile,Grid,79,37,Short circuit / burned electronics,1,1.2658227848101267,2.7027027027027026
+energy_profile,Grid,79,37,Poor installation,1,1.2658227848101267,2.7027027027027026
+energy_profile,Grid,79,37,Lightning / atmospheric discharge,0,0.0,0.0
+energy_profile,Grid + Generator,50,33,Voltage instability / fluctuation,8,16.0,24.242424242424242
+energy_profile,Grid + Generator,50,33,Power cuts / abrupt restoration,6,12.0,18.181818181818183
+energy_profile,Grid + Generator,50,33,Insufficient power / no energy,2,4.0,6.0606060606060606
+energy_profile,Grid + Generator,50,33,Short circuit / burned electronics,2,4.0,6.0606060606060606
+energy_profile,Grid + Generator,50,33,Poor installation,0,0.0,0.0
+energy_profile,Grid + Generator,50,33,Lightning / atmospheric discharge,0,0.0,0.0
+energy_profile,Grid + Generator + Solar,127,77,Voltage instability / fluctuation,8,6.299212598425197,10.38961038961039
+energy_profile,Grid + Generator + Solar,127,77,Power cuts / abrupt restoration,4,3.1496062992125986,5.194805194805195
+energy_profile,Grid + Generator + Solar,127,77,Insufficient power / no energy,2,1.5748031496062993,2.5974025974025974
+energy_profile,Grid + Generator + Solar,127,77,Short circuit / burned electronics,6,4.724409448818897,7.792207792207792
+energy_profile,Grid + Generator + Solar,127,77,Poor installation,0,0.0,0.0
+energy_profile,Grid + Generator + Solar,127,77,Lightning / atmospheric discharge,1,0.7874015748031497,1.2987012987012987
+energy_profile,Grid + Solar,101,35,Voltage instability / fluctuation,1,0.9900990099009901,2.857142857142857
+energy_profile,Grid + Solar,101,35,Power cuts / abrupt restoration,1,0.9900990099009901,2.857142857142857
+energy_profile,Grid + Solar,101,35,Insufficient power / no energy,2,1.9801980198019802,5.714285714285714
+energy_profile,Grid + Solar,101,35,Short circuit / burned electronics,1,0.9900990099009901,2.857142857142857
+energy_profile,Grid + Solar,101,35,Poor installation,1,0.9900990099009901,2.857142857142857
+energy_profile,Grid + Solar,101,35,Lightning / atmospheric discharge,1,0.9900990099009901,2.857142857142857
+energy_profile,No energy source,39,0,Voltage instability / fluctuation,0,0.0,0.0
+energy_profile,No energy source,39,0,Power cuts / abrupt restoration,0,0.0,0.0
+energy_profile,No energy source,39,0,Insufficient power / no energy,0,0.0,0.0
+energy_profile,No energy source,39,0,Short circuit / burned electronics,0,0.0,0.0
+energy_profile,No energy source,39,0,Poor installation,0,0.0,0.0
+energy_profile,No energy source,39,0,Lightning / atmospheric discharge,0,0.0,0.0
+energy_profile,Solar,41,12,Voltage instability / fluctuation,0,0.0,0.0
+energy_profile,Solar,41,12,Power cuts / abrupt restoration,0,0.0,0.0
+energy_profile,Solar,41,12,Insufficient power / no energy,2,4.878048780487805,16.666666666666668
+energy_profile,Solar,41,12,Short circuit / burned electronics,0,0.0,0.0
+energy_profile,Solar,41,12,Poor installation,1,2.4390243902439024,8.333333333333334
+energy_profile,Solar,41,12,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Concentrator,161,96,Voltage instability / fluctuation,11,6.832298136645963,11.458333333333334
+oxygen_profile,Concentrator,161,96,Power cuts / abrupt restoration,5,3.1055900621118013,5.208333333333333
+oxygen_profile,Concentrator,161,96,Insufficient power / no energy,4,2.484472049689441,4.166666666666667
+oxygen_profile,Concentrator,161,96,Short circuit / burned electronics,6,3.7267080745341614,6.25
+oxygen_profile,Concentrator,161,96,Poor installation,0,0.0,0.0
+oxygen_profile,Concentrator,161,96,Lightning / atmospheric discharge,2,1.2422360248447204,2.0833333333333335
+oxygen_profile,Concentrator + Cylinders,94,57,Voltage instability / fluctuation,6,6.382978723404255,10.526315789473685
+oxygen_profile,Concentrator + Cylinders,94,57,Power cuts / abrupt restoration,6,6.382978723404255,10.526315789473685
+oxygen_profile,Concentrator + Cylinders,94,57,Insufficient power / no energy,3,3.1914893617021276,5.2631578947368425
+oxygen_profile,Concentrator + Cylinders,94,57,Short circuit / burned electronics,5,5.319148936170213,8.771929824561404
+oxygen_profile,Concentrator + Cylinders,94,57,Poor installation,2,2.127659574468085,3.508771929824561
+oxygen_profile,Concentrator + Cylinders,94,57,Lightning / atmospheric discharge,1,1.0638297872340425,1.7543859649122806
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Voltage instability / fluctuation,1,50.0,100.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Power cuts / abrupt restoration,1,50.0,100.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Poor installation,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Voltage instability / fluctuation,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Power cuts / abrupt restoration,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Poor installation,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Voltage instability / fluctuation,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Power cuts / abrupt restoration,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Poor installation,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Voltage instability / fluctuation,1,11.11111111111111,20.0
+oxygen_profile,Concentrator + External PSA,9,5,Power cuts / abrupt restoration,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Poor installation,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Voltage instability / fluctuation,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Power cuts / abrupt restoration,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Poor installation,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Concentrator + Other oxygen,37,23,Voltage instability / fluctuation,1,2.7027027027027026,4.3478260869565215
+oxygen_profile,Concentrator + Other oxygen,37,23,Power cuts / abrupt restoration,2,5.405405405405405,8.695652173913043
+oxygen_profile,Concentrator + Other oxygen,37,23,Insufficient power / no energy,3,8.108108108108109,13.043478260869565
+oxygen_profile,Concentrator + Other oxygen,37,23,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Other oxygen,37,23,Poor installation,1,2.7027027027027026,4.3478260869565215
+oxygen_profile,Concentrator + Other oxygen,37,23,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Voltage instability / fluctuation,1,9.090909090909092,25.0
+oxygen_profile,Cylinders,11,4,Power cuts / abrupt restoration,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Poor installation,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,No oxygen source,150,35,Voltage instability / fluctuation,1,0.6666666666666666,2.857142857142857
+oxygen_profile,No oxygen source,150,35,Power cuts / abrupt restoration,1,0.6666666666666666,2.857142857142857
+oxygen_profile,No oxygen source,150,35,Insufficient power / no energy,3,2.0,8.571428571428571
+oxygen_profile,No oxygen source,150,35,Short circuit / burned electronics,1,0.6666666666666666,2.857142857142857
+oxygen_profile,No oxygen source,150,35,Poor installation,2,1.3333333333333333,5.714285714285714
+oxygen_profile,No oxygen source,150,35,Lightning / atmospheric discharge,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Voltage instability / fluctuation,1,5.882352941176471,12.5
+oxygen_profile,Other oxygen,17,8,Power cuts / abrupt restoration,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Insufficient power / no energy,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Short circuit / burned electronics,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Poor installation,1,5.882352941176471,12.5
+oxygen_profile,Other oxygen,17,8,Lightning / atmospheric discharge,0,0.0,0.0
+reliability_class,Not reliable v1,235,132,Voltage instability / fluctuation,17,7.23404255319149,12.878787878787879
+reliability_class,Not reliable v1,235,132,Power cuts / abrupt restoration,10,4.25531914893617,7.575757575757576
+reliability_class,Not reliable v1,235,132,Insufficient power / no energy,11,4.680851063829787,8.333333333333334
+reliability_class,Not reliable v1,235,132,Short circuit / burned electronics,8,3.404255319148936,6.0606060606060606
+reliability_class,Not reliable v1,235,132,Poor installation,4,1.702127659574468,3.0303030303030303
+reliability_class,Not reliable v1,235,132,Lightning / atmospheric discharge,1,0.425531914893617,0.7575757575757576
+reliability_class,Reliable v1,256,103,Voltage instability / fluctuation,6,2.34375,5.825242718446602
+reliability_class,Reliable v1,256,103,Power cuts / abrupt restoration,5,1.953125,4.854368932038835
+reliability_class,Reliable v1,256,103,Insufficient power / no energy,2,0.78125,1.941747572815534
+reliability_class,Reliable v1,256,103,Short circuit / burned electronics,4,1.5625,3.883495145631068
+reliability_class,Reliable v1,256,103,Poor installation,2,0.78125,1.941747572815534
+reliability_class,Reliable v1,256,103,Lightning / atmospheric discharge,2,0.78125,1.941747572815534
+concentrator_stock,0,178,47,Voltage instability / fluctuation,3,1.6853932584269662,6.382978723404255
+concentrator_stock,0,178,47,Power cuts / abrupt restoration,1,0.5617977528089888,2.127659574468085
+concentrator_stock,0,178,47,Insufficient power / no energy,3,1.6853932584269662,6.382978723404255
+concentrator_stock,0,178,47,Short circuit / burned electronics,1,0.5617977528089888,2.127659574468085
+concentrator_stock,0,178,47,Poor installation,3,1.6853932584269662,6.382978723404255
+concentrator_stock,0,178,47,Lightning / atmospheric discharge,0,0.0,0.0
+concentrator_stock,1,102,54,Voltage instability / fluctuation,4,3.9215686274509802,7.407407407407407
+concentrator_stock,1,102,54,Power cuts / abrupt restoration,3,2.9411764705882355,5.555555555555555
+concentrator_stock,1,102,54,Insufficient power / no energy,3,2.9411764705882355,5.555555555555555
+concentrator_stock,1,102,54,Short circuit / burned electronics,0,0.0,0.0
+concentrator_stock,1,102,54,Poor installation,0,0.0,0.0
+concentrator_stock,1,102,54,Lightning / atmospheric discharge,1,0.9803921568627451,1.8518518518518519
+concentrator_stock,2-3,114,69,Voltage instability / fluctuation,5,4.385964912280702,7.246376811594203
+concentrator_stock,2-3,114,69,Power cuts / abrupt restoration,7,6.140350877192983,10.144927536231885
+concentrator_stock,2-3,114,69,Insufficient power / no energy,4,3.508771929824561,5.797101449275362
+concentrator_stock,2-3,114,69,Short circuit / burned electronics,2,1.7543859649122806,2.898550724637681
+concentrator_stock,2-3,114,69,Poor installation,2,1.7543859649122806,2.898550724637681
+concentrator_stock,2-3,114,69,Lightning / atmospheric discharge,2,1.7543859649122806,2.898550724637681
+concentrator_stock,4+,97,65,Voltage instability / fluctuation,11,11.34020618556701,16.923076923076923
+concentrator_stock,4+,97,65,Power cuts / abrupt restoration,4,4.123711340206185,6.153846153846154
+concentrator_stock,4+,97,65,Insufficient power / no energy,3,3.0927835051546393,4.615384615384615
+concentrator_stock,4+,97,65,Short circuit / burned electronics,9,9.278350515463918,13.846153846153847
+concentrator_stock,4+,97,65,Poor installation,1,1.0309278350515463,1.5384615384615385
+concentrator_stock,4+,97,65,Lightning / atmospheric discharge,0,0.0,0.0

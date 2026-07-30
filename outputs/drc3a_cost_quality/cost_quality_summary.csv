@@ -1,0 +1,7 @@
+variable,label,n_total_facilities,n_missing,n_zero,n_positive,n_positive_source_absent,n_above_positive_p95,n_above_positive_p99,n_analysis_ready_positive,median_positive,p95_positive,p99_positive,max_positive,median_conservative,max_conservative
+I2_wtp_median,WTP for improved electricity,491,0,26,465,0,16,3,446,50.0,300.0,10000.0,20000.0,50.0,300.0
+generator_cost_median,Generator cost,491,260,2,229,0,9,3,217,130.0,1279.9999999999998,52204.99999999997,120000.0,120.0,1250.0
+grid_cost_median,Grid cost,491,163,34,294,19,12,3,260,54.0,1869.9999999999932,50699.999999999935,600000.0,50.0,1800.0
+oxygen_cost_median,Oxygen cost,491,405,0,86,0,4,1,81,5.0,63.75,2428.500000000084,15000.0,5.0,60.0
+solar_maintenance_adhoc_median,Solar ad hoc maintenance,491,294,8,189,0,9,1,179,50.0,1019.9999999999989,3000.0,10000.0,50.0,900.0
+solar_total_value_median,Solar total value,491,176,6,309,0,12,4,293,2000.0,37599.999999999796,192000.0000000016,350000.0,2000.0,34000.0

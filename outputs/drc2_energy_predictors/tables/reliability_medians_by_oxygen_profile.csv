@@ -1,0 +1,12 @@
+oxygen_profile,outage_days_median,outage_hours_median,bad_power_days_median
+Concentrator,3.0,4.0,8.0
+Concentrator + Cylinders,4.0,4.0,8.0
+Concentrator + Cylinders + External PSA,5.5,4.5,4.5
+Concentrator + Cylinders + Internal PSA,4.0,5.0,10.0
+Concentrator + Cylinders + Other oxygen,6.0,2.0,2.0
+Concentrator + External PSA,2.5,5.5,2.5
+Concentrator + Internal PSA,6.0,1.0,2.0
+Concentrator + Other oxygen,3.5,4.5,6.0
+Cylinders,3.0,5.0,5.0
+No oxygen source,5.0,3.5,2.0
+Other oxygen,2.0,4.5,4.5

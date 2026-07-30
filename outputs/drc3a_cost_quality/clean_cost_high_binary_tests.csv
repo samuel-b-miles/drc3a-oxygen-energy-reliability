@@ -1,0 +1,60 @@
+predictor,outcome,n,exposed_n,outcome_n,odds_ratio,p_value,stars,cost_variable
+grid_cost_median_high_clean,has_any_oxygen,260,126,199,4.211822660098522,4.452640928853194e-06,***,grid_cost_median
+grid_cost_median_high_clean,has_concentrator,260,126,182,4.762742608380193,8.11942029620674e-08,***,grid_cost_median
+grid_cost_median_high_clean,has_10l_conc,260,126,146,5.294108099334523,2.4825071273745203e-10,***,grid_cost_median
+grid_cost_median_high_clean,has_5l_conc,260,126,126,2.886704219364438,3.8241123615944035e-05,***,grid_cost_median
+grid_cost_median_high_clean,has_multi_conc,260,126,131,6.482296826270409,9.116692615099123e-13,***,grid_cost_median
+grid_cost_median_high_clean,has_cylinders,260,126,72,3.3006535947712417,2.9678156851490647e-05,***,grid_cost_median
+grid_cost_median_high_clean,has_multi_oxygen,260,126,96,3.4994192799070847,3.0224132667464754e-06,***,grid_cost_median
+grid_cost_median_high_clean,equipment_damage_binary,260,126,145,1.5199439651994398,0.10495930110038382,,grid_cost_median
+grid_cost_median_high_clean,Oxygen concentrator / oxygen device,260,126,40,2.1912849545376565,0.025830404264324675,*,grid_cost_median
+grid_cost_median_high_clean,reliable_v1_917,260,126,144,1.0133040327849379,1.0,,grid_cost_median
+generator_cost_median_high_clean,has_any_oxygen,217,107,203,2.4029850746268657,0.16583017444449277,,generator_cost_median
+generator_cost_median_high_clean,has_concentrator,217,107,197,2.346353128736548,0.09915606181237406,~,generator_cost_median
+generator_cost_median_high_clean,has_10l_conc,217,107,160,1.7867549668874172,0.06557863940161213,~,generator_cost_median
+generator_cost_median_high_clean,has_5l_conc,217,107,142,2.700534759358289,0.0009618747517917497,***,generator_cost_median
+generator_cost_median_high_clean,has_multi_conc,217,107,150,4.316646989374262,2.2343133862113538e-06,***,generator_cost_median
+generator_cost_median_high_clean,has_cylinders,217,107,74,1.7021040974529347,0.06485836369763365,~,generator_cost_median
+generator_cost_median_high_clean,has_multi_oxygen,217,107,102,1.76608784473953,0.041718835525454676,*,generator_cost_median
+generator_cost_median_high_clean,equipment_damage_binary,217,107,144,1.3871610403984505,0.31450197448856054,,generator_cost_median
+generator_cost_median_high_clean,Oxygen concentrator / oxygen device,217,107,48,1.967741935483871,0.049311434701807585,*,generator_cost_median
+generator_cost_median_high_clean,reliable_v1_917,217,107,117,0.6571074891685579,0.13527033653889553,,generator_cost_median
+oxygen_cost_median_high_clean,has_concentrator,81,32,79,0.6494845360824743,1.0,,oxygen_cost_median
+oxygen_cost_median_high_clean,has_10l_conc,81,32,55,2.1737704918032787,0.14607090257044436,,oxygen_cost_median
+oxygen_cost_median_high_clean,has_5l_conc,81,32,56,0.38110165696372594,0.05192929490005349,~,oxygen_cost_median
+oxygen_cost_median_high_clean,has_multi_conc,81,32,51,0.3275929549902153,0.019637887447992466,*,oxygen_cost_median
+oxygen_cost_median_high_clean,has_cylinders,81,32,34,1.1278839815425181,0.8213362862730207,,oxygen_cost_median
+oxygen_cost_median_high_clean,has_multi_oxygen,81,32,45,1.575686274509804,0.36453771185010625,,oxygen_cost_median
+oxygen_cost_median_high_clean,equipment_damage_binary,81,32,54,1.1538461538461537,0.8126905123002703,,oxygen_cost_median
+oxygen_cost_median_high_clean,Oxygen concentrator / oxygen device,81,32,19,0.8823529411764706,1.0,,oxygen_cost_median
+oxygen_cost_median_high_clean,reliable_v1_917,81,32,37,0.7205651491365777,0.5008109818878237,,oxygen_cost_median
+solar_total_value_median_high_clean,has_any_oxygen,293,135,216,3.1917577796467618,3.423596154235701e-05,***,solar_total_value_median
+solar_total_value_median_high_clean,has_concentrator,293,135,201,3.7174610721502437,7.698823484083511e-07,***,solar_total_value_median
+solar_total_value_median_high_clean,has_10l_conc,293,135,157,2.8600996874207993,1.3081884075013931e-05,***,solar_total_value_median
+solar_total_value_median_high_clean,has_5l_conc,293,135,131,2.0203076923076924,0.003255258888326759,**,solar_total_value_median
+solar_total_value_median_high_clean,has_multi_conc,293,135,128,2.6081632653061226,6.106297627079025e-05,***,solar_total_value_median
+solar_total_value_median_high_clean,has_cylinders,293,135,63,0.9995917534190651,1.0,,solar_total_value_median
+solar_total_value_median_high_clean,has_multi_oxygen,293,135,93,1.6706578489383919,0.044514420899334446,*,solar_total_value_median
+solar_total_value_median_high_clean,equipment_damage_binary,293,135,146,1.1607543780871128,0.5587254076491804,,solar_total_value_median
+solar_total_value_median_high_clean,Oxygen concentrator / oxygen device,293,135,47,2.603305785123967,0.0037812751218211415,**,solar_total_value_median
+solar_total_value_median_high_clean,reliable_v1_917,293,135,174,1.1733021077283372,0.5512046916837985,,solar_total_value_median
+solar_maintenance_adhoc_median_high_clean,has_any_oxygen,179,80,133,1.943254061690605,0.06062745276926011,~,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,has_concentrator,179,80,124,2.027027027027027,0.03526222521086696,*,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,has_10l_conc,179,80,97,1.6686303387334316,0.09861274473794887,~,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,has_5l_conc,179,80,84,1.791138170133604,0.07040301425458582,~,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,has_multi_conc,179,80,84,2.36318407960199,0.006538037260592187,**,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,has_cylinders,179,80,43,2.601246105919003,0.0081068653213608,**,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,has_multi_oxygen,179,80,56,1.675135438072109,0.14419438006711335,,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,equipment_damage_binary,179,80,92,2.0410509031198685,0.023880791294048062,*,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,Oxygen concentrator / oxygen device,179,80,31,3.6639676113360324,0.0014399259327242736,**,solar_maintenance_adhoc_median
+solar_maintenance_adhoc_median_high_clean,reliable_v1_917,179,80,101,0.6859504132231405,0.22783375497847447,,solar_maintenance_adhoc_median
+I2_wtp_median_high_clean,has_any_oxygen,446,134,309,2.265602322206096,0.0007396366781099665,***,I2_wtp_median
+I2_wtp_median_high_clean,has_concentrator,446,134,284,2.5150992234685075,6.420764375742792e-05,***,I2_wtp_median
+I2_wtp_median_high_clean,has_10l_conc,446,134,224,2.699010066413266,2.9870618746626903e-06,***,I2_wtp_median
+I2_wtp_median_high_clean,has_5l_conc,446,134,188,1.794033951525856,0.006425132400938394,**,I2_wtp_median
+I2_wtp_median_high_clean,has_multi_conc,446,134,191,2.6693133665199325,3.746715779219319e-06,***,I2_wtp_median
+I2_wtp_median_high_clean,has_cylinders,446,134,96,1.2968077266203792,0.31572602148544926,,I2_wtp_median
+I2_wtp_median_high_clean,has_multi_oxygen,446,134,134,1.6951844813367278,0.018046965278157245,*,I2_wtp_median
+I2_wtp_median_high_clean,equipment_damage_binary,446,134,220,1.7361283545029127,0.009691734343372425,**,I2_wtp_median
+I2_wtp_median_high_clean,Oxygen concentrator / oxygen device,446,134,67,2.144242424242424,0.005868972897884175,**,I2_wtp_median
+I2_wtp_median_high_clean,reliable_v1_917,446,134,228,1.0654390727019294,0.8363568008978433,,I2_wtp_median

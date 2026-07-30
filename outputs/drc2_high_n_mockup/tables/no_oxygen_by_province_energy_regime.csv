@@ -1,0 +1,25 @@
+province_fr,energy_profile,total,no_oxygen,pct_no_oxygen
+Haut-Katanga,Generator,1,0,0.0
+Haut-Katanga,Generator + Solar,3,2,66.66666666666666
+Haut-Katanga,Grid,24,8,33.33333333333333
+Haut-Katanga,Grid + Generator,17,3,17.647058823529413
+Haut-Katanga,Grid + Generator + Solar,18,1,5.555555555555555
+Haut-Katanga,Grid + Solar,11,3,27.27272727272727
+Haut-Katanga,No energy source,16,11,68.75
+Haut-Katanga,Solar,2,1,50.0
+Nord-Kivu,Generator,6,0,0.0
+Nord-Kivu,Generator + Solar,25,1,4.0
+Nord-Kivu,Grid,25,13,52.0
+Nord-Kivu,Grid + Generator,18,1,5.555555555555555
+Nord-Kivu,Grid + Generator + Solar,61,3,4.918032786885246
+Nord-Kivu,Grid + Solar,27,5,18.51851851851852
+Nord-Kivu,No energy source,19,13,68.42105263157895
+Nord-Kivu,Solar,33,13,39.39393939393939
+Sud-Kivu,Generator,1,0,0.0
+Sud-Kivu,Generator + Solar,18,1,5.555555555555555
+Sud-Kivu,Grid,30,21,70.0
+Sud-Kivu,Grid + Generator,15,0,0.0
+Sud-Kivu,Grid + Generator + Solar,48,3,6.25
+Sud-Kivu,Grid + Solar,63,41,65.07936507936508
+Sud-Kivu,No energy source,4,3,75.0
+Sud-Kivu,Solar,6,3,50.0

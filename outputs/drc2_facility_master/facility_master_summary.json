@@ -1,0 +1,11 @@
+{
+  "source": "/Users/samuelmiles/Downloads/drc2 survey_ Enque\u0302te_sur_la_Qualite\u0301_et_la_Fiabilite\u0301_de_lE\u0301lectricite\u0301__E\u0301tablissements_de_Sante\u0301_en_RDC_-_latest_version_-_False_-_2026-04-07-21-25-03.xlsx - Enque\u0302te sur la Qualite\u0301 et la... (2).csv",
+  "raw_rows": 565,
+  "respondent_rows": 518,
+  "facility_rows": 491,
+  "raw_unique_fosa": 491,
+  "respondent_unique_fosa": 491,
+  "multi_respondent_facilities": 24,
+  "facilities_with_conflicts": 24,
+  "output_dir": "outputs/drc2_facility_master"
+}

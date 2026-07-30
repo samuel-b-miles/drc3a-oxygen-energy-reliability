@@ -1,0 +1,7 @@
+test,row_var,col_var,chi2,dof,p_value,n
+chi-square,n_energy_sources,has_any_oxygen,79.847,3,3.310975938604973e-17,491
+chi-square,n_energy_sources,has_concentrator,90.433,3,1.768719765441376e-19,491
+chi-square,n_energy_sources,has_multi_oxygen,43.042,3,2.4105704210093796e-09,491
+chi-square,energy_profile,oxygen_profile,222.747,70,8.077932836178035e-18,491
+chi-square,grid_architecture,has_any_oxygen,30.907,4,3.198639347701649e-06,491
+chi-square,has_generator,has_psa_any,3.501,1,0.06133273334858063,491

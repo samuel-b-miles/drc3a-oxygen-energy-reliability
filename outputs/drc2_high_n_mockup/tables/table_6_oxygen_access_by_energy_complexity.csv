@@ -1,0 +1,5 @@
+n_energy_sources,facilities,has_any_oxygen,has_concentrator,has_multi_oxygen,mean_concentrators,median_outage_days
+0,39,30.77,23.08,10.26,0.44,0.0
+1,128,53.91,46.88,16.41,1.16,3.0
+2,197,71.07,63.96,31.98,2.4,4.0
+3,127,94.49,92.91,50.39,4.91,4.0

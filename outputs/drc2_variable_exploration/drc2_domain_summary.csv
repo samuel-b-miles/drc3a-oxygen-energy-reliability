@@ -1,0 +1,14 @@
+domain,variables,median_missing_pct,ready_descriptive,ready_numeric,needs_coding_or_review,mostly_missing
+Survey timing and notes,6,50.0,0,0,3,3
+Facility identity and respondent metadata,9,0.0,3,4,2,0
+Internet and grid electricity,5,35.2,2,1,2,0
+"Generator assets, use, and cost",14,53.8,1,0,2,3
+"Solar assets, finance, and quality",13,37.2,3,4,2,2
+Charcoal use and cost,9,37.2,6,1,1,1
+"Outages, bad power days, and recall reliability",18,8.8,8,8,1,0
+Maintenance and equipment failure,8,8.8,7,0,0,1
+Medical oxygen equipment and oxygen access,13,0.0,8,2,2,0
+Other derived or helper fields,1,100.0,0,0,0,1
+"Registers, mortality records, and morgue capacity",15,43.7,10,0,3,1
+"Willingness-to-pay, technical capacity, and operations",6,4.0,3,1,2,0
+Submission metadata,11,0.0,0,0,0,0

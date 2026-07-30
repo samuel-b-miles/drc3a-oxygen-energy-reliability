@@ -1,0 +1,10 @@
+metric,group,kruskal_stat,p_value,n
+outage_days_median,oxygen_profile,24.124034889005454,0.0021845637981419033,452
+outage_days_median,grid_architecture,42.938406847873615,1.065690509655006e-08,452
+outage_days_median,energy_profile,32.332397397333544,3.523907877068764e-05,452
+outage_hours_median,oxygen_profile,6.757553057672305,0.5630025769301057,452
+outage_hours_median,grid_architecture,15.856669625786031,0.0032176470816601558,452
+outage_hours_median,energy_profile,14.090871222001182,0.0495885241829144,452
+bad_power_days_median,oxygen_profile,33.5584217442778,4.883406498639371e-05,452
+bad_power_days_median,grid_architecture,29.77370355525461,5.442021631341826e-06,452
+bad_power_days_median,energy_profile,33.121631667540775,2.5130173329101206e-05,452

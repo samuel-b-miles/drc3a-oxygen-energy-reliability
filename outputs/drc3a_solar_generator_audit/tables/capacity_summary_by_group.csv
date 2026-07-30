@@ -1,0 +1,11 @@
+group,level,n_facilities,has_solar_pct,has_generator_pct,solar_panel_count_clear_n,solar_panel_count_clear_median,solar_capacity_raw_n,solar_capacity_raw_positive_n,solar_capacity_kwp_clear_n,solar_capacity_kwp_clear_median,gen1_capacity_kva_clear_n,gen1_capacity_kva_clear_median
+province,Nord-Kivu,214,68.22429906542055,51.4018691588785,142,5.0,146,141,107,1.0,102,10.25
+province,Sud-Kivu,185,72.97297297297297,44.32432432432433,129,6.0,0,0,0,,82,9.25
+province,Haut-Katanga,92,36.95652173913043,42.391304347826086,33,6.0,34,33,13,1.0,38,16.5
+facility_type,HP,3,33.33333333333333,100.0,1,20.0,1,1,1,3.0,3,100.0
+facility_type,HGR,88,68.18181818181817,82.95454545454545,60,15.5,31,30,19,5.0,72,16.5
+facility_type,CH,180,71.66666666666667,49.44444444444444,120,5.0,51,49,34,1.0,84,5.0
+facility_type,CSR,121,54.54545454545454,30.57851239669421,64,5.0,62,59,42,1.0,34,12.0
+facility_type,CM,99,59.59595959595959,29.292929292929294,59,5.0,35,35,24,1.0,29,5.0
+generator_presence,0,260,54.61538461538461,0.0,137,4.0,73,70,51,1.0,0,
+generator_presence,1,231,74.89177489177489,100.0,167,9.0,107,104,69,2.0,222,11.25

@@ -1,0 +1,12 @@
+oxygen_profile,n,pct
+Concentrator,161,32.8
+No oxygen source,150,30.5
+Concentrator + Cylinders,94,19.1
+Concentrator + Other oxygen,37,7.5
+Other oxygen,17,3.5
+Cylinders,11,2.2
+Concentrator + External PSA,9,1.8
+Concentrator + Internal PSA,6,1.2
+Concentrator + Cylinders + Internal PSA,3,0.6
+Concentrator + Cylinders + External PSA,2,0.4
+Concentrator + Cylinders + Other oxygen,1,0.2

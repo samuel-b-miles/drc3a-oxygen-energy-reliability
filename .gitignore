@@ -1,0 +1,40 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Keep respondent-level and raw/sensitive files out of a public repository.
+data/
+data/raw/
+outputs/drc2_facility_master/raw_submissions.csv
+outputs/drc2_facility_master/facility_master.csv
+outputs/drc2_facility_master/respondent_sample.csv
+outputs/drc2_facility_master/facility_master_conflicts.csv
+outputs/drc2_uptime/tables/facility_master_with_reconstructed_uptime.csv
+outputs/drc2_dedup_audit/raw_fosa_duplicate_clusters.csv
+outputs/drc2_dedup_audit/*clusters.csv
+outputs/drc2_equipment_failure/tables/equipment_failure_coded_facility_mentions.csv
+outputs/drc3a_solar_generator_audit/tables/facility_solar_generator_capacity_clean.csv
+outputs/drc3a_solar_generator_audit/tables/capacity_records_to_review.csv
+outputs/drc3a_solar_generator_audit/tables/paired_clean_solar_generator_capacity.csv
+outputs/drc2_high_n_mockup/*.zip
+
+# Keep manuscript/deck build artifacts in Drive unless explicitly released.
+outputs/**/*.pptx
+outputs/**/*.docx
+outputs/**/*.html
+outputs/**/*inspect.ndjson
+outputs/air_liquide_deck_review/
+outputs/air_liquide_oxygen_sprint_deck/
+outputs/air_liquide_oxygen_sprint_deck_montage.png
+outputs/drc3_oxygen_air_liquide_v3_fr/
+outputs/drc3_oxygen_air_liquide_v3_fr_montage.png
+outputs/drc3_oxygen_partnership_deck_fr/
+outputs/drc3_oxygen_partnership_deck_fr_montage.png
+outputs/drc3_oxygen_partnership_deck_fr_v2/
+outputs/drc3_oxygen_partnership_deck_fr_v2_montage.png
+outputs/**/rendered/
+outputs/**/google_pdf_render/
+outputs/**/google_pdf_render_final/
+
+# Row-level exploratory audit outputs should be reviewed before sharing.
+outputs/drc3a_cost_quality/cost_value_audit_long.csv

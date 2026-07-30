@@ -1,0 +1,36 @@
+outcome,predictor_set,cv_auc,n,note,predictor_set_label
+has_any_oxygen,has_grid + has_generator + has_solar,0.7736070381231672,491,,source_flags
+has_concentrator,has_grid + has_generator + has_solar,0.7749937179165022,491,,source_flags
+has_multi_oxygen,has_grid + has_generator + has_solar,0.6842784505511565,491,,source_flags
+cylinder_any,has_grid + has_generator + has_solar,0.6760668563300143,491,,source_flags
+concentrator_no_cylinder,has_grid + has_generator + has_solar,0.6770442800689027,491,,source_flags
+concentrator_vs_cylinder_among_oxygen,has_grid + has_generator + has_solar,0.6760092942201568,324,,source_flags
+equipment_damage_binary,has_grid + has_generator + has_solar,0.6674950132978723,491,,source_flags
+has_any_oxygen,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.8242424242424243,491,,source_flags_plus_reliability
+has_concentrator,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.8104156944394587,491,,source_flags_plus_reliability
+has_multi_oxygen,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.6983290638099674,491,,source_flags_plus_reliability
+cylinder_any,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.6748577524893314,491,,source_flags_plus_reliability
+concentrator_no_cylinder,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.6928935724659708,491,,source_flags_plus_reliability
+concentrator_vs_cylinder_among_oxygen,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.6253267499273889,324,,source_flags_plus_reliability
+equipment_damage_binary,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median,0.7597406914893616,491,,source_flags_plus_reliability
+has_any_oxygen,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.8609677419354838,491,,source_flags_reliability_context
+has_concentrator,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.8460979287073267,491,,source_flags_reliability_context
+has_multi_oxygen,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.7385499146095326,491,,source_flags_reliability_context
+cylinder_any,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.7352536747273589,491,,source_flags_reliability_context
+concentrator_no_cylinder,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.7350373222548721,491,,source_flags_reliability_context
+concentrator_vs_cylinder_among_oxygen,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.7423758350275922,324,,source_flags_reliability_context
+equipment_damage_binary,has_grid + has_generator + has_solar + outage_days_median + outage_hours_median + bad_power_days_median + short_outages_median + facility_type + province,0.7532912234042553,491,,source_flags_reliability_context
+has_any_oxygen,energy_profile + grid_architecture + facility_type + province,0.8413000977517107,491,,energy_profile_context
+has_concentrator,energy_profile + grid_architecture + facility_type + province,0.8468069067020857,491,,energy_profile_context
+has_multi_oxygen,energy_profile + grid_architecture + facility_type + province,0.7328345753764943,491,,energy_profile_context
+cylinder_any,energy_profile + grid_architecture + facility_type + province,0.7520507349454717,491,,energy_profile_context
+concentrator_no_cylinder,energy_profile + grid_architecture + facility_type + province,0.7156077954537776,491,,energy_profile_context
+concentrator_vs_cylinder_among_oxygen,energy_profile + grid_architecture + facility_type + province,0.6850130699970955,324,,energy_profile_context
+equipment_damage_binary,energy_profile + grid_architecture + facility_type + province,0.7138713430851065,491,,energy_profile_context
+has_any_oxygen,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.8536265884652983,491,,source_flags_uptime_context
+has_concentrator,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.8469415227770398,491,,source_flags_uptime_context
+has_multi_oxygen,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.7357553174972831,491,,source_flags_uptime_context
+cylinder_any,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.7414532954006638,491,,source_flags_uptime_context
+concentrator_no_cylinder,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.7409734184483401,491,,source_flags_uptime_context
+concentrator_vs_cylinder_among_oxygen,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.6822538483880337,324,,source_flags_uptime_context
+equipment_damage_binary,has_grid + has_generator + has_solar + uptime_v1_reconstructed + reliable_v1_917 + facility_type + province,0.7497589760638298,491,,source_flags_uptime_context

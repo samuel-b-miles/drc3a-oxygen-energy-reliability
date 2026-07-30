@@ -1,0 +1,8 @@
+model,outcome,n,cv_r2,cv_mae
+architecture + facility/province,uptime_v1_reconstructed,452,0.047411479464045,0.18019658445978887
+grid architecture,uptime_v1_reconstructed,452,0.03292017968299743,0.1807458334608302
+energy + grid architecture,uptime_v1_reconstructed,452,0.03092699184755221,0.17963982656019883
+flags + facility/province,uptime_v1_reconstructed,452,0.02880979172877196,0.18393422938365273
+source flags,uptime_v1_reconstructed,452,0.01625583103649586,0.1866862091592097
+energy profile,uptime_v1_reconstructed,452,0.0006850650147383064,0.18706571627051036
+source count only,uptime_v1_reconstructed,452,-0.0067795817494449295,0.18976863002679534

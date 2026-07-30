@@ -1,0 +1,11 @@
+metric,value,pct_or_stat
+facilities,491.0,
+any_oxygen_source,341.0,69.5
+has_concentrator,313.0,63.7
+has_multi_oxygen,152.0,31.0
+has_grid,357.0,72.7
+has_generator,231.0,47.0
+has_solar,315.0,64.2
+two_plus_energy_sources,324.0,66.0
+median_outage_days,4.0,median
+median_outage_hours,4.0,median

@@ -1,0 +1,1937 @@
+[
+  [
+    "Guide",
+    "How to read the table",
+    "All outcomes",
+    "OR > 1 means higher odds; OR < 1 means lower odds. AUC=0.5 is chance; 0.7 useful; 0.8 strong. Cramer V about 0.1 weak, 0.3 moderate. Stars: *** p<0.001, ** p<0.01, * p<0.05, † p<0.10.",
+    "",
+    "",
+    "Use this as a map of exploratory associations, not causal estimates."
+  ],
+  [
+    "Context",
+    "Analytic sample",
+    "Oxygen and energy regime variables",
+    "Facility-level DRC2 master dataset after deduplication/reconciliation",
+    "N=491",
+    "491 facilities; 69.5% any oxygen; 63.7% concentrators; 66.0% with 2+ energy sources",
+    "Defines the cross-sectional universe for all tests below."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Any oxygen source",
+    "Any oxygen source",
+    "Number of energy sources",
+    "N=491",
+    "χ²=79.8, df=3, p=<0.001 *** p<0.001",
+    "Number of energy sources is associated with any oxygen source."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Concentrator access",
+    "Concentrator access",
+    "Number of energy sources",
+    "N=491",
+    "χ²=90.4, df=3, p=<0.001 *** p<0.001",
+    "Number of energy sources is associated with concentrator access."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Multi-source oxygen",
+    "Multi-source oxygen",
+    "Number of energy sources",
+    "N=491",
+    "χ²=43.0, df=3, p=<0.001 *** p<0.001",
+    "Number of energy sources is associated with multi-source oxygen."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Number of energy sources",
+    "N=491",
+    "χ²=2.8, df=3, p=0.421 n.s.",
+    "No clear categorical association between number of energy sources and psa-linked oxygen."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Cylinder access",
+    "Cylinder access",
+    "Number of energy sources",
+    "N=491",
+    "χ²=22.2, df=3, p=<0.001 *** p<0.001",
+    "Number of energy sources is associated with cylinder access."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Number of energy sources",
+    "N=491",
+    "χ²=26.3, df=3, p=<0.001 *** p<0.001",
+    "Number of energy sources is associated with concentrator without cylinders."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Number of energy sources",
+    "N=324",
+    "χ²=5.4, df=3, p=0.147 n.s.",
+    "No clear categorical association between number of energy sources and concentrator vs cylinder among oxygen facilities."
+  ],
+  [
+    "Chi-square association",
+    "Number of energy sources x Reported equipment damage",
+    "Reported equipment damage",
+    "Number of energy sources",
+    "N=491",
+    "χ²=45.6, df=3, p=<0.001 *** p<0.001",
+    "Number of energy sources is associated with reported equipment damage."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Any oxygen source",
+    "Any oxygen source",
+    "Energy profile",
+    "N=491",
+    "χ²=127.6, df=7, p=<0.001 *** p<0.001",
+    "Energy profile is associated with any oxygen source."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Concentrator access",
+    "Concentrator access",
+    "Energy profile",
+    "N=491",
+    "χ²=148.0, df=7, p=<0.001 *** p<0.001",
+    "Energy profile is associated with concentrator access."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Multi-source oxygen",
+    "Multi-source oxygen",
+    "Energy profile",
+    "N=491",
+    "χ²=59.9, df=7, p=<0.001 *** p<0.001",
+    "Energy profile is associated with multi-source oxygen."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Energy profile",
+    "N=491",
+    "χ²=10.0, df=7, p=0.189 n.s.",
+    "No clear categorical association between energy profile and psa-linked oxygen."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Cylinder access",
+    "Cylinder access",
+    "Energy profile",
+    "N=491",
+    "χ²=51.8, df=7, p=<0.001 *** p<0.001",
+    "Energy profile is associated with cylinder access."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Energy profile",
+    "N=491",
+    "χ²=65.9, df=7, p=<0.001 *** p<0.001",
+    "Energy profile is associated with concentrator without cylinders."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Energy profile",
+    "N=324",
+    "χ²=12.7, df=7, p=0.080 † p<0.10",
+    "No clear categorical association between energy profile and concentrator vs cylinder among oxygen facilities."
+  ],
+  [
+    "Chi-square association",
+    "Energy profile x Reported equipment damage",
+    "Reported equipment damage",
+    "Energy profile",
+    "N=491",
+    "χ²=82.7, df=7, p=<0.001 *** p<0.001",
+    "Energy profile is associated with reported equipment damage."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Any oxygen source",
+    "Any oxygen source",
+    "Grid architecture",
+    "N=491",
+    "χ²=30.9, df=4, p=<0.001 *** p<0.001",
+    "Grid architecture is associated with any oxygen source."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Concentrator access",
+    "Concentrator access",
+    "Grid architecture",
+    "N=491",
+    "χ²=29.7, df=4, p=<0.001 *** p<0.001",
+    "Grid architecture is associated with concentrator access."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Multi-source oxygen",
+    "Multi-source oxygen",
+    "Grid architecture",
+    "N=491",
+    "χ²=35.5, df=4, p=<0.001 *** p<0.001",
+    "Grid architecture is associated with multi-source oxygen."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Grid architecture",
+    "N=491",
+    "χ²=6.6, df=4, p=0.161 n.s.",
+    "No clear categorical association between grid architecture and psa-linked oxygen."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Cylinder access",
+    "Cylinder access",
+    "Grid architecture",
+    "N=491",
+    "χ²=46.8, df=4, p=<0.001 *** p<0.001",
+    "Grid architecture is associated with cylinder access."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Grid architecture",
+    "N=491",
+    "χ²=12.0, df=4, p=0.017 * p<0.05",
+    "Grid architecture is associated with concentrator without cylinders."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Grid architecture",
+    "N=324",
+    "χ²=4.8, df=4, p=0.308 n.s.",
+    "No clear categorical association between grid architecture and concentrator vs cylinder among oxygen facilities."
+  ],
+  [
+    "Chi-square association",
+    "Grid architecture x Reported equipment damage",
+    "Reported equipment damage",
+    "Grid architecture",
+    "N=491",
+    "χ²=18.0, df=4, p=0.001 ** p<0.01",
+    "Grid architecture is associated with reported equipment damage."
+  ],
+  [
+    "Reliability chi-square",
+    "Grid architecture x reliable power",
+    "Reliable power, v1 threshold",
+    "Grid architecture",
+    "N=452",
+    "χ²=26.8, V=0.24, p=<0.001 *** p<0.001",
+    "Grid architecture has a detectable but mostly modest association with reconstructed reliable power."
+  ],
+  [
+    "Reliability chi-square",
+    "Energy profile x reliable power",
+    "Reliable power, v1 threshold",
+    "Energy profile",
+    "N=452",
+    "χ²=15.0, V=0.18, p=0.036 * p<0.05",
+    "Energy profile has a detectable but mostly modest association with reconstructed reliable power."
+  ],
+  [
+    "Reliability chi-square",
+    "Solar present x reliable power",
+    "Reliable power, v1 threshold",
+    "Solar present",
+    "N=452",
+    "χ²=3.5, V=0.09, p=0.060 † p<0.10",
+    "Solar present does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Reliability chi-square",
+    "Generator present x reliable power",
+    "Reliable power, v1 threshold",
+    "Generator present",
+    "N=452",
+    "χ²=1.4, V=0.06, p=0.229 n.s.",
+    "Generator present does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Reliability chi-square",
+    "Grid plus backup x reliable power",
+    "Reliable power, v1 threshold",
+    "Grid plus backup",
+    "N=452",
+    "χ²=1.4, V=0.06, p=0.238 n.s.",
+    "Grid plus backup does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Reliability chi-square",
+    "2+ energy sources x reliable power",
+    "Reliable power, v1 threshold",
+    "2+ energy sources",
+    "N=452",
+    "χ²=1.1, V=0.05, p=0.293 n.s.",
+    "2+ energy sources does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Reliability chi-square",
+    "Grid present x reliable power",
+    "Reliable power, v1 threshold",
+    "Grid present",
+    "N=452",
+    "χ²=0.7, V=0.04, p=0.413 n.s.",
+    "Grid present does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Reliability chi-square",
+    "Number of energy sources x reliable power",
+    "Reliable power, v1 threshold",
+    "Number of energy sources",
+    "N=452",
+    "χ²=2.2, V=0.07, p=0.531 n.s.",
+    "Number of energy sources does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Reliability chi-square",
+    "3 energy sources x reliable power",
+    "Reliable power, v1 threshold",
+    "3 energy sources",
+    "N=452",
+    "χ²=0.1, V=0.02, p=0.740 n.s.",
+    "3 energy sources does not reliably separate facilities above vs below the v1 reliability threshold."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Outage days by Oxygen profile",
+    "Outage days",
+    "Oxygen profile",
+    "N=452",
+    "H=24.1, p=0.002 ** p<0.01",
+    "The distribution of outage days differs across oxygen profile."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Outage days by Grid architecture",
+    "Outage days",
+    "Grid architecture",
+    "N=452",
+    "H=42.9, p=<0.001 *** p<0.001",
+    "The distribution of outage days differs across grid architecture."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Outage days by Energy profile",
+    "Outage days",
+    "Energy profile",
+    "N=452",
+    "H=32.3, p=<0.001 *** p<0.001",
+    "The distribution of outage days differs across energy profile."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Outage hours by Oxygen profile",
+    "Outage hours",
+    "Oxygen profile",
+    "N=452",
+    "H=6.8, p=0.563 n.s.",
+    "No clear distributional difference in outage hours across oxygen profile."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Outage hours by Grid architecture",
+    "Outage hours",
+    "Grid architecture",
+    "N=452",
+    "H=15.9, p=0.003 ** p<0.01",
+    "The distribution of outage hours differs across grid architecture."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Outage hours by Energy profile",
+    "Outage hours",
+    "Energy profile",
+    "N=452",
+    "H=14.1, p=0.050 * p<0.05",
+    "The distribution of outage hours differs across energy profile."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Bad-power days by Oxygen profile",
+    "Bad-power days",
+    "Oxygen profile",
+    "N=452",
+    "H=33.6, p=<0.001 *** p<0.001",
+    "The distribution of bad-power days differs across oxygen profile."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Bad-power days by Grid architecture",
+    "Bad-power days",
+    "Grid architecture",
+    "N=452",
+    "H=29.8, p=<0.001 *** p<0.001",
+    "The distribution of bad-power days differs across grid architecture."
+  ],
+  [
+    "Kruskal-Wallis",
+    "Bad-power days by Energy profile",
+    "Bad-power days",
+    "Energy profile",
+    "N=452",
+    "H=33.1, p=<0.001 *** p<0.001",
+    "The distribution of bad-power days differs across energy profile."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Any oxygen source",
+    "Any oxygen source",
+    "Grid present",
+    "N=491",
+    "OR=1.40 [0.92, 2.13], p=0.125 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Concentrator access",
+    "Concentrator access",
+    "Grid present",
+    "N=491",
+    "OR=1.27 [0.85, 1.91], p=0.292 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Grid present",
+    "N=491",
+    "OR=2.24 [1.39, 3.60], p=<0.001 *** p<0.001",
+    "Grid present is linked to higher odds of multi-source oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Grid present",
+    "N=491",
+    "OR=2.89 [0.76, 10.98], p=0.120 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Cylinder access",
+    "Cylinder access",
+    "Grid present",
+    "N=491",
+    "OR=2.85 [1.60, 5.07], p=<0.001 *** p<0.001",
+    "Grid present is linked to higher odds of cylinder access."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Grid present",
+    "N=491",
+    "OR=0.69 [0.47, 1.03], p=0.082 † p<0.10",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Grid present",
+    "N=324",
+    "OR=0.76 [0.19, 3.15], p=0.736 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid present -> Reported equipment damage",
+    "Reported equipment damage",
+    "Grid present",
+    "N=491",
+    "OR=1.58 [1.06, 2.37], p=0.026 * p<0.05",
+    "Grid present is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Any oxygen source",
+    "Any oxygen source",
+    "Generator present",
+    "N=491",
+    "OR=15.08 [8.53, 26.66], p=<0.001 *** p<0.001",
+    "Generator present is linked to higher odds of any oxygen source."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Concentrator access",
+    "Concentrator access",
+    "Generator present",
+    "N=491",
+    "OR=14.90 [8.96, 24.77], p=<0.001 *** p<0.001",
+    "Generator present is linked to higher odds of concentrator access."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Generator present",
+    "N=491",
+    "OR=4.27 [2.83, 6.46], p=<0.001 *** p<0.001",
+    "Generator present is linked to higher odds of multi-source oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Generator present",
+    "N=491",
+    "OR=2.61 [1.02, 6.70], p=0.041 * p<0.05",
+    "Generator present is linked to higher odds of psa-linked oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Cylinder access",
+    "Cylinder access",
+    "Generator present",
+    "N=491",
+    "OR=3.47 [2.21, 5.46], p=<0.001 *** p<0.001",
+    "Generator present is linked to higher odds of cylinder access."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Generator present",
+    "N=491",
+    "OR=3.51 [2.42, 5.10], p=<0.001 *** p<0.001",
+    "Generator present is linked to higher odds of concentrator without cylinders."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Generator present",
+    "N=324",
+    "OR=2.40 [0.75, 7.66], p=0.192 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Generator present -> Reported equipment damage",
+    "Reported equipment damage",
+    "Generator present",
+    "N=491",
+    "OR=3.93 [2.70, 5.72], p=<0.001 *** p<0.001",
+    "Generator present is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Any oxygen source",
+    "Any oxygen source",
+    "Solar present",
+    "N=491",
+    "OR=2.19 [1.47, 3.24], p=<0.001 *** p<0.001",
+    "Solar present is linked to higher odds of any oxygen source."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Concentrator access",
+    "Concentrator access",
+    "Solar present",
+    "N=491",
+    "OR=2.31 [1.58, 3.38], p=<0.001 *** p<0.001",
+    "Solar present is linked to higher odds of concentrator access."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Solar present",
+    "N=491",
+    "OR=1.37 [0.91, 2.05], p=0.154 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Solar present",
+    "N=491",
+    "OR=0.67 [0.28, 1.61], p=0.476 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Cylinder access",
+    "Cylinder access",
+    "Solar present",
+    "N=491",
+    "OR=0.89 [0.58, 1.38], p=0.653 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Solar present",
+    "N=491",
+    "OR=2.12 [1.44, 3.12], p=<0.001 *** p<0.001",
+    "Solar present is linked to higher odds of concentrator without cylinders."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Solar present",
+    "N=324",
+    "OR=6.00 [1.69, 21.33], p=0.004 ** p<0.01",
+    "Solar present is linked to higher odds of concentrator vs cylinder among oxygen facilities."
+  ],
+  [
+    "Binary odds ratio",
+    "Solar present -> Reported equipment damage",
+    "Reported equipment damage",
+    "Solar present",
+    "N=491",
+    "OR=1.25 [0.86, 1.80], p=0.259 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Any oxygen source",
+    "Any oxygen source",
+    "2+ energy sources",
+    "N=491",
+    "OR=4.29 [2.85, 6.44], p=<0.001 *** p<0.001",
+    "2+ energy sources is linked to higher odds of any oxygen source."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Concentrator access",
+    "Concentrator access",
+    "2+ energy sources",
+    "N=491",
+    "OR=4.30 [2.89, 6.40], p=<0.001 *** p<0.001",
+    "2+ energy sources is linked to higher odds of concentrator access."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "2+ energy sources",
+    "N=491",
+    "OR=3.61 [2.24, 5.81], p=<0.001 *** p<0.001",
+    "2+ energy sources is linked to higher odds of multi-source oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "2+ energy sources",
+    "N=491",
+    "OR=1.94 [0.67, 5.61], p=0.231 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Cylinder access",
+    "Cylinder access",
+    "2+ energy sources",
+    "N=491",
+    "OR=3.03 [1.78, 5.15], p=<0.001 *** p<0.001",
+    "2+ energy sources is linked to higher odds of cylinder access."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "2+ energy sources",
+    "N=491",
+    "OR=1.93 [1.31, 2.84], p=<0.001 *** p<0.001",
+    "2+ energy sources is linked to higher odds of concentrator without cylinders."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "2+ energy sources",
+    "N=324",
+    "OR=2.98 [0.93, 9.56], p=0.134 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "2+ energy sources -> Reported equipment damage",
+    "Reported equipment damage",
+    "2+ energy sources",
+    "N=491",
+    "OR=2.34 [1.59, 3.45], p=<0.001 *** p<0.001",
+    "2+ energy sources is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Any oxygen source",
+    "Any oxygen source",
+    "3 energy sources",
+    "N=491",
+    "OR=10.41 [4.83, 22.41], p=<0.001 *** p<0.001",
+    "3 energy sources is linked to higher odds of any oxygen source."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Concentrator access",
+    "Concentrator access",
+    "3 energy sources",
+    "N=491",
+    "OR=10.81 [5.41, 21.61], p=<0.001 *** p<0.001",
+    "3 energy sources is linked to higher odds of concentrator access."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "3 energy sources",
+    "N=491",
+    "OR=3.17 [2.08, 4.84], p=<0.001 *** p<0.001",
+    "3 energy sources is linked to higher odds of multi-source oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "3 energy sources",
+    "N=491",
+    "OR=2.01 [0.82, 4.91], p=0.189 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Cylinder access",
+    "Cylinder access",
+    "3 energy sources",
+    "N=491",
+    "OR=2.23 [1.42, 3.50], p=<0.001 *** p<0.001",
+    "3 energy sources is linked to higher odds of cylinder access."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "3 energy sources",
+    "N=491",
+    "OR=2.46 [1.63, 3.71], p=<0.001 *** p<0.001",
+    "3 energy sources is linked to higher odds of concentrator without cylinders."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "3 energy sources",
+    "N=324",
+    "OR=4.24 [0.76, 23.84], p=0.061 † p<0.10",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "3 energy sources -> Reported equipment damage",
+    "Reported equipment damage",
+    "3 energy sources",
+    "N=491",
+    "OR=2.00 [1.33, 3.01], p=<0.001 *** p<0.001",
+    "3 energy sources is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Any oxygen source",
+    "Any oxygen source",
+    "Grid plus backup",
+    "N=491",
+    "OR=2.65 [1.79, 3.92], p=<0.001 *** p<0.001",
+    "Grid plus backup is linked to higher odds of any oxygen source."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Concentrator access",
+    "Concentrator access",
+    "Grid plus backup",
+    "N=491",
+    "OR=2.43 [1.67, 3.54], p=<0.001 *** p<0.001",
+    "Grid plus backup is linked to higher odds of concentrator access."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Grid plus backup",
+    "N=491",
+    "OR=2.89 [1.91, 4.39], p=<0.001 *** p<0.001",
+    "Grid plus backup is linked to higher odds of multi-source oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Grid plus backup",
+    "N=491",
+    "OR=2.23 [0.83, 6.00], p=0.109 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Cylinder access",
+    "Cylinder access",
+    "Grid plus backup",
+    "N=491",
+    "OR=3.13 [1.93, 5.05], p=<0.001 *** p<0.001",
+    "Grid plus backup is linked to higher odds of cylinder access."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Grid plus backup",
+    "N=491",
+    "OR=1.08 [0.76, 1.55], p=0.713 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Grid plus backup",
+    "N=324",
+    "OR=1.54 [0.48, 4.90], p=0.532 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Grid plus backup -> Reported equipment damage",
+    "Reported equipment damage",
+    "Grid plus backup",
+    "N=491",
+    "OR=1.49 [1.04, 2.13], p=0.036 * p<0.05",
+    "Grid plus backup is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Any oxygen source",
+    "Any oxygen source",
+    "Bad-power days > median",
+    "N=491",
+    "OR=2.77 [1.82, 4.22], p=<0.001 *** p<0.001",
+    "Bad-power days > median is linked to higher odds of any oxygen source."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Concentrator access",
+    "Concentrator access",
+    "Bad-power days > median",
+    "N=491",
+    "OR=2.59 [1.75, 3.84], p=<0.001 *** p<0.001",
+    "Bad-power days > median is linked to higher odds of concentrator access."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Bad-power days > median",
+    "N=491",
+    "OR=1.57 [1.07, 2.30], p=0.023 * p<0.05",
+    "Bad-power days > median is linked to higher odds of multi-source oxygen."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Bad-power days > median",
+    "N=491",
+    "OR=1.13 [0.47, 2.72], p=0.821 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Cylinder access",
+    "Cylinder access",
+    "Bad-power days > median",
+    "N=491",
+    "OR=1.67 [1.10, 2.56], p=0.022 * p<0.05",
+    "Bad-power days > median is linked to higher odds of cylinder access."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Bad-power days > median",
+    "N=491",
+    "OR=1.59 [1.11, 2.29], p=0.013 * p<0.05",
+    "Bad-power days > median is linked to higher odds of concentrator without cylinders."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Bad-power days > median",
+    "N=324",
+    "OR=1.70 [0.52, 5.58], p=0.542 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Bad-power days > median -> Reported equipment damage",
+    "Reported equipment damage",
+    "Bad-power days > median",
+    "N=491",
+    "OR=3.62 [2.49, 5.27], p=<0.001 *** p<0.001",
+    "Bad-power days > median is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Any oxygen source",
+    "Any oxygen source",
+    "Outage hours > median",
+    "N=491",
+    "OR=1.43 [0.97, 2.13], p=0.075 † p<0.10",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Concentrator access",
+    "Concentrator access",
+    "Outage hours > median",
+    "N=491",
+    "OR=1.29 [0.89, 1.88], p=0.185 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Outage hours > median",
+    "N=491",
+    "OR=1.00 [0.68, 1.47], p=1.000 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Outage hours > median",
+    "N=491",
+    "OR=0.90 [0.37, 2.20], p=1.000 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Cylinder access",
+    "Cylinder access",
+    "Outage hours > median",
+    "N=491",
+    "OR=1.03 [0.67, 1.57], p=0.914 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Outage hours > median",
+    "N=491",
+    "OR=1.31 [0.91, 1.87], p=0.167 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Outage hours > median",
+    "N=324",
+    "OR=0.69 [0.22, 2.21], p=0.555 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Outage hours > median -> Reported equipment damage",
+    "Reported equipment damage",
+    "Outage hours > median",
+    "N=491",
+    "OR=2.81 [1.94, 4.06], p=<0.001 *** p<0.001",
+    "Outage hours > median is linked to higher odds of reported equipment damage."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Any oxygen source",
+    "Any oxygen source",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=0.69 [0.47, 1.01], p=0.062 † p<0.10",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Concentrator access",
+    "Concentrator access",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=0.86 [0.60, 1.25], p=0.453 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Multi-source oxygen",
+    "Multi-source oxygen",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=1.11 [0.76, 1.63], p=0.626 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> PSA-linked oxygen",
+    "PSA-linked oxygen",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=1.69 [0.68, 4.20], p=0.262 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Cylinder access",
+    "Cylinder access",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=1.05 [0.69, 1.61], p=0.830 n.s.",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=0.74 [0.52, 1.06], p=0.102 n.s.",
+    "The estimated direction is lower odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "Reliable power, v1 threshold",
+    "N=324",
+    "OR=3.92 [0.96, 16.08], p=0.061 † p<0.10",
+    "The estimated direction is higher odds, but the association is not statistically clear."
+  ],
+  [
+    "Binary odds ratio",
+    "Reliable power, v1 threshold -> Reported equipment damage",
+    "Reported equipment damage",
+    "Reliable power, v1 threshold",
+    "N=491",
+    "OR=0.53 [0.37, 0.75], p=<0.001 *** p<0.001",
+    "Reliable power, v1 threshold is linked to lower odds of reported equipment damage."
+  ],
+  [
+    "Standard logistic regression",
+    "Any oxygen ~ energy complexity + facility type + province",
+    "Model fit",
+    "Energy complexity + facility type + province",
+    "N=491",
+    "Model failed: singular matrix",
+    "Outcome was too separated/collinear for this unregularized specification; use regularized prediction screen instead."
+  ],
+  [
+    "Standard logistic regression",
+    "Concentrator ~ energy complexity + facility type + province",
+    "Model fit",
+    "Energy complexity + facility type + province",
+    "N=491",
+    "Model failed: singular matrix",
+    "Outcome was too separated/collinear for this unregularized specification; use regularized prediction screen instead."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(n energy sources)[T.1]",
+    "C(n_energy_sources)[T.1]",
+    "N=491",
+    "adj. OR=2.20 [0.67, 7.21], p=0.195 n.s.",
+    "Conditional term suggests higher adjusted odds for C(n_energy_sources)[T.1], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(n energy sources)[T.2]",
+    "C(n_energy_sources)[T.2]",
+    "N=491",
+    "adj. OR=5.42 [1.71, 17.14], p=0.004 ** p<0.01",
+    "Conditional term suggests higher adjusted odds for C(n_energy_sources)[T.2], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(n energy sources)[T.3]",
+    "C(n_energy_sources)[T.3]",
+    "N=491",
+    "adj. OR=10.38 [3.20, 33.63], p=<0.001 *** p<0.001",
+    "Conditional term suggests higher adjusted odds for C(n_energy_sources)[T.3], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(A7 type)[T.2]",
+    "C(A7_type)[T.2]",
+    "N=491",
+    "adj. OR=0.64 [0.37, 1.13], p=0.122 n.s.",
+    "Conditional term suggests lower adjusted odds for C(A7_type)[T.2], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(A7 type)[T.3]",
+    "C(A7_type)[T.3]",
+    "N=491",
+    "adj. OR=0.31 [0.16, 0.63], p=0.001 ** p<0.01",
+    "Conditional term suggests lower adjusted odds for C(A7_type)[T.3], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(A7 type)[T.5]",
+    "C(A7_type)[T.5]",
+    "N=491",
+    "adj. OR=15815547808.57 [0.00, inf], p=1.000 n.s.",
+    "Conditional term suggests higher adjusted odds for C(A7_type)[T.5], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(A7 type)[T.6]",
+    "C(A7_type)[T.6]",
+    "N=491",
+    "adj. OR=0.25 [0.13, 0.51], p=<0.001 *** p<0.001",
+    "Conditional term suggests lower adjusted odds for C(A7_type)[T.6], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(A5 province)[T.2]",
+    "C(A5_province)[T.2]",
+    "N=491",
+    "adj. OR=0.68 [0.41, 1.12], p=0.131 n.s.",
+    "Conditional term suggests lower adjusted odds for C(A5_province)[T.2], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "Multi-source oxygen ~ energy complexity + facility type + province",
+    "C(A5 province)[T.3]",
+    "C(A5_province)[T.3]",
+    "N=491",
+    "adj. OR=3.26 [1.79, 5.92], p=<0.001 *** p<0.001",
+    "Conditional term suggests higher adjusted odds for C(A5_province)[T.3], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "C(A7 type)[T.2]",
+    "C(A7_type)[T.2]",
+    "N=491",
+    "adj. OR=0.30 [0.09, 0.98], p=0.047 * p<0.05",
+    "Conditional term suggests lower adjusted odds for C(A7_type)[T.2], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "C(A7 type)[T.3]",
+    "C(A7_type)[T.3]",
+    "N=491",
+    "adj. OR=0.09 [0.01, 0.86], p=0.037 * p<0.05",
+    "Conditional term suggests lower adjusted odds for C(A7_type)[T.3], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "C(A7 type)[T.5]",
+    "C(A7_type)[T.5]",
+    "N=491",
+    "adj. OR=11.94 [0.88, 161.70], p=0.062 † p<0.10",
+    "Conditional term suggests higher adjusted odds for C(A7_type)[T.5], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "C(A7 type)[T.6]",
+    "C(A7_type)[T.6]",
+    "N=491",
+    "adj. OR=0.18 [0.03, 0.96], p=0.045 * p<0.05",
+    "Conditional term suggests lower adjusted odds for C(A7_type)[T.6], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "C(A5 province)[T.2]",
+    "C(A5_province)[T.2]",
+    "N=491",
+    "adj. OR=1.05 [0.34, 3.23], p=0.938 n.s.",
+    "Conditional term suggests higher adjusted odds for C(A5_province)[T.2], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "C(A5 province)[T.3]",
+    "C(A5_province)[T.3]",
+    "N=491",
+    "adj. OR=1.04 [0.24, 4.44], p=0.955 n.s.",
+    "Conditional term suggests higher adjusted odds for C(A5_province)[T.3], holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "Generator present",
+    "has_generator",
+    "N=491",
+    "adj. OR=1.29 [0.40, 4.16], p=0.666 n.s.",
+    "Conditional term suggests higher adjusted odds for has_generator, holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "Grid present",
+    "has_grid",
+    "N=491",
+    "adj. OR=2.79 [0.60, 13.09], p=0.192 n.s.",
+    "Conditional term suggests higher adjusted odds for has_grid, holding other model terms constant."
+  ],
+  [
+    "Standard logistic regression",
+    "PSA-linked oxygen ~ energy sources + facility type + province",
+    "Solar present",
+    "has_solar",
+    "N=491",
+    "adj. OR=0.62 [0.22, 1.73], p=0.358 n.s.",
+    "Conditional term suggests lower adjusted odds for has_solar, holding other model terms constant."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Any oxygen source",
+    "source_flags",
+    "N=491",
+    "AUC=0.77",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Concentrator access",
+    "source_flags",
+    "N=491",
+    "AUC=0.77",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Multi-source oxygen",
+    "source_flags",
+    "N=491",
+    "AUC=0.68",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Cylinder access",
+    "source_flags",
+    "N=491",
+    "AUC=0.68",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Concentrator without cylinders",
+    "source_flags",
+    "N=491",
+    "AUC=0.68",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Concentrator vs cylinder among oxygen facilities",
+    "source_flags",
+    "N=324",
+    "AUC=0.68",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags",
+    "Reported equipment damage",
+    "source_flags",
+    "N=491",
+    "AUC=0.67",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Any oxygen source",
+    "source_flags_plus_reliability",
+    "N=491",
+    "AUC=0.82",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Concentrator access",
+    "source_flags_plus_reliability",
+    "N=491",
+    "AUC=0.81",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Multi-source oxygen",
+    "source_flags_plus_reliability",
+    "N=491",
+    "AUC=0.70",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Cylinder access",
+    "source_flags_plus_reliability",
+    "N=491",
+    "AUC=0.67",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Concentrator without cylinders",
+    "source_flags_plus_reliability",
+    "N=491",
+    "AUC=0.69",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Concentrator vs cylinder among oxygen facilities",
+    "source_flags_plus_reliability",
+    "N=324",
+    "AUC=0.63",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags plus reliability",
+    "Reported equipment damage",
+    "source_flags_plus_reliability",
+    "N=491",
+    "AUC=0.76",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Any oxygen source",
+    "source_flags_reliability_context",
+    "N=491",
+    "AUC=0.86",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Concentrator access",
+    "source_flags_reliability_context",
+    "N=491",
+    "AUC=0.85",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Multi-source oxygen",
+    "source_flags_reliability_context",
+    "N=491",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Cylinder access",
+    "source_flags_reliability_context",
+    "N=491",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Concentrator without cylinders",
+    "source_flags_reliability_context",
+    "N=491",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Concentrator vs cylinder among oxygen facilities",
+    "source_flags_reliability_context",
+    "N=324",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags reliability context",
+    "Reported equipment damage",
+    "source_flags_reliability_context",
+    "N=491",
+    "AUC=0.75",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Any oxygen source",
+    "energy_profile_context",
+    "N=491",
+    "AUC=0.84",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Concentrator access",
+    "energy_profile_context",
+    "N=491",
+    "AUC=0.85",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Multi-source oxygen",
+    "energy_profile_context",
+    "N=491",
+    "AUC=0.73",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Cylinder access",
+    "energy_profile_context",
+    "N=491",
+    "AUC=0.75",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Concentrator without cylinders",
+    "energy_profile_context",
+    "N=491",
+    "AUC=0.72",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Concentrator vs cylinder among oxygen facilities",
+    "energy_profile_context",
+    "N=324",
+    "AUC=0.69",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile context",
+    "Reported equipment damage",
+    "energy_profile_context",
+    "N=491",
+    "AUC=0.71",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Any oxygen source",
+    "source_flags_uptime_context",
+    "N=491",
+    "AUC=0.85",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Concentrator access",
+    "source_flags_uptime_context",
+    "N=491",
+    "AUC=0.85",
+    "Predictive performance is strong; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Multi-source oxygen",
+    "source_flags_uptime_context",
+    "N=491",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Cylinder access",
+    "source_flags_uptime_context",
+    "N=491",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Concentrator without cylinders",
+    "source_flags_uptime_context",
+    "N=491",
+    "AUC=0.74",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Concentrator vs cylinder among oxygen facilities",
+    "source_flags_uptime_context",
+    "N=324",
+    "AUC=0.68",
+    "Predictive performance is modest; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags uptime context",
+    "Reported equipment damage",
+    "source_flags_uptime_context",
+    "N=491",
+    "AUC=0.75",
+    "Predictive performance is useful; this asks whether the variables classify facilities, not whether one coefficient is causal."
+  ],
+  [
+    "Reliability prediction",
+    "architecture + facility/province",
+    "Reliable power, v1 threshold",
+    "architecture + facility/province",
+    "N=452",
+    "AUC=0.63",
+    "Architecture predicts reliable power only modest; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Reliability prediction",
+    "flags + facility/province",
+    "Reliable power, v1 threshold",
+    "flags + facility/province",
+    "N=452",
+    "AUC=0.63",
+    "Architecture predicts reliable power only modest; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Reliability prediction",
+    "grid architecture",
+    "Reliable power, v1 threshold",
+    "grid architecture",
+    "N=452",
+    "AUC=0.60",
+    "Architecture predicts reliable power only modest; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Reliability prediction",
+    "energy + grid architecture",
+    "Reliable power, v1 threshold",
+    "energy + grid architecture",
+    "N=452",
+    "AUC=0.60",
+    "Architecture predicts reliable power only weak/near chance; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Reliability prediction",
+    "source flags",
+    "Reliable power, v1 threshold",
+    "source flags",
+    "N=452",
+    "AUC=0.54",
+    "Architecture predicts reliable power only weak/near chance; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Reliability prediction",
+    "source count only",
+    "Reliable power, v1 threshold",
+    "source count only",
+    "N=452",
+    "AUC=0.51",
+    "Architecture predicts reliable power only weak/near chance; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Reliability prediction",
+    "energy profile",
+    "Reliable power, v1 threshold",
+    "energy profile",
+    "N=452",
+    "AUC=0.50",
+    "Architecture predicts reliable power only weak/near chance; source inventory is not enough to observe reliability."
+  ],
+  [
+    "Continuous uptime prediction",
+    "architecture + facility/province",
+    "Reconstructed uptime v1",
+    "architecture + facility/province",
+    "N=452",
+    "CV R²=0.047, MAE=0.180",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Continuous uptime prediction",
+    "grid architecture",
+    "Reconstructed uptime v1",
+    "grid architecture",
+    "N=452",
+    "CV R²=0.033, MAE=0.181",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Continuous uptime prediction",
+    "energy + grid architecture",
+    "Reconstructed uptime v1",
+    "energy + grid architecture",
+    "N=452",
+    "CV R²=0.031, MAE=0.180",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Continuous uptime prediction",
+    "flags + facility/province",
+    "Reconstructed uptime v1",
+    "flags + facility/province",
+    "N=452",
+    "CV R²=0.029, MAE=0.184",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Continuous uptime prediction",
+    "source flags",
+    "Reconstructed uptime v1",
+    "source flags",
+    "N=452",
+    "CV R²=0.016, MAE=0.187",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Continuous uptime prediction",
+    "energy profile",
+    "Reconstructed uptime v1",
+    "energy profile",
+    "N=452",
+    "CV R²=0.001, MAE=0.187",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Continuous uptime prediction",
+    "source count only",
+    "Reconstructed uptime v1",
+    "source count only",
+    "N=452",
+    "CV R²=-0.007, MAE=0.190",
+    "Very little cross-validated variation in uptime is explained by architecture alone, reinforcing the need for high-T telemetry."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Reported equipment damage",
+    "Reported equipment damage",
+    "energy_profile_No energy source",
+    "",
+    "scaled/indicator OR=0.08",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "grid_architecture_Private / Concession Grid",
+    "",
+    "scaled/indicator OR=10.12",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags reliability context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "province_Haut Katanga",
+    "",
+    "scaled/indicator OR=0.15",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator access",
+    "Concentrator access",
+    "energy_profile_No energy source",
+    "",
+    "scaled/indicator OR=0.16",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Any oxygen source",
+    "Any oxygen source",
+    "energy_profile_No energy source",
+    "",
+    "scaled/indicator OR=0.17",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags uptime context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "province_Haut Katanga",
+    "",
+    "scaled/indicator OR=0.20",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Any oxygen source",
+    "Any oxygen source",
+    "facility_type_HGR",
+    "",
+    "scaled/indicator OR=4.94",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "province_Sud-Kivu",
+    "",
+    "scaled/indicator OR=4.91",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "energy_profile_Grid + Generator + Solar",
+    "",
+    "scaled/indicator OR=4.90",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags reliability context / Any oxygen source",
+    "Any oxygen source",
+    "facility_type_HGR",
+    "",
+    "scaled/indicator OR=4.81",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags uptime context / Any oxygen source",
+    "Any oxygen source",
+    "facility_type_HGR",
+    "",
+    "scaled/indicator OR=4.65",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator access",
+    "Concentrator access",
+    "energy_profile_Grid + Generator + Solar",
+    "",
+    "scaled/indicator OR=4.59",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags reliability context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "facility_type_CM",
+    "",
+    "scaled/indicator OR=0.22",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags reliability context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "facility_type_CSR",
+    "",
+    "scaled/indicator OR=4.48",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "province_Haut Katanga",
+    "",
+    "scaled/indicator OR=0.23",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "facility_type_CSR",
+    "",
+    "scaled/indicator OR=4.38",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags reliability context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "province_Sud-Kivu",
+    "",
+    "scaled/indicator OR=4.29",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "facility_type_CM",
+    "",
+    "scaled/indicator OR=0.24",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags reliability context / Concentrator access",
+    "Concentrator access",
+    "facility_type_HGR",
+    "",
+    "scaled/indicator OR=4.21",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Reported equipment damage",
+    "Reported equipment damage",
+    "energy_profile_Generator",
+    "",
+    "scaled/indicator OR=4.18",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator access",
+    "Concentrator access",
+    "facility_type_HGR",
+    "",
+    "scaled/indicator OR=4.09",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "energy_profile_Generator + Solar",
+    "",
+    "scaled/indicator OR=4.05",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags uptime context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "province_Sud-Kivu",
+    "",
+    "scaled/indicator OR=3.96",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags uptime context / Concentrator access",
+    "Concentrator access",
+    "facility_type_HGR",
+    "",
+    "scaled/indicator OR=3.91",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Any oxygen source",
+    "Any oxygen source",
+    "energy_profile_Grid + Generator + Solar",
+    "",
+    "scaled/indicator OR=3.85",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator without cylinders",
+    "Concentrator without cylinders",
+    "energy_profile_No energy source",
+    "",
+    "scaled/indicator OR=0.27",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags / Any oxygen source",
+    "Any oxygen source",
+    "has_generator",
+    "",
+    "scaled/indicator OR=3.70",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags / Concentrator access",
+    "Concentrator access",
+    "has_generator",
+    "",
+    "scaled/indicator OR=3.68",
+    "Largest retained coefficient in regularized model; direction is positive, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "source flags uptime context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "facility_type_CM",
+    "",
+    "scaled/indicator OR=0.29",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ],
+  [
+    "Regularized logistic coefficient",
+    "energy profile context / Concentrator vs cylinder among oxygen facilities",
+    "Concentrator vs cylinder among oxygen facilities",
+    "energy_profile_No energy source",
+    "",
+    "scaled/indicator OR=0.29",
+    "Largest retained coefficient in regularized model; direction is negative, useful for predictor ranking rather than p-value inference."
+  ]
+]

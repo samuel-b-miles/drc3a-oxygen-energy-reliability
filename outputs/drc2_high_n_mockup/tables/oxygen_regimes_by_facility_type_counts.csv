@@ -1,0 +1,6 @@
+facility_type_label,No oxygen source,Concentrator,Cylinders,Other oxygen,Concentrator + Cylinders,Concentrator + Internal PSA,Concentrator + External PSA,Concentrator + Other oxygen,Concentrator + Cylinders + Internal PSA,Concentrator + Cylinders + External PSA,Concentrator + Cylinders + Other oxygen
+Type 1 (n=88),3,38,2,0,27,4,4,9,1,0,0
+Type 2 (n=180),55,55,4,6,39,1,2,15,1,2,0
+Type 3 (n=121),41,48,1,7,12,0,1,10,0,0,1
+Type 5 (n=3),0,0,0,0,1,1,0,0,1,0,0
+Type 6 (n=99),51,20,4,4,15,0,2,3,0,0,0

@@ -1,0 +1,9 @@
+energy_profile,No oxygen source,Concentrator,Cylinders,Other oxygen,Concentrator + Cylinders,Concentrator + Internal PSA,Concentrator + External PSA,Concentrator + Other oxygen,Concentrator + Cylinders + Internal PSA,Concentrator + Cylinders + External PSA,Concentrator + Cylinders + Other oxygen
+No energy source,27,5,1,2,2,0,1,1,0,0,0
+Grid,42,17,3,3,8,0,3,3,0,0,0
+Generator,0,5,0,0,2,0,0,1,0,0,0
+Solar,17,17,1,2,2,0,0,2,0,0,0
+Grid + Generator,4,16,4,0,19,2,0,2,2,1,0
+Grid + Solar,49,20,1,9,14,0,1,6,0,1,0
+Generator + Solar,4,27,0,0,7,1,0,7,0,0,0
+Grid + Generator + Solar,7,54,1,1,40,3,4,15,1,0,1

@@ -1,0 +1,9 @@
+energy_profile,n,pct
+Grid + Generator + Solar,127,25.9
+Grid + Solar,101,20.6
+Grid,79,16.1
+Grid + Generator,50,10.2
+Generator + Solar,46,9.4
+Solar,41,8.4
+No energy source,39,7.9
+Generator,8,1.6

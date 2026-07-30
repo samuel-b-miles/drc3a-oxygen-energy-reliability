@@ -1,0 +1,22 @@
+{
+  "input": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_facility_master/facility_master.csv",
+  "facilities": 491,
+  "outputs": {
+    "sample_profile": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_1_sample_profile.csv",
+    "energy_profile": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_2_energy_profiles.csv",
+    "oxygen_profile": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_3_oxygen_profiles.csv",
+    "energy_by_type": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_4_energy_profile_by_facility_type_code.csv",
+    "oxygen_by_type": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_5_oxygen_profile_by_facility_type_code.csv",
+    "fig_energy_by_type": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/figures/fig_1_energy_regimes_by_facility_type.png",
+    "fig_oxygen_by_type": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/figures/fig_2_oxygen_regimes_by_facility_type.png",
+    "fig_energy_gradient": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/figures/fig_3_oxygen_access_by_energy_complexity.png",
+    "fig_heatmap": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/figures/fig_4_energy_oxygen_regime_heatmap.png",
+    "fig_type_province_regimes": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/figures/fig_5_energy_oxygen_by_type_and_province.png",
+    "association_tests": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_8_association_tests.csv",
+    "logit_models": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_9_logistic_models.csv",
+    "binary_or": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables/table_10_binary_odds_ratio_screen.csv"
+  },
+  "tables_dir": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/tables",
+  "figures_dir": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_high_n_mockup/figures",
+  "report": "/Users/samuelmiles/Documents/DRC3 - Oxygen/docs/drc2-high-n-mockup.md"
+}

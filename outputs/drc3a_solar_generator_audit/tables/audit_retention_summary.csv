@@ -1,0 +1,12 @@
+metric,value
+facilities,491
+has_solar,315
+has_generator,231
+has_solar_and_generator,173
+solar_panel_count_nonmissing,315
+solar_panel_count_clear,304
+solar_capacity_raw_nonmissing,180
+solar_capacity_clear,120
+gen1_capacity_raw_nonmissing,230
+gen1_capacity_clear,222
+paired_clean_solar_capacity_and_gen1_capacity,65

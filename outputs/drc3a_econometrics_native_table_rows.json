@@ -1,0 +1,308 @@
+[
+  [
+    "Panel",
+    "What was tested",
+    "Result / significance",
+    "Interpretation"
+  ],
+  [
+    "Context",
+    "Analytic sample after deduplication\nOutcome: oxygen/energy regimes\nModel: descriptive\nN: 491",
+    "69.5% any oxygen; 63.7% concentrators; 66.0% had 2+ energy sources",
+    "All tests use the facility-level DRC2 master table."
+  ],
+  [
+    "Categorical association",
+    "energy source count vs oxygen/equipment outcomes\nOutcome: oxygen modality, access, equipment damage\nModel: chi-square\nN: 491 or 324",
+    "any oxygen p=<0.001 ***; concentrator p=<0.001 ***; multi-source O2 p=<0.001 ***; PSA-linked O2 p=0.421 n.s.; cylinders p=<0.001 ***; concentrator/no cylinder p=<0.001 ***; concentrator vs cylinder among O2 p=0.147 n.s.; equipment damage p=<0.001 ***",
+    "Energy source count is tested as a regime-level patterning variable across binary oxygen outcomes."
+  ],
+  [
+    "Categorical association",
+    "energy profile vs oxygen/equipment outcomes\nOutcome: oxygen modality, access, equipment damage\nModel: chi-square\nN: 491 or 324",
+    "any oxygen p=<0.001 ***; concentrator p=<0.001 ***; multi-source O2 p=<0.001 ***; PSA-linked O2 p=0.189 n.s.; cylinders p=<0.001 ***; concentrator/no cylinder p=<0.001 ***; concentrator vs cylinder among O2 p=0.080 ~; equipment damage p=<0.001 ***",
+    "Energy profile is tested as a regime-level patterning variable across binary oxygen outcomes."
+  ],
+  [
+    "Categorical association",
+    "grid architecture vs oxygen/equipment outcomes\nOutcome: oxygen modality, access, equipment damage\nModel: chi-square\nN: 491 or 324",
+    "any oxygen p=<0.001 ***; concentrator p=<0.001 ***; multi-source O2 p=<0.001 ***; PSA-linked O2 p=0.161 n.s.; cylinders p=<0.001 ***; concentrator/no cylinder p=0.017 *; concentrator vs cylinder among O2 p=0.308 n.s.; equipment damage p=0.001 **",
+    "Grid architecture is tested as a regime-level patterning variable across binary oxygen outcomes."
+  ],
+  [
+    "Regime map",
+    "Energy profile vs full oxygen profile\nOutcome: oxygen profile\nModel: chi-square\nN: 491",
+    "chi2=222.7, df=70, p=<0.001 ***",
+    "The full energy-regime typology and oxygen-regime typology are strongly associated."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "generator vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=15.08 p=<0.001 ***; concentrator OR=14.90 p=<0.001 ***; multi-source O2 OR=4.27 p=<0.001 ***; PSA-linked O2 OR=2.61 p=0.041 *; cylinders OR=3.47 p=<0.001 ***; concentrator/no cylinder OR=3.51 p=<0.001 ***; equipment damage OR=3.93 p=<0.001 ***",
+    "Generator generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "solar vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=2.19 p=<0.001 ***; concentrator OR=2.31 p=<0.001 ***; concentrator/no cylinder OR=2.12 p=<0.001 ***; concentrator vs cylinder among O2 OR=6.00 p=0.004 **; equipment damage OR=1.25 p=0.259 n.s.",
+    "Solar generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "grid vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=1.40 p=0.125 n.s.; concentrator OR=1.27 p=0.292 n.s.; multi-source O2 OR=2.24 p=<0.001 ***; cylinders OR=2.85 p=<0.001 ***; equipment damage OR=1.58 p=0.026 *",
+    "Grid generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "2+ energy sources vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=4.29 p=<0.001 ***; concentrator OR=4.30 p=<0.001 ***; multi-source O2 OR=3.61 p=<0.001 ***; cylinders OR=3.03 p=<0.001 ***; concentrator/no cylinder OR=1.93 p=<0.001 ***; equipment damage OR=2.34 p=<0.001 ***",
+    "2+ energy sources generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "3 energy sources vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=10.41 p=<0.001 ***; concentrator OR=10.81 p=<0.001 ***; multi-source O2 OR=3.17 p=<0.001 ***; cylinders OR=2.23 p=<0.001 ***; concentrator/no cylinder OR=2.46 p=<0.001 ***; equipment damage OR=2.00 p=<0.001 ***",
+    "3 energy sources generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "grid + backup vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=2.65 p=<0.001 ***; concentrator OR=2.43 p=<0.001 ***; multi-source O2 OR=2.89 p=<0.001 ***; cylinders OR=3.13 p=<0.001 ***; equipment damage OR=1.49 p=0.036 *",
+    "Grid + backup generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "bad-power days > median vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=2.77 p=<0.001 ***; concentrator OR=2.59 p=<0.001 ***; multi-source O2 OR=1.57 p=0.023 *; cylinders OR=1.67 p=0.022 *; concentrator/no cylinder OR=1.59 p=0.013 *; equipment damage OR=3.62 p=<0.001 ***",
+    "Bad-power days > median generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "outage hours > median vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=1.43 p=0.075 ~; concentrator OR=1.29 p=0.185 n.s.; equipment damage OR=2.81 p=<0.001 ***",
+    "Outage hours > median generally points toward higher odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "reliable v1 vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=0.69 p=0.062 ~; concentrator OR=0.86 p=0.453 n.s.; equipment damage OR=0.53 p=<0.001 ***",
+    "Reliable v1 generally points toward lower/mixed odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Binary odds-ratio screen",
+    "reliable 3-day vs oxygen/equipment outcomes\nOutcome: binary oxygen/equipment outcomes\nModel: Fisher/exact odds ratios\nN: 491 or 324",
+    "any oxygen OR=0.36 p=<0.001 ***; concentrator OR=0.39 p=<0.001 ***; concentrator/no cylinder OR=0.49 p=<0.001 ***; equipment damage OR=0.18 p=<0.001 ***",
+    "Reliable 3-day generally points toward lower/mixed odds; significant rows identify where the simple bivariate signal is strongest."
+  ],
+  [
+    "Reliability association",
+    "grid architecture vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=26.8, V=0.24, p=<0.001 ***",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "energy profile vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=15.0, V=0.18, p=0.036 *",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "solar vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=3.5, V=0.09, p=0.060 ~",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "generator vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=1.4, V=0.06, p=0.229 n.s.",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "grid + backup vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=1.4, V=0.06, p=0.238 n.s.",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "2+ energy sources vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=1.1, V=0.05, p=0.293 n.s.",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "grid vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=0.7, V=0.04, p=0.413 n.s.",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "energy source count vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=2.2, V=0.07, p=0.531 n.s.",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability association",
+    "3 energy sources vs reliable power\nOutcome: reliable v1 threshold\nModel: chi-square + Cramer V\nN: 452",
+    "chi2=0.1, V=0.02, p=0.740 n.s.",
+    "Tests whether source architecture separates facilities above/below the 91.7% uptime threshold."
+  ],
+  [
+    "Reliability distribution",
+    "Outage/bad-power metrics by oxygen profile\nOutcome: outage days, outage hours, bad-power days\nModel: Kruskal-Wallis\nN: 452",
+    "outage days median p=0.002 **; outage hours median p=0.563 n.s.; bad power days median p=<0.001 ***",
+    "Tests whether reliability burden differs across regimes without assuming normal distributions."
+  ],
+  [
+    "Reliability distribution",
+    "Outage/bad-power metrics by grid architecture\nOutcome: outage days, outage hours, bad-power days\nModel: Kruskal-Wallis\nN: 452",
+    "outage days median p=<0.001 ***; outage hours median p=0.003 **; bad power days median p=<0.001 ***",
+    "Tests whether reliability burden differs across regimes without assuming normal distributions."
+  ],
+  [
+    "Reliability distribution",
+    "Outage/bad-power metrics by energy profile\nOutcome: outage days, outage hours, bad-power days\nModel: Kruskal-Wallis\nN: 452",
+    "outage days median p=<0.001 ***; outage hours median p=0.050 *; bad power days median p=<0.001 ***",
+    "Tests whether reliability burden differs across regimes without assuming normal distributions."
+  ],
+  [
+    "Standard logistic regression",
+    "Any oxygen ~ energy complexity + facility type + province\nOutcome: model fit\nModel: unregularized logit\nN: 491",
+    "failed: singular matrix",
+    "Outcome separation/collinearity makes the unregularized specification unstable; use regularized prediction models."
+  ],
+  [
+    "Standard logistic regression",
+    "Concentrator ~ energy complexity + facility type + province\nOutcome: model fit\nModel: unregularized logit\nN: 491",
+    "failed: singular matrix",
+    "Outcome separation/collinearity makes the unregularized specification unstable; use regularized prediction models."
+  ],
+  [
+    "Standard logistic regression",
+    "C(n_energy_sources)[T.2] in Multi-source oxygen ~ energy complexity + facility type + province\nOutcome: Multi-source oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=5.42, p=0.004 **, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(n_energy_sources)[T.3] in Multi-source oxygen ~ energy complexity + facility type + province\nOutcome: Multi-source oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=10.38, p=<0.001 ***, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(A7_type)[T.3] in Multi-source oxygen ~ energy complexity + facility type + province\nOutcome: Multi-source oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=0.31, p=0.001 **, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(A7_type)[T.3] in PSA-linked oxygen ~ energy sources + facility type + province\nOutcome: PSA-linked oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=0.09, p=0.037 *, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(A7_type)[T.6] in Multi-source oxygen ~ energy complexity + facility type + province\nOutcome: Multi-source oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=0.25, p=<0.001 ***, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(A7_type)[T.6] in PSA-linked oxygen ~ energy sources + facility type + province\nOutcome: PSA-linked oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=0.18, p=0.045 *, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(A5_province)[T.3] in Multi-source oxygen ~ energy complexity + facility type + province\nOutcome: Multi-source oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=3.26, p=<0.001 ***, pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "C(A5_province)[T.3] in PSA-linked oxygen ~ energy sources + facility type + province\nOutcome: PSA-linked oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=1.04, p=0.955 n.s., pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "has_generator in PSA-linked oxygen ~ energy sources + facility type + province\nOutcome: PSA-linked oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=1.29, p=0.666 n.s., pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "has_grid in PSA-linked oxygen ~ energy sources + facility type + province\nOutcome: PSA-linked oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=2.79, p=0.192 n.s., pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Standard logistic regression",
+    "has_solar in PSA-linked oxygen ~ energy sources + facility type + province\nOutcome: PSA-linked oxygen\nModel: adjusted odds ratio\nN: 491",
+    "adj OR=0.62, p=0.358 n.s., pseudo-R2=0.15",
+    "Conditional association holding the model terms constant; sparse categories should be interpreted cautiously."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags\nOutcome: oxygen/equipment outcomes\nModel: regularized logistic, 5-fold CV\nN: 491 or 324",
+    "any oxygen AUC=0.77; concentrator AUC=0.77; multi-source O2 AUC=0.68; cylinders AUC=0.68; concentrator/no cylinder AUC=0.68; concentrator vs cylinder among O2 AUC=0.68; equipment damage AUC=0.67",
+    "Predictive, not causal: asks how well variables classify oxygen/equipment outcomes out of sample."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags + recall reliability\nOutcome: oxygen/equipment outcomes\nModel: regularized logistic, 5-fold CV\nN: 491 or 324",
+    "any oxygen AUC=0.82; concentrator AUC=0.81; multi-source O2 AUC=0.70; cylinders AUC=0.67; concentrator/no cylinder AUC=0.69; concentrator vs cylinder among O2 AUC=0.63; equipment damage AUC=0.76",
+    "Predictive, not causal: asks how well variables classify oxygen/equipment outcomes out of sample."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags + reliability + facility/province\nOutcome: oxygen/equipment outcomes\nModel: regularized logistic, 5-fold CV\nN: 491 or 324",
+    "any oxygen AUC=0.86; concentrator AUC=0.85; multi-source O2 AUC=0.74; cylinders AUC=0.74; concentrator/no cylinder AUC=0.74; concentrator vs cylinder among O2 AUC=0.74; equipment damage AUC=0.75",
+    "Predictive, not causal: asks how well variables classify oxygen/equipment outcomes out of sample."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "energy profile + grid architecture + facility/province\nOutcome: oxygen/equipment outcomes\nModel: regularized logistic, 5-fold CV\nN: 491 or 324",
+    "any oxygen AUC=0.84; concentrator AUC=0.85; multi-source O2 AUC=0.73; cylinders AUC=0.75; concentrator/no cylinder AUC=0.72; concentrator vs cylinder among O2 AUC=0.69; equipment damage AUC=0.71",
+    "Predictive, not causal: asks how well variables classify oxygen/equipment outcomes out of sample."
+  ],
+  [
+    "Cross-validated logistic prediction",
+    "source flags + uptime + facility/province\nOutcome: oxygen/equipment outcomes\nModel: regularized logistic, 5-fold CV\nN: 491 or 324",
+    "any oxygen AUC=0.85; concentrator AUC=0.85; multi-source O2 AUC=0.74; cylinders AUC=0.74; concentrator/no cylinder AUC=0.74; concentrator vs cylinder among O2 AUC=0.68; equipment damage AUC=0.75",
+    "Predictive, not causal: asks how well variables classify oxygen/equipment outcomes out of sample."
+  ],
+  [
+    "Reliability prediction",
+    "Energy architecture predicting reliable v1\nOutcome: reliable v1 threshold\nModel: regularized/logistic CV AUC\nN: 452",
+    "architecture + facility/province AUC=0.63; flags + facility/province AUC=0.63; grid architecture AUC=0.60; energy + grid architecture AUC=0.60; source flags AUC=0.54; source count only AUC=0.51; energy profile AUC=0.50",
+    "Reliability classification is weak to modest; architecture alone does not observe temporal reliability."
+  ],
+  [
+    "Continuous uptime prediction",
+    "Energy architecture predicting uptime v1\nOutcome: continuous uptime\nModel: cross-validated R2/MAE\nN: 452",
+    "architecture + facility/province R2=0.047; grid architecture R2=0.033; energy + grid architecture R2=0.031; flags + facility/province R2=0.029; source flags R2=0.016; energy profile R2=0.001; source count only R2=-0.007",
+    "Continuous uptime is barely explained by architecture; direct telemetry is needed."
+  ],
+  [
+    "Regularized coefficient ranking",
+    "top retained predictors for any oxygen\nOutcome: any oxygen\nModel: regularized logistic coefficients",
+    "facility_type_HGR OR=4.81; facility_type_CM OR=0.34; has_generator OR=2.77; province_Nord-Kivu OR=1.77; bad_power_days_median OR=1.66; province_Sud-Kivu OR=0.61; facility_type_CH OR=0.65; has_solar OR=1.49",
+    "Ranks predictors in the multivariable classifier; no p-values because regularization shrinks coefficients."
+  ],
+  [
+    "Regularized coefficient ranking",
+    "top retained predictors for concentrator\nOutcome: concentrator\nModel: regularized logistic coefficients",
+    "facility_type_HGR OR=4.21; has_generator OR=2.92; facility_type_CM OR=0.35; bad_power_days_median OR=1.80; province_Nord-Kivu OR=1.68; facility_type_CH OR=0.65; has_solar OR=1.52; province_Sud-Kivu OR=0.75",
+    "Ranks predictors in the multivariable classifier; no p-values because regularization shrinks coefficients."
+  ],
+  [
+    "Regularized coefficient ranking",
+    "top retained predictors for equipment damage\nOutcome: equipment damage\nModel: regularized logistic coefficients",
+    "facility_type_HP OR=0.50; has_generator OR=1.73; facility_type_HGR OR=1.49; bad_power_days_median OR=1.42; outage_days_median OR=0.71; facility_type_CH OR=1.39; outage_hours_median OR=1.36; facility_type_CM OR=0.78",
+    "Ranks predictors in the multivariable classifier; no p-values because regularization shrinks coefficients."
+  ]
+]

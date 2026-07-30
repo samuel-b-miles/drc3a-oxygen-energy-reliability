@@ -1,0 +1,6 @@
+facility_type_label,No energy source,Grid,Generator,Solar,Grid + Generator,Grid + Solar,Generator + Solar,Grid + Generator + Solar
+Type 1 (n=88),4,7,4,4,13,0,14,42
+Type 2 (n=180),5,22,2,10,22,54,15,50
+Type 3 (n=121),24,22,2,21,7,17,14,14
+Type 5 (n=3),0,0,0,0,2,0,0,1
+Type 6 (n=99),6,28,0,6,6,30,3,20

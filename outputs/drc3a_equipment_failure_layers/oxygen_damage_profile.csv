@@ -1,0 +1,8 @@
+profile,facilities,oxygen_only,oxygen_plus_other,pct_oxygen_only,pct_oxygen_plus_other,with_any_cause_coded,pct_with_any_cause_coded
+oxygen_damage_facilities,70,21,49,30.0,70.0,15,21.428571428571427
+Voltage instability / fluctuation,70,,,,,8,11.428571428571429
+Power cuts / abrupt restoration,70,,,,,2,2.857142857142857
+Insufficient power / no energy,70,,,,,5,7.142857142857143
+Short circuit / burned electronics,70,,,,,6,8.571428571428571
+Poor installation,70,,,,,0,0.0
+Lightning / atmospheric discharge,70,,,,,0,0.0

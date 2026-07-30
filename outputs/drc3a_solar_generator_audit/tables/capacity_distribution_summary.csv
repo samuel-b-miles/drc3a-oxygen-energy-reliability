@@ -1,0 +1,4 @@
+measure,n,mean,median,q25,q75,p90,max
+"Solar panels, clear count",304,12.467105263157896,6.0,4.0,11.0,24.0,400.0
+"Solar capacity, inferred clean kWp",120,3.247,1.0,0.45999999999999996,3.0,7.1000000000000085,50.0
+"First generator capacity, clean kVA",222,30.735045045045048,11.25,5.0,24.0,66.9,425.0

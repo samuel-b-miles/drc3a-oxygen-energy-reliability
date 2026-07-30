@@ -1,0 +1,11 @@
+,uptime_v1_reconstructed,uptime_v1_reconstructed,uptime_v1_reconstructed,uptime_v3_three_day_recall,uptime_v3_three_day_recall,uptime_v3_three_day_recall,reliable_v1_917,reliable_v1_917,reliable_v1_917,reliable_v3_917,reliable_v3_917,reliable_v3_917
+,count,median,mean,count,median,mean,count,median,mean,count,median,mean
+energy_profile,,,,,,,,,,,,
+Generator,8,0.488,0.493,8,0.479,0.47,8,0.0,0.0,8,0.0,0.0
+Generator + Solar,46,0.952,0.827,46,0.882,0.765,46,1.0,0.543,46,0.0,0.457
+Grid,75,0.94,0.794,79,0.931,0.799,79,1.0,0.506,79,1.0,0.506
+Grid + Generator,50,0.914,0.792,50,0.91,0.799,50,0.5,0.5,50,0.5,0.5
+Grid + Generator + Solar,127,0.94,0.821,127,0.889,0.779,127,1.0,0.583,127,0.0,0.449
+Grid + Solar,101,0.964,0.891,101,0.958,0.836,101,1.0,0.644,101,1.0,0.624
+No energy source,4,0.97,0.735,39,1.0,0.934,39,0.0,0.077,39,1.0,0.923
+Solar,41,0.935,0.83,41,0.875,0.787,41,1.0,0.585,41,0.0,0.415

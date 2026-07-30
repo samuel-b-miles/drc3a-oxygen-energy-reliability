@@ -1,0 +1,4 @@
+province_label,No oxygen source,Concentrator,Cylinders,Other oxygen,Concentrator + Cylinders,Concentrator + Internal PSA,Concentrator + External PSA,Concentrator + Other oxygen,Concentrator + Cylinders + Internal PSA,Concentrator + Cylinders + External PSA,Concentrator + Cylinders + Other oxygen
+Province 1 (n=214),49,92,3,10,35,2,2,17,2,1,1
+Province 2 (n=185),72,55,1,6,27,4,3,15,1,1,0
+Province 3 (n=92),29,14,7,1,32,0,4,5,0,0,0

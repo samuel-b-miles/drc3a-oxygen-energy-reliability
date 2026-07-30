@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial, Helvetica, sans-serif;} .title{font-size:25px;font-weight:700;fill:#111}.subtitle{font-size:14px;fill:#555}.tick{font-size:12px;fill:#555}.label{font-size:15px;fill:#222}.quad{font-size:15px;font-weight:700}</style>
+<text x="115" y="55" class="title">DRC3a Literature Coding v2: Oxygen-System Detail vs Energy-System Detail</text>
+<text x="115" y="84" class="subtitle">Structured from table columns: modality, endpoint, energy source, method, scale, observation window, and causal strength (n=94).</text>
+<rect x="115" y="505.0" width="440.0" height="355.0" fill="#f4f4f4"/>
+<rect x="555.0" y="505.0" width="440.0" height="355.0" fill="#fff5e5"/>
+<rect x="115" y="150" width="440.0" height="355.0" fill="#eaf3ff"/>
+<rect x="555.0" y="150" width="440.0" height="355.0" fill="#e8f7ed"/>
+<line x1="115.0" y1="150" x2="115.0" y2="860" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="115" y1="860.0" x2="995" y2="860.0" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="335.0" y1="150" x2="335.0" y2="860" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="115" y1="682.5" x2="995" y2="682.5" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="555.0" y1="150" x2="555.0" y2="860" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="115" y1="505.0" x2="995" y2="505.0" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="775.0" y1="150" x2="775.0" y2="860" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="115" y1="327.5" x2="995" y2="327.5" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="995.0" y1="150" x2="995.0" y2="860" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="115" y1="150.0" x2="995" y2="150.0" stroke="#d5d5d5" stroke-width="1"/>
+<line x1="555.0" y1="150" x2="555.0" y2="860" stroke="#444" stroke-width="1.3" opacity="0.65"/>
+<line x1="115" y1="505.0" x2="995" y2="505.0" stroke="#444" stroke-width="1.3" opacity="0.65"/>
+<rect x="115" y="150" width="880" height="710" fill="none" stroke="#333"/>
+<text x="115.0" y="886" class="tick" text-anchor="middle">0</text>
+<text x="97" y="864.0" class="tick" text-anchor="end">0</text>
+<text x="335.0" y="886" class="tick" text-anchor="middle">1</text>
+<text x="97" y="686.5" class="tick" text-anchor="end">1</text>
+<text x="555.0" y="886" class="tick" text-anchor="middle">2</text>
+<text x="97" y="509.0" class="tick" text-anchor="end">2</text>
+<text x="775.0" y="886" class="tick" text-anchor="middle">3</text>
+<text x="97" y="331.5" class="tick" text-anchor="end">3</text>
+<text x="995.0" y="886" class="tick" text-anchor="middle">4</text>
+<text x="97" y="154.0" class="tick" text-anchor="end">4</text>
+<text x="555.0" y="922" class="label" text-anchor="middle">Oxygen-system detail score: modality + endpoint + system scale + time resolution</text>
+<text transform="translate(39,505.0) rotate(-90)" class="label" text-anchor="middle">Energy-system detail score: source + energy endpoint + system scale + time resolution</text>
+<text x="139" y="824" class="quad" fill="#777">thin in both systems</text>
+<text x="579.0" y="824" class="quad" fill="#8a5a00">oxygen-detailed / energy-thin</text>
+<text x="139" y="186" class="quad" fill="#24527a">energy-detailed / oxygen-thin</text>
+<text x="579.0" y="186" class="quad" fill="#1b6e3a">coupled technical evidence</text>
+<circle cx="926.3" cy="589.2" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Maitland K et al. (2018) | Children’s Oxygen Administration Strategies Trial (COAST): A randomised controlled trial of high flow versus oxygen versus control in African children with severe pneumonia | O=3.7 E=1.55 | Concentrator + Cylinder + HFNO/HFNC + Low-flow | Grid</title></circle>
+<polygon points="832.3,582.5 825.6,596.9 839.0,596.9" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Peters MJ et al. (2021) | A COASTal view: where prior beliefs and uncertainty collide | O=3.25 E=1.55 | Concentrator + Cylinder + HFNO/HFNC + Low-flow | Grid + Backup</title></polygon>
+<polygon points="896.6,409.0 905.5,417.9 896.6,426.8 887.7,417.9" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Carroll OU et al. (2026) | A cost-consequence analysis of the Children’s Oxygen Administration Strategies Trial (COAST) in severe pneumonia | O=3.55 E=2.5 | Concentrator + Cylinder + HFNO/HFNC + Low-flow | Grid + Backup</title></polygon>
+<circle cx="922.2" cy="513.8" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Graham HR et al. (2019) | Oxygen systems to improve clinical care and outcomes for children and neonates: A stepped-wedge cluster-randomised trial in Nigeria | O=3.7 E=1.95 | Oximetry + Concentrator + Cylinder | Grid + Generator/diesel</title></circle>
+<circle cx="921.9" cy="390.4" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Maitland K et al. (2021) | Randomised controlled trial of oxygen therapy and high-flow nasal therapy in African children with pneumonia | O=3.7 E=2.65 | Concentrator + Cylinder + HFNO/HFNC + Low-flow | Grid + Backup</title></circle>
+<circle cx="889.4" cy="350.3" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Subhi R et al. (2025) | Clinical evaluation of a concentrator medical oxygen system with automated cylinder back-up in western Uganda: a pragmatic cluster quasi-experimental trial | O=3.55 E=2.9 | Concentrator + Cylinder | Grid + Backup</title></circle>
+<circle cx="850.8" cy="509.8" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>McCollum ED et al. (2019) | Bubble continuous positive airway pressure for children with high-risk conditions and severe pneumonia in Malawi: an open-label, randomised, controlled trial | O=3.35 E=1.95 | Concentrator + bCPAP/CPAP + Low-flow | Grid + Generator/diesel</title></circle>
+<circle cx="923.2" cy="588.3" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Chisti MJ et al. (2015) | Bubble continuous positive airway pressure for children with severe pneumonia and hypoxaemia in Bangladesh: an open, randomised controlled trial | O=3.7 E=1.55 | Concentrator + Cylinder + bCPAP/CPAP + HFNO/HFNC + Low-flow | Grid</title></circle>
+<circle cx="931.0" cy="508.3" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Gebre M et al. (2024) | Effectiveness of bubble continuous positive airway pressure for treatment of children aged 1–59 months with severe pneumonia and hypoxaemia in Ethiopia: a pragmatic cluster-randomised controlled trial | O=3.7 E=1.95 | Concentrator + Cylinder + bCPAP/CPAP + Low-flow | Grid + Backup</title></circle>
+<circle cx="853.2" cy="586.2" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Kandasamy S et al. (2024) | High-flow nasal oxygen in infants and children for early respiratory management of pneumonia-induced acute hypoxemic respiratory failure: the CENTURI randomized clinical trial | O=3.35 E=1.55 | HFNO/HFNC + Low-flow | Grid</title></circle>
+<circle cx="606.3" cy="652.6" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>EMPIC Study Group (2021) | Innovative, enhanced community management of non-hypoxaemic chest-indrawing pneumonia in 2–59-month-old children (EMPIC Trial) | O=2.2 E=1.2 | Oximetry | Battery</title></circle>
+<circle cx="857.5" cy="587.5" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Mulondo SA et al. (2020) | Pulse oximetry implementation improves detection of hypoxaemia and oxygen use in Ugandan hospitals: an implementation study | O=3.35 E=1.55 | Oximetry + Concentrator + Cylinder | Grid</title></circle>
+<polygon points="769.5,324.5 762.8,338.9 776.2,338.9" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Duke T et al. (2021) | Solar-powered oxygen quality improvement and child pneumonia deaths: a large-scale effectiveness study | O=3.0 E=3.0 | Concentrator | Solar PV + Grid</title></polygon>
+<circle cx="772.1" cy="385.7" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Conradi N et al. (2023) | Utility of solar-powered oxygen delivery in a resource-constrained setting | O=3.0 E=2.65 | Concentrator | Solar PV + Battery</title></circle>
+<circle cx="847.1" cy="388.6" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Conradi N et al. (2024) | Solar-powered O₂ delivery for the treatment of children with hypoxaemia in Uganda: a stepped-wedge cluster randomised controlled trial | O=3.35 E=2.65 | Concentrator | Solar PV + Battery</title></circle>
+<circle cx="854.1" cy="391.2" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Duke T et al. (2017) | Solar-powered oxygen systems in remote health centers in Papua New Guinea: a large-scale implementation effectiveness trial | O=3.35 E=2.65 | Concentrator | Solar PV + Battery</title></circle>
+<polygon points="610.7,431.7 604.0,446.1 617.4,446.1" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mangipudi S (2024) | Solar-powered solutions to oxygen delivery challenges in Uganda: the next steps | O=2.25 E=2.4 | Concentrator | Solar PV + Battery</title></polygon>
+<polygon points="658.2,412.2 651.5,426.6 664.9,426.6" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Pulsan F et al. (2021) | Rural healthcare workers’ views on the introduction of solar power and oxygen concentrators in health facilities in Papua New Guinea: a qualitative study | O=2.5 E=2.5 | Concentrator | Solar PV</title></polygon>
+<polygon points="821.8,400.6 815.1,415.0 828.5,415.0" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Pulsan F et al. (2021) | Response to oxygen therapy using oxygen concentrators run off solar power in children with respiratory distress in remote primary health facilities in Papua New Guinea | O=3.2 E=2.55 | Concentrator | Solar PV + Battery</title></polygon>
+<polygon points="849.1,318.7 842.4,333.1 855.8,333.1" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Turnbull H et al. (2016) | Solar-powered oxygen delivery: proof of concept | O=3.35 E=3.0 | Concentrator | Solar PV + Battery</title></polygon>
+<polygon points="752.3,267.8 761.2,276.7 752.3,285.6 743.4,276.7" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Unitaid / Huang Y et al. (2021) | Estimated cost-effectiveness of solar-powered oxygen delivery for pneumonia in young children in low-resource settings | O=2.9 E=3.3 | Concentrator | Solar PV + Battery + Grid</title></polygon>
+<circle cx="779.5" cy="387.2" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Conradi N et al. (2019) | Solar-powered oxygen delivery for the treatment of children with hypoxemia: protocol for a cluster-randomized stepped-wedge controlled trial in Uganda | O=3.0 E=2.65 | Concentrator | Solar PV + Battery</title></circle>
+<circle cx="815.1" cy="353.2" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Nyende S et al. (2015) | Solar-powered oxygen delivery: study protocol for a randomized controlled trial | O=3.2 E=2.85 | Concentrator + Cylinder | Solar PV + Grid</title></circle>
+<circle cx="775.4" cy="385.0" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Duke T et al. (2017) | Solar powered oxygen systems in remote health centers in Papua New Guinea: a large scale implementation effectiveness trial | O=3.0 E=2.65 | Concentrator | Solar PV + Battery</title></circle>
+<circle cx="932.5" cy="330.1" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mian Q et al. (2019) | Solar-powered oxygen delivery to treat childhood pneumonia in low-resource settings: a randomised controlled non-inferiority trial and cost-effectiveness study | O=3.7 E=3.0 | Concentrator + Cylinder | Solar PV + Battery</title></circle>
+<polygon points="705.4,386.7 698.7,401.1 712.1,401.1" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mian Q et al. (2022) | Implementation of solar powered oxygen delivery in a conflict zone: preliminary findings from Somalia on feasibility and usefulness | O=2.65 E=2.65 | Concentrator | Solar PV + Battery</title></polygon>
+<polygon points="795.7,556.2 789.0,570.6 802.4,570.6" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Graham HR et al. (2025) | Reducing global inequities in medical oxygen access: the Lancet Global Health Commission on medical oxygen security | O=3.1 E=1.65 | Concentrator + Cylinder + PSA + LOX | Energy unspecified</title></polygon>
+<polygon points="560.6,816.9 553.9,831.3 567.3,831.3" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Alooh M et al. (2025) | Investing in local capacity and grassroots innovation to bridge gaps in medical oxygen access and security | O=2.05 E=0.2 | Concentrator | Not specified</title></polygon>
+<polygon points="481.9,486.3 475.2,500.7 488.6,500.7" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Aqeel M et al. (2025) | Getting long-term oxygen therapy right | O=1.7 E=2.05 | Oxygen unspecified | Grid</title></polygon>
+<polygon points="284.1,665.0 277.4,679.4 290.8,679.4" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Marks IH et al. (2019) | Medical equipment donation in low-resource settings | O=0.75 E=1.05 | Not specified | Energy unspecified</title></polygon>
+<polygon points="494.8,819.1 488.1,833.5 501.5,833.5" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Grainge C (2004) | Breath of life: the evolution of oxygen therapy | O=1.7 E=0.2 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="800.0,602.6 793.3,617.0 806.7,617.0" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Mart MF et al. (2022) | Oxygen as an essential medicine | O=3.1 E=1.4 | Oximetry + Concentrator + Cylinder | Grid + Generator/diesel</title></polygon>
+<polygon points="897.2,409.1 890.5,423.5 903.9,423.5" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Otiangala D et al. (2020) | Oxygen insecurity and mortality in resource-constrained healthcare facilities in rural Kenya | O=3.55 E=2.5 | Concentrator + Cylinder | Grid + Generator/diesel</title></polygon>
+<polygon points="417.2,598.3 410.5,612.7 423.9,612.7" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Humura F et al. (2024) | Closing gaps in the oxygen supply chain in nations with limited resources | O=1.35 E=1.4 | Oxygen unspecified | Solar PV + Grid</title></polygon>
+<circle cx="774.6" cy="378.7" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Bradley BD et al. (2016) | Implementation and 8-year follow-up of an uninterrupted oxygen supply system in a hospital in The Gambia | O=3.0 E=2.7 | Concentrator | Grid + Backup</title></circle>
+<circle cx="845.2" cy="396.0" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Sutherland T et al. (2019) | The “Just Right” Amount of Oxygen: Improving Oxygen Use in a Rwandan Emergency Department | O=3.35 E=2.6 | Oximetry + Cylinder | Grid</title></circle>
+<circle cx="931.3" cy="383.5" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Graham HR et al. (2022) | Cost-effectiveness and sustainability of improved hospital oxygen systems in Nigeria | O=3.7 E=2.65 | Oximetry + Concentrator | Solar PV + Grid</title></circle>
+<circle cx="780.0" cy="587.6" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Duke T et al. (2008) | Improved oxygen systems for childhood pneumonia: a multihospital effectiveness study in Papua New Guinea | O=3.0 E=1.55 | Concentrator | Grid</title></circle>
+<circle cx="773.2" cy="582.8" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Gray AZ et al. (2017) | Improved oxygen systems in district hospitals in Lao PDR: a prospective field trial | O=3.0 E=1.55 | Concentrator | Grid</title></circle>
+<polygon points="536.6,426.8 529.9,441.2 543.3,441.2" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Matai S et al. (2008) | Implementing an oxygen programme in hospitals in Papua New Guinea | O=1.95 E=2.4 | Concentrator | Grid + Generator/diesel + Backup</title></polygon>
+<circle cx="648.9" cy="376.6" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Duke T et al. (2017) | Solar powered oxygen systems in remote health centers in Papua New Guinea | O=2.45 E=2.75 | Oxygen unspecified | Solar PV</title></circle>
+<circle cx="515.2" cy="803.4" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Graham HR et al. (2018) | Adoption of paediatric and neonatal pulse oximetry by 12 hospitals in Nigeria | O=1.85 E=0.3 | Oximetry | Not specified</title></circle>
+<polygon points="593.3,802.2 586.6,816.6 600.0,816.6" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mushumbamwiza H et al. (2025) | Hypoxemia detection and oxygen therapy practices in Rwanda | O=2.2 E=0.3 | Oximetry | Not specified</title></polygon>
+<polygon points="388.3,642.4 397.2,651.3 388.3,660.2 379.4,651.3" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Ndayizigiye M et al. (2025) | Design, implementation and outcomes of a national oxygen distribution network in Lesotho | O=1.25 E=1.15 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="559.5,746.4 552.8,760.8 566.2,760.8" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Bakare AA et al. (2020) | Providing oxygen to children and newborns in southwest Nigeria | O=2.05 E=0.6 | Concentrator | Energy unspecified</title></polygon>
+<polygon points="643.8,615.6 652.7,624.5 643.8,633.4 634.9,624.5" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Howie SRC et al. (2009) | Meeting oxygen needs in Africa: an options analysis from the Gambia | O=2.4 E=1.3 | Concentrator + Cylinder | Energy unspecified</title></polygon>
+<polygon points="757.9,598.1 766.8,607.0 757.9,615.9 749.0,607.0" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Howie SRC et al. (2020) | Oxygen treatment solutions for LMIC health facilities | O=2.9 E=1.4 | Cylinder | Energy unspecified</title></polygon>
+<polygon points="320.6,702.5 313.9,716.9 327.3,716.9" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Ijaz N et al. (2025) | A rapid facility-level assessment of oxygen systems in 39 LMICs | O=0.95 E=0.85 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="618.8,448.2 612.1,462.6 625.5,462.6" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Louart S et al. (2025) | Expanding oxygen access in PHCs in Guinea and Mali | O=2.3 E=2.25 | Oxygen unspecified | Solar PV</title></polygon>
+<polygon points="452.0,803.4 445.3,817.8 458.7,817.8" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Subhi R et al. (2025) | Medical oxygen service readiness and coverage in seven countries | O=1.5 E=0.3 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="649.0,624.9 642.3,639.3 655.7,639.3" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Smith V et al. (2022) | Medical oxygen ecosystem building in Kenya, Rwanda, and Ethiopia | O=2.45 E=1.3 | Cylinder + PSA | Energy unspecified</title></polygon>
+<polygon points="319.9,701.6 313.2,716.0 326.6,716.0" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Belle J et al. (2010) | Influenza preparedness and oxygen delivery in 12 African countries | O=0.95 E=0.85 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="292.4,729.8 301.3,738.7 292.4,747.6 283.5,738.7" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Hakim S et al. (2026) | Pandemic response capacity in LMIC health facilities | O=0.8 E=0.7 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="437.4,720.2 430.7,734.6 444.1,734.6" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Mbeva Kahindo JB et al. (2022) | Fonctionnalité des concentrateurs d’oxygène hospitaliers au Nord Kivu, République Démocratique du Congo | O=1.5 E=0.75 | Concentrator | Energy unspecified</title></polygon>
+<polygon points="410.0,548.5 418.9,557.4 410.0,566.3 401.1,557.4" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Ramezani K et al. (2025) | Optimizing medical oxygen concentrators: Efficiency, flexibility, and patient-centric solutions | O=1.35 E=1.7 | Concentrator | Solar PV</title></polygon>
+<polygon points="573.0,557.1 566.3,571.5 579.7,571.5" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Ibrahim NH et al. (2025) | Design and maintenance of medical oxygen concentrators in Sub-Saharan Africa: a systematic review | O=2.05 E=1.65 | Concentrator | Energy unspecified</title></polygon>
+<polygon points="797.2,549.1 790.5,563.5 803.9,563.5" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Duke T et al. (2010) | Oxygen concentrators: a practical guide for clinicians and technicians in developing countries | O=3.1 E=1.7 | Oximetry + Concentrator | Generator/diesel</title></polygon>
+<circle cx="491.7" cy="759.0" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Schartner K et al. (2025) | An Energy-Optimized Medical Oxygen Concentrator for Low-Resource Settings | O=1.7 E=0.6 | Concentrator + PSA | Energy unspecified</title></circle>
+<polygon points="649.2,618.1 642.5,632.5 655.9,632.5" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Nowadly CD et al. (2022) | The use of portable oxygen concentrators in low-resource settings: a systematic review | O=2.4 E=1.3 | Concentrator + Cylinder | Energy unspecified</title></polygon>
+<polygon points="648.8,617.8 642.1,632.2 655.5,632.2" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Navuluri N et al. (2021) | Oxygen delivery systems for adults in Sub-Saharan Africa: A scoping review | O=2.4 E=1.3 | Oximetry | Energy unspecified</title></polygon>
+<polygon points="410.3,621.6 419.2,630.5 410.3,639.4 401.4,630.5" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Unitaid (2024) | The Medical Oxygen Innovation Landscape: Technologies and business models to improve access | O=1.35 E=1.3 | Concentrator | Energy unspecified</title></polygon>
+<polygon points="438.9,593.3 432.2,607.7 445.6,607.7" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mantena S et al. (2021) | Oxygen Blending Is Urgently Needed in Resource-Limited Settings | O=1.5 E=1.45 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="658.3,618.1 651.6,632.5 665.0,632.5" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Bradley BD et al. (2014) | A retrospective analysis of oxygen concentrator maintenance needs and costs in a low-resource setting: experience from The Gambia | O=2.5 E=1.35 | Concentrator | Not specified</title></polygon>
+<polygon points="561.5,430.5 554.8,444.9 568.2,444.9" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Ibrahim NH et al. (2025) | Design and maintenance of medical oxygen concentrators in Sub-Saharan Africa: a systematic review | O=2.05 E=2.4 | Concentrator | Solar PV</title></polygon>
+<circle cx="442.5" cy="554.9" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Rassool RP et al. (2017) | A Low-Pressure Oxygen Storage System for Oxygen Supply in Low-Resource Settings | O=1.5 E=1.75 | Oxygen unspecified | Energy unspecified</title></circle>
+<circle cx="382.3" cy="731.2" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Amadi HO (2023) | The Politeoxygen Splitter System (PSS): a frugal LMIC oxygen delivery technology that expands utility by up to 700% | O=1.25 E=0.75 | Oxygen unspecified | Not specified</title></circle>
+<polygon points="537.9,720.9 531.2,735.3 544.6,735.3" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Smith V et al. (2024) | An Oxygen Supply Is Not Enough: A Qualitative Analysis of a Pressure Swing Adsorption Oxygen Plant Program in Ethiopian Hospitals | O=1.95 E=0.75 | PSA | Not specified</title></polygon>
+<circle cx="481.7" cy="748.8" r="10.3" fill="#1f77b4" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Lowan VC (2023) | Design and Development of a Portable Multi-user Medical Grade Oxygen Concentrator | O=1.7 E=0.6 | Concentrator + PSA | Energy unspecified</title></circle>
+<polygon points="699.8,448.4 693.1,462.8 706.5,462.8" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Peake D et al. (2021) | Technical results from a trial of the FREO₂ Low-Pressure Oxygen Storage system, Mbarara Regional Referral Hospital, Uganda | O=2.65 E=2.3 | Concentrator | Backup</title></polygon>
+<circle cx="441.2" cy="551.3" r="10.3" fill="#1f77b4" stroke="white" stroke-width="1.3" opacity="0.86"><title>Calderon R et al. (2019) | Assessment of a storage system to deliver uninterrupted therapeutic oxygen during power outages in resource-limited settings | O=1.5 E=1.75 | Oxygen unspecified | Energy unspecified</title></circle>
+<polygon points="420.9,573.0 414.2,587.4 427.6,587.4" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Otiangala D et al. (2021) | A feasibility study evaluating a reservoir storage system for continuous oxygen delivery for children with hypoxemia in Kenya | O=1.4 E=1.6 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="450.4,525.5 459.3,534.4 450.4,543.3 441.5,534.4" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Maggio G et al. (2022) | Hydrogen and medical oxygen by renewable energy–based electrolysis: a green and economically viable route | O=1.5 E=1.8 | Oxygen unspecified | Solar PV</title></polygon>
+<polygon points="290.5,398.7 299.4,407.6 290.5,416.5 281.6,407.6" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Ngoh SK et al. (2022) | Green electricity and medical electrolytic oxygen from solar energy – A sustainable solution for rural hospitals | O=0.8 E=2.55 | Oxygen unspecified | Solar PV + Grid</title></polygon>
+<polygon points="438.6,536.5 447.5,545.4 438.6,554.3 429.7,545.4" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Izadi A et al. (2023) | Design and optimization of COVID-19 hospital wards to produce oxygen and electricity through solar PV panels with hydrogen storage systems by neural network–genetic algorithm | O=1.5 E=1.8 | Cylinder | Solar PV</title></polygon>
+<polygon points="288.6,658.8 297.5,667.7 288.6,676.6 279.7,667.7" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Alcívar-Reyna TF et al. (2026) | Renewable energy for healthcare: Modeling medical oxygen production through PV-powered PEM electrolysis. A case study in Guayaquil, Ecuador | O=0.8 E=1.1 | Oxygen unspecified | Solar PV</title></polygon>
+<polygon points="780.1,723.4 773.4,737.8 786.8,737.8" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Olu OO et al. (2023) | Bridging the humanitarian-development divide in a protracted crisis: a case study of the use of a central plant to supply oxygen for COVID-19 case management in South Sudan | O=3.0 E=0.75 | Cylinder + PSA | Not specified</title></polygon>
+<polygon points="283.7,722.4 277.0,736.8 290.4,736.8" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Ross M et al. (2023) | Oxygen inequity in the COVID-19 pandemic and beyond | O=0.8 E=0.7 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="258.4,821.2 251.7,835.6 265.1,835.6" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Sodero S et al. (2025) | Vital mobilities of medical oxygen: Theorising oxygen justice | O=0.65 E=0.2 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="445.7,725.1 439.0,739.5 452.4,739.5" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Godard A et al. (2025) | Medical oxygen: a necessity or a luxury in humanitarian settings? | O=1.5 E=0.75 | Oxygen unspecified | Energy unspecified</title></polygon>
+<polygon points="423.4,845.2 432.3,854.1 423.4,863.0 414.5,854.1" fill="#9467bd" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Tariq M et al. (2024) | Life cycle assessment of medical oxygen | O=1.4 E=0.0 | Cylinder + PSA | Not specified</title></polygon>
+<polygon points="681.6,396.0 690.5,404.9 681.6,413.8 672.7,404.9" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Manhas V et al. (2024) | Cost analysis of different medical oxygen sources for a healthcare facility in India | O=2.55 E=2.55 | Cylinder + PSA + LOX | Grid + Generator/diesel</title></polygon>
+<polygon points="518.3,800.7 511.6,815.1 525.0,815.1" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Kizza D et al. (2022) | Financial implications of tariffs for medical oxygen on Rwandan public hospitals’ finance management during the coronavirus epidemic | O=1.85 E=0.3 | PSA + HFNO/HFNC | Not specified</title></polygon>
+<polygon points="329.9,813.4 323.2,827.8 336.6,827.8" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Goodman D et al. (2019) | Challenges in the diagnosis of paediatric pneumonia in intervention field trials: recommendations from a pneumonia field trial working group | O=1.0 E=0.2 | Oximetry | Not specified</title></polygon>
+<polygon points="467.5,715.7 460.8,730.1 474.2,730.1" fill="#ff7f0e" stroke="#111" stroke-width="1.1" opacity="0.86"><title>Tuti T et al. (2021) | Pulse oximetry adoption and oxygen orders at paediatric admission over 7 years in Kenya: a multihospital retrospective cohort study | O=1.6 E=0.75 | Oximetry | Not specified</title></polygon>
+<polygon points="519.4,802.5 512.7,816.9 526.1,816.9" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>McCollum ED et al. (2023) | Risk and accuracy of outpatient-identified hypoxaemia for death among suspected child pneumonia cases in rural Bangladesh: a multifacility prospective cohort study | O=1.85 E=0.3 | Not specified | Not specified</title></polygon>
+<polygon points="647.8,809.6 656.7,818.5 647.8,827.4 638.9,818.5" fill="#9467bd" stroke="white" stroke-width="1.3" opacity="0.86"><title>Floyd J et al. (2015) | Evaluating the impact of pulse oximetry on childhood pneumonia mortality in resource-poor settings | O=2.4 E=0.2 | Oximetry | Not specified</title></polygon>
+<polygon points="527.4,795.2 520.7,809.6 534.1,809.6" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Lazzerini M et al. (2015) | Hypoxaemia as a Mortality Risk Factor in Acute Lower Respiratory Infections in Children in Low and Middle-Income Countries | O=1.85 E=0.3 | Not specified | Not specified</title></polygon>
+<polygon points="416.9,813.8 410.2,828.2 423.6,828.2" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Herbst A et al. (2023) | Oxygen saturation targets for adults with acute hypoxemia in low and lower-middle income countries: a scoping review with analysis of contextual factors | O=1.35 E=0.2 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="484.8,816.6 478.1,831.0 491.5,831.0" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Sheikh M et al. (2023) | Pulse oximetry: why oxygen saturation is still not a part of standard pediatric guidelines in low-and-middle-income countries (LMICs) | O=1.7 E=0.2 | Oximetry | Not specified</title></polygon>
+<polygon points="409.8,822.7 403.1,837.1 416.5,837.1" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Rahman AE et al. (2022) | Prevalence of hypoxaemia in children with pneumonia in low-income and middle-income countries: a systematic review and meta-analysis | O=1.35 E=0.2 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="437.7,792.9 431.0,807.3 444.4,807.3" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Eid J et al. (2023) | Challenges in maintaining oxygen saturation in pregnant individuals residing in low- and middle-income countries: a response | O=1.5 E=0.35 | Oxygen unspecified | Not specified</title></polygon>
+<polygon points="518.3,787.8 511.6,802.2 525.0,802.2" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mvalo T (2022) | Need for routine pulse oximetry and oxygen delivery systems in low-income and middle-income countries | O=1.85 E=0.35 | Oximetry | Not specified</title></polygon>
+<polygon points="606.0,799.7 599.3,814.1 612.7,814.1" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Mushumbamwiza H et al. (2025) | Hypoxemia detection and oxygen therapy practices in neonatal and pediatric wards across seven district and referral hospitals in Rwanda | O=2.2 E=0.3 | Oximetry | Not specified</title></polygon>
+<polygon points="682.7,793.0 676.0,807.4 689.4,807.4" fill="#ff7f0e" stroke="white" stroke-width="1.3" opacity="0.86"><title>Sessions KL et al. (2022) | Continuous positive airway pressure for children in resource-limited settings, effect on mortality and adverse events: systematic review and meta-analysis | O=2.55 E=0.3 | bCPAP/CPAP | Not specified</title></polygon>
+<text x="905.0" y="407.2" font-size="11" fill="#222" opacity="0.82">Carroll 2026</text>
+<text x="938.0" y="504.9" font-size="11" fill="#222" opacity="0.82">Graham 2019</text>
+<text x="938.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Maitland 2021</text>
+<text x="905.0" y="336.2" font-size="11" fill="#222" opacity="0.82">Subhi 2025</text>
+<text x="861.0" y="504.9" font-size="11" fill="#222" opacity="0.82">McCollum 2019</text>
+<text x="784.0" y="318.5" font-size="11" fill="#222" opacity="0.82">Duke 2021</text>
+<text x="784.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Conradi 2023</text>
+<text x="861.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Conradi 2024</text>
+<text x="861.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Duke 2017</text>
+<text x="674.0" y="407.2" font-size="11" fill="#222" opacity="0.82">Pulsan 2021</text>
+<text x="828.0" y="398.4" font-size="11" fill="#222" opacity="0.82">Pulsan 2021</text>
+<text x="861.0" y="318.5" font-size="11" fill="#222" opacity="0.82">Turnbull 2016</text>
+<text x="762.0" y="265.2" font-size="11" fill="#222" opacity="0.82">Unitaid 2021</text>
+<text x="784.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Conradi 2019</text>
+<text x="828.0" y="345.1" font-size="11" fill="#222" opacity="0.82">Nyende 2015</text>
+<text x="784.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Duke 2017</text>
+<text x="938.0" y="318.5" font-size="11" fill="#222" opacity="0.82">Mian 2019</text>
+<text x="707.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Mian 2022</text>
+<text x="806.0" y="558.1" font-size="11" fill="#222" opacity="0.82">Graham 2025</text>
+<text x="905.0" y="407.2" font-size="11" fill="#222" opacity="0.82">Otiangala 2020</text>
+<text x="784.0" y="371.7" font-size="11" fill="#222" opacity="0.82">Bradley 2016</text>
+<text x="861.0" y="389.5" font-size="11" fill="#222" opacity="0.82">Sutherland 2019</text>
+<text x="938.0" y="380.6" font-size="11" fill="#222" opacity="0.82">Graham 2022</text>
+<text x="784.0" y="575.9" font-size="11" fill="#222" opacity="0.82">Duke 2008</text>
+<text x="663.0" y="362.9" font-size="11" fill="#222" opacity="0.82">Duke 2017</text>
+<text x="531.0" y="797.8" font-size="11" fill="#222" opacity="0.82">Graham 2018</text>
+<text x="652.0" y="620.2" font-size="11" fill="#222" opacity="0.82">Howie 2009</text>
+<text x="762.0" y="602.5" font-size="11" fill="#222" opacity="0.82">Howie 2020</text>
+<text x="454.0" y="797.8" font-size="11" fill="#222" opacity="0.82">Subhi 2025</text>
+<text x="454.0" y="717.9" font-size="11" fill="#222" opacity="0.82">Mbeva 2022</text>
+<text x="806.0" y="549.2" font-size="11" fill="#222" opacity="0.82">Duke 2010</text>
+<text x="432.0" y="567.0" font-size="11" fill="#222" opacity="0.82">Otiangala 2021</text>
+<text x="685.0" y="398.4" font-size="11" fill="#222" opacity="0.82">Manhas 2024</text>
+<text x="531.0" y="797.8" font-size="11" fill="#222" opacity="0.82">McCollum 2023</text>
+<text x="1045" y="150" font-size="18" font-weight="700">Encoding</text>
+<circle cx="1053" cy="173" r="7" fill="#1f77b4"/>
+<text x="1073" y="178" font-size="14">Experimental / trial</text>
+<circle cx="1053" cy="201" r="7" fill="#2ca02c"/>
+<text x="1073" y="206" font-size="14">Quasi-experimental</text>
+<circle cx="1053" cy="229" r="7" fill="#ff7f0e"/>
+<text x="1073" y="234" font-size="14">Observational / implementation</text>
+<circle cx="1053" cy="257" r="7" fill="#9467bd"/>
+<text x="1073" y="262" font-size="14">Modeling / economic</text>
+<circle cx="1053" cy="285" r="7" fill="#7f7f7f"/>
+<text x="1073" y="290" font-size="14">Other / commentary</text>
+<text x="1045" y="336" font-size="18" font-weight="700">Quadrant counts</text>
+<text x="1045" y="366" font-size="14"><tspan font-weight="700">26</tspan>  Coupled technical evidence</text>
+<text x="1045" y="393" font-size="14"><tspan font-weight="700">28</tspan>  Oxygen-detailed / energy-thin</text>
+<text x="1045" y="420" font-size="14"><tspan font-weight="700">03</tspan>  Energy-detailed / oxygen-thin</text>
+<text x="1045" y="447" font-size="14"><tspan font-weight="700">37</tspan>  Thin in both</text>
+<text x="1045" y="492" font-size="18" font-weight="700">Source specificity</text>
+<text x="1045" y="522" font-size="12.5" fill="#333">25  Not specified</text>
+<text x="1045" y="541" font-size="12.5" fill="#333">22  Energy unspecified</text>
+<text x="1045" y="560" font-size="12.5" fill="#333">10  Solar PV + Battery</text>
+<text x="1045" y="579" font-size="12.5" fill="#333">08  Grid</text>
+<text x="1045" y="598" font-size="12.5" fill="#333">08  Solar PV</text>
+<text x="1045" y="617" font-size="12.5" fill="#333">06  Grid + Backup</text>
+<text x="1045" y="636" font-size="12.5" fill="#333">05  Grid + Generator/diesel</text>
+<text x="1045" y="655" font-size="12.5" fill="#333">05  Solar PV + Grid</text>
+<text x="1045" y="674" font-size="12.5" fill="#333">01  Battery</text>
+<text x="1045" y="711" font-size="18" font-weight="700">Manual review flags</text>
+<text x="1045" y="741" font-size="14"><tspan font-weight="700">39</tspan> rows need review because a modality, source, or endpoint is ambiguous.</text>
+<text x="115" y="988" font-size="13" fill="#555">Scores are weighted components, not citation quality: oxygen = modality 35% + oxygen endpoint 35% + system scale 15% + time 15%;</text>
+<text x="115" y="1006" font-size="13" fill="#555">energy = source 40% + energy endpoint 35% + system scale 10% + time 15%.</text>
+</svg>

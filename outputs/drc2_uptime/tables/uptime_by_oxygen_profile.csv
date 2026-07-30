@@ -1,0 +1,14 @@
+,uptime_v1_reconstructed,uptime_v1_reconstructed,uptime_v1_reconstructed,uptime_v3_three_day_recall,uptime_v3_three_day_recall,uptime_v3_three_day_recall,reliable_v1_917,reliable_v1_917,reliable_v1_917,reliable_v3_917,reliable_v3_917,reliable_v3_917
+,count,median,mean,count,median,mean,count,median,mean,count,median,mean
+oxygen_profile,,,,,,,,,,,,
+Concentrator,156,0.905,0.77,161,0.861,0.753,161,0.0,0.478,161,0.0,0.398
+Concentrator + Cylinders,91,0.949,0.828,94,0.903,0.778,94,1.0,0.553,94,0.0,0.468
+Concentrator + Cylinders + External PSA,2,0.982,0.982,2,0.972,0.972,2,1.0,1.0,2,1.0,1.0
+Concentrator + Cylinders + Internal PSA,3,0.94,0.933,3,0.653,0.745,3,1.0,0.667,3,0.0,0.333
+Concentrator + Cylinders + Other oxygen,1,0.988,0.988,1,0.993,0.993,1,1.0,1.0,1,1.0,1.0
+Concentrator + External PSA,8,0.92,0.815,9,0.889,0.785,9,0.0,0.444,9,0.0,0.444
+Concentrator + Internal PSA,6,0.994,0.945,6,0.972,0.965,6,1.0,0.833,6,1.0,1.0
+Concentrator + Other oxygen,36,0.884,0.785,37,0.896,0.789,37,0.0,0.432,37,0.0,0.459
+Cylinders,9,0.845,0.801,11,0.972,0.845,11,0.0,0.182,11,1.0,0.545
+No oxygen source,124,0.991,0.889,150,0.979,0.867,150,1.0,0.587,150,1.0,0.7
+Other oxygen,16,0.875,0.828,17,0.958,0.775,17,0.0,0.412,17,1.0,0.529

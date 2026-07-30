@@ -1,0 +1,61 @@
+facility_type,category,facilities,pct_all_facilities,pct_facilities_reporting_damage
+CH,Oxygen concentrator / oxygen device,28,15.6,29.8
+CH,Lighting / surgical theatre electrical devices,21,11.7,22.3
+CH,Ultrasound / echography,19,10.6,20.2
+CH,Electrical components / power system,18,10.0,19.1
+CH,Computer / printer / office electronics,15,8.3,16.0
+CH,Patient monitoring / bedside clinical devices,15,8.3,16.0
+CH,Refrigeration / cold chain / morgue,11,6.1,11.7
+CH,Sterilization equipment,10,5.6,10.6
+CH,Laboratory equipment,9,5.0,9.6
+CH,Laundry / water / utility equipment,6,3.3,6.4
+CH,Maternal / neonatal equipment,6,3.3,6.4
+CH,Radiography / X-ray,5,2.8,5.3
+CM,Sterilization equipment,9,9.1,27.3
+CM,Patient monitoring / bedside clinical devices,8,8.1,24.2
+CM,Computer / printer / office electronics,7,7.1,21.2
+CM,Oxygen concentrator / oxygen device,7,7.1,21.2
+CM,Refrigeration / cold chain / morgue,7,7.1,21.2
+CM,Laboratory equipment,5,5.1,15.2
+CM,Ultrasound / echography,4,4.0,12.1
+CM,Electrical components / power system,3,3.0,9.1
+CM,Laundry / water / utility equipment,3,3.0,9.1
+CM,Lighting / surgical theatre electrical devices,3,3.0,9.1
+CM,Maternal / neonatal equipment,3,3.0,9.1
+CM,Radiography / X-ray,1,1.0,3.0
+CSR,Computer / printer / office electronics,9,7.4,18.0
+CSR,Lighting / surgical theatre electrical devices,9,7.4,18.0
+CSR,Oxygen concentrator / oxygen device,9,7.4,18.0
+CSR,Sterilization equipment,9,7.4,18.0
+CSR,Ultrasound / echography,9,7.4,18.0
+CSR,Electrical components / power system,8,6.6,16.0
+CSR,Laboratory equipment,6,5.0,12.0
+CSR,Patient monitoring / bedside clinical devices,5,4.1,10.0
+CSR,Laundry / water / utility equipment,4,3.3,8.0
+CSR,Radiography / X-ray,3,2.5,6.0
+CSR,Refrigeration / cold chain / morgue,3,2.5,6.0
+CSR,Maternal / neonatal equipment,1,0.8,2.0
+HGR,Oxygen concentrator / oxygen device,25,28.4,43.9
+HGR,Electrical components / power system,14,15.9,24.6
+HGR,Lighting / surgical theatre electrical devices,12,13.6,21.1
+HGR,Maternal / neonatal equipment,11,12.5,19.3
+HGR,Patient monitoring / bedside clinical devices,11,12.5,19.3
+HGR,Laboratory equipment,8,9.1,14.0
+HGR,Radiography / X-ray,8,9.1,14.0
+HGR,Ultrasound / echography,8,9.1,14.0
+HGR,Sterilization equipment,7,8.0,12.3
+HGR,Laundry / water / utility equipment,6,6.8,10.5
+HGR,Computer / printer / office electronics,3,3.4,5.3
+HGR,Refrigeration / cold chain / morgue,1,1.1,1.8
+HP,Computer / printer / office electronics,1,33.3,100.0
+HP,Laboratory equipment,1,33.3,100.0
+HP,Laundry / water / utility equipment,1,33.3,100.0
+HP,Oxygen concentrator / oxygen device,1,33.3,100.0
+HP,Radiography / X-ray,1,33.3,100.0
+HP,Electrical components / power system,0,0.0,0.0
+HP,Lighting / surgical theatre electrical devices,0,0.0,0.0
+HP,Maternal / neonatal equipment,0,0.0,0.0
+HP,Patient monitoring / bedside clinical devices,0,0.0,0.0
+HP,Refrigeration / cold chain / morgue,0,0.0,0.0
+HP,Sterilization equipment,0,0.0,0.0
+HP,Ultrasound / echography,0,0.0,0.0

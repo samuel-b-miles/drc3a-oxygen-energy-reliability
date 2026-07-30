@@ -1,0 +1,457 @@
+group,level,facilities,damage_reporting_facilities,equipment_category,mentions,pct_all_facilities,pct_damage_reporting_facilities
+province,Haut Katanga,92,48,Oxygen concentrator / oxygen device,3,3.260869565217391,6.25
+province,Haut Katanga,92,48,Lighting / surgical theatre electrical devices,6,6.521739130434782,12.5
+province,Haut Katanga,92,48,Electrical components / power system,7,7.608695652173913,14.583333333333334
+province,Haut Katanga,92,48,Ultrasound / echography,6,6.521739130434782,12.5
+province,Haut Katanga,92,48,Patient monitoring / bedside clinical devices,8,8.695652173913043,16.666666666666668
+province,Haut Katanga,92,48,Computer / printer / office electronics,8,8.695652173913043,16.666666666666668
+province,Haut Katanga,92,48,Sterilization equipment,13,14.130434782608695,27.083333333333332
+province,Haut Katanga,92,48,Laboratory equipment,7,7.608695652173913,14.583333333333334
+province,Haut Katanga,92,48,Refrigeration / cold chain / morgue,6,6.521739130434782,12.5
+province,Haut Katanga,92,48,Maternal / neonatal equipment,6,6.521739130434782,12.5
+province,Haut Katanga,92,48,Laundry / water / utility equipment,9,9.782608695652174,18.75
+province,Haut Katanga,92,48,Radiography / X-ray,4,4.3478260869565215,8.333333333333334
+province,Nord-Kivu,214,103,Oxygen concentrator / oxygen device,33,15.42056074766355,32.03883495145631
+province,Nord-Kivu,214,103,Lighting / surgical theatre electrical devices,23,10.74766355140187,22.33009708737864
+province,Nord-Kivu,214,103,Electrical components / power system,23,10.74766355140187,22.33009708737864
+province,Nord-Kivu,214,103,Ultrasound / echography,14,6.542056074766355,13.592233009708737
+province,Nord-Kivu,214,103,Patient monitoring / bedside clinical devices,15,7.009345794392523,14.563106796116505
+province,Nord-Kivu,214,103,Computer / printer / office electronics,17,7.94392523364486,16.50485436893204
+province,Nord-Kivu,214,103,Sterilization equipment,10,4.672897196261682,9.70873786407767
+province,Nord-Kivu,214,103,Laboratory equipment,15,7.009345794392523,14.563106796116505
+province,Nord-Kivu,214,103,Refrigeration / cold chain / morgue,9,4.205607476635514,8.737864077669903
+province,Nord-Kivu,214,103,Maternal / neonatal equipment,10,4.672897196261682,9.70873786407767
+province,Nord-Kivu,214,103,Laundry / water / utility equipment,5,2.336448598130841,4.854368932038835
+province,Nord-Kivu,214,103,Radiography / X-ray,10,4.672897196261682,9.70873786407767
+province,Sud-Kivu,185,84,Oxygen concentrator / oxygen device,34,18.37837837837838,40.476190476190474
+province,Sud-Kivu,185,84,Lighting / surgical theatre electrical devices,16,8.64864864864865,19.047619047619047
+province,Sud-Kivu,185,84,Electrical components / power system,13,7.027027027027027,15.476190476190476
+province,Sud-Kivu,185,84,Ultrasound / echography,20,10.81081081081081,23.80952380952381
+province,Sud-Kivu,185,84,Patient monitoring / bedside clinical devices,16,8.64864864864865,19.047619047619047
+province,Sud-Kivu,185,84,Computer / printer / office electronics,10,5.405405405405405,11.904761904761905
+province,Sud-Kivu,185,84,Sterilization equipment,12,6.486486486486487,14.285714285714286
+province,Sud-Kivu,185,84,Laboratory equipment,7,3.7837837837837838,8.333333333333334
+province,Sud-Kivu,185,84,Refrigeration / cold chain / morgue,7,3.7837837837837838,8.333333333333334
+province,Sud-Kivu,185,84,Maternal / neonatal equipment,5,2.7027027027027026,5.9523809523809526
+province,Sud-Kivu,185,84,Laundry / water / utility equipment,6,3.2432432432432434,7.142857142857143
+province,Sud-Kivu,185,84,Radiography / X-ray,4,2.1621621621621623,4.761904761904762
+facility_type,CH,180,94,Oxygen concentrator / oxygen device,28,15.555555555555555,29.78723404255319
+facility_type,CH,180,94,Lighting / surgical theatre electrical devices,21,11.666666666666666,22.340425531914892
+facility_type,CH,180,94,Electrical components / power system,18,10.0,19.148936170212767
+facility_type,CH,180,94,Ultrasound / echography,19,10.555555555555555,20.21276595744681
+facility_type,CH,180,94,Patient monitoring / bedside clinical devices,15,8.333333333333334,15.957446808510639
+facility_type,CH,180,94,Computer / printer / office electronics,15,8.333333333333334,15.957446808510639
+facility_type,CH,180,94,Sterilization equipment,10,5.555555555555555,10.638297872340425
+facility_type,CH,180,94,Laboratory equipment,9,5.0,9.574468085106384
+facility_type,CH,180,94,Refrigeration / cold chain / morgue,11,6.111111111111111,11.702127659574469
+facility_type,CH,180,94,Maternal / neonatal equipment,6,3.3333333333333335,6.382978723404255
+facility_type,CH,180,94,Laundry / water / utility equipment,6,3.3333333333333335,6.382978723404255
+facility_type,CH,180,94,Radiography / X-ray,5,2.7777777777777777,5.319148936170213
+facility_type,CM,99,33,Oxygen concentrator / oxygen device,7,7.070707070707071,21.21212121212121
+facility_type,CM,99,33,Lighting / surgical theatre electrical devices,3,3.0303030303030303,9.090909090909092
+facility_type,CM,99,33,Electrical components / power system,3,3.0303030303030303,9.090909090909092
+facility_type,CM,99,33,Ultrasound / echography,4,4.040404040404041,12.121212121212121
+facility_type,CM,99,33,Patient monitoring / bedside clinical devices,8,8.080808080808081,24.242424242424242
+facility_type,CM,99,33,Computer / printer / office electronics,7,7.070707070707071,21.21212121212121
+facility_type,CM,99,33,Sterilization equipment,9,9.090909090909092,27.272727272727273
+facility_type,CM,99,33,Laboratory equipment,5,5.05050505050505,15.151515151515152
+facility_type,CM,99,33,Refrigeration / cold chain / morgue,7,7.070707070707071,21.21212121212121
+facility_type,CM,99,33,Maternal / neonatal equipment,3,3.0303030303030303,9.090909090909092
+facility_type,CM,99,33,Laundry / water / utility equipment,3,3.0303030303030303,9.090909090909092
+facility_type,CM,99,33,Radiography / X-ray,1,1.0101010101010102,3.0303030303030303
+facility_type,CSR,121,50,Oxygen concentrator / oxygen device,9,7.43801652892562,18.0
+facility_type,CSR,121,50,Lighting / surgical theatre electrical devices,9,7.43801652892562,18.0
+facility_type,CSR,121,50,Electrical components / power system,8,6.6115702479338845,16.0
+facility_type,CSR,121,50,Ultrasound / echography,9,7.43801652892562,18.0
+facility_type,CSR,121,50,Patient monitoring / bedside clinical devices,5,4.132231404958677,10.0
+facility_type,CSR,121,50,Computer / printer / office electronics,9,7.43801652892562,18.0
+facility_type,CSR,121,50,Sterilization equipment,9,7.43801652892562,18.0
+facility_type,CSR,121,50,Laboratory equipment,6,4.958677685950414,12.0
+facility_type,CSR,121,50,Refrigeration / cold chain / morgue,3,2.479338842975207,6.0
+facility_type,CSR,121,50,Maternal / neonatal equipment,1,0.8264462809917356,2.0
+facility_type,CSR,121,50,Laundry / water / utility equipment,4,3.3057851239669422,8.0
+facility_type,CSR,121,50,Radiography / X-ray,3,2.479338842975207,6.0
+facility_type,HGR,88,57,Oxygen concentrator / oxygen device,25,28.40909090909091,43.85964912280702
+facility_type,HGR,88,57,Lighting / surgical theatre electrical devices,12,13.636363636363637,21.05263157894737
+facility_type,HGR,88,57,Electrical components / power system,14,15.909090909090908,24.56140350877193
+facility_type,HGR,88,57,Ultrasound / echography,8,9.090909090909092,14.035087719298245
+facility_type,HGR,88,57,Patient monitoring / bedside clinical devices,11,12.5,19.29824561403509
+facility_type,HGR,88,57,Computer / printer / office electronics,3,3.409090909090909,5.2631578947368425
+facility_type,HGR,88,57,Sterilization equipment,7,7.954545454545454,12.280701754385966
+facility_type,HGR,88,57,Laboratory equipment,8,9.090909090909092,14.035087719298245
+facility_type,HGR,88,57,Refrigeration / cold chain / morgue,1,1.1363636363636365,1.7543859649122806
+facility_type,HGR,88,57,Maternal / neonatal equipment,11,12.5,19.29824561403509
+facility_type,HGR,88,57,Laundry / water / utility equipment,6,6.818181818181818,10.526315789473685
+facility_type,HGR,88,57,Radiography / X-ray,8,9.090909090909092,14.035087719298245
+facility_type,HP,3,1,Oxygen concentrator / oxygen device,1,33.333333333333336,100.0
+facility_type,HP,3,1,Lighting / surgical theatre electrical devices,0,0.0,0.0
+facility_type,HP,3,1,Electrical components / power system,0,0.0,0.0
+facility_type,HP,3,1,Ultrasound / echography,0,0.0,0.0
+facility_type,HP,3,1,Patient monitoring / bedside clinical devices,0,0.0,0.0
+facility_type,HP,3,1,Computer / printer / office electronics,1,33.333333333333336,100.0
+facility_type,HP,3,1,Sterilization equipment,0,0.0,0.0
+facility_type,HP,3,1,Laboratory equipment,1,33.333333333333336,100.0
+facility_type,HP,3,1,Refrigeration / cold chain / morgue,0,0.0,0.0
+facility_type,HP,3,1,Maternal / neonatal equipment,0,0.0,0.0
+facility_type,HP,3,1,Laundry / water / utility equipment,1,33.333333333333336,100.0
+facility_type,HP,3,1,Radiography / X-ray,1,33.333333333333336,100.0
+grid_architecture,Central Grid,132,79,Oxygen concentrator / oxygen device,18,13.636363636363637,22.78481012658228
+grid_architecture,Central Grid,132,79,Lighting / surgical theatre electrical devices,10,7.575757575757576,12.658227848101266
+grid_architecture,Central Grid,132,79,Electrical components / power system,10,7.575757575757576,12.658227848101266
+grid_architecture,Central Grid,132,79,Ultrasound / echography,14,10.606060606060606,17.72151898734177
+grid_architecture,Central Grid,132,79,Patient monitoring / bedside clinical devices,17,12.878787878787879,21.518987341772153
+grid_architecture,Central Grid,132,79,Computer / printer / office electronics,13,9.848484848484848,16.455696202531644
+grid_architecture,Central Grid,132,79,Sterilization equipment,18,13.636363636363637,22.78481012658228
+grid_architecture,Central Grid,132,79,Laboratory equipment,9,6.818181818181818,11.39240506329114
+grid_architecture,Central Grid,132,79,Refrigeration / cold chain / morgue,5,3.787878787878788,6.329113924050633
+grid_architecture,Central Grid,132,79,Maternal / neonatal equipment,7,5.303030303030303,8.860759493670885
+grid_architecture,Central Grid,132,79,Laundry / water / utility equipment,10,7.575757575757576,12.658227848101266
+grid_architecture,Central Grid,132,79,Radiography / X-ray,8,6.0606060606060606,10.126582278481013
+grid_architecture,Community Mini-grid,96,34,Oxygen concentrator / oxygen device,6,6.25,17.647058823529413
+grid_architecture,Community Mini-grid,96,34,Lighting / surgical theatre electrical devices,6,6.25,17.647058823529413
+grid_architecture,Community Mini-grid,96,34,Electrical components / power system,8,8.333333333333334,23.529411764705884
+grid_architecture,Community Mini-grid,96,34,Ultrasound / echography,6,6.25,17.647058823529413
+grid_architecture,Community Mini-grid,96,34,Patient monitoring / bedside clinical devices,7,7.291666666666667,20.58823529411765
+grid_architecture,Community Mini-grid,96,34,Computer / printer / office electronics,5,5.208333333333333,14.705882352941176
+grid_architecture,Community Mini-grid,96,34,Sterilization equipment,3,3.125,8.823529411764707
+grid_architecture,Community Mini-grid,96,34,Laboratory equipment,6,6.25,17.647058823529413
+grid_architecture,Community Mini-grid,96,34,Refrigeration / cold chain / morgue,4,4.166666666666667,11.764705882352942
+grid_architecture,Community Mini-grid,96,34,Maternal / neonatal equipment,2,2.0833333333333335,5.882352941176471
+grid_architecture,Community Mini-grid,96,34,Laundry / water / utility equipment,2,2.0833333333333335,5.882352941176471
+grid_architecture,Community Mini-grid,96,34,Radiography / X-ray,1,1.0416666666666667,2.9411764705882355
+grid_architecture,No Grid,138,56,Oxygen concentrator / oxygen device,22,15.942028985507246,39.285714285714285
+grid_architecture,No Grid,138,56,Lighting / surgical theatre electrical devices,12,8.695652173913043,21.428571428571427
+grid_architecture,No Grid,138,56,Electrical components / power system,14,10.144927536231885,25.0
+grid_architecture,No Grid,138,56,Ultrasound / echography,9,6.521739130434782,16.071428571428573
+grid_architecture,No Grid,138,56,Patient monitoring / bedside clinical devices,5,3.6231884057971016,8.928571428571429
+grid_architecture,No Grid,138,56,Computer / printer / office electronics,6,4.3478260869565215,10.714285714285714
+grid_architecture,No Grid,138,56,Sterilization equipment,9,6.521739130434782,16.071428571428573
+grid_architecture,No Grid,138,56,Laboratory equipment,4,2.898550724637681,7.142857142857143
+grid_architecture,No Grid,138,56,Refrigeration / cold chain / morgue,5,3.6231884057971016,8.928571428571429
+grid_architecture,No Grid,138,56,Maternal / neonatal equipment,5,3.6231884057971016,8.928571428571429
+grid_architecture,No Grid,138,56,Laundry / water / utility equipment,5,3.6231884057971016,8.928571428571429
+grid_architecture,No Grid,138,56,Radiography / X-ray,4,2.898550724637681,7.142857142857143
+grid_architecture,Other,58,32,Oxygen concentrator / oxygen device,13,22.413793103448278,40.625
+grid_architecture,Other,58,32,Lighting / surgical theatre electrical devices,7,12.068965517241379,21.875
+grid_architecture,Other,58,32,Electrical components / power system,4,6.896551724137931,12.5
+grid_architecture,Other,58,32,Ultrasound / echography,8,13.793103448275861,25.0
+grid_architecture,Other,58,32,Patient monitoring / bedside clinical devices,3,5.172413793103448,9.375
+grid_architecture,Other,58,32,Computer / printer / office electronics,4,6.896551724137931,12.5
+grid_architecture,Other,58,32,Sterilization equipment,5,8.620689655172415,15.625
+grid_architecture,Other,58,32,Laboratory equipment,0,0.0,0.0
+grid_architecture,Other,58,32,Refrigeration / cold chain / morgue,5,8.620689655172415,15.625
+grid_architecture,Other,58,32,Maternal / neonatal equipment,1,1.7241379310344827,3.125
+grid_architecture,Other,58,32,Laundry / water / utility equipment,2,3.4482758620689653,6.25
+grid_architecture,Other,58,32,Radiography / X-ray,2,3.4482758620689653,6.25
+grid_architecture,Private / Concession Grid,67,34,Oxygen concentrator / oxygen device,11,16.417910447761194,32.35294117647059
+grid_architecture,Private / Concession Grid,67,34,Lighting / surgical theatre electrical devices,10,14.925373134328359,29.41176470588235
+grid_architecture,Private / Concession Grid,67,34,Electrical components / power system,7,10.447761194029852,20.58823529411765
+grid_architecture,Private / Concession Grid,67,34,Ultrasound / echography,3,4.477611940298507,8.823529411764707
+grid_architecture,Private / Concession Grid,67,34,Patient monitoring / bedside clinical devices,7,10.447761194029852,20.58823529411765
+grid_architecture,Private / Concession Grid,67,34,Computer / printer / office electronics,7,10.447761194029852,20.58823529411765
+grid_architecture,Private / Concession Grid,67,34,Sterilization equipment,0,0.0,0.0
+grid_architecture,Private / Concession Grid,67,34,Laboratory equipment,10,14.925373134328359,29.41176470588235
+grid_architecture,Private / Concession Grid,67,34,Refrigeration / cold chain / morgue,3,4.477611940298507,8.823529411764707
+grid_architecture,Private / Concession Grid,67,34,Maternal / neonatal equipment,6,8.955223880597014,17.647058823529413
+grid_architecture,Private / Concession Grid,67,34,Laundry / water / utility equipment,1,1.492537313432836,2.9411764705882355
+grid_architecture,Private / Concession Grid,67,34,Radiography / X-ray,3,4.477611940298507,8.823529411764707
+energy_profile,Generator,8,8,Oxygen concentrator / oxygen device,4,50.0,50.0
+energy_profile,Generator,8,8,Lighting / surgical theatre electrical devices,0,0.0,0.0
+energy_profile,Generator,8,8,Electrical components / power system,3,37.5,37.5
+energy_profile,Generator,8,8,Ultrasound / echography,2,25.0,25.0
+energy_profile,Generator,8,8,Patient monitoring / bedside clinical devices,1,12.5,12.5
+energy_profile,Generator,8,8,Computer / printer / office electronics,0,0.0,0.0
+energy_profile,Generator,8,8,Sterilization equipment,2,25.0,25.0
+energy_profile,Generator,8,8,Laboratory equipment,1,12.5,12.5
+energy_profile,Generator,8,8,Refrigeration / cold chain / morgue,1,12.5,12.5
+energy_profile,Generator,8,8,Maternal / neonatal equipment,1,12.5,12.5
+energy_profile,Generator,8,8,Laundry / water / utility equipment,1,12.5,12.5
+energy_profile,Generator,8,8,Radiography / X-ray,1,12.5,12.5
+energy_profile,Generator + Solar,46,33,Oxygen concentrator / oxygen device,12,26.08695652173913,36.36363636363637
+energy_profile,Generator + Solar,46,33,Lighting / surgical theatre electrical devices,8,17.391304347826086,24.242424242424242
+energy_profile,Generator + Solar,46,33,Electrical components / power system,8,17.391304347826086,24.242424242424242
+energy_profile,Generator + Solar,46,33,Ultrasound / echography,4,8.695652173913043,12.121212121212121
+energy_profile,Generator + Solar,46,33,Patient monitoring / bedside clinical devices,2,4.3478260869565215,6.0606060606060606
+energy_profile,Generator + Solar,46,33,Computer / printer / office electronics,5,10.869565217391305,15.151515151515152
+energy_profile,Generator + Solar,46,33,Sterilization equipment,6,13.043478260869565,18.181818181818183
+energy_profile,Generator + Solar,46,33,Laboratory equipment,3,6.521739130434782,9.090909090909092
+energy_profile,Generator + Solar,46,33,Refrigeration / cold chain / morgue,4,8.695652173913043,12.121212121212121
+energy_profile,Generator + Solar,46,33,Maternal / neonatal equipment,3,6.521739130434782,9.090909090909092
+energy_profile,Generator + Solar,46,33,Laundry / water / utility equipment,4,8.695652173913043,12.121212121212121
+energy_profile,Generator + Solar,46,33,Radiography / X-ray,3,6.521739130434782,9.090909090909092
+energy_profile,Grid,79,37,Oxygen concentrator / oxygen device,5,6.329113924050633,13.513513513513514
+energy_profile,Grid,79,37,Lighting / surgical theatre electrical devices,6,7.594936708860759,16.216216216216218
+energy_profile,Grid,79,37,Electrical components / power system,4,5.063291139240507,10.81081081081081
+energy_profile,Grid,79,37,Ultrasound / echography,6,7.594936708860759,16.216216216216218
+energy_profile,Grid,79,37,Patient monitoring / bedside clinical devices,6,7.594936708860759,16.216216216216218
+energy_profile,Grid,79,37,Computer / printer / office electronics,10,12.658227848101266,27.027027027027028
+energy_profile,Grid,79,37,Sterilization equipment,8,10.126582278481013,21.62162162162162
+energy_profile,Grid,79,37,Laboratory equipment,4,5.063291139240507,10.81081081081081
+energy_profile,Grid,79,37,Refrigeration / cold chain / morgue,5,6.329113924050633,13.513513513513514
+energy_profile,Grid,79,37,Maternal / neonatal equipment,5,6.329113924050633,13.513513513513514
+energy_profile,Grid,79,37,Laundry / water / utility equipment,4,5.063291139240507,10.81081081081081
+energy_profile,Grid,79,37,Radiography / X-ray,2,2.5316455696202533,5.405405405405405
+energy_profile,Grid + Generator,50,33,Oxygen concentrator / oxygen device,10,20.0,30.303030303030305
+energy_profile,Grid + Generator,50,33,Lighting / surgical theatre electrical devices,8,16.0,24.242424242424242
+energy_profile,Grid + Generator,50,33,Electrical components / power system,4,8.0,12.121212121212121
+energy_profile,Grid + Generator,50,33,Ultrasound / echography,5,10.0,15.151515151515152
+energy_profile,Grid + Generator,50,33,Patient monitoring / bedside clinical devices,7,14.0,21.21212121212121
+energy_profile,Grid + Generator,50,33,Computer / printer / office electronics,4,8.0,12.121212121212121
+energy_profile,Grid + Generator,50,33,Sterilization equipment,3,6.0,9.090909090909092
+energy_profile,Grid + Generator,50,33,Laboratory equipment,4,8.0,12.121212121212121
+energy_profile,Grid + Generator,50,33,Refrigeration / cold chain / morgue,3,6.0,9.090909090909092
+energy_profile,Grid + Generator,50,33,Maternal / neonatal equipment,2,4.0,6.0606060606060606
+energy_profile,Grid + Generator,50,33,Laundry / water / utility equipment,5,10.0,15.151515151515152
+energy_profile,Grid + Generator,50,33,Radiography / X-ray,5,10.0,15.151515151515152
+energy_profile,Grid + Generator + Solar,127,77,Oxygen concentrator / oxygen device,23,18.11023622047244,29.87012987012987
+energy_profile,Grid + Generator + Solar,127,77,Lighting / surgical theatre electrical devices,14,11.023622047244094,18.181818181818183
+energy_profile,Grid + Generator + Solar,127,77,Electrical components / power system,13,10.236220472440944,16.883116883116884
+energy_profile,Grid + Generator + Solar,127,77,Ultrasound / echography,14,11.023622047244094,18.181818181818183
+energy_profile,Grid + Generator + Solar,127,77,Patient monitoring / bedside clinical devices,17,13.385826771653543,22.07792207792208
+energy_profile,Grid + Generator + Solar,127,77,Computer / printer / office electronics,7,5.511811023622047,9.090909090909092
+energy_profile,Grid + Generator + Solar,127,77,Sterilization equipment,14,11.023622047244094,18.181818181818183
+energy_profile,Grid + Generator + Solar,127,77,Laboratory equipment,10,7.874015748031496,12.987012987012987
+energy_profile,Grid + Generator + Solar,127,77,Refrigeration / cold chain / morgue,5,3.937007874015748,6.4935064935064934
+energy_profile,Grid + Generator + Solar,127,77,Maternal / neonatal equipment,8,6.299212598425197,10.38961038961039
+energy_profile,Grid + Generator + Solar,127,77,Laundry / water / utility equipment,6,4.724409448818897,7.792207792207792
+energy_profile,Grid + Generator + Solar,127,77,Radiography / X-ray,7,5.511811023622047,9.090909090909092
+energy_profile,Grid + Solar,101,35,Oxygen concentrator / oxygen device,10,9.900990099009901,28.571428571428573
+energy_profile,Grid + Solar,101,35,Lighting / surgical theatre electrical devices,5,4.9504950495049505,14.285714285714286
+energy_profile,Grid + Solar,101,35,Electrical components / power system,9,8.910891089108912,25.714285714285715
+energy_profile,Grid + Solar,101,35,Ultrasound / echography,7,6.930693069306931,20.0
+energy_profile,Grid + Solar,101,35,Patient monitoring / bedside clinical devices,5,4.9504950495049505,14.285714285714286
+energy_profile,Grid + Solar,101,35,Computer / printer / office electronics,8,7.920792079207921,22.857142857142858
+energy_profile,Grid + Solar,101,35,Sterilization equipment,1,0.9900990099009901,2.857142857142857
+energy_profile,Grid + Solar,101,35,Laboratory equipment,7,6.930693069306931,20.0
+energy_profile,Grid + Solar,101,35,Refrigeration / cold chain / morgue,4,3.9603960396039604,11.428571428571429
+energy_profile,Grid + Solar,101,35,Maternal / neonatal equipment,1,0.9900990099009901,2.857142857142857
+energy_profile,Grid + Solar,101,35,Laundry / water / utility equipment,0,0.0,0.0
+energy_profile,Grid + Solar,101,35,Radiography / X-ray,0,0.0,0.0
+energy_profile,No energy source,39,0,Oxygen concentrator / oxygen device,0,0.0,0.0
+energy_profile,No energy source,39,0,Lighting / surgical theatre electrical devices,0,0.0,0.0
+energy_profile,No energy source,39,0,Electrical components / power system,0,0.0,0.0
+energy_profile,No energy source,39,0,Ultrasound / echography,0,0.0,0.0
+energy_profile,No energy source,39,0,Patient monitoring / bedside clinical devices,0,0.0,0.0
+energy_profile,No energy source,39,0,Computer / printer / office electronics,0,0.0,0.0
+energy_profile,No energy source,39,0,Sterilization equipment,0,0.0,0.0
+energy_profile,No energy source,39,0,Laboratory equipment,0,0.0,0.0
+energy_profile,No energy source,39,0,Refrigeration / cold chain / morgue,0,0.0,0.0
+energy_profile,No energy source,39,0,Maternal / neonatal equipment,0,0.0,0.0
+energy_profile,No energy source,39,0,Laundry / water / utility equipment,0,0.0,0.0
+energy_profile,No energy source,39,0,Radiography / X-ray,0,0.0,0.0
+energy_profile,Solar,41,12,Oxygen concentrator / oxygen device,6,14.634146341463415,50.0
+energy_profile,Solar,41,12,Lighting / surgical theatre electrical devices,4,9.75609756097561,33.333333333333336
+energy_profile,Solar,41,12,Electrical components / power system,2,4.878048780487805,16.666666666666668
+energy_profile,Solar,41,12,Ultrasound / echography,2,4.878048780487805,16.666666666666668
+energy_profile,Solar,41,12,Patient monitoring / bedside clinical devices,1,2.4390243902439024,8.333333333333334
+energy_profile,Solar,41,12,Computer / printer / office electronics,1,2.4390243902439024,8.333333333333334
+energy_profile,Solar,41,12,Sterilization equipment,1,2.4390243902439024,8.333333333333334
+energy_profile,Solar,41,12,Laboratory equipment,0,0.0,0.0
+energy_profile,Solar,41,12,Refrigeration / cold chain / morgue,0,0.0,0.0
+energy_profile,Solar,41,12,Maternal / neonatal equipment,1,2.4390243902439024,8.333333333333334
+energy_profile,Solar,41,12,Laundry / water / utility equipment,0,0.0,0.0
+energy_profile,Solar,41,12,Radiography / X-ray,0,0.0,0.0
+oxygen_profile,Concentrator,161,96,Oxygen concentrator / oxygen device,43,26.70807453416149,44.791666666666664
+oxygen_profile,Concentrator,161,96,Lighting / surgical theatre electrical devices,16,9.937888198757763,16.666666666666668
+oxygen_profile,Concentrator,161,96,Electrical components / power system,15,9.316770186335404,15.625
+oxygen_profile,Concentrator,161,96,Ultrasound / echography,16,9.937888198757763,16.666666666666668
+oxygen_profile,Concentrator,161,96,Patient monitoring / bedside clinical devices,19,11.801242236024844,19.791666666666668
+oxygen_profile,Concentrator,161,96,Computer / printer / office electronics,14,8.695652173913043,14.583333333333334
+oxygen_profile,Concentrator,161,96,Sterilization equipment,16,9.937888198757763,16.666666666666668
+oxygen_profile,Concentrator,161,96,Laboratory equipment,12,7.453416149068323,12.5
+oxygen_profile,Concentrator,161,96,Refrigeration / cold chain / morgue,11,6.832298136645963,11.458333333333334
+oxygen_profile,Concentrator,161,96,Maternal / neonatal equipment,7,4.3478260869565215,7.291666666666667
+oxygen_profile,Concentrator,161,96,Laundry / water / utility equipment,10,6.211180124223603,10.416666666666666
+oxygen_profile,Concentrator,161,96,Radiography / X-ray,6,3.7267080745341614,6.25
+oxygen_profile,Concentrator + Cylinders,94,57,Oxygen concentrator / oxygen device,16,17.02127659574468,28.07017543859649
+oxygen_profile,Concentrator + Cylinders,94,57,Lighting / surgical theatre electrical devices,11,11.702127659574469,19.29824561403509
+oxygen_profile,Concentrator + Cylinders,94,57,Electrical components / power system,10,10.638297872340425,17.54385964912281
+oxygen_profile,Concentrator + Cylinders,94,57,Ultrasound / echography,5,5.319148936170213,8.771929824561404
+oxygen_profile,Concentrator + Cylinders,94,57,Patient monitoring / bedside clinical devices,11,11.702127659574469,19.29824561403509
+oxygen_profile,Concentrator + Cylinders,94,57,Computer / printer / office electronics,9,9.574468085106384,15.789473684210526
+oxygen_profile,Concentrator + Cylinders,94,57,Sterilization equipment,6,6.382978723404255,10.526315789473685
+oxygen_profile,Concentrator + Cylinders,94,57,Laboratory equipment,8,8.51063829787234,14.035087719298245
+oxygen_profile,Concentrator + Cylinders,94,57,Refrigeration / cold chain / morgue,5,5.319148936170213,8.771929824561404
+oxygen_profile,Concentrator + Cylinders,94,57,Maternal / neonatal equipment,8,8.51063829787234,14.035087719298245
+oxygen_profile,Concentrator + Cylinders,94,57,Laundry / water / utility equipment,3,3.1914893617021276,5.2631578947368425
+oxygen_profile,Concentrator + Cylinders,94,57,Radiography / X-ray,6,6.382978723404255,10.526315789473685
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Oxygen concentrator / oxygen device,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Lighting / surgical theatre electrical devices,1,50.0,100.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Electrical components / power system,1,50.0,100.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Ultrasound / echography,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Patient monitoring / bedside clinical devices,1,50.0,100.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Computer / printer / office electronics,1,50.0,100.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Sterilization equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Laboratory equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Refrigeration / cold chain / morgue,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Maternal / neonatal equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Laundry / water / utility equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + External PSA,2,1,Radiography / X-ray,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Oxygen concentrator / oxygen device,1,33.333333333333336,50.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Lighting / surgical theatre electrical devices,1,33.333333333333336,50.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Electrical components / power system,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Ultrasound / echography,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Patient monitoring / bedside clinical devices,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Computer / printer / office electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Sterilization equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Laboratory equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Refrigeration / cold chain / morgue,1,33.333333333333336,50.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Maternal / neonatal equipment,1,33.333333333333336,50.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Laundry / water / utility equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Internal PSA,3,2,Radiography / X-ray,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Oxygen concentrator / oxygen device,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Lighting / surgical theatre electrical devices,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Electrical components / power system,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Ultrasound / echography,1,100.0,100.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Patient monitoring / bedside clinical devices,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Computer / printer / office electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Sterilization equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Laboratory equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Refrigeration / cold chain / morgue,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Maternal / neonatal equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Laundry / water / utility equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Cylinders + Other oxygen,1,1,Radiography / X-ray,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Oxygen concentrator / oxygen device,2,22.22222222222222,40.0
+oxygen_profile,Concentrator + External PSA,9,5,Lighting / surgical theatre electrical devices,1,11.11111111111111,20.0
+oxygen_profile,Concentrator + External PSA,9,5,Electrical components / power system,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Ultrasound / echography,1,11.11111111111111,20.0
+oxygen_profile,Concentrator + External PSA,9,5,Patient monitoring / bedside clinical devices,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Computer / printer / office electronics,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Sterilization equipment,1,11.11111111111111,20.0
+oxygen_profile,Concentrator + External PSA,9,5,Laboratory equipment,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Refrigeration / cold chain / morgue,0,0.0,0.0
+oxygen_profile,Concentrator + External PSA,9,5,Maternal / neonatal equipment,1,11.11111111111111,20.0
+oxygen_profile,Concentrator + External PSA,9,5,Laundry / water / utility equipment,1,11.11111111111111,20.0
+oxygen_profile,Concentrator + External PSA,9,5,Radiography / X-ray,2,22.22222222222222,40.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Oxygen concentrator / oxygen device,2,33.333333333333336,66.66666666666667
+oxygen_profile,Concentrator + Internal PSA,6,3,Lighting / surgical theatre electrical devices,1,16.666666666666668,33.333333333333336
+oxygen_profile,Concentrator + Internal PSA,6,3,Electrical components / power system,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Ultrasound / echography,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Patient monitoring / bedside clinical devices,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Computer / printer / office electronics,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Sterilization equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Laboratory equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Refrigeration / cold chain / morgue,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Maternal / neonatal equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Laundry / water / utility equipment,0,0.0,0.0
+oxygen_profile,Concentrator + Internal PSA,6,3,Radiography / X-ray,0,0.0,0.0
+oxygen_profile,Concentrator + Other oxygen,37,23,Oxygen concentrator / oxygen device,6,16.216216216216218,26.08695652173913
+oxygen_profile,Concentrator + Other oxygen,37,23,Lighting / surgical theatre electrical devices,8,21.62162162162162,34.78260869565217
+oxygen_profile,Concentrator + Other oxygen,37,23,Electrical components / power system,4,10.81081081081081,17.391304347826086
+oxygen_profile,Concentrator + Other oxygen,37,23,Ultrasound / echography,3,8.108108108108109,13.043478260869565
+oxygen_profile,Concentrator + Other oxygen,37,23,Patient monitoring / bedside clinical devices,4,10.81081081081081,17.391304347826086
+oxygen_profile,Concentrator + Other oxygen,37,23,Computer / printer / office electronics,2,5.405405405405405,8.695652173913043
+oxygen_profile,Concentrator + Other oxygen,37,23,Sterilization equipment,5,13.513513513513514,21.73913043478261
+oxygen_profile,Concentrator + Other oxygen,37,23,Laboratory equipment,2,5.405405405405405,8.695652173913043
+oxygen_profile,Concentrator + Other oxygen,37,23,Refrigeration / cold chain / morgue,1,2.7027027027027026,4.3478260869565215
+oxygen_profile,Concentrator + Other oxygen,37,23,Maternal / neonatal equipment,3,8.108108108108109,13.043478260869565
+oxygen_profile,Concentrator + Other oxygen,37,23,Laundry / water / utility equipment,3,8.108108108108109,13.043478260869565
+oxygen_profile,Concentrator + Other oxygen,37,23,Radiography / X-ray,1,2.7027027027027026,4.3478260869565215
+oxygen_profile,Cylinders,11,4,Oxygen concentrator / oxygen device,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Lighting / surgical theatre electrical devices,1,9.090909090909092,25.0
+oxygen_profile,Cylinders,11,4,Electrical components / power system,1,9.090909090909092,25.0
+oxygen_profile,Cylinders,11,4,Ultrasound / echography,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Patient monitoring / bedside clinical devices,2,18.181818181818183,50.0
+oxygen_profile,Cylinders,11,4,Computer / printer / office electronics,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Sterilization equipment,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Laboratory equipment,1,9.090909090909092,25.0
+oxygen_profile,Cylinders,11,4,Refrigeration / cold chain / morgue,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Maternal / neonatal equipment,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Laundry / water / utility equipment,0,0.0,0.0
+oxygen_profile,Cylinders,11,4,Radiography / X-ray,1,9.090909090909092,25.0
+oxygen_profile,No oxygen source,150,35,Oxygen concentrator / oxygen device,0,0.0,0.0
+oxygen_profile,No oxygen source,150,35,Lighting / surgical theatre electrical devices,4,2.6666666666666665,11.428571428571429
+oxygen_profile,No oxygen source,150,35,Electrical components / power system,8,5.333333333333333,22.857142857142858
+oxygen_profile,No oxygen source,150,35,Ultrasound / echography,9,6.0,25.714285714285715
+oxygen_profile,No oxygen source,150,35,Patient monitoring / bedside clinical devices,2,1.3333333333333333,5.714285714285714
+oxygen_profile,No oxygen source,150,35,Computer / printer / office electronics,8,5.333333333333333,22.857142857142858
+oxygen_profile,No oxygen source,150,35,Sterilization equipment,7,4.666666666666667,20.0
+oxygen_profile,No oxygen source,150,35,Laboratory equipment,3,2.0,8.571428571428571
+oxygen_profile,No oxygen source,150,35,Refrigeration / cold chain / morgue,4,2.6666666666666665,11.428571428571429
+oxygen_profile,No oxygen source,150,35,Maternal / neonatal equipment,1,0.6666666666666666,2.857142857142857
+oxygen_profile,No oxygen source,150,35,Laundry / water / utility equipment,3,2.0,8.571428571428571
+oxygen_profile,No oxygen source,150,35,Radiography / X-ray,2,1.3333333333333333,5.714285714285714
+oxygen_profile,Other oxygen,17,8,Oxygen concentrator / oxygen device,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Lighting / surgical theatre electrical devices,1,5.882352941176471,12.5
+oxygen_profile,Other oxygen,17,8,Electrical components / power system,4,23.529411764705884,50.0
+oxygen_profile,Other oxygen,17,8,Ultrasound / echography,5,29.41176470588235,62.5
+oxygen_profile,Other oxygen,17,8,Patient monitoring / bedside clinical devices,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Computer / printer / office electronics,1,5.882352941176471,12.5
+oxygen_profile,Other oxygen,17,8,Sterilization equipment,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Laboratory equipment,3,17.647058823529413,37.5
+oxygen_profile,Other oxygen,17,8,Refrigeration / cold chain / morgue,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Maternal / neonatal equipment,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Laundry / water / utility equipment,0,0.0,0.0
+oxygen_profile,Other oxygen,17,8,Radiography / X-ray,0,0.0,0.0
+reliability_class,Not reliable v1,235,132,Oxygen concentrator / oxygen device,38,16.170212765957448,28.78787878787879
+reliability_class,Not reliable v1,235,132,Lighting / surgical theatre electrical devices,19,8.085106382978724,14.393939393939394
+reliability_class,Not reliable v1,235,132,Electrical components / power system,28,11.914893617021276,21.21212121212121
+reliability_class,Not reliable v1,235,132,Ultrasound / echography,26,11.063829787234043,19.696969696969695
+reliability_class,Not reliable v1,235,132,Patient monitoring / bedside clinical devices,23,9.787234042553191,17.424242424242426
+reliability_class,Not reliable v1,235,132,Computer / printer / office electronics,23,9.787234042553191,17.424242424242426
+reliability_class,Not reliable v1,235,132,Sterilization equipment,20,8.51063829787234,15.151515151515152
+reliability_class,Not reliable v1,235,132,Laboratory equipment,17,7.23404255319149,12.878787878787879
+reliability_class,Not reliable v1,235,132,Refrigeration / cold chain / morgue,13,5.531914893617022,9.848484848484848
+reliability_class,Not reliable v1,235,132,Maternal / neonatal equipment,13,5.531914893617022,9.848484848484848
+reliability_class,Not reliable v1,235,132,Laundry / water / utility equipment,13,5.531914893617022,9.848484848484848
+reliability_class,Not reliable v1,235,132,Radiography / X-ray,11,4.680851063829787,8.333333333333334
+reliability_class,Reliable v1,256,103,Oxygen concentrator / oxygen device,32,12.5,31.067961165048544
+reliability_class,Reliable v1,256,103,Lighting / surgical theatre electrical devices,26,10.15625,25.24271844660194
+reliability_class,Reliable v1,256,103,Electrical components / power system,15,5.859375,14.563106796116505
+reliability_class,Reliable v1,256,103,Ultrasound / echography,14,5.46875,13.592233009708737
+reliability_class,Reliable v1,256,103,Patient monitoring / bedside clinical devices,16,6.25,15.533980582524272
+reliability_class,Reliable v1,256,103,Computer / printer / office electronics,12,4.6875,11.650485436893204
+reliability_class,Reliable v1,256,103,Sterilization equipment,15,5.859375,14.563106796116505
+reliability_class,Reliable v1,256,103,Laboratory equipment,12,4.6875,11.650485436893204
+reliability_class,Reliable v1,256,103,Refrigeration / cold chain / morgue,9,3.515625,8.737864077669903
+reliability_class,Reliable v1,256,103,Maternal / neonatal equipment,8,3.125,7.766990291262136
+reliability_class,Reliable v1,256,103,Laundry / water / utility equipment,7,2.734375,6.796116504854369
+reliability_class,Reliable v1,256,103,Radiography / X-ray,7,2.734375,6.796116504854369
+concentrator_stock,0,178,47,Oxygen concentrator / oxygen device,0,0.0,0.0
+concentrator_stock,0,178,47,Lighting / surgical theatre electrical devices,6,3.3707865168539324,12.76595744680851
+concentrator_stock,0,178,47,Electrical components / power system,13,7.303370786516854,27.659574468085108
+concentrator_stock,0,178,47,Ultrasound / echography,14,7.865168539325842,29.78723404255319
+concentrator_stock,0,178,47,Patient monitoring / bedside clinical devices,4,2.247191011235955,8.51063829787234
+concentrator_stock,0,178,47,Computer / printer / office electronics,9,5.056179775280899,19.148936170212767
+concentrator_stock,0,178,47,Sterilization equipment,7,3.932584269662921,14.893617021276595
+concentrator_stock,0,178,47,Laboratory equipment,7,3.932584269662921,14.893617021276595
+concentrator_stock,0,178,47,Refrigeration / cold chain / morgue,4,2.247191011235955,8.51063829787234
+concentrator_stock,0,178,47,Maternal / neonatal equipment,1,0.5617977528089888,2.127659574468085
+concentrator_stock,0,178,47,Laundry / water / utility equipment,3,1.6853932584269662,6.382978723404255
+concentrator_stock,0,178,47,Radiography / X-ray,3,1.6853932584269662,6.382978723404255
+concentrator_stock,1,102,54,Oxygen concentrator / oxygen device,20,19.607843137254903,37.03703703703704
+concentrator_stock,1,102,54,Lighting / surgical theatre electrical devices,14,13.72549019607843,25.925925925925927
+concentrator_stock,1,102,54,Electrical components / power system,6,5.882352941176471,11.11111111111111
+concentrator_stock,1,102,54,Ultrasound / echography,13,12.745098039215685,24.074074074074073
+concentrator_stock,1,102,54,Patient monitoring / bedside clinical devices,10,9.803921568627452,18.51851851851852
+concentrator_stock,1,102,54,Computer / printer / office electronics,10,9.803921568627452,18.51851851851852
+concentrator_stock,1,102,54,Sterilization equipment,10,9.803921568627452,18.51851851851852
+concentrator_stock,1,102,54,Laboratory equipment,8,7.8431372549019605,14.814814814814815
+concentrator_stock,1,102,54,Refrigeration / cold chain / morgue,6,5.882352941176471,11.11111111111111
+concentrator_stock,1,102,54,Maternal / neonatal equipment,4,3.9215686274509802,7.407407407407407
+concentrator_stock,1,102,54,Laundry / water / utility equipment,5,4.901960784313726,9.25925925925926
+concentrator_stock,1,102,54,Radiography / X-ray,0,0.0,0.0
+concentrator_stock,2-3,114,69,Oxygen concentrator / oxygen device,16,14.035087719298245,23.18840579710145
+concentrator_stock,2-3,114,69,Lighting / surgical theatre electrical devices,13,11.403508771929825,18.840579710144926
+concentrator_stock,2-3,114,69,Electrical components / power system,13,11.403508771929825,18.840579710144926
+concentrator_stock,2-3,114,69,Ultrasound / echography,5,4.385964912280702,7.246376811594203
+concentrator_stock,2-3,114,69,Patient monitoring / bedside clinical devices,11,9.649122807017545,15.942028985507246
+concentrator_stock,2-3,114,69,Computer / printer / office electronics,12,10.526315789473685,17.391304347826086
+concentrator_stock,2-3,114,69,Sterilization equipment,6,5.2631578947368425,8.695652173913043
+concentrator_stock,2-3,114,69,Laboratory equipment,6,5.2631578947368425,8.695652173913043
+concentrator_stock,2-3,114,69,Refrigeration / cold chain / morgue,4,3.508771929824561,5.797101449275362
+concentrator_stock,2-3,114,69,Maternal / neonatal equipment,3,2.6315789473684212,4.3478260869565215
+concentrator_stock,2-3,114,69,Laundry / water / utility equipment,2,1.7543859649122806,2.898550724637681
+concentrator_stock,2-3,114,69,Radiography / X-ray,1,0.8771929824561403,1.4492753623188406
+concentrator_stock,4+,97,65,Oxygen concentrator / oxygen device,34,35.05154639175258,52.30769230769231
+concentrator_stock,4+,97,65,Lighting / surgical theatre electrical devices,12,12.371134020618557,18.46153846153846
+concentrator_stock,4+,97,65,Electrical components / power system,11,11.34020618556701,16.923076923076923
+concentrator_stock,4+,97,65,Ultrasound / echography,8,8.24742268041237,12.307692307692308
+concentrator_stock,4+,97,65,Patient monitoring / bedside clinical devices,14,14.43298969072165,21.53846153846154
+concentrator_stock,4+,97,65,Computer / printer / office electronics,4,4.123711340206185,6.153846153846154
+concentrator_stock,4+,97,65,Sterilization equipment,12,12.371134020618557,18.46153846153846
+concentrator_stock,4+,97,65,Laboratory equipment,8,8.24742268041237,12.307692307692308
+concentrator_stock,4+,97,65,Refrigeration / cold chain / morgue,8,8.24742268041237,12.307692307692308
+concentrator_stock,4+,97,65,Maternal / neonatal equipment,13,13.402061855670103,20.0
+concentrator_stock,4+,97,65,Laundry / water / utility equipment,10,10.309278350515465,15.384615384615385
+concentrator_stock,4+,97,65,Radiography / X-ray,14,14.43298969072165,21.53846153846154

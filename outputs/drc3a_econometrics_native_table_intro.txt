@@ -1,0 +1,6 @@
+Econometric results panel and interpretation guide
+
+How to read: OR > 1 means higher odds; OR < 1 means lower odds. AUC=0.5 is chance, about 0.7 is useful, and about 0.8 is strong. Cramer V around 0.1 is weak and around 0.3 is moderate. Significance: *** p<0.001, ** p<0.01, * p<0.05, ~ p<0.10, n.s. not statistically clear. These tests are exploratory and cross-sectional, so read them as association/prediction rather than causal effects.
+
+Short read: generator presence is the strongest simple marker of oxygen and concentrator access. Energy architecture strongly patterns oxygen regimes, but only modestly predicts reconstructed reliability. Bad-power and outage burden help explain equipment damage, which is the mechanism bridge to oxygen-system fragility.
+

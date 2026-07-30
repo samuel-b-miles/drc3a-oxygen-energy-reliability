@@ -1,0 +1,4 @@
+province_label,No energy source,Grid,Generator,Solar,Grid + Generator,Grid + Solar,Generator + Solar,Grid + Generator + Solar
+Province 1 (n=214),19,25,6,33,18,27,25,61
+Province 2 (n=185),4,30,1,6,15,63,18,48
+Province 3 (n=92),16,24,1,2,17,11,3,18

@@ -1,0 +1,11 @@
+uptime_predictor,outcome,unreliable_no,unreliable_yes,reliable_no,reliable_yes,odds_ratio
+reliable_v1_917,has_any_oxygen,62,173,88,168,0.686
+reliable_v3_917,has_any_oxygen,45,187,105,154,0.355
+reliable_v1_917,has_concentrator,81,154,97,159,0.863
+reliable_v3_917,has_concentrator,58,174,120,139,0.388
+reliable_v1_917,has_cylinders,183,52,197,59,1.053
+reliable_v3_917,has_cylinders,175,57,205,54,0.809
+reliable_v1_917,has_multi_oxygen,165,70,174,82,1.11
+reliable_v3_917,has_multi_oxygen,155,77,184,75,0.821
+reliable_v1_917,equipment_damage_binary,103,132,153,103,0.527
+reliable_v3_917,equipment_damage_binary,72,160,184,75,0.185

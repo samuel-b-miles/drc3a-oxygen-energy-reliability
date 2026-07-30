@@ -1,0 +1,1191 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="5157" viewBox="0 0 1800 5157">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial, Helvetica, sans-serif}.h1{font-size:28px;font-weight:700;fill:#111}.h2{font-size:19px;font-weight:700;fill:#111}.sub{font-size:14px;fill:#555}.legend{font-size:11px;fill:#333}.axis{font-size:12px;fill:#333}.barlabel{font-size:11px;fill:white;font-weight:700}.facettitle{font-size:15px;font-weight:700}.tick{font-size:10px;fill:#555}.note{font-size:14px;fill:#222}</style>
+<text x="70" y="48" class="h1">DRC3a Oxygen Literature Exploration Panels</text>
+<text x="70" y="76" class="sub">Panels use the exact columns in the literature table, then derive readable classes for analysis type, method family, country, scale, oxygen modality,</text>
+<text x="70" y="94" class="sub">energy source, measured endpoint, sample-size class, and observation-window class. This is an exploration surface, not final systematic-review coding.</text>
+<rect x="50" y="104" width="1600" height="860" fill="#fff" stroke="#ddd"/>
+<text x="70" y="138" class="h2">Fully labeled small multiples: oxygen-system detail vs energy-system detail</text>
+<text x="70" y="162" class="sub">Every paper is labeled by ID + first author + year. Faceting by analytical type makes the label pile-up survivable enough for exploration.</text>
+<rect x="85" y="199" width="470" height="300" fill="#fbfbfb" stroke="#ccc"/>
+<text x="100" y="224" class="facettitle" fill="#1f77b4">Experimental / trial (30)</text>
+<line x1="130.0" y1="241" x2="130.0" y2="464" stroke="#e1e1e1"/>
+<line x1="130" y1="454.0" x2="510" y2="454.0" stroke="#e1e1e1"/>
+<text x="130.0" y="486" class="tick" text-anchor="middle">0</text>
+<text x="115" y="458.0" class="tick" text-anchor="end">0</text>
+<line x1="220.0" y1="241" x2="220.0" y2="464" stroke="#e1e1e1"/>
+<line x1="130" y1="399.0" x2="510" y2="399.0" stroke="#e1e1e1"/>
+<text x="220.0" y="486" class="tick" text-anchor="middle">1</text>
+<text x="115" y="403.0" class="tick" text-anchor="end">1</text>
+<line x1="310.0" y1="241" x2="310.0" y2="464" stroke="#e1e1e1"/>
+<line x1="130" y1="344.0" x2="510" y2="344.0" stroke="#e1e1e1"/>
+<text x="310.0" y="486" class="tick" text-anchor="middle">2</text>
+<text x="115" y="348.0" class="tick" text-anchor="end">2</text>
+<line x1="400.0" y1="241" x2="400.0" y2="464" stroke="#e1e1e1"/>
+<line x1="130" y1="289.0" x2="510" y2="289.0" stroke="#e1e1e1"/>
+<text x="400.0" y="486" class="tick" text-anchor="middle">3</text>
+<text x="115" y="293.0" class="tick" text-anchor="end">3</text>
+<line x1="490.0" y1="241" x2="490.0" y2="464" stroke="#e1e1e1"/>
+<line x1="130" y1="234.0" x2="510" y2="234.0" stroke="#e1e1e1"/>
+<text x="490.0" y="486" class="tick" text-anchor="middle">4</text>
+<text x="115" y="238.0" class="tick" text-anchor="end">4</text>
+<line x1="310.0" y1="241" x2="310.0" y2="464" stroke="#777" stroke-dasharray="3 3"/>
+<line x1="130" y1="344.0" x2="510" y2="344.0" stroke="#777" stroke-dasharray="3 3"/>
+<circle cx="450.1" cy="373.7" r="4.5" fill="#1f77b4" opacity="0.82"><title>Children’s Oxygen Administration Strategies Trial (COAST): A randomised controlled trial of high flow versus oxygen versus control in African children with severe pneumonia</title></circle>
+<text x="456.1" y="368.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">1 Maitland 2018</text>
+<circle cx="463.6" cy="344.4" r="4.5" fill="#1f77b4" opacity="0.82"><title>Oxygen systems to improve clinical care and outcomes for children and neonates: A stepped-wedge cluster-randomised trial in Nigeria</title></circle>
+<text x="457.6" y="339.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">4 Graham 2019</text>
+<circle cx="465.5" cy="349.3" r="4.5" fill="#1f77b4" opacity="0.82"><title>Randomised controlled trial of oxygen therapy and high-flow nasal therapy in African children with pneumonia</title></circle>
+<text x="471.5" y="344.3" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">5 Maitland 2021</text>
+<circle cx="464.2" cy="305.5" r="4.5" fill="#1f77b4" opacity="0.82"><title>Clinical evaluation of a concentrator medical oxygen system with automated cylinder back-up in western Uganda: a pragmatic cluster quasi-experimental trial</title></circle>
+<text x="458.2" y="300.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">6 Subhi 2025</text>
+<circle cx="418.2" cy="350.9" r="4.5" fill="#1f77b4" opacity="0.82"><title>Bubble continuous positive airway pressure for children with high-risk conditions and severe pneumonia in Malawi: an open-label, randomised, controlled trial</title></circle>
+<text x="424.2" y="345.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">7 McCollum 2019</text>
+<circle cx="447.5" cy="377.9" r="4.5" fill="#1f77b4" opacity="0.82"><title>Bubble continuous positive airway pressure for children with severe pneumonia and hypoxaemia in Bangladesh: an open, randomised controlled trial</title></circle>
+<text x="441.5" y="372.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">8 Chisti 2015</text>
+<circle cx="467.0" cy="343.1" r="4.5" fill="#1f77b4" opacity="0.82"><title>Effectiveness of bubble continuous positive airway pressure for treatment of children aged 1–59 months with severe pneumonia and hypoxaemia in Ethiopia: a pragmatic cluster-randomised controlled trial</title></circle>
+<text x="473.0" y="338.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">9 Gebre 2024</text>
+<circle cx="420.9" cy="375.1" r="4.5" fill="#1f77b4" opacity="0.82"><title>High-flow nasal oxygen in infants and children for early respiratory management of pneumonia-induced acute hypoxemic respiratory failure: the CENTURI randomized clinical trial</title></circle>
+<text x="414.9" y="370.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">10 Kandasamy 2024</text>
+<circle cx="313.6" cy="391.8" r="4.5" fill="#1f77b4" opacity="0.82"><title>Innovative, enhanced community management of non-hypoxaemic chest-indrawing pneumonia in 2–59-month-old children (EMPIC Trial)</title></circle>
+<text x="319.6" y="386.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">11 EMPIC 2021</text>
+<circle cx="432.9" cy="368.4" r="4.5" fill="#1f77b4" opacity="0.82"><title>Pulse oximetry implementation improves detection of hypoxaemia and oxygen use in Ugandan hospitals: an implementation study</title></circle>
+<text x="426.9" y="363.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">12 Mulondo 2020</text>
+<circle cx="401.5" cy="348.0" r="4.5" fill="#1f77b4" opacity="0.82"><title>Utility of solar-powered oxygen delivery in a resource-constrained setting</title></circle>
+<text x="407.5" y="343.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">14 Conradi 2023</text>
+<circle cx="415.1" cy="354.4" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar-powered O₂ delivery for the treatment of children with hypoxaemia in Uganda: a stepped-wedge cluster randomised controlled trial</title></circle>
+<text x="409.1" y="349.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">15 Conradi 2024</text>
+<circle cx="435.4" cy="350.5" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar-powered oxygen systems in remote health centers in Papua New Guinea: a large-scale implementation effectiveness trial</title></circle>
+<text x="441.4" y="345.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">16 Duke 2017</text>
+<circle cx="400.9" cy="343.1" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar-powered oxygen delivery for the treatment of children with hypoxemia: protocol for a cluster-randomized stepped-wedge controlled trial in Uganda</title></circle>
+<text x="394.9" y="338.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">22 Conradi 2019</text>
+<circle cx="445.5" cy="313.6" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar-powered oxygen delivery: study protocol for a randomized controlled trial</title></circle>
+<text x="451.5" y="308.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">23 Nyende 2015</text>
+<circle cx="403.5" cy="345.2" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar powered oxygen systems in remote health centers in Papua New Guinea: a large scale implementation effectiveness trial</title></circle>
+<text x="397.5" y="340.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">24 Duke 2017</text>
+<circle cx="461.9" cy="311.4" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar-powered oxygen delivery to treat childhood pneumonia in low-resource settings: a randomised controlled non-inferiority trial and cost-effectiveness study</title></circle>
+<text x="467.9" y="306.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">25 Mian 2019</text>
+<circle cx="398.5" cy="308.6" r="4.5" fill="#1f77b4" opacity="0.82"><title>Implementation and 8-year follow-up of an uninterrupted oxygen supply system in a hospital in The Gambia</title></circle>
+<text x="392.5" y="303.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">35 Bradley 2016</text>
+<circle cx="431.0" cy="326.8" r="4.5" fill="#1f77b4" opacity="0.82"><title>The “Just Right” Amount of Oxygen: Improving Oxygen Use in a Rwandan Emergency Department</title></circle>
+<text x="437.0" y="321.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">36 Sutherland 2019</text>
+<circle cx="463.7" cy="311.0" r="4.5" fill="#1f77b4" opacity="0.82"><title>Cost-effectiveness and sustainability of improved hospital oxygen systems in Nigeria</title></circle>
+<text x="457.7" y="306.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">37 Graham 2022</text>
+<circle cx="397.3" cy="366.5" r="4.5" fill="#1f77b4" opacity="0.82"><title>Improved oxygen systems for childhood pneumonia: a multihospital effectiveness study in Papua New Guinea</title></circle>
+<text x="403.3" y="361.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">38 Duke 2008</text>
+<circle cx="399.3" cy="365.0" r="4.5" fill="#1f77b4" opacity="0.82"><title>Improved oxygen systems in district hospitals in Lao PDR: a prospective field trial</title></circle>
+<text x="393.3" y="360.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">39 Gray 2017</text>
+<circle cx="382.0" cy="324.5" r="4.5" fill="#1f77b4" opacity="0.82"><title>Solar powered oxygen systems in remote health centers in Papua New Guinea</title></circle>
+<text x="388.0" y="319.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">41 Duke 2017</text>
+<circle cx="297.8" cy="437.8" r="4.5" fill="#1f77b4" opacity="0.82"><title>Adoption of paediatric and neonatal pulse oximetry by 12 hospitals in Nigeria</title></circle>
+<text x="291.8" y="432.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">42 Graham 2018</text>
+<circle cx="258.8" cy="429.2" r="4.5" fill="#1f77b4" opacity="0.82"><title>An Energy-Optimized Medical Oxygen Concentrator for Low-Resource Settings</title></circle>
+<text x="264.8" y="424.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">58 Schartner 2025</text>
+<circle cx="297.0" cy="356.7" r="4.5" fill="#1f77b4" opacity="0.82"><title>A Low-Pressure Oxygen Storage System for Oxygen Supply in Low-Resource Settings</title></circle>
+<text x="291.0" y="351.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">66 Rassool 2017</text>
+<circle cx="243.3" cy="409.7" r="4.5" fill="#1f77b4" opacity="0.82"><title>The Politeoxygen Splitter System (PSS): a frugal LMIC oxygen delivery technology that expands utility by up to 700%</title></circle>
+<text x="249.3" y="404.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">67 Amadi 2023</text>
+<circle cx="285.2" cy="417.8" r="4.5" fill="#1f77b4" opacity="0.82"><title>Design and Development of a Portable Multi-user Medical Grade Oxygen Concentrator</title></circle>
+<text x="279.2" y="412.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">69 Lowan 2023</text>
+<circle cx="410.8" cy="324.5" r="4.5" fill="#1f77b4" opacity="0.82"><title>Technical results from a trial of the FREO₂ Low-Pressure Oxygen Storage system, Mbarara Regional Referral Hospital, Uganda</title></circle>
+<text x="416.8" y="319.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">70 Peake 2021</text>
+<circle cx="300.1" cy="357.2" r="4.5" fill="#1f77b4" opacity="0.82"><title>Assessment of a storage system to deliver uninterrupted therapeutic oxygen during power outages in resource-limited settings</title></circle>
+<text x="294.1" y="352.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">71 Calderon 2019</text>
+<text x="320.0" y="497" class="tick" text-anchor="middle">oxygen-system detail</text>
+<text transform="translate(95,349.0) rotate(-90)" class="tick" text-anchor="middle">energy-system detail</text>
+<rect x="595" y="199" width="470" height="300" fill="#fbfbfb" stroke="#ccc"/>
+<text x="610" y="224" class="facettitle" fill="#2ca02c">Quasi-experimental (0)</text>
+<line x1="640.0" y1="241" x2="640.0" y2="464" stroke="#e1e1e1"/>
+<line x1="640" y1="454.0" x2="1020" y2="454.0" stroke="#e1e1e1"/>
+<text x="640.0" y="486" class="tick" text-anchor="middle">0</text>
+<text x="625" y="458.0" class="tick" text-anchor="end">0</text>
+<line x1="730.0" y1="241" x2="730.0" y2="464" stroke="#e1e1e1"/>
+<line x1="640" y1="399.0" x2="1020" y2="399.0" stroke="#e1e1e1"/>
+<text x="730.0" y="486" class="tick" text-anchor="middle">1</text>
+<text x="625" y="403.0" class="tick" text-anchor="end">1</text>
+<line x1="820.0" y1="241" x2="820.0" y2="464" stroke="#e1e1e1"/>
+<line x1="640" y1="344.0" x2="1020" y2="344.0" stroke="#e1e1e1"/>
+<text x="820.0" y="486" class="tick" text-anchor="middle">2</text>
+<text x="625" y="348.0" class="tick" text-anchor="end">2</text>
+<line x1="910.0" y1="241" x2="910.0" y2="464" stroke="#e1e1e1"/>
+<line x1="640" y1="289.0" x2="1020" y2="289.0" stroke="#e1e1e1"/>
+<text x="910.0" y="486" class="tick" text-anchor="middle">3</text>
+<text x="625" y="293.0" class="tick" text-anchor="end">3</text>
+<line x1="1000.0" y1="241" x2="1000.0" y2="464" stroke="#e1e1e1"/>
+<line x1="640" y1="234.0" x2="1020" y2="234.0" stroke="#e1e1e1"/>
+<text x="1000.0" y="486" class="tick" text-anchor="middle">4</text>
+<text x="625" y="238.0" class="tick" text-anchor="end">4</text>
+<line x1="820.0" y1="241" x2="820.0" y2="464" stroke="#777" stroke-dasharray="3 3"/>
+<line x1="640" y1="344.0" x2="1020" y2="344.0" stroke="#777" stroke-dasharray="3 3"/>
+<text x="830.0" y="497" class="tick" text-anchor="middle">oxygen-system detail</text>
+<text transform="translate(605,349.0) rotate(-90)" class="tick" text-anchor="middle">energy-system detail</text>
+<rect x="1105" y="199" width="470" height="300" fill="#fbfbfb" stroke="#ccc"/>
+<text x="1120" y="224" class="facettitle" fill="#ff7f0e">Observational / implementation (49)</text>
+<line x1="1150.0" y1="241" x2="1150.0" y2="464" stroke="#e1e1e1"/>
+<line x1="1150" y1="454.0" x2="1530" y2="454.0" stroke="#e1e1e1"/>
+<text x="1150.0" y="486" class="tick" text-anchor="middle">0</text>
+<text x="1135" y="458.0" class="tick" text-anchor="end">0</text>
+<line x1="1240.0" y1="241" x2="1240.0" y2="464" stroke="#e1e1e1"/>
+<line x1="1150" y1="399.0" x2="1530" y2="399.0" stroke="#e1e1e1"/>
+<text x="1240.0" y="486" class="tick" text-anchor="middle">1</text>
+<text x="1135" y="403.0" class="tick" text-anchor="end">1</text>
+<line x1="1330.0" y1="241" x2="1330.0" y2="464" stroke="#e1e1e1"/>
+<line x1="1150" y1="344.0" x2="1530" y2="344.0" stroke="#e1e1e1"/>
+<text x="1330.0" y="486" class="tick" text-anchor="middle">2</text>
+<text x="1135" y="348.0" class="tick" text-anchor="end">2</text>
+<line x1="1420.0" y1="241" x2="1420.0" y2="464" stroke="#e1e1e1"/>
+<line x1="1150" y1="289.0" x2="1530" y2="289.0" stroke="#e1e1e1"/>
+<text x="1420.0" y="486" class="tick" text-anchor="middle">3</text>
+<text x="1135" y="293.0" class="tick" text-anchor="end">3</text>
+<line x1="1510.0" y1="241" x2="1510.0" y2="464" stroke="#e1e1e1"/>
+<line x1="1150" y1="234.0" x2="1530" y2="234.0" stroke="#e1e1e1"/>
+<text x="1510.0" y="486" class="tick" text-anchor="middle">4</text>
+<text x="1135" y="238.0" class="tick" text-anchor="end">4</text>
+<line x1="1330.0" y1="241" x2="1330.0" y2="464" stroke="#777" stroke-dasharray="3 3"/>
+<line x1="1150" y1="344.0" x2="1530" y2="344.0" stroke="#777" stroke-dasharray="3 3"/>
+<circle cx="1441.8" cy="366.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>A COASTal view: where prior beliefs and uncertainty collide</title></circle>
+<text x="1447.8" y="361.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">2 Peters 2021</text>
+<circle cx="1449.7" cy="309.2" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Solar-powered oxygen quality improvement and child pneumonia deaths: a large-scale effectiveness study</title></circle>
+<text x="1443.7" y="304.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">13 Duke 2021</text>
+<circle cx="1381.4" cy="338.2" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Solar-powered solutions to oxygen delivery challenges in Uganda: the next steps</title></circle>
+<text x="1387.4" y="333.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">17 Mangipudi 2024</text>
+<circle cx="1419.6" cy="327.6" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Rural healthcare workers’ views on the introduction of solar power and oxygen concentrators in health facilities in Papua New Guinea: a qualitative study</title></circle>
+<text x="1413.6" y="322.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">18 Pulsan 2021</text>
+<circle cx="1452.7" cy="349.3" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Response to oxygen therapy using oxygen concentrators run off solar power in children with respiratory distress in remote primary health facilities in Papua New Guinea</title></circle>
+<text x="1458.7" y="344.3" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">19 Pulsan 2021</text>
+<circle cx="1440.2" cy="313.6" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Solar-powered oxygen delivery: proof of concept</title></circle>
+<text x="1434.2" y="308.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">20 Turnbull 2016</text>
+<circle cx="1387.3" cy="346.2" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Implementation of solar powered oxygen delivery in a conflict zone: preliminary findings from Somalia on feasibility and usefulness</title></circle>
+<text x="1393.3" y="341.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">26 Mian 2022</text>
+<circle cx="1425.0" cy="365.0" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Reducing global inequities in medical oxygen access: the Lancet Global Health Commission on medical oxygen security</title></circle>
+<text x="1419.0" y="360.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">27 Graham 2025</text>
+<circle cx="1333.2" cy="441.6" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Investing in local capacity and grassroots innovation to bridge gaps in medical oxygen access and security</title></circle>
+<text x="1339.2" y="436.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">28 Alooh 2025</text>
+<circle cx="1331.1" cy="340.8" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Getting long-term oxygen therapy right</title></circle>
+<text x="1325.1" y="335.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">29 Aqeel 2025</text>
+<circle cx="1218.2" cy="395.4" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Medical equipment donation in low-resource settings</title></circle>
+<text x="1224.2" y="390.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">30 Marks 2019</text>
+<circle cx="1306.0" cy="444.4" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Breath of life: the evolution of oxygen therapy</title></circle>
+<text x="1300.0" y="439.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">31 Grainge 2004</text>
+<circle cx="1426.9" cy="377.2" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen as an essential medicine</title></circle>
+<text x="1432.9" y="372.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">32 Mart 2022</text>
+<circle cx="1472.8" cy="316.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen insecurity and mortality in resource-constrained healthcare facilities in rural Kenya</title></circle>
+<text x="1466.8" y="311.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">33 Otiangala 2020</text>
+<circle cx="1272.3" cy="373.5" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Closing gaps in the oxygen supply chain in nations with limited resources</title></circle>
+<text x="1278.3" y="368.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">34 Humura 2024</text>
+<circle cx="1325.4" cy="324.4" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Implementing an oxygen programme in hospitals in Papua New Guinea</title></circle>
+<text x="1319.4" y="319.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">40 Matai 2008</text>
+<circle cx="1347.2" cy="436.9" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Hypoxemia detection and oxygen therapy practices in Rwanda</title></circle>
+<text x="1353.2" y="431.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">43 Mushumbamwiza 2025</text>
+<circle cx="1380.2" cy="415.8" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Providing oxygen to children and newborns in southwest Nigeria</title></circle>
+<text x="1374.2" y="410.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">45 Bakare 2020</text>
+<circle cx="1221.9" cy="410.1" r="4.5" fill="#ff7f0e" opacity="0.82"><title>A rapid facility-level assessment of oxygen systems in 39 LMICs</title></circle>
+<text x="1227.9" y="405.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">48 Ijaz 2025</text>
+<circle cx="1343.0" cy="378.0" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Expanding oxygen access in PHCs in Guinea and Mali</title></circle>
+<text x="1337.0" y="373.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">49 Louart 2025</text>
+<circle cx="1270.8" cy="439.3" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Medical oxygen service readiness and coverage in seven countries</title></circle>
+<text x="1276.8" y="434.3" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">50 Subhi 2025</text>
+<circle cx="1339.5" cy="396.5" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Medical oxygen ecosystem building in Kenya, Rwanda, and Ethiopia</title></circle>
+<text x="1333.5" y="391.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">51 Smith 2022</text>
+<circle cx="1218.4" cy="409.5" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Influenza preparedness and oxygen delivery in 12 African countries</title></circle>
+<text x="1224.4" y="404.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">52 Belle 2010</text>
+<circle cx="1295.4" cy="406.9" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Fonctionnalité des concentrateurs d’oxygène hospitaliers au Nord Kivu, République Démocratique du Congo</title></circle>
+<text x="1289.4" y="401.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">54 Mbeva 2022</text>
+<circle cx="1369.9" cy="363.1" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Design and maintenance of medical oxygen concentrators in Sub-Saharan Africa: a systematic review</title></circle>
+<text x="1375.9" y="358.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">56 Ibrahim 2025</text>
+<circle cx="1428.7" cy="360.0" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen concentrators: a practical guide for clinicians and technicians in developing countries</title></circle>
+<text x="1422.7" y="355.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">57 Duke 2010</text>
+<circle cx="1366.0" cy="382.1" r="4.5" fill="#ff7f0e" opacity="0.82"><title>The use of portable oxygen concentrators in low-resource settings: a systematic review</title></circle>
+<text x="1372.0" y="377.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">60 Nowadly 2022</text>
+<circle cx="1367.8" cy="385.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen delivery systems for adults in Sub-Saharan Africa: A scoping review</title></circle>
+<text x="1361.8" y="380.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">61 Navuluri 2021</text>
+<circle cx="1286.6" cy="373.6" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen Blending Is Urgently Needed in Resource-Limited Settings</title></circle>
+<text x="1292.6" y="368.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">63 Mantena 2021</text>
+<circle cx="1376.2" cy="383.0" r="4.5" fill="#ff7f0e" opacity="0.82"><title>A retrospective analysis of oxygen concentrator maintenance needs and costs in a low-resource setting: experience from The Gambia</title></circle>
+<text x="1370.2" y="378.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">64 Bradley 2014</text>
+<circle cx="1363.2" cy="339.1" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Design and maintenance of medical oxygen concentrators in Sub-Saharan Africa: a systematic review</title></circle>
+<text x="1369.2" y="334.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">65 Ibrahim 2025</text>
+<circle cx="1389.5" cy="414.2" r="4.5" fill="#ff7f0e" opacity="0.82"><title>An Oxygen Supply Is Not Enough: A Qualitative Analysis of a Pressure Swing Adsorption Oxygen Plant Program in Ethiopian Hospitals</title></circle>
+<text x="1383.5" y="409.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">68 Smith 2024</text>
+<circle cx="1286.1" cy="399.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>A feasibility study evaluating a reservoir storage system for continuous oxygen delivery for children with hypoxemia in Kenya</title></circle>
+<text x="1292.1" y="394.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">72 Otiangala 2021</text>
+<circle cx="1409.1" cy="418.1" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Bridging the humanitarian-development divide in a protracted crisis: a case study of the use of a central plant to supply oxygen for COVID-19 case management in South Sudan</title></circle>
+<text x="1403.1" y="413.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">77 Olu 2023</text>
+<circle cx="1211.0" cy="424.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen inequity in the COVID-19 pandemic and beyond</title></circle>
+<text x="1217.0" y="419.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">78 Ross 2023</text>
+<circle cx="1208.0" cy="445.9" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Vital mobilities of medical oxygen: Theorising oxygen justice</title></circle>
+<text x="1202.0" y="440.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">79 Sodero 2025</text>
+<circle cx="1318.2" cy="377.4" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Medical oxygen: a necessity or a luxury in humanitarian settings?</title></circle>
+<text x="1324.2" y="372.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">80 Godard 2025</text>
+<circle cx="1312.9" cy="440.8" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Financial implications of tariffs for medical oxygen on Rwandan public hospitals’ finance management during the coronavirus epidemic</title></circle>
+<text x="1306.9" y="435.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">83 Kizza 2022</text>
+<circle cx="1242.1" cy="446.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Challenges in the diagnosis of paediatric pneumonia in intervention field trials: recommendations from a pneumonia field trial working group</title></circle>
+<text x="1248.1" y="441.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">84 Goodman 2019</text>
+<circle cx="1297.9" cy="411.0" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Pulse oximetry adoption and oxygen orders at paediatric admission over 7 years in Kenya: a multihospital retrospective cohort study</title></circle>
+<text x="1291.9" y="406.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">85 Tuti 2021</text>
+<circle cx="1317.9" cy="434.6" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Risk and accuracy of outpatient-identified hypoxaemia for death among suspected child pneumonia cases in rural Bangladesh: a multifacility prospective cohort study</title></circle>
+<text x="1323.9" y="429.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">86 McCollum 2023</text>
+<circle cx="1317.3" cy="440.9" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Hypoxaemia as a Mortality Risk Factor in Acute Lower Respiratory Infections in Children in Low and Middle-Income Countries</title></circle>
+<text x="1311.3" y="435.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">88 Lazzerini 2015</text>
+<circle cx="1269.0" cy="441.8" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Oxygen saturation targets for adults with acute hypoxemia in low and lower-middle income countries: a scoping review with analysis of contextual factors</title></circle>
+<text x="1275.0" y="436.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">90 Herbst 2023</text>
+<circle cx="1299.6" cy="440.6" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Pulse oximetry: why oxygen saturation is still not a part of standard pediatric guidelines in low-and-middle-income countries (LMICs)</title></circle>
+<text x="1293.6" y="435.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">91 Sheikh 2023</text>
+<circle cx="1269.2" cy="439.8" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Prevalence of hypoxaemia in children with pneumonia in low-income and middle-income countries: a systematic review and meta-analysis</title></circle>
+<text x="1275.2" y="434.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">92 Rahman 2022</text>
+<circle cx="1289.0" cy="437.9" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Challenges in maintaining oxygen saturation in pregnant individuals residing in low- and middle-income countries: a response</title></circle>
+<text x="1283.0" y="432.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">93 Eid 2023</text>
+<circle cx="1316.2" cy="436.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Need for routine pulse oximetry and oxygen delivery systems in low-income and middle-income countries</title></circle>
+<text x="1322.2" y="431.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">94 Mvalo 2022</text>
+<circle cx="1349.6" cy="437.7" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Hypoxemia detection and oxygen therapy practices in neonatal and pediatric wards across seven district and referral hospitals in Rwanda</title></circle>
+<text x="1343.6" y="432.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">95 Mushumbamwiza 2025</text>
+<circle cx="1378.9" cy="438.8" r="4.5" fill="#ff7f0e" opacity="0.82"><title>Continuous positive airway pressure for children in resource-limited settings, effect on mortality and adverse events: systematic review and meta-analysis</title></circle>
+<text x="1384.9" y="433.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">96 Sessions 2022</text>
+<text x="1340.0" y="497" class="tick" text-anchor="middle">oxygen-system detail</text>
+<text transform="translate(1115,349.0) rotate(-90)" class="tick" text-anchor="middle">energy-system detail</text>
+<rect x="290" y="569" width="470" height="300" fill="#fbfbfb" stroke="#ccc"/>
+<text x="305" y="594" class="facettitle" fill="#9467bd">Modeling / economic (15)</text>
+<line x1="335.0" y1="611" x2="335.0" y2="834" stroke="#e1e1e1"/>
+<line x1="335" y1="824.0" x2="715" y2="824.0" stroke="#e1e1e1"/>
+<text x="335.0" y="856" class="tick" text-anchor="middle">0</text>
+<text x="320" y="828.0" class="tick" text-anchor="end">0</text>
+<line x1="425.0" y1="611" x2="425.0" y2="834" stroke="#e1e1e1"/>
+<line x1="335" y1="769.0" x2="715" y2="769.0" stroke="#e1e1e1"/>
+<text x="425.0" y="856" class="tick" text-anchor="middle">1</text>
+<text x="320" y="773.0" class="tick" text-anchor="end">1</text>
+<line x1="515.0" y1="611" x2="515.0" y2="834" stroke="#e1e1e1"/>
+<line x1="335" y1="714.0" x2="715" y2="714.0" stroke="#e1e1e1"/>
+<text x="515.0" y="856" class="tick" text-anchor="middle">2</text>
+<text x="320" y="718.0" class="tick" text-anchor="end">2</text>
+<line x1="605.0" y1="611" x2="605.0" y2="834" stroke="#e1e1e1"/>
+<line x1="335" y1="659.0" x2="715" y2="659.0" stroke="#e1e1e1"/>
+<text x="605.0" y="856" class="tick" text-anchor="middle">3</text>
+<text x="320" y="663.0" class="tick" text-anchor="end">3</text>
+<line x1="695.0" y1="611" x2="695.0" y2="834" stroke="#e1e1e1"/>
+<line x1="335" y1="604.0" x2="715" y2="604.0" stroke="#e1e1e1"/>
+<text x="695.0" y="856" class="tick" text-anchor="middle">4</text>
+<text x="320" y="608.0" class="tick" text-anchor="end">4</text>
+<line x1="515.0" y1="611" x2="515.0" y2="834" stroke="#777" stroke-dasharray="3 3"/>
+<line x1="335" y1="714.0" x2="715" y2="714.0" stroke="#777" stroke-dasharray="3 3"/>
+<circle cx="654.9" cy="684.6" r="4.5" fill="#9467bd" opacity="0.82"><title>A cost-consequence analysis of the Children’s Oxygen Administration Strategies Trial (COAST) in severe pneumonia</title></circle>
+<text x="660.9" y="679.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">3 Carroll 2026</text>
+<circle cx="581.4" cy="668.3" r="4.5" fill="#9467bd" opacity="0.82"><title>Estimated cost-effectiveness of solar-powered oxygen delivery for pneumonia in young children in low-resource settings</title></circle>
+<text x="575.4" y="663.3" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">21 Unitaid 2021</text>
+<circle cx="435.0" cy="763.9" r="4.5" fill="#9467bd" opacity="0.82"><title>Design, implementation and outcomes of a national oxygen distribution network in Lesotho</title></circle>
+<text x="441.0" y="758.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">44 Ndayizigiye 2025</text>
+<circle cx="551.9" cy="755.5" r="4.5" fill="#9467bd" opacity="0.82"><title>Meeting oxygen needs in Africa: an options analysis from the Gambia</title></circle>
+<text x="545.9" y="750.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">46 Howie 2009</text>
+<circle cx="585.5" cy="753.7" r="4.5" fill="#9467bd" opacity="0.82"><title>Oxygen treatment solutions for LMIC health facilities</title></circle>
+<text x="591.5" y="748.7" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">47 Howie 2020</text>
+<circle cx="390.1" cy="790.4" r="4.5" fill="#9467bd" opacity="0.82"><title>Pandemic response capacity in LMIC health facilities</title></circle>
+<text x="384.1" y="785.4" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">53 Hakim 2026</text>
+<circle cx="516.2" cy="726.9" r="4.5" fill="#9467bd" opacity="0.82"><title>Optimizing medical oxygen concentrators: Efficiency, flexibility, and patient-centric solutions</title></circle>
+<text x="522.2" y="721.9" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">55 Ramezani 2025</text>
+<circle cx="549.0" cy="752.2" r="4.5" fill="#9467bd" opacity="0.82"><title>The Medical Oxygen Innovation Landscape: Technologies and business models to improve access</title></circle>
+<text x="543.0" y="747.2" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">62 Unitaid 2024</text>
+<circle cx="472.1" cy="726.0" r="4.5" fill="#9467bd" opacity="0.82"><title>Hydrogen and medical oxygen by renewable energy–based electrolysis: a green and economically viable route</title></circle>
+<text x="478.1" y="721.0" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">73 Maggio 2022</text>
+<circle cx="468.3" cy="704.6" r="4.5" fill="#9467bd" opacity="0.82"><title>Green electricity and medical electrolytic oxygen from solar energy – A sustainable solution for rural hospitals</title></circle>
+<text x="462.3" y="699.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">74 Ngoh 2022</text>
+<circle cx="456.6" cy="769.1" r="4.5" fill="#9467bd" opacity="0.82"><title>Design and optimization of COVID-19 hospital wards to produce oxygen and electricity through solar PV panels with hydrogen storage systems by neural network–genetic algorithm</title></circle>
+<text x="462.6" y="764.1" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">75 Izadi 2023</text>
+<circle cx="391.6" cy="768.5" r="4.5" fill="#9467bd" opacity="0.82"><title>Renewable energy for healthcare: Modeling medical oxygen production through PV-powered PEM electrolysis. A case study in Guayaquil, Ecuador</title></circle>
+<text x="385.6" y="763.5" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">76 Alcívar-Reyna 2026</text>
+<circle cx="459.7" cy="825.8" r="4.5" fill="#9467bd" opacity="0.82"><title>Life cycle assessment of medical oxygen</title></circle>
+<text x="465.7" y="820.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">81 Tariq 2024</text>
+<circle cx="564.4" cy="702.6" r="4.5" fill="#9467bd" opacity="0.82"><title>Cost analysis of different medical oxygen sources for a healthcare facility in India</title></circle>
+<text x="558.4" y="697.6" font-size="8.8" fill="#222" opacity="0.86" text-anchor="end">82 Manhas 2024</text>
+<circle cx="550.8" cy="812.8" r="4.5" fill="#9467bd" opacity="0.82"><title>Evaluating the impact of pulse oximetry on childhood pneumonia mortality in resource-poor settings</title></circle>
+<text x="556.8" y="807.8" font-size="8.8" fill="#222" opacity="0.86" text-anchor="start">87 Floyd 2015</text>
+<text x="525.0" y="867" class="tick" text-anchor="middle">oxygen-system detail</text>
+<text transform="translate(300,719.0) rotate(-90)" class="tick" text-anchor="middle">energy-system detail</text>
+<rect x="800" y="569" width="470" height="300" fill="#fbfbfb" stroke="#ccc"/>
+<text x="815" y="594" class="facettitle" fill="#7f7f7f">Other / commentary (0)</text>
+<line x1="845.0" y1="611" x2="845.0" y2="834" stroke="#e1e1e1"/>
+<line x1="845" y1="824.0" x2="1225" y2="824.0" stroke="#e1e1e1"/>
+<text x="845.0" y="856" class="tick" text-anchor="middle">0</text>
+<text x="830" y="828.0" class="tick" text-anchor="end">0</text>
+<line x1="935.0" y1="611" x2="935.0" y2="834" stroke="#e1e1e1"/>
+<line x1="845" y1="769.0" x2="1225" y2="769.0" stroke="#e1e1e1"/>
+<text x="935.0" y="856" class="tick" text-anchor="middle">1</text>
+<text x="830" y="773.0" class="tick" text-anchor="end">1</text>
+<line x1="1025.0" y1="611" x2="1025.0" y2="834" stroke="#e1e1e1"/>
+<line x1="845" y1="714.0" x2="1225" y2="714.0" stroke="#e1e1e1"/>
+<text x="1025.0" y="856" class="tick" text-anchor="middle">2</text>
+<text x="830" y="718.0" class="tick" text-anchor="end">2</text>
+<line x1="1115.0" y1="611" x2="1115.0" y2="834" stroke="#e1e1e1"/>
+<line x1="845" y1="659.0" x2="1225" y2="659.0" stroke="#e1e1e1"/>
+<text x="1115.0" y="856" class="tick" text-anchor="middle">3</text>
+<text x="830" y="663.0" class="tick" text-anchor="end">3</text>
+<line x1="1205.0" y1="611" x2="1205.0" y2="834" stroke="#e1e1e1"/>
+<line x1="845" y1="604.0" x2="1225" y2="604.0" stroke="#e1e1e1"/>
+<text x="1205.0" y="856" class="tick" text-anchor="middle">4</text>
+<text x="830" y="608.0" class="tick" text-anchor="end">4</text>
+<line x1="1025.0" y1="611" x2="1025.0" y2="834" stroke="#777" stroke-dasharray="3 3"/>
+<line x1="845" y1="714.0" x2="1225" y2="714.0" stroke="#777" stroke-dasharray="3 3"/>
+<text x="1035.0" y="867" class="tick" text-anchor="middle">oxygen-system detail</text>
+<text transform="translate(810,719.0) rotate(-90)" class="tick" text-anchor="middle">energy-system detail</text>
+<rect x="50" y="998" width="1600" height="364" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="1030" class="h2">Panel B. Analytical method family by analytical type</text>
+<rect x="850" y="1016" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="1027" class="legend">Experimental / trial</text>
+<rect x="1030" y="1016" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="1027" class="legend">Quasi-experimental</text>
+<rect x="1210" y="1016" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="1027" class="legend">Observational / implementation</text>
+<rect x="1440" y="1016" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="1027" class="legend">Modeling / economic</text>
+<rect x="1620" y="1016" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="1027" class="legend">Other / commentary</text>
+<text x="416" y="1082" class="axis" text-anchor="end">Other method</text>
+<rect x="430.0" y="1064" width="109.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="484.5" y="1080" class="barlabel" text-anchor="middle">4</text>
+<rect x="539.1" y="1064" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="539.1" y="1064" width="681.8" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="880.0" y="1080" class="barlabel" text-anchor="middle">25</text>
+<rect x="1220.9" y="1064" width="109.1" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1275.5" y="1080" class="barlabel" text-anchor="middle">4</text>
+<rect x="1330.0" y="1064" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1081" class="axis">33</text>
+<text x="416" y="1116" class="axis" text-anchor="end">RCT / trial</text>
+<rect x="430.0" y="1098" width="436.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="648.2" y="1114" class="barlabel" text-anchor="middle">16</text>
+<rect x="866.4" y="1098" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="866.4" y="1098" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="866.4" y="1098" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="866.4" y="1098" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1115" class="axis">16</text>
+<text x="416" y="1150" class="axis" text-anchor="end">Model / economic</text>
+<rect x="430.0" y="1132" width="27.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="443.6" y="1148" class="barlabel" text-anchor="middle">1</text>
+<rect x="457.3" y="1132" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="457.3" y="1132" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="457.3" y="1132" width="272.7" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="593.6" y="1148" class="barlabel" text-anchor="middle">10</text>
+<rect x="730.0" y="1132" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1149" class="axis">11</text>
+<text x="416" y="1184" class="axis" text-anchor="end">Implementation / assessment</text>
+<rect x="430.0" y="1166" width="27.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="443.6" y="1182" class="barlabel" text-anchor="middle">1</text>
+<rect x="457.3" y="1166" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="457.3" y="1166" width="218.2" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="566.4" y="1182" class="barlabel" text-anchor="middle">8</text>
+<rect x="675.5" y="1166" width="27.3" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="689.1" y="1182" class="barlabel" text-anchor="middle">1</text>
+<rect x="702.7" y="1166" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1183" class="axis">10</text>
+<text x="416" y="1218" class="axis" text-anchor="end">Commentary</text>
+<rect x="430.0" y="1200" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="1200" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="1200" width="190.9" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="525.5" y="1216" class="barlabel" text-anchor="middle">7</text>
+<rect x="620.9" y="1200" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="620.9" y="1200" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1217" class="axis">7</text>
+<text x="416" y="1252" class="axis" text-anchor="end">Before-after / stepped-wedge</text>
+<rect x="430.0" y="1234" width="190.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="525.5" y="1250" class="barlabel" text-anchor="middle">7</text>
+<rect x="620.9" y="1234" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="620.9" y="1234" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="620.9" y="1234" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="620.9" y="1234" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1251" class="axis">7</text>
+<text x="416" y="1286" class="axis" text-anchor="end">Qualitative</text>
+<rect x="430.0" y="1268" width="27.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="443.6" y="1284" class="barlabel" text-anchor="middle">1</text>
+<rect x="457.3" y="1268" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="457.3" y="1268" width="136.4" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="525.5" y="1284" class="barlabel" text-anchor="middle">5</text>
+<rect x="593.6" y="1268" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="593.6" y="1268" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1285" class="axis">6</text>
+<text x="416" y="1320" class="axis" text-anchor="end">Cohort</text>
+<rect x="430.0" y="1302" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="1302" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="1302" width="109.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="484.5" y="1318" class="barlabel" text-anchor="middle">4</text>
+<rect x="539.1" y="1302" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="539.1" y="1302" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1319" class="axis">4</text>
+<rect x="50" y="1396" width="1600" height="534" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="1428" class="h2">Panel C. Country / geography coverage by analytical type</text>
+<rect x="850" y="1414" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="1425" class="legend">Experimental / trial</text>
+<rect x="1030" y="1414" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="1425" class="legend">Quasi-experimental</text>
+<rect x="1210" y="1414" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="1425" class="legend">Observational / implementation</text>
+<rect x="1440" y="1414" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="1425" class="legend">Modeling / economic</text>
+<rect x="1620" y="1414" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="1425" class="legend">Other / commentary</text>
+<text x="416" y="1480" class="axis" text-anchor="end">Multiple/global</text>
+<rect x="430.0" y="1462" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1478" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1462" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1462" width="725.8" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="821.9" y="1478" class="barlabel" text-anchor="middle">25</text>
+<rect x="1184.8" y="1462" width="145.2" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1257.4" y="1478" class="barlabel" text-anchor="middle">5</text>
+<rect x="1330.0" y="1462" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1479" class="axis">31</text>
+<text x="416" y="1514" class="axis" text-anchor="end">Uganda</text>
+<rect x="430.0" y="1496" width="261.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="560.6" y="1512" class="barlabel" text-anchor="middle">9</text>
+<rect x="691.3" y="1496" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="691.3" y="1496" width="58.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="720.3" y="1512" class="barlabel" text-anchor="middle">2</text>
+<rect x="749.4" y="1496" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="749.4" y="1496" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1513" class="axis">11</text>
+<text x="416" y="1548" class="axis" text-anchor="end">Papua New Guinea</text>
+<rect x="430.0" y="1530" width="116.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="488.1" y="1546" class="barlabel" text-anchor="middle">4</text>
+<rect x="546.1" y="1530" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="546.1" y="1530" width="116.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="604.2" y="1546" class="barlabel" text-anchor="middle">4</text>
+<rect x="662.3" y="1530" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="662.3" y="1530" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1547" class="axis">8</text>
+<text x="416" y="1582" class="axis" text-anchor="end">Multi-country</text>
+<rect x="430.0" y="1564" width="87.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="473.5" y="1580" class="barlabel" text-anchor="middle">3</text>
+<rect x="517.1" y="1564" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="517.1" y="1564" width="29.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="531.6" y="1580" class="barlabel" text-anchor="middle">1</text>
+<rect x="546.1" y="1564" width="29.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="560.6" y="1580" class="barlabel" text-anchor="middle">1</text>
+<rect x="575.2" y="1564" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1581" class="axis">5</text>
+<text x="416" y="1616" class="axis" text-anchor="end">Nigeria</text>
+<rect x="430.0" y="1598" width="116.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="488.1" y="1614" class="barlabel" text-anchor="middle">4</text>
+<rect x="546.1" y="1598" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="546.1" y="1598" width="29.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="560.6" y="1614" class="barlabel" text-anchor="middle">1</text>
+<rect x="575.2" y="1598" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="575.2" y="1598" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1615" class="axis">5</text>
+<text x="416" y="1650" class="axis" text-anchor="end">Rwanda</text>
+<rect x="430.0" y="1632" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1648" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1632" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1632" width="87.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="502.6" y="1648" class="barlabel" text-anchor="middle">3</text>
+<rect x="546.1" y="1632" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="546.1" y="1632" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1649" class="axis">4</text>
+<text x="416" y="1684" class="axis" text-anchor="end">Kenya</text>
+<rect x="430.0" y="1666" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="1666" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="1666" width="87.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="473.5" y="1682" class="barlabel" text-anchor="middle">3</text>
+<rect x="517.1" y="1666" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="517.1" y="1666" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1683" class="axis">3</text>
+<text x="416" y="1718" class="axis" text-anchor="end">The Gambia</text>
+<rect x="430.0" y="1700" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1716" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1700" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1700" width="29.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="473.5" y="1716" class="barlabel" text-anchor="middle">1</text>
+<rect x="488.1" y="1700" width="29.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="502.6" y="1716" class="barlabel" text-anchor="middle">1</text>
+<rect x="517.1" y="1700" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1717" class="axis">3</text>
+<text x="416" y="1752" class="axis" text-anchor="end">Bangladesh</text>
+<rect x="430.0" y="1734" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1750" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1734" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1734" width="29.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="473.5" y="1750" class="barlabel" text-anchor="middle">1</text>
+<rect x="488.1" y="1734" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="488.1" y="1734" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1751" class="axis">2</text>
+<text x="416" y="1786" class="axis" text-anchor="end">Ethiopia</text>
+<rect x="430.0" y="1768" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1784" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1768" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1768" width="29.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="473.5" y="1784" class="barlabel" text-anchor="middle">1</text>
+<rect x="488.1" y="1768" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="488.1" y="1768" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1785" class="axis">2</text>
+<text x="416" y="1820" class="axis" text-anchor="end">India</text>
+<rect x="430.0" y="1802" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1818" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1802" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1802" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="459.0" y="1802" width="29.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="473.5" y="1818" class="barlabel" text-anchor="middle">1</text>
+<rect x="488.1" y="1802" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1819" class="axis">2</text>
+<text x="416" y="1854" class="axis" text-anchor="end">DRC</text>
+<rect x="430.0" y="1836" width="29.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="444.5" y="1852" class="barlabel" text-anchor="middle">1</text>
+<rect x="459.0" y="1836" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="459.0" y="1836" width="29.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="473.5" y="1852" class="barlabel" text-anchor="middle">1</text>
+<rect x="488.1" y="1836" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="488.1" y="1836" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1853" class="axis">2</text>
+<text x="416" y="1888" class="axis" text-anchor="end">Other</text>
+<rect x="430.0" y="1870" width="87.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="473.5" y="1886" class="barlabel" text-anchor="middle">3</text>
+<rect x="517.1" y="1870" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="517.1" y="1870" width="174.2" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="604.2" y="1886" class="barlabel" text-anchor="middle">6</text>
+<rect x="691.3" y="1870" width="203.2" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="792.9" y="1886" class="barlabel" text-anchor="middle">7</text>
+<rect x="894.5" y="1870" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="1887" class="axis">16</text>
+<rect x="50" y="1964" width="1600" height="296" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="1996" class="h2">Panel D. Scale or unit of aggregation by analytical type</text>
+<rect x="850" y="1982" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="1993" class="legend">Experimental / trial</text>
+<rect x="1030" y="1982" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="1993" class="legend">Quasi-experimental</text>
+<rect x="1210" y="1982" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="1993" class="legend">Observational / implementation</text>
+<rect x="1440" y="1982" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="1993" class="legend">Modeling / economic</text>
+<rect x="1620" y="1982" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="1993" class="legend">Other / commentary</text>
+<text x="416" y="2048" class="axis" text-anchor="end">National/global</text>
+<rect x="430.0" y="2030" width="65.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="462.9" y="2046" class="barlabel" text-anchor="middle">3</text>
+<rect x="495.9" y="2030" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="495.9" y="2030" width="658.5" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="825.1" y="2046" class="barlabel" text-anchor="middle">30</text>
+<rect x="1154.4" y="2030" width="175.6" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1242.2" y="2046" class="barlabel" text-anchor="middle">8</text>
+<rect x="1330.0" y="2030" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2047" class="axis">41</text>
+<text x="416" y="2082" class="axis" text-anchor="end">Multiple facilities</text>
+<rect x="430.0" y="2064" width="482.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="671.5" y="2080" class="barlabel" text-anchor="middle">22</text>
+<rect x="912.9" y="2064" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="912.9" y="2064" width="329.3" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="1077.6" y="2080" class="barlabel" text-anchor="middle">15</text>
+<rect x="1242.2" y="2064" width="87.8" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1286.1" y="2080" class="barlabel" text-anchor="middle">4</text>
+<rect x="1330.0" y="2064" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2081" class="axis">41</text>
+<text x="416" y="2116" class="axis" text-anchor="end">Single facility</text>
+<rect x="430.0" y="2098" width="65.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="462.9" y="2114" class="barlabel" text-anchor="middle">3</text>
+<rect x="495.9" y="2098" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="495.9" y="2098" width="22.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="517.8" y="2098" width="43.9" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="539.8" y="2114" class="barlabel" text-anchor="middle">2</text>
+<rect x="561.7" y="2098" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2115" class="axis">6</text>
+<text x="416" y="2150" class="axis" text-anchor="end">Unclear</text>
+<rect x="430.0" y="2132" width="43.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="452.0" y="2148" class="barlabel" text-anchor="middle">2</text>
+<rect x="473.9" y="2132" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="473.9" y="2132" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="473.9" y="2132" width="22.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="495.9" y="2132" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2149" class="axis">3</text>
+<text x="416" y="2184" class="axis" text-anchor="end">District/province</text>
+<rect x="430.0" y="2166" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="2166" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="2166" width="43.9" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="452.0" y="2182" class="barlabel" text-anchor="middle">2</text>
+<rect x="473.9" y="2166" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="473.9" y="2166" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2183" class="axis">2</text>
+<text x="416" y="2218" class="axis" text-anchor="end">Commentary</text>
+<rect x="430.0" y="2200" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="2200" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="2200" width="22.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="452.0" y="2200" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="452.0" y="2200" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2217" class="axis">1</text>
+<rect x="50" y="2294" width="1600" height="602" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="2326" class="h2">Panel E. Oxygen supply modality class by analytical type</text>
+<rect x="850" y="2312" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="2323" class="legend">Experimental / trial</text>
+<rect x="1030" y="2312" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="2323" class="legend">Quasi-experimental</text>
+<rect x="1210" y="2312" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="2323" class="legend">Observational / implementation</text>
+<rect x="1440" y="2312" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="2323" class="legend">Modeling / economic</text>
+<rect x="1620" y="2312" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="2323" class="legend">Other / commentary</text>
+<text x="416" y="2378" class="axis" text-anchor="end">Concentrator</text>
+<rect x="430.0" y="2360" width="324.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="592.0" y="2376" class="barlabel" text-anchor="middle">9</text>
+<rect x="754.0" y="2360" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="754.0" y="2360" width="468.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="988.0" y="2376" class="barlabel" text-anchor="middle">13</text>
+<rect x="1222.0" y="2360" width="108.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1276.0" y="2376" class="barlabel" text-anchor="middle">3</text>
+<rect x="1330.0" y="2360" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2377" class="axis">25</text>
+<text x="416" y="2412" class="axis" text-anchor="end">Oxygen unspecified</text>
+<rect x="430.0" y="2394" width="144.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="502.0" y="2410" class="barlabel" text-anchor="middle">4</text>
+<rect x="574.0" y="2394" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="574.0" y="2394" width="540.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="844.0" y="2410" class="barlabel" text-anchor="middle">15</text>
+<rect x="1114.0" y="2394" width="180.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1204.0" y="2410" class="barlabel" text-anchor="middle">5</text>
+<rect x="1294.0" y="2394" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2411" class="axis">24</text>
+<text x="416" y="2446" class="axis" text-anchor="end">Oximetry</text>
+<rect x="430.0" y="2428" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="2444" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2428" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="2428" width="252.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="628.0" y="2444" class="barlabel" text-anchor="middle">7</text>
+<rect x="754.0" y="2428" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="772.0" y="2444" class="barlabel" text-anchor="middle">1</text>
+<rect x="790.0" y="2428" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2445" class="axis">10</text>
+<text x="416" y="2480" class="axis" text-anchor="end">Concentrator + Cylinder</text>
+<rect x="430.0" y="2462" width="108.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="484.0" y="2478" class="barlabel" text-anchor="middle">3</text>
+<rect x="538.0" y="2462" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="538.0" y="2462" width="72.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="574.0" y="2478" class="barlabel" text-anchor="middle">2</text>
+<rect x="610.0" y="2462" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="628.0" y="2478" class="barlabel" text-anchor="middle">1</text>
+<rect x="646.0" y="2462" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2479" class="axis">6</text>
+<text x="416" y="2514" class="axis" text-anchor="end">Concentrator + Cylinder + HFNO/HFNC / + Low-flow</text>
+<rect x="430.0" y="2496" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="2512" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2496" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="2496" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="520.0" y="2512" class="barlabel" text-anchor="middle">1</text>
+<rect x="538.0" y="2496" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="556.0" y="2512" class="barlabel" text-anchor="middle">1</text>
+<rect x="574.0" y="2496" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2513" class="axis">4</text>
+<text x="416" y="2548" class="axis" text-anchor="end">Oximetry + Concentrator + Cylinder</text>
+<rect x="430.0" y="2530" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="2546" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2530" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="2530" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="520.0" y="2546" class="barlabel" text-anchor="middle">1</text>
+<rect x="538.0" y="2530" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="538.0" y="2530" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2547" class="axis">3</text>
+<text x="416" y="2582" class="axis" text-anchor="end">Not specified</text>
+<rect x="430.0" y="2564" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="2564" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="2564" width="108.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="484.0" y="2580" class="barlabel" text-anchor="middle">3</text>
+<rect x="538.0" y="2564" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="538.0" y="2564" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2581" class="axis">3</text>
+<text x="416" y="2616" class="axis" text-anchor="end">Cylinder + PSA</text>
+<rect x="430.0" y="2598" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="2598" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="2598" width="72.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="466.0" y="2614" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2598" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="520.0" y="2614" class="barlabel" text-anchor="middle">1</text>
+<rect x="538.0" y="2598" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2615" class="axis">3</text>
+<text x="416" y="2650" class="axis" text-anchor="end">Oximetry + Concentrator</text>
+<rect x="430.0" y="2632" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="2648" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="2632" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="2632" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="484.0" y="2648" class="barlabel" text-anchor="middle">1</text>
+<rect x="502.0" y="2632" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="502.0" y="2632" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2649" class="axis">2</text>
+<text x="416" y="2684" class="axis" text-anchor="end">Cylinder</text>
+<rect x="430.0" y="2666" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="2666" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="2666" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="430.0" y="2666" width="72.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="466.0" y="2682" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2666" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2683" class="axis">2</text>
+<text x="416" y="2718" class="axis" text-anchor="end">Concentrator + PSA</text>
+<rect x="430.0" y="2700" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="2716" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2700" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="2700" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="502.0" y="2700" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="502.0" y="2700" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2717" class="axis">2</text>
+<text x="416" y="2752" class="axis" text-anchor="end">Concentrator + bCPAP/CPAP + Low-flow</text>
+<rect x="430.0" y="2734" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="2750" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="2734" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="2734" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="466.0" y="2734" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="2734" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2751" class="axis">1</text>
+<text x="416" y="2786" class="axis" text-anchor="end">Concentrator + Cylinder + bCPAP/CPAP / + HFNO/HFNC + Low-flow</text>
+<rect x="430.0" y="2768" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="2784" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="2768" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="2768" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="466.0" y="2768" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="2768" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2785" class="axis">1</text>
+<text x="416" y="2820" class="axis" text-anchor="end">Concentrator + Cylinder + bCPAP/CPAP / + Low-flow</text>
+<rect x="430.0" y="2802" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="2818" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="2802" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="2802" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="466.0" y="2802" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="2802" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2819" class="axis">1</text>
+<text x="416" y="2854" class="axis" text-anchor="end">Other</text>
+<rect x="430.0" y="2836" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="2852" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2836" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="2836" width="144.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="574.0" y="2852" class="barlabel" text-anchor="middle">4</text>
+<rect x="646.0" y="2836" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="664.0" y="2852" class="barlabel" text-anchor="middle">1</text>
+<rect x="682.0" y="2836" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="2853" class="axis">7</text>
+<rect x="50" y="2930" width="1600" height="534" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="2962" class="h2">Panel F. Energy source class by analytical type</text>
+<rect x="850" y="2948" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="2959" class="legend">Experimental / trial</text>
+<rect x="1030" y="2948" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="2959" class="legend">Quasi-experimental</text>
+<rect x="1210" y="2948" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="2959" class="legend">Observational / implementation</text>
+<rect x="1440" y="2948" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="2959" class="legend">Modeling / economic</text>
+<rect x="1620" y="2948" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="2959" class="legend">Other / commentary</text>
+<text x="416" y="3014" class="axis" text-anchor="end">Not specified</text>
+<rect x="430.0" y="2996" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="3012" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="2996" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="2996" width="756.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="880.0" y="3012" class="barlabel" text-anchor="middle">21</text>
+<rect x="1258.0" y="2996" width="72.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1294.0" y="3012" class="barlabel" text-anchor="middle">2</text>
+<rect x="1330.0" y="2996" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3013" class="axis">25</text>
+<text x="416" y="3048" class="axis" text-anchor="end">Energy unspecified</text>
+<rect x="430.0" y="3030" width="144.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="502.0" y="3046" class="barlabel" text-anchor="middle">4</text>
+<rect x="574.0" y="3030" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="574.0" y="3030" width="468.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="808.0" y="3046" class="barlabel" text-anchor="middle">13</text>
+<rect x="1042.0" y="3030" width="180.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1132.0" y="3046" class="barlabel" text-anchor="middle">5</text>
+<rect x="1222.0" y="3030" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3047" class="axis">22</text>
+<text x="416" y="3082" class="axis" text-anchor="end">Solar PV + Battery</text>
+<rect x="430.0" y="3064" width="216.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="538.0" y="3080" class="barlabel" text-anchor="middle">6</text>
+<rect x="646.0" y="3064" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="646.0" y="3064" width="144.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="718.0" y="3080" class="barlabel" text-anchor="middle">4</text>
+<rect x="790.0" y="3064" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="790.0" y="3064" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3081" class="axis">10</text>
+<text x="416" y="3116" class="axis" text-anchor="end">Grid</text>
+<rect x="430.0" y="3098" width="252.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="556.0" y="3114" class="barlabel" text-anchor="middle">7</text>
+<rect x="682.0" y="3098" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="682.0" y="3098" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="700.0" y="3114" class="barlabel" text-anchor="middle">1</text>
+<rect x="718.0" y="3098" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="718.0" y="3098" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3115" class="axis">8</text>
+<text x="416" y="3150" class="axis" text-anchor="end">Solar PV</text>
+<rect x="430.0" y="3132" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="3148" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="3132" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="3132" width="108.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="520.0" y="3148" class="barlabel" text-anchor="middle">3</text>
+<rect x="574.0" y="3132" width="144.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="646.0" y="3148" class="barlabel" text-anchor="middle">4</text>
+<rect x="718.0" y="3132" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3149" class="axis">8</text>
+<text x="416" y="3184" class="axis" text-anchor="end">Grid + Backup</text>
+<rect x="430.0" y="3166" width="144.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="502.0" y="3182" class="barlabel" text-anchor="middle">4</text>
+<rect x="574.0" y="3166" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="574.0" y="3166" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="592.0" y="3182" class="barlabel" text-anchor="middle">1</text>
+<rect x="610.0" y="3166" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="628.0" y="3182" class="barlabel" text-anchor="middle">1</text>
+<rect x="646.0" y="3166" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3183" class="axis">6</text>
+<text x="416" y="3218" class="axis" text-anchor="end">Grid + Generator/diesel</text>
+<rect x="430.0" y="3200" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="3216" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="3200" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="3200" width="72.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="538.0" y="3216" class="barlabel" text-anchor="middle">2</text>
+<rect x="574.0" y="3200" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="592.0" y="3216" class="barlabel" text-anchor="middle">1</text>
+<rect x="610.0" y="3200" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3217" class="axis">5</text>
+<text x="416" y="3252" class="axis" text-anchor="end">Solar PV + Grid</text>
+<rect x="430.0" y="3234" width="72.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.0" y="3250" class="barlabel" text-anchor="middle">2</text>
+<rect x="502.0" y="3234" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="502.0" y="3234" width="72.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="538.0" y="3250" class="barlabel" text-anchor="middle">2</text>
+<rect x="574.0" y="3234" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="592.0" y="3250" class="barlabel" text-anchor="middle">1</text>
+<rect x="610.0" y="3234" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3251" class="axis">5</text>
+<text x="416" y="3286" class="axis" text-anchor="end">Battery</text>
+<rect x="430.0" y="3268" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="3284" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="3268" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="3268" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="466.0" y="3268" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="3268" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3285" class="axis">1</text>
+<text x="416" y="3320" class="axis" text-anchor="end">Solar PV + Battery + Grid</text>
+<rect x="430.0" y="3302" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="3302" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="3302" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="430.0" y="3302" width="36.0" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="448.0" y="3318" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="3302" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3319" class="axis">1</text>
+<text x="416" y="3354" class="axis" text-anchor="end">Grid + Generator/diesel + Backup</text>
+<rect x="430.0" y="3336" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="3336" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="3336" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="448.0" y="3352" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="3336" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="3336" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3353" class="axis">1</text>
+<text x="416" y="3388" class="axis" text-anchor="end">Generator/diesel</text>
+<rect x="430.0" y="3370" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="3370" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="3370" width="36.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="448.0" y="3386" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="3370" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="3370" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3387" class="axis">1</text>
+<text x="416" y="3422" class="axis" text-anchor="end">Backup</text>
+<rect x="430.0" y="3404" width="36.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="448.0" y="3420" class="barlabel" text-anchor="middle">1</text>
+<rect x="466.0" y="3404" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="466.0" y="3404" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="466.0" y="3404" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="466.0" y="3404" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3421" class="axis">1</text>
+<rect x="50" y="3498" width="1600" height="602" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="3530" class="h2">Panel G. Measured endpoint class by analytical type</text>
+<rect x="850" y="3516" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="3527" class="legend">Experimental / trial</text>
+<rect x="1030" y="3516" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="3527" class="legend">Quasi-experimental</text>
+<rect x="1210" y="3516" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="3527" class="legend">Observational / implementation</text>
+<rect x="1440" y="3516" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="3527" class="legend">Modeling / economic</text>
+<rect x="1620" y="3516" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="3527" class="legend">Other / commentary</text>
+<text x="416" y="3582" class="axis" text-anchor="end">Not specified</text>
+<rect x="430.0" y="3564" width="142.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="501.1" y="3580" class="barlabel" text-anchor="middle">3</text>
+<rect x="572.1" y="3564" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="572.1" y="3564" width="521.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="832.6" y="3580" class="barlabel" text-anchor="middle">11</text>
+<rect x="1093.2" y="3564" width="236.8" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1211.6" y="3580" class="barlabel" text-anchor="middle">5</text>
+<rect x="1330.0" y="3564" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3581" class="axis">19</text>
+<text x="416" y="3616" class="axis" text-anchor="end">Mortality/survival</text>
+<rect x="430.0" y="3598" width="331.6" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="595.8" y="3614" class="barlabel" text-anchor="middle">7</text>
+<rect x="761.6" y="3598" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="761.6" y="3598" width="94.7" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="808.9" y="3614" class="barlabel" text-anchor="middle">2</text>
+<rect x="856.3" y="3598" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="856.3" y="3598" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3615" class="axis">9</text>
+<text x="416" y="3650" class="axis" text-anchor="end">Mortality/survival + SpO2/hypoxaemia</text>
+<rect x="430.0" y="3632" width="142.1" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="501.1" y="3648" class="barlabel" text-anchor="middle">3</text>
+<rect x="572.1" y="3632" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="572.1" y="3632" width="189.5" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="666.8" y="3648" class="barlabel" text-anchor="middle">4</text>
+<rect x="761.6" y="3632" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="761.6" y="3632" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3649" class="axis">7</text>
+<text x="416" y="3684" class="axis" text-anchor="end">Access/readiness</text>
+<rect x="430.0" y="3666" width="47.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="453.7" y="3682" class="barlabel" text-anchor="middle">1</text>
+<rect x="477.4" y="3666" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="477.4" y="3666" width="284.2" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="619.5" y="3682" class="barlabel" text-anchor="middle">6</text>
+<rect x="761.6" y="3666" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="761.6" y="3666" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3683" class="axis">7</text>
+<text x="416" y="3718" class="axis" text-anchor="end">Cost/economic</text>
+<rect x="430.0" y="3700" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="3700" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="3700" width="142.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="501.1" y="3716" class="barlabel" text-anchor="middle">3</text>
+<rect x="572.1" y="3700" width="142.1" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="643.2" y="3716" class="barlabel" text-anchor="middle">3</text>
+<rect x="714.2" y="3700" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3717" class="axis">6</text>
+<text x="416" y="3752" class="axis" text-anchor="end">Access/readiness + SpO2/hypoxaemia</text>
+<rect x="430.0" y="3734" width="47.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="453.7" y="3750" class="barlabel" text-anchor="middle">1</text>
+<rect x="477.4" y="3734" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="477.4" y="3734" width="189.5" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="572.1" y="3750" class="barlabel" text-anchor="middle">4</text>
+<rect x="666.8" y="3734" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="666.8" y="3734" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3751" class="axis">5</text>
+<text x="416" y="3786" class="axis" text-anchor="end">SpO2/hypoxaemia</text>
+<rect x="430.0" y="3768" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="3768" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="3768" width="236.8" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="548.4" y="3784" class="barlabel" text-anchor="middle">5</text>
+<rect x="666.8" y="3768" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="666.8" y="3768" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3785" class="axis">5</text>
+<text x="416" y="3820" class="axis" text-anchor="end">Mortality/survival + / Reliability/outages</text>
+<rect x="430.0" y="3802" width="94.7" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="477.4" y="3818" class="barlabel" text-anchor="middle">2</text>
+<rect x="524.7" y="3802" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="524.7" y="3802" width="94.7" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="572.1" y="3818" class="barlabel" text-anchor="middle">2</text>
+<rect x="619.5" y="3802" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="619.5" y="3802" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3819" class="axis">4</text>
+<text x="416" y="3854" class="axis" text-anchor="end">Mortality/survival + Cost/economic</text>
+<rect x="430.0" y="3836" width="47.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="453.7" y="3852" class="barlabel" text-anchor="middle">1</text>
+<rect x="477.4" y="3836" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="477.4" y="3836" width="47.4" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="501.1" y="3852" class="barlabel" text-anchor="middle">1</text>
+<rect x="524.7" y="3836" width="47.4" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="548.4" y="3852" class="barlabel" text-anchor="middle">1</text>
+<rect x="572.1" y="3836" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3853" class="axis">3</text>
+<text x="416" y="3888" class="axis" text-anchor="end">Mortality/survival + / Access/readiness</text>
+<rect x="430.0" y="3870" width="94.7" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="477.4" y="3886" class="barlabel" text-anchor="middle">2</text>
+<rect x="524.7" y="3870" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="524.7" y="3870" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="524.7" y="3870" width="47.4" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="548.4" y="3886" class="barlabel" text-anchor="middle">1</text>
+<rect x="572.1" y="3870" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3887" class="axis">3</text>
+<text x="416" y="3922" class="axis" text-anchor="end">Reliability/outages + Cost/economic</text>
+<rect x="430.0" y="3904" width="47.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="453.7" y="3920" class="barlabel" text-anchor="middle">1</text>
+<rect x="477.4" y="3904" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="477.4" y="3904" width="94.7" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="524.7" y="3920" class="barlabel" text-anchor="middle">2</text>
+<rect x="572.1" y="3904" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="572.1" y="3904" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3921" class="axis">3</text>
+<text x="416" y="3956" class="axis" text-anchor="end">Mortality/survival + / Access/readiness +</text>
+<rect x="430.0" y="3938" width="47.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="453.7" y="3954" class="barlabel" text-anchor="middle">1</text>
+<rect x="477.4" y="3938" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="477.4" y="3938" width="47.4" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="501.1" y="3954" class="barlabel" text-anchor="middle">1</text>
+<rect x="524.7" y="3938" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="524.7" y="3938" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3955" class="axis">2</text>
+<text x="416" y="3990" class="axis" text-anchor="end">Access/readiness + Cost/economic</text>
+<rect x="430.0" y="3972" width="47.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="453.7" y="3988" class="barlabel" text-anchor="middle">1</text>
+<rect x="477.4" y="3972" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="477.4" y="3972" width="47.4" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="501.1" y="3988" class="barlabel" text-anchor="middle">1</text>
+<rect x="524.7" y="3972" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="524.7" y="3972" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="3989" class="axis">2</text>
+<text x="416" y="4024" class="axis" text-anchor="end">Energy consumption</text>
+<rect x="430.0" y="4006" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="4006" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="4006" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="430.0" y="4006" width="94.7" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="477.4" y="4022" class="barlabel" text-anchor="middle">2</text>
+<rect x="524.7" y="4006" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4023" class="axis">2</text>
+<text x="416" y="4058" class="axis" text-anchor="end">Other</text>
+<rect x="430.0" y="4040" width="331.6" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="595.8" y="4056" class="barlabel" text-anchor="middle">7</text>
+<rect x="761.6" y="4040" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="761.6" y="4040" width="331.6" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="927.4" y="4056" class="barlabel" text-anchor="middle">7</text>
+<rect x="1093.2" y="4040" width="142.1" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1164.2" y="4056" class="barlabel" text-anchor="middle">3</text>
+<rect x="1235.3" y="4040" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4057" class="axis">17</text>
+<rect x="50" y="4134" width="1600" height="364" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="4166" class="h2">Panel H. Clinical observations / sample-size class by analytical type</text>
+<rect x="850" y="4152" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="4163" class="legend">Experimental / trial</text>
+<rect x="1030" y="4152" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="4163" class="legend">Quasi-experimental</text>
+<rect x="1210" y="4152" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="4163" class="legend">Observational / implementation</text>
+<rect x="1440" y="4152" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="4163" class="legend">Modeling / economic</text>
+<rect x="1620" y="4152" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="4163" class="legend">Other / commentary</text>
+<text x="416" y="4218" class="axis" text-anchor="end">1k-9,999 patients/obs</text>
+<rect x="430.0" y="4200" width="194.6" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="527.3" y="4216" class="barlabel" text-anchor="middle">8</text>
+<rect x="624.6" y="4200" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="624.6" y="4200" width="535.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="892.2" y="4216" class="barlabel" text-anchor="middle">22</text>
+<rect x="1159.7" y="4200" width="170.3" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1244.9" y="4216" class="barlabel" text-anchor="middle">7</text>
+<rect x="1330.0" y="4200" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4217" class="axis">37</text>
+<text x="416" y="4252" class="axis" text-anchor="end">&lt;300 patients/obs</text>
+<rect x="430.0" y="4234" width="170.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="515.1" y="4250" class="barlabel" text-anchor="middle">7</text>
+<rect x="600.3" y="4234" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="600.3" y="4234" width="243.2" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="721.9" y="4250" class="barlabel" text-anchor="middle">10</text>
+<rect x="843.5" y="4234" width="24.3" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="855.7" y="4250" class="barlabel" text-anchor="middle">1</text>
+<rect x="867.8" y="4234" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4251" class="axis">18</text>
+<text x="416" y="4286" class="axis" text-anchor="end">Unclear n</text>
+<rect x="430.0" y="4268" width="48.6" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="454.3" y="4284" class="barlabel" text-anchor="middle">2</text>
+<rect x="478.6" y="4268" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="478.6" y="4268" width="340.5" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="648.9" y="4284" class="barlabel" text-anchor="middle">14</text>
+<rect x="819.2" y="4268" width="24.3" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="831.4" y="4284" class="barlabel" text-anchor="middle">1</text>
+<rect x="843.5" y="4268" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4285" class="axis">17</text>
+<text x="416" y="4320" class="axis" text-anchor="end">Facility/program/model</text>
+<rect x="430.0" y="4302" width="73.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.5" y="4318" class="barlabel" text-anchor="middle">3</text>
+<rect x="503.0" y="4302" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="503.0" y="4302" width="48.6" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="527.3" y="4318" class="barlabel" text-anchor="middle">2</text>
+<rect x="551.6" y="4302" width="121.6" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="612.4" y="4318" class="barlabel" text-anchor="middle">5</text>
+<rect x="673.2" y="4302" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4319" class="axis">10</text>
+<text x="416" y="4354" class="axis" text-anchor="end">10k+ patients/obs</text>
+<rect x="430.0" y="4336" width="145.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="503.0" y="4352" class="barlabel" text-anchor="middle">6</text>
+<rect x="575.9" y="4336" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="575.9" y="4336" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="575.9" y="4336" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="575.9" y="4336" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4353" class="axis">6</text>
+<text x="416" y="4388" class="axis" text-anchor="end">Planned n</text>
+<rect x="430.0" y="4370" width="73.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="466.5" y="4386" class="barlabel" text-anchor="middle">3</text>
+<rect x="503.0" y="4370" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="503.0" y="4370" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="503.0" y="4370" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="503.0" y="4370" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4387" class="axis">3</text>
+<text x="416" y="4422" class="axis" text-anchor="end">No primary n</text>
+<rect x="430.0" y="4404" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="4404" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="4404" width="24.3" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="442.2" y="4420" class="barlabel" text-anchor="middle">1</text>
+<rect x="454.3" y="4404" width="24.3" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="466.5" y="4420" class="barlabel" text-anchor="middle">1</text>
+<rect x="478.6" y="4404" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4421" class="axis">2</text>
+<text x="416" y="4456" class="axis" text-anchor="end">300-999 patients/obs</text>
+<rect x="430.0" y="4438" width="24.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="442.2" y="4454" class="barlabel" text-anchor="middle">1</text>
+<rect x="454.3" y="4438" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="454.3" y="4438" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="454.3" y="4438" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="454.3" y="4438" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4455" class="axis">1</text>
+<rect x="50" y="4532" width="1600" height="296" fill="#ffffff" stroke="#ddd"/>
+<text x="70" y="4564" class="h2">Panel I. Observation window class by analytical type</text>
+<rect x="850" y="4550" width="12" height="12" fill="#1f77b4"/>
+<text x="867" y="4561" class="legend">Experimental / trial</text>
+<rect x="1030" y="4550" width="12" height="12" fill="#2ca02c"/>
+<text x="1047" y="4561" class="legend">Quasi-experimental</text>
+<rect x="1210" y="4550" width="12" height="12" fill="#ff7f0e"/>
+<text x="1227" y="4561" class="legend">Observational / implementation</text>
+<rect x="1440" y="4550" width="12" height="12" fill="#9467bd"/>
+<text x="1457" y="4561" class="legend">Modeling / economic</text>
+<rect x="1620" y="4550" width="12" height="12" fill="#7f7f7f"/>
+<text x="1637" y="4561" class="legend">Other / commentary</text>
+<text x="416" y="4616" class="axis" text-anchor="end">Unclear</text>
+<rect x="430.0" y="4598" width="102.3" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="481.1" y="4614" class="barlabel" text-anchor="middle">5</text>
+<rect x="532.3" y="4598" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="532.3" y="4598" width="531.8" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="798.2" y="4614" class="barlabel" text-anchor="middle">26</text>
+<rect x="1064.1" y="4598" width="265.9" height="22" fill="#9467bd" opacity="0.9"/>
+<text x="1197.0" y="4614" class="barlabel" text-anchor="middle">13</text>
+<rect x="1330.0" y="4598" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4615" class="axis">44</text>
+<text x="416" y="4650" class="axis" text-anchor="end">Multi-year / longitudinal</text>
+<rect x="430.0" y="4632" width="286.4" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="573.2" y="4648" class="barlabel" text-anchor="middle">14</text>
+<rect x="716.4" y="4632" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="716.4" y="4632" width="184.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="808.4" y="4648" class="barlabel" text-anchor="middle">9</text>
+<rect x="900.5" y="4632" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="900.5" y="4632" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4649" class="axis">23</text>
+<text x="416" y="4684" class="axis" text-anchor="end">Before-after / stepped-wedge</text>
+<rect x="430.0" y="4666" width="143.2" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="501.6" y="4682" class="barlabel" text-anchor="middle">7</text>
+<rect x="573.2" y="4666" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="573.2" y="4666" width="81.8" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="614.1" y="4682" class="barlabel" text-anchor="middle">4</text>
+<rect x="655.0" y="4666" width="20.5" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="675.5" y="4666" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4683" class="axis">12</text>
+<text x="416" y="4718" class="axis" text-anchor="end">Cross-sectional / none</text>
+<rect x="430.0" y="4700" width="0.0" height="22" fill="#1f77b4" opacity="0.9"/>
+<rect x="430.0" y="4700" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="430.0" y="4700" width="184.1" height="22" fill="#ff7f0e" opacity="0.9"/>
+<text x="522.0" y="4716" class="barlabel" text-anchor="middle">9</text>
+<rect x="614.1" y="4700" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="614.1" y="4700" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4717" class="axis">9</text>
+<text x="416" y="4752" class="axis" text-anchor="end">Clinical follow-up</text>
+<rect x="430.0" y="4734" width="40.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="450.5" y="4750" class="barlabel" text-anchor="middle">2</text>
+<rect x="470.9" y="4734" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="470.9" y="4734" width="20.5" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="491.4" y="4734" width="20.5" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="511.8" y="4734" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4751" class="axis">4</text>
+<text x="416" y="4786" class="axis" text-anchor="end">High-frequency longitudinal</text>
+<rect x="430.0" y="4768" width="40.9" height="22" fill="#1f77b4" opacity="0.9"/>
+<text x="450.5" y="4784" class="barlabel" text-anchor="middle">2</text>
+<rect x="470.9" y="4768" width="0.0" height="22" fill="#2ca02c" opacity="0.9"/>
+<rect x="470.9" y="4768" width="0.0" height="22" fill="#ff7f0e" opacity="0.9"/>
+<rect x="470.9" y="4768" width="0.0" height="22" fill="#9467bd" opacity="0.9"/>
+<rect x="470.9" y="4768" width="0.0" height="22" fill="#7f7f7f" opacity="0.9"/>
+<text x="1342" y="4785" class="axis">2</text>
+<rect x="50" y="4867" width="1600" height="210" fill="#f7fafc" stroke="#cfd8df"/>
+<text x="70" y="4902" class="h2">Useful patterns to chase</text>
+<text x="80" y="4933" class="note">• Coupled technical evidence: 18 papers; oxygen-detailed but energy-thin: 40; energy-detailed but oxygen-thin: 2; thin/ambiguous in both: 34.</text>
+<text x="80" y="4957" class="note">• Clinical trials cluster on oxygen modality and mortality/SpO2 endpoints, but many still treat grid or backup as context rather than a measured</text>
+<text x="98" y="4976" class="note">exposure.</text>
+<text x="80" y="5000" class="note">• Solar/autonomy papers are the strongest bridge between oxygen and energy because the intervention bundles oxygen production with electricity source</text>
+<text x="98" y="5019" class="note">and storage.</text>
+<text x="80" y="5043" class="note">• There is very little literature that measures power quality, voltage/frequency, kWh, diesel dependence, or outage duration as oxygen-system variables,</text>
+<text x="98" y="5062" class="note">which is exactly the DRC3a opening.</text>
+<text x="80" y="5086" class="note">• The DRC/North Kivu-specific material appears mostly in functionality, implementation, or contextual evidence rather than trial evidence, so DRC3a</text>
+<text x="98" y="5105" class="note">should own the infrastructure measurement contribution instead of trying to mimic clinical oxygen RCTs.</text>
+</svg>

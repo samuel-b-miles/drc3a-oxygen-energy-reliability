@@ -1,0 +1,5 @@
+test,comparison,n_generator,median_generator,n_no_generator,median_no_generator,statistic,p_value
+Mann-Whitney U,solar panel count by generator presence,167,9.0,137.0,4.0,16647.5,6.9280698120357585e-12
+Mann-Whitney U,clean solar kWp by generator presence,69,2.0,51.0,1.0,2429.0,0.0003639989585731264
+Spearman rank correlation,clean solar kWp vs clean first-generator kVA among paired facilities,65,12.0,,2.0,0.3136705654047197,0.01094684018495619
+Spearman rank correlation,clean solar panel count vs clean first-generator kVA among paired facilities,161,10.5,,9.0,0.3080601997262683,7.022808521734485e-05

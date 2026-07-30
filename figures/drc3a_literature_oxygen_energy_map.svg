@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="980" viewBox="0 0 1500 980">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial, Helvetica, sans-serif;} .small{font-size:13px;fill:#555}.tick{font-size:12px;fill:#555}.label{font-size:15px;fill:#222}.title{font-size:25px;font-weight:700;fill:#111}.subtitle{font-size:14px;fill:#555}.quad{font-size:15px;font-weight:700}</style>
+<text x="105" y="54" class="title">Oxygen Literature Map: Clinical Oxygen Evidence vs Energy-System Evidence</text>
+<text x="105" y="82" class="subtitle">Draft classification from the DRC3 oxygen literature review table (n=94). Position is keyword/codebook-based, not final systematic-review coding.</text>
+<rect x="105" y="495.0" width="445.0" height="350.0" fill="#f2f2f2" opacity="0.95"/>
+<rect x="550.0" y="495.0" width="445.0" height="350.0" fill="#fff4e6" opacity="0.95"/>
+<rect x="105" y="145" width="445.0" height="350.0" fill="#eaf3ff" opacity="0.9"/>
+<rect x="550.0" y="145" width="445.0" height="350.0" fill="#e9f7ef" opacity="0.95"/>
+<line x1="105.0" y1="145" x2="105.0" y2="845" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="105" y1="845.0" x2="995" y2="845.0" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="283.0" y1="145" x2="283.0" y2="845" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="105" y1="705.0" x2="995" y2="705.0" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="461.0" y1="145" x2="461.0" y2="845" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="105" y1="565.0" x2="995" y2="565.0" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="639.0" y1="145" x2="639.0" y2="845" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="105" y1="425.0" x2="995" y2="425.0" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="817.0" y1="145" x2="817.0" y2="845" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="105" y1="285.0" x2="995" y2="285.0" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="995.0" y1="145" x2="995.0" y2="845" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<line x1="105" y1="145.0" x2="995" y2="145.0" stroke="#d7d7d7" stroke-width="1" opacity="0.8"/>
+<rect x="105" y="145" width="890" height="700" fill="none" stroke="#333" stroke-width="1.2"/>
+<line x1="550.0" y1="145" x2="550.0" y2="845" stroke="#444" stroke-width="1.2" opacity="0.65"/>
+<line x1="105" y1="495.0" x2="995" y2="495.0" stroke="#444" stroke-width="1.2" opacity="0.65"/>
+<text x="105.0" y="871" class="tick" text-anchor="middle">none</text>
+<text x="87" y="849.0" class="tick" text-anchor="end">none</text>
+<text x="283.0" y="871" class="tick" text-anchor="middle">thin</text>
+<text x="87" y="709.0" class="tick" text-anchor="end">thin</text>
+<text x="461.0" y="871" class="tick" text-anchor="middle">some</text>
+<text x="87" y="569.0" class="tick" text-anchor="end">some</text>
+<text x="639.0" y="871" class="tick" text-anchor="middle">clear</text>
+<text x="87" y="429.0" class="tick" text-anchor="end">clear</text>
+<text x="817.0" y="871" class="tick" text-anchor="middle">strong</text>
+<text x="87" y="289.0" class="tick" text-anchor="end">strong</text>
+<text x="995.0" y="871" class="tick" text-anchor="middle">central</text>
+<text x="87" y="149.0" class="tick" text-anchor="end">central</text>
+<text x="550.0" y="909" class="label" text-anchor="middle">Oxygen information: need, modality, access, or clinical oxygen outcomes</text>
+<text transform="translate(33,495.0) rotate(-90)" class="label" text-anchor="middle">Energy information: power source, reliability, backup, cost, or autonomy</text>
+<text x="130" y="810" class="quad" fill="#777">low oxygen / low energy</text>
+<text x="580.0" y="810" class="quad" fill="#8a5a00">oxygen-rich / energy-thin</text>
+<text x="130" y="180" class="quad" fill="#24527a">energy-rich / oxygen-thin</text>
+<text x="580.0" y="180" class="quad" fill="#1b6e3a">coupled oxygen-energy evidence</text>
+<circle cx="998.5" cy="549.2" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Maitland K et al. (2018): Children’s Oxygen Administration Strategies Trial (COAST): A randomised controlled trial of high flow versus oxygen versus control in African children with severe pneumonia</title></circle>
+<polygon points="888.6,560.4 881.1,574.9 896.1,574.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Peters MJ et al. (2021): A COASTal view: where prior beliefs and uncertainty collide</title></polygon>
+<polygon points="900.1,551.5 908.1,559.5 900.1,567.5 892.1,559.5" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Carroll OU et al. (2026): A cost-consequence analysis of the Children’s Oxygen Administration Strategies Trial (COAST) in severe pneumonia</title></polygon>
+<circle cx="769.7" cy="534.1" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Graham HR et al. (2019): Oxygen systems to improve clinical care and outcomes for children and neonates: A stepped-wedge cluster-randomised trial in Nigeria</title></circle>
+<circle cx="993.1" cy="572.2" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Maitland K et al. (2021): Randomised controlled trial of oxygen therapy and high-flow nasal therapy in African children with pneumonia</title></circle>
+<circle cx="551.4" cy="451.9" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Subhi R et al. (2025): Clinical evaluation of a concentrator medical oxygen system with automated cylinder back-up in western Uganda: a pragmatic cluster quasi-experimental trial</title></circle>
+<circle cx="848.9" cy="531.9" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>McCollum ED et al. (2019): Bubble continuous positive airway pressure for children with high-risk conditions and severe pneumonia in Malawi: an open-label, randomised, controlled trial</title></circle>
+<circle cx="998.7" cy="705.4" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Chisti MJ et al. (2015): Bubble continuous positive airway pressure for children with severe pneumonia and hypoxaemia in Bangladesh: an open, randomised controlled trial</title></circle>
+<circle cx="988.0" cy="561.2" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Gebre M et al. (2024): Effectiveness of bubble continuous positive airway pressure for treatment of children aged 1–59 months with severe pneumonia and hypoxaemia in Ethiopia: a pragmatic cluster-randomised controlled trial</title></circle>
+<circle cx="734.0" cy="716.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Kandasamy S et al. (2024): High-flow nasal oxygen in infants and children for early respiratory management of pneumonia-induced acute hypoxemic respiratory failure: the CENTURI randomized clinical trial</title></circle>
+<circle cx="213.4" cy="554.5" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>EMPIC Study Group (2021): Innovative, enhanced community management of non-hypoxaemic chest-indrawing pneumonia in 2–59-month-old children (EMPIC Trial)</title></circle>
+<circle cx="991.0" cy="713.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mulondo SA et al. (2020): Pulse oximetry implementation improves detection of hypoxaemia and oxygen use in Ugandan hospitals: an implementation study</title></circle>
+<polygon points="368.3,160.5 360.8,175.0 375.8,175.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Duke T et al. (2021): Solar-powered oxygen quality improvement and child pneumonia deaths: a large-scale effectiveness study</title></polygon>
+<circle cx="346.7" cy="210.2" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Conradi N et al. (2023): Utility of solar-powered oxygen delivery in a resource-constrained setting</title></circle>
+<circle cx="600.6" cy="200.3" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Conradi N et al. (2024): Solar-powered O₂ delivery for the treatment of children with hypoxaemia in Uganda: a stepped-wedge cluster randomised controlled trial</title></circle>
+<circle cx="364.5" cy="197.8" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Duke T et al. (2017): Solar-powered oxygen systems in remote health centers in Papua New Guinea: a large-scale implementation effectiveness trial</title></circle>
+<polygon points="357.8,127.7 350.3,142.2 365.3,142.2" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mangipudi S (2024): Solar-powered solutions to oxygen delivery challenges in Uganda: the next steps</title></polygon>
+<polygon points="353.9,364.4 346.4,378.9 361.4,378.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Pulsan F et al. (2021): Rural healthcare workers’ views on the introduction of solar power and oxygen concentrators in health facilities in Papua New Guinea: a qualitative study</title></polygon>
+<polygon points="482.6,192.0 475.1,206.5 490.1,206.5" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Pulsan F et al. (2021): Response to oxygen therapy using oxygen concentrators run off solar power in children with respiratory distress in remote primary health facilities in Papua New Guinea</title></polygon>
+<polygon points="365.9,135.5 358.4,150.0 373.4,150.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Turnbull H et al. (2016): Solar-powered oxygen delivery: proof of concept</title></polygon>
+<polygon points="362.0,145.9 370.0,153.9 362.0,161.9 354.0,153.9" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Unitaid / Huang Y et al. (2021): Estimated cost-effectiveness of solar-powered oxygen delivery for pneumonia in young children in low-resource settings</title></polygon>
+<circle cx="350.1" cy="206.5" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Conradi N et al. (2019): Solar-powered oxygen delivery for the treatment of children with hypoxemia: protocol for a cluster-randomized stepped-wedge controlled trial in Uganda</title></circle>
+<circle cx="547.9" cy="150.2" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Nyende S et al. (2015): Solar-powered oxygen delivery: study protocol for a randomized controlled trial</title></circle>
+<circle cx="346.9" cy="206.7" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Duke T et al. (2017): Solar powered oxygen systems in remote health centers in Papua New Guinea: a large scale implementation effectiveness trial</title></circle>
+<circle cx="561.8" cy="205.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mian Q et al. (2019): Solar-powered oxygen delivery to treat childhood pneumonia in low-resource settings: a randomised controlled non-inferiority trial and cost-effectiveness study</title></circle>
+<polygon points="353.7,200.0 346.2,214.5 361.2,214.5" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mian Q et al. (2022): Implementation of solar powered oxygen delivery in a conflict zone: preliminary findings from Somalia on feasibility and usefulness</title></polygon>
+<polygon points="787.7,569.5 780.2,584.0 795.2,584.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Graham HR et al. (2025): Reducing global inequities in medical oxygen access: the Lancet Global Health Commission on medical oxygen security</title></polygon>
+<polygon points="360.6,834.9 353.1,849.4 368.1,849.4" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Alooh M et al. (2025): Investing in local capacity and grassroots innovation to bridge gaps in medical oxygen access and security</title></polygon>
+<polygon points="96.8,434.9 89.3,449.4 104.3,449.4" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Aqeel M et al. (2025): Getting long-term oxygen therapy right</title></polygon>
+<polygon points="96.6,672.9 89.1,687.4 104.1,687.4" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Marks IH et al. (2019): Medical equipment donation in low-resource settings</title></polygon>
+<polygon points="117.2,834.3 109.7,848.8 124.7,848.8" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Grainge C (2004): Breath of life: the evolution of oxygen therapy</title></polygon>
+<polygon points="996.4,472.7 988.9,487.2 1003.9,487.2" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mart MF et al. (2022): Oxygen as an essential medicine</title></polygon>
+<polygon points="566.9,131.6 559.4,146.1 574.4,146.1" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Otiangala D et al. (2020): Oxygen insecurity and mortality in resource-constrained healthcare facilities in rural Kenya</title></polygon>
+<polygon points="98.2,249.7 90.7,264.2 105.7,264.2" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Humura F et al. (2024): Closing gaps in the oxygen supply chain in nations with limited resources</title></polygon>
+<circle cx="352.3" cy="378.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Bradley BD et al. (2016): Implementation and 8-year follow-up of an uninterrupted oxygen supply system in a hospital in The Gambia</title></circle>
+<circle cx="500.8" cy="697.6" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Sutherland T et al. (2019): The “Just Right” Amount of Oxygen: Improving Oxygen Use in a Rwandan Emergency Department</title></circle>
+<circle cx="366.3" cy="441.8" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Graham HR et al. (2022): Cost-effectiveness and sustainability of improved hospital oxygen systems in Nigeria</title></circle>
+<circle cx="360.8" cy="666.7" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Duke T et al. (2008): Improved oxygen systems for childhood pneumonia: a multihospital effectiveness study in Papua New Guinea</title></circle>
+<circle cx="367.2" cy="707.1" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Gray AZ et al. (2017): Improved oxygen systems in district hospitals in Lao PDR: a prospective field trial</title></circle>
+<polygon points="351.0,421.2 343.5,435.7 358.5,435.7" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Matai S et al. (2008): Implementing an oxygen programme in hospitals in Papua New Guinea</title></polygon>
+<circle cx="106.5" cy="216.2" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Duke T et al. (2017): Solar powered oxygen systems in remote health centers in Papua New Guinea</title></circle>
+<circle cx="308.6" cy="754.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Graham HR et al. (2018): Adoption of paediatric and neonatal pulse oximetry by 12 hospitals in Nigeria</title></circle>
+<polygon points="337.6,759.3 330.1,773.8 345.1,773.8" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mushumbamwiza H et al. (2025): Hypoxemia detection and oxygen therapy practices in Rwanda</title></polygon>
+<polygon points="318.9,688.9 326.9,696.9 318.9,704.9 310.9,696.9" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ndayizigiye M et al. (2025): Design, implementation and outcomes of a national oxygen distribution network in Lesotho</title></polygon>
+<polygon points="581.8,656.3 574.3,670.8 589.3,670.8" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Bakare AA et al. (2020): Providing oxygen to children and newborns in southwest Nigeria</title></polygon>
+<polygon points="548.7,538.6 556.7,546.6 548.7,554.6 540.7,546.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Howie SRC et al. (2009): Meeting oxygen needs in Africa: an options analysis from the Gambia</title></polygon>
+<polygon points="750.4,690.6 758.4,698.6 750.4,706.6 742.4,698.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Howie SRC et al. (2020): Oxygen treatment solutions for LMIC health facilities</title></polygon>
+<polygon points="94.1,548.0 86.6,562.5 101.6,562.5" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ijaz N et al. (2025): A rapid facility-level assessment of oxygen systems in 39 LMICs</title></polygon>
+<polygon points="352.5,420.3 345.0,434.8 360.0,434.8" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Louart S et al. (2025): Expanding oxygen access in PHCs in Guinea and Mali</title></polygon>
+<polygon points="116.7,705.1 109.2,719.6 124.2,719.6" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Subhi R et al. (2025): Medical oxygen service readiness and coverage in seven countries</title></polygon>
+<polygon points="529.4,601.5 521.9,616.0 536.9,616.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Smith V et al. (2022): Medical oxygen ecosystem building in Kenya, Rwanda, and Ethiopia</title></polygon>
+<polygon points="109.5,521.9 102.0,536.4 117.0,536.4" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Belle J et al. (2010): Influenza preparedness and oxygen delivery in 12 African countries</title></polygon>
+<polygon points="99.2,667.8 107.2,675.8 99.2,683.8 91.2,675.8" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Hakim S et al. (2026): Pandemic response capacity in LMIC health facilities</title></polygon>
+<polygon points="347.2,671.8 339.7,686.3 354.7,686.3" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mbeva Kahindo JB et al. (2022): Fonctionnalité des concentrateurs d’oxygène hospitaliers au Nord Kivu, République Démocratique du Congo</title></polygon>
+<polygon points="355.7,467.5 363.7,475.5 355.7,483.5 347.7,475.5" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ramezani K et al. (2025): Optimizing medical oxygen concentrators: Efficiency, flexibility, and patient-centric solutions</title></polygon>
+<polygon points="366.3,291.4 358.8,305.9 373.8,305.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ibrahim NH et al. (2025): Design and maintenance of medical oxygen concentrators in Sub-Saharan Africa: a systematic review</title></polygon>
+<polygon points="356.9,307.0 349.4,321.5 364.4,321.5" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Duke T et al. (2010): Oxygen concentrators: a practical guide for clinicians and technicians in developing countries</title></polygon>
+<circle cx="602.3" cy="541.8" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Schartner K et al. (2025): An Energy-Optimized Medical Oxygen Concentrator for Low-Resource Settings</title></circle>
+<polygon points="553.4,519.9 545.9,534.4 560.9,534.4" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Nowadly CD et al. (2022): The use of portable oxygen concentrators in low-resource settings: a systematic review</title></polygon>
+<polygon points="342.8,330.6 335.3,345.1 350.3,345.1" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Navuluri N et al. (2021): Oxygen delivery systems for adults in Sub-Saharan Africa: A scoping review</title></polygon>
+<polygon points="363.4,434.0 371.4,442.0 363.4,450.0 355.4,442.0" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Unitaid (2024): The Medical Oxygen Innovation Landscape: Technologies and business models to improve access</title></polygon>
+<polygon points="111.9,646.8 104.4,661.3 119.4,661.3" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mantena S et al. (2021): Oxygen Blending Is Urgently Needed in Resource-Limited Settings</title></polygon>
+<polygon points="344.4,840.4 336.9,854.9 351.9,854.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Bradley BD et al. (2014): A retrospective analysis of oxygen concentrator maintenance needs and costs in a low-resource setting: experience from The Gambia</title></polygon>
+<polygon points="344.9,135.1 337.4,149.6 352.4,149.6" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ibrahim NH et al. (2025): Design and maintenance of medical oxygen concentrators in Sub-Saharan Africa: a systematic review</title></polygon>
+<circle cx="114.4" cy="501.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Rassool RP et al. (2017): A Low-Pressure Oxygen Storage System for Oxygen Supply in Low-Resource Settings</title></circle>
+<circle cx="100.2" cy="812.1" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Amadi HO (2023): The Politeoxygen Splitter System (PSS): a frugal LMIC oxygen delivery technology that expands utility by up to 700%</title></circle>
+<polygon points="349.5,828.2 342.0,842.7 357.0,842.7" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Smith V et al. (2024): An Oxygen Supply Is Not Enough: A Qualitative Analysis of a Pressure Swing Adsorption Oxygen Plant Program in Ethiopian Hospitals</title></polygon>
+<circle cx="581.7" cy="549.4" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Lowan VC (2023): Design and Development of a Portable Multi-user Medical Grade Oxygen Concentrator</title></circle>
+<circle cx="346.2" cy="359.0" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Peake D et al. (2021): Technical results from a trial of the FREO₂ Low-Pressure Oxygen Storage system, Mbarara Regional Referral Hospital, Uganda</title></circle>
+<circle cx="111.6" cy="403.8" r="7" fill="#1f77b4" stroke="white" stroke-width="1.4" opacity="0.88"><title>Calderon R et al. (2019): Assessment of a storage system to deliver uninterrupted therapeutic oxygen during power outages in resource-limited settings</title></circle>
+<polygon points="104.4,646.5 96.9,661.0 111.9,661.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Otiangala D et al. (2021): A feasibility study evaluating a reservoir storage system for continuous oxygen delivery for children with hypoxemia in Kenya</title></polygon>
+<polygon points="99.1,404.3 107.1,412.3 99.1,420.3 91.1,412.3" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Maggio G et al. (2022): Hydrogen and medical oxygen by renewable energy–based electrolysis: a green and economically viable route</title></polygon>
+<polygon points="103.1,204.6 111.1,212.6 103.1,220.6 95.1,212.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ngoh SK et al. (2022): Green electricity and medical electrolytic oxygen from solar energy – A sustainable solution for rural hospitals</title></polygon>
+<polygon points="307.5,351.6 315.5,359.6 307.5,367.6 299.5,359.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Izadi A et al. (2023): Design and optimization of COVID-19 hospital wards to produce oxygen and electricity through solar PV panels with hydrogen storage systems by neural network–genetic algorithm</title></polygon>
+<polygon points="97.6,415.3 105.6,423.3 97.6,431.3 89.6,423.3" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Alcívar-Reyna TF et al. (2026): Renewable energy for healthcare: Modeling medical oxygen production through PV-powered PEM electrolysis. A case study in Guayaquil, Ecuador</title></polygon>
+<polygon points="553.9,792.5 546.4,807.0 561.4,807.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Olu OO et al. (2023): Bridging the humanitarian-development divide in a protracted crisis: a case study of the use of a central plant to supply oxygen for COVID-19 case management in South Sudan</title></polygon>
+<polygon points="103.5,670.2 96.0,684.7 111.0,684.7" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Ross M et al. (2023): Oxygen inequity in the COVID-19 pandemic and beyond</title></polygon>
+<polygon points="95.6,842.4 88.1,856.9 103.1,856.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Sodero S et al. (2025): Vital mobilities of medical oxygen: Theorising oxygen justice</title></polygon>
+<polygon points="101.0,474.6 93.5,489.1 108.5,489.1" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Godard A et al. (2025): Medical oxygen: a necessity or a luxury in humanitarian settings?</title></polygon>
+<polygon points="534.9,717.6 542.9,725.6 534.9,733.6 526.9,725.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Tariq M et al. (2024): Life cycle assessment of medical oxygen</title></polygon>
+<polygon points="530.9,168.6 538.9,176.6 530.9,184.6 522.9,176.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Manhas V et al. (2024): Cost analysis of different medical oxygen sources for a healthcare facility in India</title></polygon>
+<polygon points="501.3,829.1 493.8,843.6 508.8,843.6" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Kizza D et al. (2022): Financial implications of tariffs for medical oxygen on Rwandan public hospitals’ finance management during the coronavirus epidemic</title></polygon>
+<polygon points="114.0,845.4 106.5,859.9 121.5,859.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Goodman D et al. (2019): Challenges in the diagnosis of paediatric pneumonia in intervention field trials: recommendations from a pneumonia field trial working group</title></polygon>
+<polygon points="300.0,833.7 292.5,848.2 307.5,848.2" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Tuti T et al. (2021): Pulse oximetry adoption and oxygen orders at paediatric admission over 7 years in Kenya: a multihospital retrospective cohort study</title></polygon>
+<polygon points="97.9,844.2 90.4,858.7 105.4,858.7" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>McCollum ED et al. (2023): Risk and accuracy of outpatient-identified hypoxaemia for death among suspected child pneumonia cases in rural Bangladesh: a multifacility prospective cohort study</title></polygon>
+<polygon points="317.4,835.6 325.4,843.6 317.4,851.6 309.4,843.6" fill="#9467bd" stroke="white" stroke-width="1.4" opacity="0.88"><title>Floyd J et al. (2015): Evaluating the impact of pulse oximetry on childhood pneumonia mortality in resource-poor settings</title></polygon>
+<polygon points="121.1,831.4 113.6,845.9 128.6,845.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Lazzerini M et al. (2015): Hypoxaemia as a Mortality Risk Factor in Acute Lower Respiratory Infections in Children in Low and Middle-Income Countries</title></polygon>
+<polygon points="112.7,843.1 105.2,857.6 120.2,857.6" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Herbst A et al. (2023): Oxygen saturation targets for adults with acute hypoxemia in low and lower-middle income countries: a scoping review with analysis of contextual factors</title></polygon>
+<polygon points="296.5,838.4 289.0,852.9 304.0,852.9" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Sheikh M et al. (2023): Pulse oximetry: why oxygen saturation is still not a part of standard pediatric guidelines in low-and-middle-income countries (LMICs)</title></polygon>
+<polygon points="338.2,837.6 330.7,852.1 345.7,852.1" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Rahman AE et al. (2022): Prevalence of hypoxaemia in children with pneumonia in low-income and middle-income countries: a systematic review and meta-analysis</title></polygon>
+<polygon points="110.7,833.6 103.2,848.1 118.2,848.1" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Eid J et al. (2023): Challenges in maintaining oxygen saturation in pregnant individuals residing in low- and middle-income countries: a response</title></polygon>
+<polygon points="553.7,844.9 546.2,859.4 561.2,859.4" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mvalo T (2022): Need for routine pulse oximetry and oxygen delivery systems in low-income and middle-income countries</title></polygon>
+<polygon points="539.2,798.5 531.7,813.0 546.7,813.0" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Mushumbamwiza H et al. (2025): Hypoxemia detection and oxygen therapy practices in neonatal and pediatric wards across seven district and referral hospitals in Rwanda</title></polygon>
+<polygon points="114.0,800.3 106.5,814.8 121.5,814.8" fill="#ff7f0e" stroke="white" stroke-width="1.4" opacity="0.88"><title>Sessions KL et al. (2022): Continuous positive airway pressure for children in resource-limited settings, effect on mortality and adverse events: systematic review and meta-analysis</title></polygon>
+<text x="778.7" y="526.1" font-size="11" fill="#222" opacity="0.82">Graham 2019</text>
+<text x="857.9" y="523.9" font-size="11" fill="#222" opacity="0.82">McCollum 2019</text>
+<text x="377.3" y="160.5" font-size="11" fill="#222" opacity="0.82">Duke 2021</text>
+<text x="355.7" y="202.2" font-size="11" fill="#222" opacity="0.82">Conradi 2023</text>
+<text x="609.6" y="192.3" font-size="11" fill="#222" opacity="0.82">Conradi 2024</text>
+<text x="373.5" y="189.8" font-size="11" fill="#222" opacity="0.82">Duke 2017</text>
+<text x="362.9" y="364.4" font-size="11" fill="#222" opacity="0.82">Pulsan 2021</text>
+<text x="491.6" y="192.0" font-size="11" fill="#222" opacity="0.82">Pulsan 2021</text>
+<text x="359.1" y="198.5" font-size="11" fill="#222" opacity="0.82">Conradi 2019</text>
+<text x="355.9" y="198.7" font-size="11" fill="#222" opacity="0.82">Duke 2017</text>
+<text x="796.7" y="569.5" font-size="11" fill="#222" opacity="0.82">Graham 2025</text>
+<text x="575.9" y="131.6" font-size="11" fill="#222" opacity="0.82">Otiangala 2020</text>
+<text x="375.3" y="433.8" font-size="11" fill="#222" opacity="0.82">Graham 2022</text>
+<text x="369.8" y="658.7" font-size="11" fill="#222" opacity="0.82">Duke 2008</text>
+<text x="115.5" y="208.2" font-size="11" fill="#222" opacity="0.82">Duke 2017</text>
+<text x="317.6" y="746.0" font-size="11" fill="#222" opacity="0.82">Graham 2018</text>
+<text x="557.7" y="538.6" font-size="11" fill="#222" opacity="0.82">Howie 2009</text>
+<text x="759.4" y="690.6" font-size="11" fill="#222" opacity="0.82">Howie 2020</text>
+<text x="356.2" y="671.8" font-size="11" fill="#222" opacity="0.82">Mbeva 2022</text>
+<text x="365.9" y="307.0" font-size="11" fill="#222" opacity="0.82">Duke 2010</text>
+<text x="113.4" y="646.5" font-size="11" fill="#222" opacity="0.82">Otiangala 2021</text>
+<text x="106.9" y="844.2" font-size="11" fill="#222" opacity="0.82">McCollum 2023</text>
+<text x="130.1" y="831.4" font-size="11" fill="#222" opacity="0.82">Lazzerini 2015</text>
+<text x="347.2" y="837.6" font-size="11" fill="#222" opacity="0.82">Rahman 2022</text>
+<text x="1040" y="145" font-size="18" font-weight="700" fill="#111">Analysis type</text>
+<circle cx="1048" cy="171" r="7" fill="#1f77b4"/>
+<text x="1068" y="175" font-size="14" fill="#222">Experimental / trial</text>
+<rect x="1041" y="195" width="14" height="14" fill="#2ca02c"/>
+<text x="1068" y="206" font-size="14" fill="#222">Quasi-experimental</text>
+<polygon points="1048,224 1040,239 1056,239" fill="#ff7f0e"/>
+<text x="1068" y="237" font-size="14" fill="#222">Observational / implementation</text>
+<polygon points="1048,255 1057,264 1048,273 1039,264" fill="#9467bd"/>
+<text x="1068" y="268" font-size="14" fill="#222">Modeling / economic</text>
+<line x1="1041" y1="288" x2="1055" y2="302" stroke="#7f7f7f" stroke-width="3"/><line x1="1041" y1="302" x2="1055" y2="288" stroke="#7f7f7f" stroke-width="3"/>
+<text x="1068" y="299" font-size="14" fill="#222">Other / commentary</text>
+<text x="1040" y="354" font-size="18" font-weight="700" fill="#111">Field balance</text>
+<text x="1040" y="384" font-size="14" fill="#222"><tspan font-weight="700">06</tspan>  Coupled oxygen-energy</text>
+<text x="1040" y="412" font-size="14" fill="#222"><tspan font-weight="700">17</tspan>  Oxygen-rich / energy-thin</text>
+<text x="1040" y="440" font-size="14" fill="#222"><tspan font-weight="700">32</tspan>  Energy-rich / oxygen-thin</text>
+<text x="1040" y="468" font-size="14" fill="#222"><tspan font-weight="700">39</tspan>  Low detail in both</text>
+<text x="1040" y="520" font-size="18" font-weight="700" fill="#111">Common energy sources</text>
+<text x="1040" y="548" font-size="12.5" fill="#333">11  Solar PV + battery</text>
+<text x="1040" y="569" font-size="12.5" fill="#333">06  Grid</text>
+<text x="1040" y="590" font-size="12.5" fill="#333">04  Grid + backup</text>
+<text x="1040" y="611" font-size="12.5" fill="#333">04  Electrolytic oxygen production</text>
+<text x="1040" y="632" font-size="12.5" fill="#333">03  Grid + generator</text>
+<text x="1040" y="653" font-size="12.5" fill="#333">03  Mixed systems</text>
+<text x="1040" y="674" font-size="12.5" fill="#333">02  Oxygen concentrators</text>
+<text x="1040" y="695" font-size="12.5" fill="#333">02  All oxygen modalities</text>
+<text x="1040" y="734" font-size="18" font-weight="700" fill="#111">Common oxygen modalities</text>
+<text x="1040" y="762" font-size="12.5" fill="#333">11  Oxygen concentrator</text>
+<text x="1040" y="783" font-size="12.5" fill="#333">05  Oxygen concentrators</text>
+<text x="1040" y="804" font-size="12.5" fill="#333">04  Low-flow oxygen; HFNO;</text>
+<text x="1040" y="821" font-size="12.5" fill="#333">    concentrator and/or cylinder</text>
+<text x="1040" y="842" font-size="12.5" fill="#333">02  Oxygen concentrator vs</text>
+<text x="1040" y="859" font-size="12.5" fill="#333">    cylinders</text>
+<text x="1040" y="880" font-size="12.5" fill="#333">02  Oxygen saturation targets</text>
+<text x="1040" y="901" font-size="12.5" fill="#333">01  Pulse oximetry; oxygen</text>
+<text x="1040" y="918" font-size="12.5" fill="#333">    concentrator; oxygen cylinder</text>
+<text x="1040" y="939" font-size="12.5" fill="#333">01  Concentrator; automated</text>
+<text x="1040" y="956" font-size="12.5" fill="#333">    cylinder backup</text>
+<text x="105" y="938" font-size="13" fill="#555">Use this as a searchlight: papers in the upper-right support DRC3a&#x27;s claim</text>
+<text x="105" y="956" font-size="13" fill="#555">that oxygen access is an electricity-conditioned system capability;</text>
+<text x="105" y="974" font-size="13" fill="#555">lower-right papers support clinical oxygen need but usually under-specify</text>
+<text x="105" y="992" font-size="13" fill="#555">power.</text>
+</svg>

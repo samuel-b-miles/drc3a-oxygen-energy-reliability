@@ -1,0 +1,73 @@
+equipment_category,cause_category,equipment_mentions,cause_mentions_with_equipment,pct_of_equipment_mentions
+Oxygen concentrator / oxygen device,Voltage instability / fluctuation,70,8,11.428571428571429
+Oxygen concentrator / oxygen device,Power cuts / abrupt restoration,70,2,2.857142857142857
+Oxygen concentrator / oxygen device,Insufficient power / no energy,70,5,7.142857142857143
+Oxygen concentrator / oxygen device,Short circuit / burned electronics,70,6,8.571428571428571
+Oxygen concentrator / oxygen device,Poor installation,70,0,0.0
+Oxygen concentrator / oxygen device,Lightning / atmospheric discharge,70,0,0.0
+Lighting / surgical theatre electrical devices,Voltage instability / fluctuation,45,4,8.88888888888889
+Lighting / surgical theatre electrical devices,Power cuts / abrupt restoration,45,5,11.11111111111111
+Lighting / surgical theatre electrical devices,Insufficient power / no energy,45,2,4.444444444444445
+Lighting / surgical theatre electrical devices,Short circuit / burned electronics,45,1,2.2222222222222223
+Lighting / surgical theatre electrical devices,Poor installation,45,0,0.0
+Lighting / surgical theatre electrical devices,Lightning / atmospheric discharge,45,0,0.0
+Electrical components / power system,Voltage instability / fluctuation,43,6,13.953488372093023
+Electrical components / power system,Power cuts / abrupt restoration,43,2,4.651162790697675
+Electrical components / power system,Insufficient power / no energy,43,1,2.3255813953488373
+Electrical components / power system,Short circuit / burned electronics,43,8,18.6046511627907
+Electrical components / power system,Poor installation,43,6,13.953488372093023
+Electrical components / power system,Lightning / atmospheric discharge,43,1,2.3255813953488373
+Ultrasound / echography,Voltage instability / fluctuation,40,6,15.0
+Ultrasound / echography,Power cuts / abrupt restoration,40,2,5.0
+Ultrasound / echography,Insufficient power / no energy,40,0,0.0
+Ultrasound / echography,Short circuit / burned electronics,40,2,5.0
+Ultrasound / echography,Poor installation,40,0,0.0
+Ultrasound / echography,Lightning / atmospheric discharge,40,1,2.5
+Patient monitoring / bedside clinical devices,Voltage instability / fluctuation,39,15,38.46153846153846
+Patient monitoring / bedside clinical devices,Power cuts / abrupt restoration,39,4,10.256410256410257
+Patient monitoring / bedside clinical devices,Insufficient power / no energy,39,1,2.5641025641025643
+Patient monitoring / bedside clinical devices,Short circuit / burned electronics,39,7,17.94871794871795
+Patient monitoring / bedside clinical devices,Poor installation,39,0,0.0
+Patient monitoring / bedside clinical devices,Lightning / atmospheric discharge,39,0,0.0
+Computer / printer / office electronics,Voltage instability / fluctuation,35,3,8.571428571428571
+Computer / printer / office electronics,Power cuts / abrupt restoration,35,2,5.714285714285714
+Computer / printer / office electronics,Insufficient power / no energy,35,1,2.857142857142857
+Computer / printer / office electronics,Short circuit / burned electronics,35,1,2.857142857142857
+Computer / printer / office electronics,Poor installation,35,1,2.857142857142857
+Computer / printer / office electronics,Lightning / atmospheric discharge,35,1,2.857142857142857
+Sterilization equipment,Voltage instability / fluctuation,35,5,14.285714285714286
+Sterilization equipment,Power cuts / abrupt restoration,35,1,2.857142857142857
+Sterilization equipment,Insufficient power / no energy,35,4,11.428571428571429
+Sterilization equipment,Short circuit / burned electronics,35,2,5.714285714285714
+Sterilization equipment,Poor installation,35,0,0.0
+Sterilization equipment,Lightning / atmospheric discharge,35,0,0.0
+Laboratory equipment,Voltage instability / fluctuation,29,4,13.793103448275861
+Laboratory equipment,Power cuts / abrupt restoration,29,2,6.896551724137931
+Laboratory equipment,Insufficient power / no energy,29,1,3.4482758620689653
+Laboratory equipment,Short circuit / burned electronics,29,2,6.896551724137931
+Laboratory equipment,Poor installation,29,1,3.4482758620689653
+Laboratory equipment,Lightning / atmospheric discharge,29,0,0.0
+Refrigeration / cold chain / morgue,Voltage instability / fluctuation,22,3,13.636363636363637
+Refrigeration / cold chain / morgue,Power cuts / abrupt restoration,22,2,9.090909090909092
+Refrigeration / cold chain / morgue,Insufficient power / no energy,22,0,0.0
+Refrigeration / cold chain / morgue,Short circuit / burned electronics,22,2,9.090909090909092
+Refrigeration / cold chain / morgue,Poor installation,22,1,4.545454545454546
+Refrigeration / cold chain / morgue,Lightning / atmospheric discharge,22,0,0.0
+Maternal / neonatal equipment,Voltage instability / fluctuation,21,4,19.047619047619047
+Maternal / neonatal equipment,Power cuts / abrupt restoration,21,2,9.523809523809524
+Maternal / neonatal equipment,Insufficient power / no energy,21,0,0.0
+Maternal / neonatal equipment,Short circuit / burned electronics,21,2,9.523809523809524
+Maternal / neonatal equipment,Poor installation,21,0,0.0
+Maternal / neonatal equipment,Lightning / atmospheric discharge,21,0,0.0
+Laundry / water / utility equipment,Voltage instability / fluctuation,20,3,15.0
+Laundry / water / utility equipment,Power cuts / abrupt restoration,20,1,5.0
+Laundry / water / utility equipment,Insufficient power / no energy,20,1,5.0
+Laundry / water / utility equipment,Short circuit / burned electronics,20,2,10.0
+Laundry / water / utility equipment,Poor installation,20,0,0.0
+Laundry / water / utility equipment,Lightning / atmospheric discharge,20,0,0.0
+Radiography / X-ray,Voltage instability / fluctuation,18,3,16.666666666666668
+Radiography / X-ray,Power cuts / abrupt restoration,18,1,5.555555555555555
+Radiography / X-ray,Insufficient power / no energy,18,1,5.555555555555555
+Radiography / X-ray,Short circuit / burned electronics,18,2,11.11111111111111
+Radiography / X-ray,Poor installation,18,0,0.0
+Radiography / X-ray,Lightning / atmospheric discharge,18,0,0.0
