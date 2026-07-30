@@ -1,0 +1,81 @@
+# DRC3a / DRC2 data-source manifest
+
+project: drc3a-oxygen-energy-reliability
+last_reviewed: 2026-07-30
+
+controlled_google_drive:
+  root_folder:
+    label: drc3_CodexSBM
+    url: https://drive.google.com/drive/folders/19xFnBRUbK0oRgNs5zCDu2f3DJBNvo37L
+  canonical_seed_docs:
+    label: canonical seed docs
+    url: https://drive.google.com/drive/folders/1CQLIjnHqAx-wsxdMrP7Swssyw0P-masN
+  data_and_pipelines:
+    label: 02_Data & Pipelines
+    url: https://drive.google.com/drive/folders/1qO9vXpp0j4wmFeBVKuNlSUmWwWmclh3J
+
+local_assets_observed:
+  - id: raw_drc2_survey_csv
+    role: controlled_raw_survey_export
+    local_path: /Users/samuelmiles/Downloads/drc2 survey_ Enquête_sur_la_Qualité_et_la_Fiabilité_de_lÉlectricité__Établissements_de_Santé_en_RDC_-_latest_version_-_False_-_2026-04-07-21-25-03.xlsx - Enquête sur la Qualité et la... (2).csv
+    rows: 565
+    columns: 128
+    git_policy: do_not_commit
+    reason: contains respondent email, name, phone, raw IDs, timestamps, free text, and facility linkage keys
+
+  - id: drc2_speedrun_notebook
+    role: prior_analysis_notebook_and_dedup_reference
+    local_path: /Users/samuelmiles/Downloads/DRc2 survey data speed run v3 (2) (1).ipynb
+    git_policy: do_not_commit_until_reviewed
+    reason: may expose local paths, raw-data assumptions, or uncensored outputs; summarize rules in docs instead
+
+  - id: ryan_drc2_paper_pdf
+    role: methods_reference_for_uptime_and_drc2_context
+    local_path: /Users/samuelmiles/Downloads/DRC2___HFE_in_DRC.pdf
+    git_policy: keep_in_drive_or_sources_private
+    reason: source document, not an executable analysis input
+
+  - id: facility_master_private
+    role: derived_facility_level_analysis_frame
+    local_path: outputs/drc2_facility_master/facility_master.csv
+    rows: 491
+    columns: 126
+    git_policy: do_not_commit
+    reason: contains facility linkage key, respondent names, row IDs, submission audit fields, and conflict metadata
+
+tracked_seed_assets:
+  - data/dictionaries/drc2_anonymization_variable_map.csv
+  - outputs/drc2_data_ingestion_audit/drc2_asset_schema_audit.md
+  - outputs/drc2_data_ingestion_audit/drc2_asset_schema_audit.json
+  - docs/drc2-dedup-audit.md
+  - docs/drc2-facility-master-build.md
+  - docs/analysis-inventory.md
+
+recommended_private_local_staging:
+  raw:
+    path: data/raw/private/
+    contents: original survey exports and canonical data files restored from Drive
+  clean:
+    path: data/clean/private/
+    contents: one-row-per-facility analytical datasets and respondent-level datasets after de-identification review
+  intermediate:
+    path: data/intermediate/private/
+    contents: deduplication candidates, conflict audits, free-text coding workbooks
+
+recommended_public_release_policy:
+  include:
+    - aggregate tables
+    - final figures
+    - code
+    - data dictionaries
+    - anonymization protocol
+    - synthetic or minimized analytical data if approved
+  exclude:
+    - raw survey exports
+    - names
+    - emails
+    - phone numbers
+    - exact facility crosswalks
+    - raw facility identifiers
+    - respondent-level free text
+    - duplicate cluster audit files

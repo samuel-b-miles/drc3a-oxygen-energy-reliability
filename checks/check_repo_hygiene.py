@@ -10,8 +10,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 FORBIDDEN_TRACKED_PATTERNS = [
-    "data/raw/",
     "data/private/",
+    "data/raw/private/",
+    "data/intermediate/private/",
+    "data/clean/private/",
+    "data/external/private/",
     "outputs/drc2_facility_master/raw_submissions.csv",
     "outputs/drc2_facility_master/facility_master.csv",
     "outputs/drc2_facility_master/respondent_sample.csv",

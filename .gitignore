@@ -20,6 +20,12 @@ data/external/private/
 !data/external/README.md
 !data/dictionaries/
 !data/dictionaries/README.md
+
+sources/private/*
+!sources/
+!sources/README.md
+!sources/private/
+!sources/private/README.md
 outputs/drc2_facility_master/raw_submissions.csv
 outputs/drc2_facility_master/facility_master.csv
 outputs/drc2_facility_master/respondent_sample.csv

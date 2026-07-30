@@ -1,0 +1,23 @@
+{
+  "source": "outputs/drc2_facility_master/facility_master.csv",
+  "release_candidate": "data/clean/drc2_facility_master_release_candidate.csv",
+  "private_crosswalk": "data/clean/private/drc2_facility_private_crosswalk.csv",
+  "rows": 491,
+  "columns": 112,
+  "excluded_direct_identifier_columns": [
+    "A8_FOSA",
+    "conflict_fields",
+    "facility_rows",
+    "max_completeness_score",
+    "raw_row_ids",
+    "respondent_names",
+    "respondent_phones",
+    "respondent_roles",
+    "submission_times"
+  ],
+  "excluded_quasi_identifier_columns": [
+    "A6_zone",
+    "A9_catchment"
+  ],
+  "note": "First release candidate for internal sharing; not yet approved for public publication release."
+}

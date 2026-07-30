@@ -1,0 +1,1264 @@
+{
+  "raw_survey_csv": {
+    "path": "/Users/samuelmiles/Downloads/drc2 survey_ Enquête_sur_la_Qualité_et_la_Fiabilité_de_lÉlectricité__Établissements_de_Santé_en_RDC_-_latest_version_-_False_-_2026-04-07-21-25-03.xlsx - Enquête sur la Qualité et la... (2).csv",
+    "exists": true,
+    "size_bytes": 357574,
+    "rows": 565,
+    "columns": 128,
+    "identifier_like_columns": [
+      "start",
+      "end",
+      "date",
+      "A1_email",
+      "A2_name",
+      "A3_phone",
+      "A5_province",
+      "A6_zone",
+      "A8_FOSA",
+      "B1_grid",
+      "B1_grid_o",
+      "B2_grid_date",
+      "B3_grid_cost",
+      "C3_1_gen_date",
+      "C3_2_gen_date",
+      "C3_3_gen_date",
+      "D2_solar_date",
+      "F8a_2_timeout",
+      "F8b_2_timeout",
+      "F8c_2_timeout",
+      "_id",
+      "_uuid",
+      "_submission_time",
+      "_validation_status",
+      "meta/rootUuid"
+    ],
+    "quasi_identifier_like_columns": [
+      "date",
+      "A5_province",
+      "A6_zone",
+      "A7_type",
+      "A8_FOSA",
+      "B2_grid_date",
+      "C3_1_gen_date",
+      "C3_2_gen_date",
+      "C3_3_gen_date",
+      "D2_solar_date",
+      "F8a_2_timeout",
+      "F8a_3_typeday",
+      "F8b_2_timeout",
+      "F8b_3_typeday",
+      "F8c_2_timeout",
+      "F8c_3_typeday",
+      "_submission_time"
+    ],
+    "all_columns": [
+      "start",
+      "end",
+      "intro",
+      "date",
+      "A1_email",
+      "A2_name",
+      "A3_phone",
+      "A4_role",
+      "A5_province",
+      "A6_zone",
+      "A7_type",
+      "A8_FOSA",
+      "A9_catchment",
+      "B1_internet",
+      "B1_grid",
+      "B1_grid_o",
+      "B2_grid_date",
+      "B3_grid_cost",
+      "C1_gen",
+      "C1_a_gencount",
+      "C2_1_gencapac",
+      "C3_1_gen_date",
+      "C4_1_gen_auto",
+      "C2_2_gencapac",
+      "C3_2_gen_date",
+      "C4_2_genauto",
+      "C2_3_gencapac",
+      "C3_3_gen_date",
+      "C4_3_genauto",
+      "C5_gen_cost",
+      "C6_gen_frequse",
+      "C7_gen_qual",
+      "D1_solar",
+      "D2_solar_date",
+      "D3_solar_panel",
+      "D4_solar_batt",
+      "D4_a_solar_batt_age",
+      "D4_solar_capac",
+      "D5_solar_qual",
+      "D6_solar_finance",
+      "D6_a_solar_totval",
+      "D6_b_solar_monthcost",
+      "D6_c_solar_monthmaint",
+      "D6_d_solar_maintadhoc",
+      "D6_solar_funder",
+      "E1_charc",
+      "E1_a_charc_use",
+      "E1_a_charc_use/1",
+      "E1_a_charc_use/2",
+      "E1_a_charc_use/3",
+      "E1_a_charc_use/4",
+      "E1_a_charc_use/99",
+      "E1_o_charc_use",
+      "E2_charc_cost",
+      "outage_note",
+      "F0_outage_sara",
+      "F1_outagedays",
+      "F2_outagehrs",
+      "F3_typicaldays",
+      "F4_baddays",
+      "F5_baddays_freq",
+      "F5_o_baddays_freq",
+      "F6_shortoutage",
+      "F7_shourtout_freq",
+      "recall_note",
+      "F8a_1_numout",
+      "F8a_2_timeout",
+      "F8a_3_typeday",
+      "F8b_1_numout",
+      "F8b_2_timeout",
+      "F8b_3_typeday",
+      "F8c_1_numout",
+      "F8c_2_timeout",
+      "F8c_3_typeday",
+      "G1_maint",
+      "G1_maint/1",
+      "G1_maint/2",
+      "G1_maint/3",
+      "G1_maint/4",
+      "G1_maint/99",
+      "G1_o_maint",
+      "G2_wiring",
+      "H1_medequip",
+      "H1_a_medequip",
+      "H2_10Lo2",
+      "H3_5Lo2",
+      "H4_oxygen",
+      "H4_oxygen/1",
+      "H4_oxygen/2",
+      "H4_oxygen/3",
+      "H4_oxygen/4",
+      "H4_oxygen/99",
+      "H4_o_oxygen",
+      "H5_o2_pay",
+      "H5_o2_cost",
+      "data_note",
+      "J1_ptreg",
+      "J1_o_ptreg",
+      "J2_wardreg",
+      "J2_wardreg/1",
+      "J2_wardreg/2",
+      "J2_wardreg/3",
+      "J2_wardreg/4",
+      "J2_wardreg/5",
+      "J2_wardreg/6",
+      "J2_wardreg/99",
+      "J2_o_wardreg",
+      "J3_deathreg",
+      "J3_death_o",
+      "J4_morgue",
+      "J5_morguereg",
+      "I1_theft",
+      "I2_wtp",
+      "I6_internet",
+      "I5_tech",
+      "I3_otherprob",
+      "I4_comment",
+      "_id",
+      "_uuid",
+      "_submission_time",
+      "_validation_status",
+      "_notes",
+      "_status",
+      "_submitted_by",
+      "__version__",
+      "_tags",
+      "meta/rootUuid",
+      "_index"
+    ],
+    "empty_columns": [
+      "intro",
+      "outage_note",
+      "recall_note",
+      "data_note",
+      "_validation_status",
+      "_notes",
+      "_submitted_by",
+      "_tags"
+    ],
+    "value_pattern_risk_columns": [
+      {
+        "column": "A1_email",
+        "flags": [
+          "email_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 519
+      },
+      {
+        "column": "A2_name",
+        "flags": [
+          "email_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 527
+      },
+      {
+        "column": "A3_phone",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 512
+      },
+      {
+        "column": "A8_FOSA",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 565,
+        "nunique": 491
+      },
+      {
+        "column": "F5_o_baddays_freq",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 71,
+        "nunique": 64
+      },
+      {
+        "column": "H1_a_medequip",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 263,
+        "nunique": 245
+      },
+      {
+        "column": "J1_o_ptreg",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 22
+      },
+      {
+        "column": "J2_o_wardreg",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 92,
+        "nunique": 84
+      },
+      {
+        "column": "J3_death_o",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 119,
+        "nunique": 113
+      },
+      {
+        "column": "I2_wtp",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 565,
+        "nunique": 46
+      },
+      {
+        "column": "I3_otherprob",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 545,
+        "nunique": 513
+      },
+      {
+        "column": "_id",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "_uuid",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "meta/rootUuid",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "_index",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      }
+    ]
+  },
+  "facility_master": {
+    "path": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_facility_master/facility_master.csv",
+    "exists": true,
+    "size_bytes": 218203,
+    "rows": 491,
+    "columns": 126,
+    "identifier_like_columns": [
+      "A8_FOSA",
+      "facility_rows",
+      "respondent_phones",
+      "respondent_names",
+      "respondent_roles",
+      "raw_row_ids",
+      "submission_times",
+      "multi_respondent_flag",
+      "A5_province",
+      "A5_province_conflict",
+      "A6_zone",
+      "A6_zone_conflict",
+      "grid_type_label",
+      "grid_type_label_conflict",
+      "grid_architecture",
+      "grid_architecture_conflict",
+      "has_grid",
+      "has_grid_conflict",
+      "grid_cost_median",
+      "grid_cost_max",
+      "grid_cost_latest",
+      "grid_cost_conflict"
+    ],
+    "quasi_identifier_like_columns": [
+      "A8_FOSA",
+      "facility_rows",
+      "submission_times",
+      "A5_province",
+      "A5_province_conflict",
+      "A6_zone",
+      "A6_zone_conflict",
+      "A7_type",
+      "A7_type_conflict",
+      "grid_type_label",
+      "grid_type_label_conflict"
+    ],
+    "all_columns": [
+      "A8_FOSA",
+      "facility_rows",
+      "respondent_phones",
+      "respondent_names",
+      "respondent_roles",
+      "raw_row_ids",
+      "submission_times",
+      "max_completeness_score",
+      "multi_respondent_flag",
+      "A5_province",
+      "A5_province_conflict",
+      "A6_zone",
+      "A6_zone_conflict",
+      "A7_type",
+      "A7_type_conflict",
+      "A9_catchment",
+      "A9_catchment_conflict",
+      "grid_type_label",
+      "grid_type_label_conflict",
+      "grid_architecture",
+      "grid_architecture_conflict",
+      "has_grid",
+      "has_grid_conflict",
+      "has_generator",
+      "has_generator_conflict",
+      "has_solar",
+      "has_solar_conflict",
+      "has_charcoal",
+      "has_charcoal_conflict",
+      "has_concentrator",
+      "has_concentrator_conflict",
+      "has_cylinders",
+      "has_cylinders_conflict",
+      "has_psa_internal",
+      "has_psa_internal_conflict",
+      "has_psa_external",
+      "has_psa_external_conflict",
+      "has_other_oxygen",
+      "has_other_oxygen_conflict",
+      "equipment_damage_binary",
+      "equipment_damage_binary_conflict",
+      "I5_tech",
+      "I5_tech_conflict",
+      "J1_ptreg",
+      "J1_ptreg_conflict",
+      "J3_deathreg",
+      "J3_deathreg_conflict",
+      "J4_morgue",
+      "J4_morgue_conflict",
+      "conc_10l_max",
+      "conc_10l_median",
+      "conc_10l_conflict",
+      "conc_5l_max",
+      "conc_5l_median",
+      "conc_5l_conflict",
+      "total_concentrators_max",
+      "total_concentrators_median",
+      "total_concentrators_conflict",
+      "C1_a_gencount_max",
+      "C1_a_gencount_median",
+      "C1_a_gencount_conflict",
+      "C2_1_gencapac_max",
+      "C2_1_gencapac_median",
+      "C2_1_gencapac_conflict",
+      "C2_2_gencapac_max",
+      "C2_2_gencapac_median",
+      "C2_2_gencapac_conflict",
+      "C2_3_gencapac_max",
+      "C2_3_gencapac_median",
+      "C2_3_gencapac_conflict",
+      "D3_solar_panel_max",
+      "D3_solar_panel_median",
+      "D3_solar_panel_conflict",
+      "D4_solar_batt_max",
+      "D4_solar_batt_median",
+      "D4_solar_batt_conflict",
+      "D4_solar_capac_max",
+      "D4_solar_capac_median",
+      "D4_solar_capac_conflict",
+      "outage_days_median",
+      "outage_days_max",
+      "outage_days_latest",
+      "outage_days_conflict",
+      "outage_hours_median",
+      "outage_hours_max",
+      "outage_hours_latest",
+      "outage_hours_conflict",
+      "bad_power_days_median",
+      "bad_power_days_max",
+      "bad_power_days_latest",
+      "bad_power_days_conflict",
+      "short_outages_median",
+      "short_outages_max",
+      "short_outages_latest",
+      "short_outages_conflict",
+      "grid_cost_median",
+      "grid_cost_max",
+      "grid_cost_latest",
+      "grid_cost_conflict",
+      "generator_cost_median",
+      "generator_cost_max",
+      "generator_cost_latest",
+      "generator_cost_conflict",
+      "oxygen_cost_median",
+      "oxygen_cost_max",
+      "oxygen_cost_latest",
+      "oxygen_cost_conflict",
+      "solar_total_value_median",
+      "solar_total_value_max",
+      "solar_total_value_latest",
+      "solar_total_value_conflict",
+      "solar_maintenance_adhoc_median",
+      "solar_maintenance_adhoc_max",
+      "solar_maintenance_adhoc_latest",
+      "solar_maintenance_adhoc_conflict",
+      "I2_wtp_median",
+      "I2_wtp_max",
+      "I2_wtp_latest",
+      "I2_wtp_conflict",
+      "n_energy_sources",
+      "energy_profile",
+      "n_oxygen_sources",
+      "oxygen_profile",
+      "oxygen_energy_profile",
+      "conflict_flag_count",
+      "conflict_fields"
+    ],
+    "empty_columns": [],
+    "value_pattern_risk_columns": [
+      {
+        "column": "A8_FOSA",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 491,
+        "nunique": 491
+      },
+      {
+        "column": "respondent_names",
+        "flags": [
+          "email_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 491,
+        "nunique": 488
+      },
+      {
+        "column": "raw_row_ids",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 491,
+        "nunique": 491
+      },
+      {
+        "column": "I2_wtp_max",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 491,
+        "nunique": 45
+      },
+      {
+        "column": "I2_wtp_latest",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 491,
+        "nunique": 45
+      },
+      {
+        "column": "conflict_fields",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 24
+      }
+    ]
+  },
+  "facility_master_conflicts": {
+    "path": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_facility_master/facility_master_conflicts.csv",
+    "exists": true,
+    "size_bytes": 18319,
+    "rows": 24,
+    "columns": 126,
+    "identifier_like_columns": [
+      "A8_FOSA",
+      "facility_rows",
+      "respondent_phones",
+      "respondent_names",
+      "respondent_roles",
+      "raw_row_ids",
+      "submission_times",
+      "multi_respondent_flag",
+      "A5_province",
+      "A5_province_conflict",
+      "A6_zone",
+      "A6_zone_conflict",
+      "grid_type_label",
+      "grid_type_label_conflict",
+      "grid_architecture",
+      "grid_architecture_conflict",
+      "has_grid",
+      "has_grid_conflict",
+      "grid_cost_median",
+      "grid_cost_max",
+      "grid_cost_latest",
+      "grid_cost_conflict"
+    ],
+    "quasi_identifier_like_columns": [
+      "A8_FOSA",
+      "facility_rows",
+      "submission_times",
+      "A5_province",
+      "A5_province_conflict",
+      "A6_zone",
+      "A6_zone_conflict",
+      "A7_type",
+      "A7_type_conflict",
+      "grid_type_label",
+      "grid_type_label_conflict"
+    ],
+    "all_columns": [
+      "A8_FOSA",
+      "facility_rows",
+      "respondent_phones",
+      "respondent_names",
+      "respondent_roles",
+      "raw_row_ids",
+      "submission_times",
+      "max_completeness_score",
+      "multi_respondent_flag",
+      "A5_province",
+      "A5_province_conflict",
+      "A6_zone",
+      "A6_zone_conflict",
+      "A7_type",
+      "A7_type_conflict",
+      "A9_catchment",
+      "A9_catchment_conflict",
+      "grid_type_label",
+      "grid_type_label_conflict",
+      "grid_architecture",
+      "grid_architecture_conflict",
+      "has_grid",
+      "has_grid_conflict",
+      "has_generator",
+      "has_generator_conflict",
+      "has_solar",
+      "has_solar_conflict",
+      "has_charcoal",
+      "has_charcoal_conflict",
+      "has_concentrator",
+      "has_concentrator_conflict",
+      "has_cylinders",
+      "has_cylinders_conflict",
+      "has_psa_internal",
+      "has_psa_internal_conflict",
+      "has_psa_external",
+      "has_psa_external_conflict",
+      "has_other_oxygen",
+      "has_other_oxygen_conflict",
+      "equipment_damage_binary",
+      "equipment_damage_binary_conflict",
+      "I5_tech",
+      "I5_tech_conflict",
+      "J1_ptreg",
+      "J1_ptreg_conflict",
+      "J3_deathreg",
+      "J3_deathreg_conflict",
+      "J4_morgue",
+      "J4_morgue_conflict",
+      "conc_10l_max",
+      "conc_10l_median",
+      "conc_10l_conflict",
+      "conc_5l_max",
+      "conc_5l_median",
+      "conc_5l_conflict",
+      "total_concentrators_max",
+      "total_concentrators_median",
+      "total_concentrators_conflict",
+      "C1_a_gencount_max",
+      "C1_a_gencount_median",
+      "C1_a_gencount_conflict",
+      "C2_1_gencapac_max",
+      "C2_1_gencapac_median",
+      "C2_1_gencapac_conflict",
+      "C2_2_gencapac_max",
+      "C2_2_gencapac_median",
+      "C2_2_gencapac_conflict",
+      "C2_3_gencapac_max",
+      "C2_3_gencapac_median",
+      "C2_3_gencapac_conflict",
+      "D3_solar_panel_max",
+      "D3_solar_panel_median",
+      "D3_solar_panel_conflict",
+      "D4_solar_batt_max",
+      "D4_solar_batt_median",
+      "D4_solar_batt_conflict",
+      "D4_solar_capac_max",
+      "D4_solar_capac_median",
+      "D4_solar_capac_conflict",
+      "outage_days_median",
+      "outage_days_max",
+      "outage_days_latest",
+      "outage_days_conflict",
+      "outage_hours_median",
+      "outage_hours_max",
+      "outage_hours_latest",
+      "outage_hours_conflict",
+      "bad_power_days_median",
+      "bad_power_days_max",
+      "bad_power_days_latest",
+      "bad_power_days_conflict",
+      "short_outages_median",
+      "short_outages_max",
+      "short_outages_latest",
+      "short_outages_conflict",
+      "grid_cost_median",
+      "grid_cost_max",
+      "grid_cost_latest",
+      "grid_cost_conflict",
+      "generator_cost_median",
+      "generator_cost_max",
+      "generator_cost_latest",
+      "generator_cost_conflict",
+      "oxygen_cost_median",
+      "oxygen_cost_max",
+      "oxygen_cost_latest",
+      "oxygen_cost_conflict",
+      "solar_total_value_median",
+      "solar_total_value_max",
+      "solar_total_value_latest",
+      "solar_total_value_conflict",
+      "solar_maintenance_adhoc_median",
+      "solar_maintenance_adhoc_max",
+      "solar_maintenance_adhoc_latest",
+      "solar_maintenance_adhoc_conflict",
+      "I2_wtp_median",
+      "I2_wtp_max",
+      "I2_wtp_latest",
+      "I2_wtp_conflict",
+      "n_energy_sources",
+      "energy_profile",
+      "n_oxygen_sources",
+      "oxygen_profile",
+      "oxygen_energy_profile",
+      "conflict_flag_count",
+      "conflict_fields"
+    ],
+    "empty_columns": [],
+    "value_pattern_risk_columns": [
+      {
+        "column": "A8_FOSA",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 24
+      },
+      {
+        "column": "respondent_names",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 24
+      },
+      {
+        "column": "raw_row_ids",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 24
+      },
+      {
+        "column": "I2_wtp_max",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 24,
+        "nunique": 12
+      },
+      {
+        "column": "I2_wtp_latest",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 24,
+        "nunique": 11
+      },
+      {
+        "column": "conflict_fields",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 24
+      }
+    ]
+  },
+  "raw_submissions_derived": {
+    "path": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_facility_master/raw_submissions.csv",
+    "exists": true,
+    "size_bytes": 495640,
+    "rows": 565,
+    "columns": 163,
+    "identifier_like_columns": [
+      "start",
+      "end",
+      "date",
+      "A1_email",
+      "A2_name",
+      "A3_phone",
+      "A5_province",
+      "A6_zone",
+      "A8_FOSA",
+      "B1_grid",
+      "B1_grid_o",
+      "B2_grid_date",
+      "B3_grid_cost",
+      "C3_1_gen_date",
+      "C3_2_gen_date",
+      "C3_3_gen_date",
+      "D2_solar_date",
+      "F8a_2_timeout",
+      "F8b_2_timeout",
+      "F8c_2_timeout",
+      "_id",
+      "_uuid",
+      "_submission_time",
+      "_validation_status",
+      "meta/rootUuid",
+      "raw_row_id",
+      "A8_FOSA_num",
+      "phone_clean",
+      "submission_time_parsed",
+      "grid_type_code",
+      "grid_type_label",
+      "grid_architecture",
+      "has_grid",
+      "grid_cost"
+    ],
+    "quasi_identifier_like_columns": [
+      "date",
+      "A5_province",
+      "A6_zone",
+      "A7_type",
+      "A8_FOSA",
+      "B2_grid_date",
+      "C3_1_gen_date",
+      "C3_2_gen_date",
+      "C3_3_gen_date",
+      "D2_solar_date",
+      "F8a_2_timeout",
+      "F8a_3_typeday",
+      "F8b_2_timeout",
+      "F8b_3_typeday",
+      "F8c_2_timeout",
+      "F8c_3_typeday",
+      "_submission_time",
+      "A8_FOSA_num",
+      "submission_time_parsed",
+      "grid_type_code",
+      "grid_type_label"
+    ],
+    "all_columns": [
+      "start",
+      "end",
+      "intro",
+      "date",
+      "A1_email",
+      "A2_name",
+      "A3_phone",
+      "A4_role",
+      "A5_province",
+      "A6_zone",
+      "A7_type",
+      "A8_FOSA",
+      "A9_catchment",
+      "B1_internet",
+      "B1_grid",
+      "B1_grid_o",
+      "B2_grid_date",
+      "B3_grid_cost",
+      "C1_gen",
+      "C1_a_gencount",
+      "C2_1_gencapac",
+      "C3_1_gen_date",
+      "C4_1_gen_auto",
+      "C2_2_gencapac",
+      "C3_2_gen_date",
+      "C4_2_genauto",
+      "C2_3_gencapac",
+      "C3_3_gen_date",
+      "C4_3_genauto",
+      "C5_gen_cost",
+      "C6_gen_frequse",
+      "C7_gen_qual",
+      "D1_solar",
+      "D2_solar_date",
+      "D3_solar_panel",
+      "D4_solar_batt",
+      "D4_a_solar_batt_age",
+      "D4_solar_capac",
+      "D5_solar_qual",
+      "D6_solar_finance",
+      "D6_a_solar_totval",
+      "D6_b_solar_monthcost",
+      "D6_c_solar_monthmaint",
+      "D6_d_solar_maintadhoc",
+      "D6_solar_funder",
+      "E1_charc",
+      "E1_a_charc_use",
+      "E1_a_charc_use/1",
+      "E1_a_charc_use/2",
+      "E1_a_charc_use/3",
+      "E1_a_charc_use/4",
+      "E1_a_charc_use/99",
+      "E1_o_charc_use",
+      "E2_charc_cost",
+      "outage_note",
+      "F0_outage_sara",
+      "F1_outagedays",
+      "F2_outagehrs",
+      "F3_typicaldays",
+      "F4_baddays",
+      "F5_baddays_freq",
+      "F5_o_baddays_freq",
+      "F6_shortoutage",
+      "F7_shourtout_freq",
+      "recall_note",
+      "F8a_1_numout",
+      "F8a_2_timeout",
+      "F8a_3_typeday",
+      "F8b_1_numout",
+      "F8b_2_timeout",
+      "F8b_3_typeday",
+      "F8c_1_numout",
+      "F8c_2_timeout",
+      "F8c_3_typeday",
+      "G1_maint",
+      "G1_maint/1",
+      "G1_maint/2",
+      "G1_maint/3",
+      "G1_maint/4",
+      "G1_maint/99",
+      "G1_o_maint",
+      "G2_wiring",
+      "H1_medequip",
+      "H1_a_medequip",
+      "H2_10Lo2",
+      "H3_5Lo2",
+      "H4_oxygen",
+      "H4_oxygen/1",
+      "H4_oxygen/2",
+      "H4_oxygen/3",
+      "H4_oxygen/4",
+      "H4_oxygen/99",
+      "H4_o_oxygen",
+      "H5_o2_pay",
+      "H5_o2_cost",
+      "data_note",
+      "J1_ptreg",
+      "J1_o_ptreg",
+      "J2_wardreg",
+      "J2_wardreg/1",
+      "J2_wardreg/2",
+      "J2_wardreg/3",
+      "J2_wardreg/4",
+      "J2_wardreg/5",
+      "J2_wardreg/6",
+      "J2_wardreg/99",
+      "J2_o_wardreg",
+      "J3_deathreg",
+      "J3_death_o",
+      "J4_morgue",
+      "J5_morguereg",
+      "I1_theft",
+      "I2_wtp",
+      "I6_internet",
+      "I5_tech",
+      "I3_otherprob",
+      "I4_comment",
+      "_id",
+      "_uuid",
+      "_submission_time",
+      "_validation_status",
+      "_notes",
+      "_status",
+      "_submitted_by",
+      "__version__",
+      "_tags",
+      "meta/rootUuid",
+      "_index",
+      "raw_row_id",
+      "A8_FOSA_num",
+      "phone_clean",
+      "submission_time_parsed",
+      "completeness_score",
+      "grid_type_code",
+      "grid_type_label",
+      "grid_architecture",
+      "has_grid",
+      "has_generator",
+      "has_solar",
+      "has_charcoal",
+      "n_energy_sources",
+      "energy_profile",
+      "conc_10l",
+      "conc_5l",
+      "total_concentrators",
+      "has_concentrator",
+      "has_cylinders",
+      "has_psa_internal",
+      "has_psa_external",
+      "has_other_oxygen",
+      "n_oxygen_sources",
+      "oxygen_profile",
+      "oxygen_payment_label",
+      "outage_days",
+      "outage_hours",
+      "bad_power_days",
+      "short_outages",
+      "grid_cost",
+      "generator_cost",
+      "oxygen_cost",
+      "solar_total_value",
+      "solar_maintenance_adhoc",
+      "equipment_damage_binary"
+    ],
+    "empty_columns": [
+      "intro",
+      "outage_note",
+      "recall_note",
+      "data_note",
+      "_validation_status",
+      "_notes",
+      "_submitted_by",
+      "_tags"
+    ],
+    "value_pattern_risk_columns": [
+      {
+        "column": "A1_email",
+        "flags": [
+          "email_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 519
+      },
+      {
+        "column": "A2_name",
+        "flags": [
+          "email_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 527
+      },
+      {
+        "column": "A3_phone",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 512
+      },
+      {
+        "column": "A8_FOSA",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 565,
+        "nunique": 491
+      },
+      {
+        "column": "F5_o_baddays_freq",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 71,
+        "nunique": 64
+      },
+      {
+        "column": "H1_a_medequip",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 263,
+        "nunique": 245
+      },
+      {
+        "column": "J1_o_ptreg",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 24,
+        "nunique": 22
+      },
+      {
+        "column": "J2_o_wardreg",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 92,
+        "nunique": 84
+      },
+      {
+        "column": "J3_death_o",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 119,
+        "nunique": 113
+      },
+      {
+        "column": "I2_wtp",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 565,
+        "nunique": 46
+      },
+      {
+        "column": "I3_otherprob",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 545,
+        "nunique": 513
+      },
+      {
+        "column": "_id",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "_uuid",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "meta/rootUuid",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "_index",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "raw_row_id",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 565,
+        "nunique": 565
+      },
+      {
+        "column": "A8_FOSA_num",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 565,
+        "nunique": 491
+      },
+      {
+        "column": "phone_clean",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 564,
+        "nunique": 511
+      }
+    ]
+  },
+  "dedup_summary": {
+    "path": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_dedup_audit/dedup_summary.json",
+    "exists": true,
+    "size_bytes": 652,
+    "json": {
+      "source": "/Users/samuelmiles/Downloads/drc2 survey_ Enquête_sur_la_Qualité_et_la_Fiabilité_de_lÉlectricité__Établissements_de_Santé_en_RDC_-_latest_version_-_False_-_2026-04-07-21-25-03.xlsx - Enquête sur la Qualité et la... (2).csv",
+      "raw_rows": 565,
+      "raw_unique_fosa": 491,
+      "raw_duplicate_fosa_clusters": 65,
+      "notebook_sample_rows": 518,
+      "notebook_unique_fosa": 491,
+      "rows_removed_by_notebook_phone_fosa_rule": 47,
+      "remaining_rows_beyond_one_per_fosa": 27,
+      "remaining_duplicate_fosa_clusters": 24,
+      "raw_rows_missing_phone_clean": 1,
+      "sample_rows_missing_phone_clean": 1
+    }
+  },
+  "variable_inventory": {
+    "path": "/Users/samuelmiles/Documents/DRC3 - Oxygen/outputs/drc2_variable_exploration/drc2_variable_inventory.csv",
+    "exists": true,
+    "size_bytes": 31819,
+    "rows": 128,
+    "columns": 12,
+    "identifier_like_columns": [],
+    "quasi_identifier_like_columns": [],
+    "all_columns": [
+      "order",
+      "column",
+      "domain",
+      "variable_family",
+      "inferred_kind",
+      "non_missing",
+      "missing",
+      "missing_pct",
+      "unique_values",
+      "top_values",
+      "analytical_readiness",
+      "suggested_drc3a_use"
+    ],
+    "empty_columns": [],
+    "value_pattern_risk_columns": [
+      {
+        "column": "order",
+        "flags": [
+          "phone_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 128,
+        "nunique": 128
+      },
+      {
+        "column": "column",
+        "flags": [
+          "high_cardinality"
+        ],
+        "nonnull": 128,
+        "nunique": 128
+      },
+      {
+        "column": "non_missing",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 128,
+        "nunique": 33
+      },
+      {
+        "column": "missing",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 128,
+        "nunique": 33
+      },
+      {
+        "column": "unique_values",
+        "flags": [
+          "phone_pattern"
+        ],
+        "nonnull": 128,
+        "nunique": 59
+      },
+      {
+        "column": "top_values",
+        "flags": [
+          "email_pattern",
+          "high_cardinality"
+        ],
+        "nonnull": 120,
+        "nunique": 119
+      }
+    ]
+  }
+}
