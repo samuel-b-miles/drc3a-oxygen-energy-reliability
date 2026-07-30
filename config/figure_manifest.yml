@@ -1,0 +1,37 @@
+# DRC3a figure manifest
+
+figures:
+  - id: literature_map
+    path: figures/drc3a_literature_time_series_dashboard.svg
+    source: literature review coding
+    role: introduction_gap_mapping
+
+  - id: high_n_energy_oxygen_regimes
+    path: outputs/drc2_high_n_mockup/figures/fig_oxygen_access_source_regimes_fr_multipanel.png
+    source: src/analyze_drc2_high_n_mockup.py
+    role: descriptive_high_n_result
+
+  - id: facility_type_province_regimes
+    path: outputs/drc2_high_n_mockup/figures/fig_5_energy_oxygen_by_type_and_province.png
+    source: src/analyze_drc2_high_n_mockup.py
+    role: heterogeneity_by_facility_type_and_province
+
+  - id: energy_predictor_auc
+    path: outputs/drc2_energy_predictors/figures/fig_energy_prediction_auc.png
+    source: src/model_energy_predictors_of_oxygen.py
+    role: predictive_association_summary
+
+  - id: uptime_reliability
+    path: outputs/drc2_uptime/figures/fig_energy_architecture_predicts_reliability.png
+    source: src/calculate_drc2_uptime.py
+    role: reliability_bridge
+
+  - id: equipment_failure
+    path: outputs/drc3a_equipment_failure_layers/figures/fig_equipment_failure_multipanel.png
+    source: src/analyze_equipment_failure_layers.py
+    role: energy_to_oxygen_failure_mechanism
+
+  - id: high_t_bridge
+    path: outputs/v3_figures/fig_high_t_lighthouse_multipanel_v3.png
+    source: high-T telemetry/lighthouse figure build
+    role: motivates_longitudinal_telemetric_extension

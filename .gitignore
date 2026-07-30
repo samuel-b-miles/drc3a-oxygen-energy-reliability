@@ -3,8 +3,23 @@ __pycache__/
 *.pyc
 
 # Keep respondent-level and raw/sensitive files out of a public repository.
-data/
 data/raw/
+data/private/
+data/intermediate/private/
+data/clean/private/
+data/external/private/
+!data/
+!data/README.md
+!data/raw/
+!data/raw/README.md
+!data/intermediate/
+!data/intermediate/README.md
+!data/clean/
+!data/clean/README.md
+!data/external/
+!data/external/README.md
+!data/dictionaries/
+!data/dictionaries/README.md
 outputs/drc2_facility_master/raw_submissions.csv
 outputs/drc2_facility_master/facility_master.csv
 outputs/drc2_facility_master/respondent_sample.csv

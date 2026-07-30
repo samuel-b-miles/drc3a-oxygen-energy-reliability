@@ -1,0 +1,80 @@
+# DRC3a analysis manifest
+#
+# This is a first-pass map of existing analyses. Fill in `inputs` as controlled
+# data files are moved into the local data/ structure.
+
+project: drc3a-oxygen-energy-reliability
+status: private_working_repository
+
+tasks:
+  - id: facility_master
+    script: src/build_drc2_facility_master.py
+    inputs:
+      - data/raw/drc2_survey_export.csv
+    outputs:
+      - outputs/drc2_facility_master/facility_master_summary.json
+    privacy: private_inputs_aggregate_outputs
+
+  - id: variable_exploration
+    script: src/explore_drc2_variables.py
+    inputs:
+      - data/raw/drc2_survey_export.csv
+    outputs:
+      - outputs/drc2_variable_exploration/drc2_variable_inventory.csv
+      - outputs/drc2_variable_exploration/drc2_domain_summary.csv
+    privacy: aggregate_or_metadata_outputs
+
+  - id: deduplication_audit
+    script: src/audit_drc2_dedup.py
+    inputs:
+      - data/raw/drc2_survey_export.csv
+    outputs:
+      - outputs/drc2_dedup_audit/dedup_summary.json
+    privacy: private_row_level_audits_excluded
+
+  - id: high_n_regimes
+    script: src/analyze_drc2_high_n_mockup.py
+    inputs:
+      - data/clean/private/drc2_facility_master.csv
+    outputs:
+      - outputs/drc2_high_n_mockup/tables/
+      - outputs/drc2_high_n_mockup/figures/
+    privacy: aggregate_outputs
+
+  - id: uptime_reliability
+    script: src/calculate_drc2_uptime.py
+    inputs:
+      - data/clean/private/drc2_facility_master.csv
+    outputs:
+      - outputs/drc2_uptime/tables/
+      - outputs/drc2_uptime/figures/
+    privacy: aggregate_outputs
+
+  - id: energy_predictors_of_oxygen
+    script: src/model_energy_predictors_of_oxygen.py
+    inputs:
+      - data/clean/private/drc2_facility_master.csv
+    outputs:
+      - outputs/drc2_energy_predictors/tables/
+      - outputs/drc2_energy_predictors/figures/
+    privacy: aggregate_outputs
+
+  - id: equipment_failure
+    script: src/analyze_equipment_failure_frequency.py
+    inputs:
+      - data/clean/private/drc2_facility_master.csv
+    outputs:
+      - outputs/drc2_equipment_failure/tables/
+      - outputs/drc2_equipment_failure/figures/
+    privacy: aggregate_outputs_with_private_free_text_excluded
+
+  - id: econometric_panel
+    script: src/build_drc3a_econometric_panel.py
+    inputs:
+      - outputs/drc2_energy_predictors/tables/
+      - outputs/drc2_uptime/tables/
+      - outputs/drc3a_damage_associations/
+    outputs:
+      - outputs/drc3a_econometric_panel/drc3a_econometric_style_matrix.csv
+      - outputs/drc3a_econometric_panel/drc3a_econometric_style_matrix.md
+    privacy: aggregate_outputs
