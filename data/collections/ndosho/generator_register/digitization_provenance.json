@@ -1,0 +1,82 @@
+{
+  "checked_on": "2026-10-11",
+  "source_url": "https://docs.google.com/spreadsheets/d/1Ru5n5YFWkVHveDQ8NX89NhDA17ry_PydR3vUo-MhAgY/edit",
+  "source_created_utc": "2025-07-09T03:15:51.954Z",
+  "source_modified_utc": "2025-07-28T04:40:56.270Z",
+  "confirmed_digitization_contributor": "Daniel Steven Doxazo Sitompul",
+  "drive_editor_display_name": "daniel_sitompul",
+  "attribution_evidence": {
+    "method": "Read-only inspection of expanded native Sheets version history, in addition to Drive retained revision API.",
+    "version_label_as_displayed": "July 9, 2025, 2:54 PM",
+    "time_zone": "UI display zone not independently verified; do not treat this label as UTC.",
+    "historical_tab_name": "ChCbNdosho",
+    "current_tab_name": "ChCbNdosho 2025",
+    "cells": [
+      "B50:B53",
+      "C53:D53"
+    ],
+    "observed_label": "Changed by Daniel Steven Doxazo Sitompul.",
+    "corresponding_record_dates": [
+      "2025-01-26",
+      "2025-01-27",
+      "2025-01-28",
+      "2025-01-29"
+    ],
+    "additional_inspection": "July 9, 2025, 3:40 PM: row 89 date, generator, start/stop and fuel entries explicitly attributed to the same contributor.",
+    "claim_supported": "Confirmed spreadsheet entry/edit contributor for 2025 logbook digitization.",
+    "claim_not_established": "Sole authorship of all transcribed cells, who photographed or personally read the paper pages, and authorship of separate machine-learning predictions.",
+    "private_evidence_location": "data/raw/private/ndosho/generator_2025/revision_history/"
+  },
+  "retained_drive_revisions": [
+    {
+      "revision_id": "1169",
+      "modified_utc": "2025-07-27T15:28:50.935Z",
+      "editor_display_name": "daniel_sitompul"
+    },
+    {
+      "revision_id": "1410",
+      "modified_utc": "2025-07-28T00:58:03.427Z",
+      "editor_display_name": "daniel_sitompul"
+    },
+    {
+      "revision_id": "1725",
+      "modified_utc": "2025-07-28T04:04:10.121Z",
+      "editor_display_name": "daniel_sitompul"
+    },
+    {
+      "revision_id": "1751",
+      "modified_utc": "2025-07-28T04:40:56.232Z",
+      "editor_display_name": "daniel_sitompul"
+    }
+  ],
+  "retained_revision_comparison": {
+    "earliest_revision": "1169",
+    "current_revision": "1751",
+    "first_tab_text_identical": true,
+    "interpretation": "The retained revision API alone would establish editing activity but not initial transcription. Native Sheets history provides earlier cell-level attribution."
+  },
+  "folder_relationship": {
+    "historical_workbook_parent": {
+      "name": "Energy Consumption Records",
+      "url": "https://drive.google.com/drive/folders/1gnHxjH8pkttTP1EAyKA9XqDdmpDoLPjA"
+    },
+    "validation_sheet_parent": {
+      "name": "Logbook",
+      "url": "https://drive.google.com/drive/folders/1zu6RGhiPr_zLLfMgdO4RMR8Off7LrT_U"
+    },
+    "same_immediate_folder": false,
+    "source_photo_document": {
+      "title": "Registre consommation carburant CH bethesda.pdf",
+      "url": "https://drive.google.com/file/d/13x2PtwDz_VDe8wK0jTgxvooxJY86NieK/view",
+      "inspection_status": "Presence in Logbook folder verified; image pages not inspected in this attribution check."
+    },
+    "same_digitization_workflow": "Not established by folder metadata or revision history.",
+    "timeline_decision": "Historical grid and generator sources already share a display row. Later 2024-2025 register remains separate because the requested same-folder/same-workflow condition is not established."
+  },
+  "private_evidence_hashes": {
+    "revision_1169.txt": "fbd22eeb83d99c186052eb109d65c148d88729ad2d6bd261f02c4f932848e37c",
+    "revision_1751.txt": "7856aead00d50a60578fd38080feff5af6e419c13b4d203798f8d863a9b30c65",
+    "sheets_july9_1454.png": "1f0a2126d267fe7006288a64e84161b9e83d7af4b1fbf2a499dd740e2a2bcc7d",
+    "sheets_july9_1454_dom.txt": "3b8418aef8105292bb10fb332f34fe719902cf13fbe27cc64366b448ece435a2"
+  }
+}

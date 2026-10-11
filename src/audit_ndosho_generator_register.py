@@ -50,7 +50,8 @@ def build(source:Path,out:Path):
     model=sum(s.cell(r,17).value for r in range(37,41))
     report={'source_url':'https://docs.google.com/spreadsheets/d/1Ru5n5YFWkVHveDQ8NX89NhDA17ry_PydR3vUo-MhAgY/edit',
             'source_modified_utc':'2025-07-28T04:40:56.270Z','retrieved_date_utc':'2026-10-11',
-            'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'source_credit':'ValidationSheet source contributors; individual transcription/model authors not established from inspected workbook',
+            'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'source_credit':'Daniel Steven Doxazo Sitompul: confirmed 2025 logbook spreadsheet entry/edit contributor from July 9, 2025 cell-level Sheets history; sole transcription and model authorship not established.',
+            'digitization_provenance':'digitization_provenance.json',
             'tabs':inventory,'event_manual_hours':manual,'event_model_derived_hours':round(model,8),
             'event_fuel_liters_entered':sum(x['fuel_column_liters_recorded'] for x in event),
             'model_cells':'ChCbNdosho 2025!N37:Q40','manual_cells':'ChCbNdosho 2025!A50:L54',
