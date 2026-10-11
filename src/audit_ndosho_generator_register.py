@@ -48,10 +48,29 @@ def build(source:Path,out:Path):
         w=csv.DictWriter(f,fieldnames=list(event[0]));w.writeheader();w.writerows(event)
     manual=sum(x['logged_generator_minutes'] for x in event)/60
     model=sum(s.cell(r,17).value for r in range(37,41))
+    # Carry dates through continuation rows, without filling absent calendar days.
+    current_date=None; january_minutes=0; january_dates=set()
+    for row in range(8,90):
+        value=s.cell(row,1).value
+        if isinstance(value,datetime):current_date=value.date()
+        minutes=s.cell(row,11).value
+        if current_date and str(current_date).startswith('2025-01') and isinstance(minutes,(int,float)):
+            january_minutes+=minutes; january_dates.add(str(current_date))
     report={'source_url':'https://docs.google.com/spreadsheets/d/1Ru5n5YFWkVHveDQ8NX89NhDA17ry_PydR3vUo-MhAgY/edit',
             'source_modified_utc':'2025-07-28T04:40:56.270Z','retrieved_date_utc':'2026-10-11',
             'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'source_credit':'Daniel Steven Doxazo Sitompul: confirmed 2025 logbook spreadsheet entry/edit contributor from July 9, 2025 cell-level Sheets history; sole transcription and model authorship not established.',
             'digitization_provenance':'digitization_provenance.json',
+            'drc3a_inclusion_status':'included provisionally by study lead, 2026-10-11; source-photo and event-boundary audits pending',
+            'january_runtime_sensitivity':{
+                'source_cells':'ChCbNdosho 2025!A8:A89,K8:K89; date carry-forward for continuation rows',
+                'logged_hours_in_January':january_minutes/60,
+                'distinct_January_dates_with_numeric_runtime':len(january_dates),
+                'calendar_dates_with_no_numeric_runtime_entry':sorted(set(f'2025-01-{d:02d}' for d in range(1,32))-january_dates),
+                'four_day_logged_hours':manual,
+                'four_day_share_of_recorded_January_hours_pct':100*manual/(january_minutes/60),
+                'logged_January_hours_excluding_four_days':january_minutes/60-manual,
+                'model_vs_logged_four_day_difference_pct':100*(model-manual)/manual,
+                'interpretation':'Recorded generator runtime only; missing dates are not zero. This is not total facility energy, metered fuel burn, or a routine-consumption estimate.'},
             'tabs':inventory,'event_manual_hours':manual,'event_model_derived_hours':round(model,8),
             'event_fuel_liters_entered':sum(x['fuel_column_liters_recorded'] for x in event),
             'model_cells':'ChCbNdosho 2025!N37:Q40','manual_cells':'ChCbNdosho 2025!A50:L54',

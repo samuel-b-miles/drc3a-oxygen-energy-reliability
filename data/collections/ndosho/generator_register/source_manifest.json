@@ -4,6 +4,23 @@
   "retrieved_date_utc": "2026-10-11",
   "source_sha256": "4b1d5f571dea2f5f76ce0d96f2e6c3b287333992de2718ff45640424777f6986",
   "source_credit": "Daniel Steven Doxazo Sitompul: confirmed 2025 logbook spreadsheet entry/edit contributor from July 9, 2025 cell-level Sheets history; sole transcription and model authorship not established.",
+  "digitization_provenance": "digitization_provenance.json",
+  "drc3a_inclusion_status": "included provisionally by study lead, 2026-10-11; source-photo and event-boundary audits pending",
+  "january_runtime_sensitivity": {
+    "source_cells": "ChCbNdosho 2025!A8:A89,K8:K89; date carry-forward for continuation rows",
+    "logged_hours_in_January": 377.31666666666666,
+    "distinct_January_dates_with_numeric_runtime": 28,
+    "calendar_dates_with_no_numeric_runtime_entry": [
+      "2025-01-01",
+      "2025-01-02",
+      "2025-01-17"
+    ],
+    "four_day_logged_hours": 96.0,
+    "four_day_share_of_recorded_January_hours_pct": 25.44281991254031,
+    "logged_January_hours_excluding_four_days": 281.31666666666666,
+    "model_vs_logged_four_day_difference_pct": -7.95138885416667,
+    "interpretation": "Recorded generator runtime only; missing dates are not zero. This is not total facility energy, metered fuel burn, or a routine-consumption estimate."
+  },
   "tabs": [
     {
       "source_tab": "ChCbNdosho 2025",
@@ -32,6 +49,5 @@
     "Manual and model-derived event hours disagree and must remain separate.",
     "2023 tab has a copied 2024\u20132025 timeline header and conflicting day/month interpretations.",
     "Dashes mark continuation, not zero runtime. Fuel entries are not independent metered fuel-burn observations."
-  ],
-  "digitization_provenance": "digitization_provenance.json"
+  ]
 }
