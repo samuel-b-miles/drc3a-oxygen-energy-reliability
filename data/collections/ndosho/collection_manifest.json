@@ -1,0 +1,20 @@
+{
+  "collection_id": "N001",
+  "case_label": "Ndosho",
+  "version": "0.1",
+  "components": {
+    "historical": "historical/source_manifest.json",
+    "generator_register": "generator_register/source_manifest.json",
+    "hopmeter": "hopmeter/source_manifest.json",
+    "powerwatch": "powerwatch/coverage_request.json"
+  },
+  "principle": "all periods and meter types for one facility remain in one collection; separate evidence layers rather than separate facilities",
+  "oxygen_delivery_measurements": "not established in these ingested electricity packages",
+  "clinical_outcomes": "not included or inferred",
+  "unresolved_links": [
+    "dated electricity-source and sensor/circuit assignments",
+    "electricity to concentrator operation during event",
+    "device operation to measured oxygen delivery",
+    "oxygen delivery to clinical outcomes"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "package_version": "0.2.0",
+  "python_requirement": "3.12",
+  "python_version_used": "3.12.14",
+  "release_status": "pseudonymous_derivative_raw_identity_files_controlled",
+  "source_timezone": "Africa/Kigali",
+  "record_count": 430560,
+  "cross_export_conflicting_slots": 0,
+  "source_manifest_sha256": "af8126a66c838573d7f85592d245f5b4b847d85aed25a2321d4309f6cfc76c12",
+  "registry_sha256": "65dc18b146d8267fb24900d53985b6857432ebfcc07f099266ff0559d77ad0f2",
+  "configuration_sha256": "88bfd10605963dbc5e3ade24297962bc862d04d7035e874f0835a5f9f4f9e82d",
+  "pipeline_sha256": "d3b808ace50464d394ab373982222bb6392538316aa50df73da3aab470038566",
+  "exports": [
+    {
+      "source_export_id": "E003",
+      "sha256": "d6da08e49dfe76ea4257e5f4cbec4425b116c5afa167fc5a31d273aa2ef4afac",
+      "input_rows": 5040,
+      "measurement_columns": 22,
+      "returned_site_count": 8,
+      "time_issues": [],
+      "duplicate_extra_records": 0,
+      "conflicting_slots": 0,
+      "qa_flag_observations": {
+        "frequency_with_low_voltage_not_interpretable": 3042,
+        "frequency_outside_screen_review": 7777,
+        "low_voltage_candidate_not_verified_outage": 3042,
+        "negative_voltage_review": 1
+      },
+      "formatted_export": false,
+      "measurement_scope": "dashboard_export_not_database_dump"
+    },
+    {
+      "source_export_id": "E004",
+      "sha256": "a7c7fc0432c21520f46fe3b4a239d9d941263618c9b09b8e0f898abe549e6b20",
+      "input_rows": 5040,
+      "measurement_columns": 26,
+      "returned_site_count": 9,
+      "time_issues": [],
+      "duplicate_extra_records": 0,
+      "conflicting_slots": 0,
+      "qa_flag_observations": {
+        "frequency_outside_screen_review": 7527,
+        "frequency_with_low_voltage_not_interpretable": 3831,
+        "low_voltage_candidate_not_verified_outage": 3831
+      },
+      "formatted_export": false,
+      "measurement_scope": "dashboard_export_not_database_dump"
+    },
+    {
+      "source_export_id": "E005",
+      "sha256": "e389425c404aecf8cfced8c85e287029121fb786f87bb76615a45ba60ff306cb",
+      "input_rows": 2880,
+      "measurement_columns": 26,
+      "returned_site_count": 9,
+      "time_issues": [],
+      "duplicate_extra_records": 0,
+      "conflicting_slots": 0,
+      "qa_flag_observations": {
+        "frequency_outside_screen_review": 8267,
+        "frequency_with_low_voltage_not_interpretable": 5921,
+        "low_voltage_candidate_not_verified_outage": 5921
+      },
+      "formatted_export": false,
+      "measurement_scope": "dashboard_export_not_database_dump"
+    },
+    {
+      "source_export_id": "E006",
+      "sha256": "86aa3c111c7ef31d82f38eea4684257706a2687ba90c708f28ce905abc5151b0",
+      "input_rows": 5040,
+      "measurement_columns": 20,
+      "returned_site_count": 7,
+      "time_issues": [],
+      "duplicate_extra_records": 0,
+      "conflicting_slots": 0,
+      "qa_flag_observations": {
+        "frequency_outside_screen_review": 5285,
+        "frequency_with_low_voltage_not_interpretable": 1778,
+        "low_voltage_candidate_not_verified_outage": 1778
+      },
+      "formatted_export": false,
+      "measurement_scope": "dashboard_export_not_database_dump"
+    },
+    {
+      "source_export_id": "E007",
+      "sha256": "0ead8e4b7dfcb91ed75907022889f339269196338c0865f5955c53e13fcd1ab5",
+      "input_rows": 720,
+      "measurement_columns": 18,
+      "returned_site_count": 7,
+      "time_issues": [],
+      "duplicate_extra_records": 0,
+      "conflicting_slots": 0,
+      "qa_flag_observations": {
+        "frequency_outside_screen_review": 576,
+        "frequency_with_low_voltage_not_interpretable": 98,
+        "low_voltage_candidate_not_verified_outage": 98
+      },
+      "formatted_export": false,
+      "measurement_scope": "dashboard_export_not_database_dump"
+    }
+  ],
+  "generated_at_utc": "2026-10-11T19:32:31.551603+00:00",
+  "output_sha256": {
+    "coverage.csv": "cc4661141a69218f02cbc895fff5406d77ed04ed86c83e7f99c65c8d06ed0db6",
+    "readings.csv": "fd7bc660ed265f3ada784fe856a651b9010237f2d0169beb0b9e8dec4a5a0417",
+    "selected_site_returns.csv": "4867aee8eb56376f4bbab74794dc0e1d92bde4af24907a78129248fb3554ebf9"
+  },
+  "interpretation": "Coverage describes returned observations, not verified electrical availability or oxygen delivery"
+}

@@ -1,0 +1,53 @@
+{
+  "source_url": "https://docs.google.com/spreadsheets/d/1Ru5n5YFWkVHveDQ8NX89NhDA17ry_PydR3vUo-MhAgY/edit",
+  "source_modified_utc": "2025-07-28T04:40:56.270Z",
+  "retrieved_date_utc": "2026-10-11",
+  "source_sha256": "4b1d5f571dea2f5f76ce0d96f2e6c3b287333992de2718ff45640424777f6986",
+  "source_credit": "Daniel Steven Doxazo Sitompul: confirmed 2025 logbook spreadsheet entry/edit contributor from July 9, 2025 cell-level Sheets history; sole transcription and model authorship not established.",
+  "digitization_provenance": "digitization_provenance.json",
+  "drc3a_inclusion_status": "included provisionally by study lead, 2026-10-11; source-photo and event-boundary audits pending",
+  "january_runtime_sensitivity": {
+    "source_cells": "ChCbNdosho 2025!A8:A89,K8:K89; date carry-forward for continuation rows",
+    "logged_hours_in_January": 377.31666666666666,
+    "distinct_January_dates_with_numeric_runtime": 28,
+    "calendar_dates_with_no_numeric_runtime_entry": [
+      "2025-01-01",
+      "2025-01-02",
+      "2025-01-17"
+    ],
+    "four_day_logged_hours": 96.0,
+    "four_day_share_of_recorded_January_hours_pct": 25.44281991254031,
+    "logged_January_hours_excluding_four_days": 281.31666666666666,
+    "model_vs_logged_four_day_difference_pct": -7.95138885416667,
+    "interpretation": "Recorded generator runtime only; missing dates are not zero. This is not total facility energy, metered fuel burn, or a routine-consumption estimate."
+  },
+  "tabs": [
+    {
+      "source_tab": "ChCbNdosho 2025",
+      "rows": 89,
+      "columns": 29,
+      "date_column_min_as_stored": "2024-12-26T00:00:00",
+      "date_column_max_as_stored": "2025-03-01T00:00:00",
+      "date_status": "stored 2024\u20132025 dates; continuations require day carry-forward"
+    },
+    {
+      "source_tab": "ChCbNdosho 2023",
+      "rows": 125,
+      "columns": 32,
+      "date_column_min_as_stored": "2023-01-03T00:00:00",
+      "date_column_max_as_stored": "2023-12-05T00:00:00",
+      "date_status": "2023 dates and copied header need day/month reconciliation"
+    }
+  ],
+  "event_manual_hours": 96.0,
+  "event_model_derived_hours": 88.3666667,
+  "event_fuel_liters_entered": 600.0,
+  "model_cells": "ChCbNdosho 2025!N37:Q40",
+  "manual_cells": "ChCbNdosho 2025!A50:L54",
+  "limitations": [
+    "Model-derived generator hours are not an independent runtime measurement. Model code and training data are not linked in this workbook.",
+    "Manual and model-derived event hours disagree and must remain separate.",
+    "2023 tab has a copied 2024\u20132025 timeline header and conflicting day/month interpretations.",
+    "Dashes mark continuation, not zero runtime. Fuel entries are not independent metered fuel-burn observations."
+  ]
+}

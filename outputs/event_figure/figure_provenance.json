@@ -1,0 +1,7 @@
+{
+  "source_readings_sha256": "8812019b2d3dba4a227e80a09b17dc135a55f43681f233b1f2a9ef0bc69e6741",
+  "registry_sha256": "e038a43b06d83fcb2914cd03f6245b7552112572015541b37262646671ca5142",
+  "script_sha256": "f41695f673211fb0925f819b9a742705eb606546a25508e11092c3821f0aff1b",
+  "event_boundaries": "generator-register calendar dates; grid-specific cutoff/restoration times not verified",
+  "records": 215280
+}

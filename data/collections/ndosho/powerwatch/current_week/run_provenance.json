@@ -1,0 +1,39 @@
+{
+  "package_version": "0.2.0",
+  "python_requirement": "3.12",
+  "python_version_used": "3.12.14",
+  "release_status": "pseudonymous_derivative_raw_identity_files_controlled",
+  "source_timezone": "Africa/Kigali",
+  "record_count": 9414,
+  "cross_export_conflicting_slots": 0,
+  "source_manifest_sha256": "b6b29e6fad71a4ab34281a990a5783cf47c586582e1a8a520421787eb24f783c",
+  "registry_sha256": "65dc18b146d8267fb24900d53985b6857432ebfcc07f099266ff0559d77ad0f2",
+  "configuration_sha256": "88bfd10605963dbc5e3ade24297962bc862d04d7035e874f0835a5f9f4f9e82d",
+  "pipeline_sha256": "d3b808ace50464d394ab373982222bb6392538316aa50df73da3aab470038566",
+  "exports": [
+    {
+      "source_export_id": "E008",
+      "sha256": "59da3c924704a620fa48689e17f529644c80fc5fa4be95a59598d46925049b13",
+      "input_rows": 4707,
+      "measurement_columns": 2,
+      "returned_site_count": 1,
+      "time_issues": [],
+      "duplicate_extra_records": 0,
+      "conflicting_slots": 0,
+      "qa_flag_observations": {
+        "frequency_outside_screen_review": 15,
+        "frequency_with_low_voltage_not_interpretable": 11,
+        "low_voltage_candidate_not_verified_outage": 11
+      },
+      "formatted_export": false,
+      "measurement_scope": "dashboard_export_not_database_dump"
+    }
+  ],
+  "generated_at_utc": "2026-10-11T19:53:16.787103+00:00",
+  "output_sha256": {
+    "coverage.csv": "eeb4dd6de156d75292f974e3680a056d60022d0474a8eb1f6288dd97f30e4c82",
+    "readings.csv": "1ef7ae682e5b2e1358558b508e416a4e8b5689fc5cc0f06f489576e2fcdbb843",
+    "selected_site_returns.csv": "e751f503e1c82300ae2dfcca402bf72f16ec2272c1450317dea13ccdb28b2b16"
+  },
+  "interpretation": "Coverage describes returned observations, not verified electrical availability or oxygen delivery"
+}

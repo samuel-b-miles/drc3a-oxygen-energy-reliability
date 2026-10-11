@@ -1,0 +1,158 @@
+[
+  {
+    "sheet": "Description",
+    "nonempty_cells": 9,
+    "formula_cells": 0,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga",
+    "nonempty_cells": 19442,
+    "formula_cells": 10450,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "Virunga daily",
+    "nonempty_cells": 6279,
+    "formula_cells": 785,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga weekly",
+    "nonempty_cells": 1103,
+    "formula_cells": 140,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga - cleaned",
+    "nonempty_cells": 19443,
+    "formula_cells": 10451,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga - cleaned - daily",
+    "nonempty_cells": 7071,
+    "formula_cells": 2351,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga - cleaned - weekly",
+    "nonempty_cells": 1238,
+    "formula_cells": 407,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga - cleaned - daily - dis",
+    "nonempty_cells": 8203,
+    "formula_cells": 4088,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "virunga - cleaned - weekly - di",
+    "nonempty_cells": 1249,
+    "formula_cells": 419,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generators",
+    "nonempty_cells": 7847,
+    "formula_cells": 3835,
+    "existing_error_cells": 13
+  },
+  {
+    "sheet": "generator 1 data",
+    "nonempty_cells": 3727,
+    "formula_cells": 1670,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 2 data",
+    "nonempty_cells": 3114,
+    "formula_cells": 1544,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 1 data - cleaned",
+    "nonempty_cells": 4056,
+    "formula_cells": 1963,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 1 data - cleaned - da",
+    "nonempty_cells": 3452,
+    "formula_cells": 1532,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 1 data - cleaned - di",
+    "nonempty_cells": 8459,
+    "formula_cells": 4738,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 2 data - empties remo",
+    "nonempty_cells": 2182,
+    "formula_cells": 1042,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 2 data - cleaned",
+    "nonempty_cells": 2358,
+    "formula_cells": 1213,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 2 data - cleaned - da",
+    "nonempty_cells": 1817,
+    "formula_cells": 866,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "generator 2 data - cleaned - di",
+    "nonempty_cells": 6858,
+    "formula_cells": 4495,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "total generator usage",
+    "nonempty_cells": 8496,
+    "formula_cells": 4249,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "comparisons - usage",
+    "nonempty_cells": 2848,
+    "formula_cells": 1925,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "comparisons - purchases",
+    "nonempty_cells": 2540,
+    "formula_cells": 1800,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "saidi_daily_10yr",
+    "nonempty_cells": 94360,
+    "formula_cells": 40266,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "saidi_N001",
+    "nonempty_cells": 4545,
+    "formula_cells": 1826,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "saifi_daily_10yr",
+    "nonempty_cells": 94360,
+    "formula_cells": 40266,
+    "existing_error_cells": 0
+  },
+  {
+    "sheet": "saifi_virunga",
+    "nonempty_cells": 4545,
+    "formula_cells": 1826,
+    "existing_error_cells": 0
+  }
+]

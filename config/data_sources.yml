@@ -1,81 +1,36 @@
-# DRC3a / DRC2 data-source manifest
-
+# Canonical references and release boundaries. No personal local paths or secrets.
 project: drc3a-oxygen-energy-reliability
-last_reviewed: 2026-07-30
-
-controlled_google_drive:
-  root_folder:
-    label: drc3_CodexSBM
-    url: https://drive.google.com/drive/folders/19xFnBRUbK0oRgNs5zCDu2f3DJBNvo37L
-  canonical_seed_docs:
-    label: canonical seed docs
-    url: https://drive.google.com/drive/folders/1CQLIjnHqAx-wsxdMrP7Swssyw0P-masN
-  data_and_pipelines:
-    label: 02_Data & Pipelines
-    url: https://drive.google.com/drive/folders/1qO9vXpp0j4wmFeBVKuNlSUmWwWmclh3J
-
-local_assets_observed:
-  - id: raw_drc2_survey_csv
-    role: controlled_raw_survey_export
-    local_path: /Users/samuelmiles/Downloads/drc2 survey_ Enquête_sur_la_Qualité_et_la_Fiabilité_de_lÉlectricité__Établissements_de_Santé_en_RDC_-_latest_version_-_False_-_2026-04-07-21-25-03.xlsx - Enquête sur la Qualité et la... (2).csv
-    rows: 565
-    columns: 128
-    git_policy: do_not_commit
-    reason: contains respondent email, name, phone, raw IDs, timestamps, free text, and facility linkage keys
-
-  - id: drc2_speedrun_notebook
-    role: prior_analysis_notebook_and_dedup_reference
-    local_path: /Users/samuelmiles/Downloads/DRc2 survey data speed run v3 (2) (1).ipynb
-    git_policy: do_not_commit_until_reviewed
-    reason: may expose local paths, raw-data assumptions, or uncensored outputs; summarize rules in docs instead
-
-  - id: ryan_drc2_paper_pdf
-    role: methods_reference_for_uptime_and_drc2_context
-    local_path: /Users/samuelmiles/Downloads/DRC2___HFE_in_DRC.pdf
-    git_policy: keep_in_drive_or_sources_private
-    reason: source document, not an executable analysis input
-
-  - id: facility_master_private
-    role: derived_facility_level_analysis_frame
-    local_path: outputs/drc2_facility_master/facility_master.csv
-    rows: 491
-    columns: 126
-    git_policy: do_not_commit
-    reason: contains facility linkage key, respondent names, row IDs, submission audit fields, and conflict metadata
-
-tracked_seed_assets:
-  - data/dictionaries/drc2_anonymization_variable_map.csv
-  - outputs/drc2_data_ingestion_audit/drc2_asset_schema_audit.md
-  - outputs/drc2_data_ingestion_audit/drc2_asset_schema_audit.json
-  - docs/drc2-dedup-audit.md
-  - docs/drc2-facility-master-build.md
-  - docs/analysis-inventory.md
-
-recommended_private_local_staging:
-  raw:
-    path: data/raw/private/
-    contents: original survey exports and canonical data files restored from Drive
-  clean:
-    path: data/clean/private/
-    contents: one-row-per-facility analytical datasets and respondent-level datasets after de-identification review
-  intermediate:
-    path: data/intermediate/private/
-    contents: deduplication candidates, conflict audits, free-text coding workbooks
-
-recommended_public_release_policy:
-  include:
-    - aggregate tables
-    - final figures
-    - code
-    - data dictionaries
-    - anonymization protocol
-    - synthetic or minimized analytical data if approved
-  exclude:
-    - raw survey exports
-    - names
-    - emails
-    - phone numbers
-    - exact facility crosswalks
-    - raw facility identifiers
-    - respondent-level free text
-    - duplicate cluster audit files
+last_reviewed: 2026-10-11
+repository_visibility: public
+canonical_architecture:
+  url: https://docs.google.com/document/d/13LBWbhEQXUHgIoJG5yUJeGUv1tPWAJipoJqkdq2GuSs/edit
+source_of_truth:
+  originals: authoritative Drive and source-repository locations; locally staged bytes are hash-verified copies
+  calculations: this Git repository
+collections:
+  ndosho:
+    id: N001
+    manifest: data/collections/ndosho/collection_manifest.json
+    components:
+      historical_grid_generator: data/collections/ndosho/historical/source_manifest.json
+      generator_and_fuel_registers: data/collections/ndosho/generator_register/source_manifest.json
+      hopmeter: data/collections/ndosho/hopmeter/source_manifest.json
+      paired_powerwatch: data/collections/ndosho/powerwatch/coverage_request.json
+    controlled_inputs: data/raw/private/ndosho/
+  goma_event:
+    manifest: data/collections/goma/powerwatch/export_manifest.json
+    public_registry: data/collections/goma/powerwatch/series_registry.json
+    controlled_registry: config/private/powerwatch_registry.json
+    controlled_inputs: data/raw/private/goma/powerwatch/
+    scope: all returned series for the nine user-specified sites; complete census of additional Goma sites not established
+  drc2:
+    manifest: outputs/drc2_failure_audit/source_manifest.json
+    original_export: data/raw/private/drc2/original_survey_export.csv
+    augmented_drive_export: data/raw/private/drc2/raw_submissions.csv
+    controlled_answer_audit: outputs/private/drc2_failure_audit/
+    released_results: outputs/drc2_failure_audit/
+    source_shape: 565 submissions and 128 original fields
+    facility_denominator: 491
+release_policy:
+  include: [code, aggregate survey tables, deidentified electrical derivatives, credited source manifests, hashes, schemas, figures]
+  exclude: [raw survey answers, names and contacts in annotations, respondent identifiers, facility and sensor identity crosswalks, precise locations, credentials, signed download URLs]

@@ -1,0 +1,84 @@
+{
+  "audit_date": "2026-10-11",
+  "status": "initial_source_and_descriptive_audit_complete; model_bias_and_consumption_inference_pending",
+  "register_inclusion": "Included provisionally in DRC3a per study lead; overlapping 26-29 January entries retained. Generator logging dates are not independently verified grid-outage boundaries.",
+  "sources": {
+    "drc6_draft": "https://docs.google.com/document/d/1k87JHJFuFVo0DrO1pkMFIStrmUD6MT6mjSjXOklA3C4/edit",
+    "drc6_presentation": "https://docs.google.com/presentation/d/1PntVwhd2PNuZo6pr1_EImD2jE3KF3mcKYTdfE2P7tGM/edit",
+    "drc6_model_summary": "https://docs.google.com/presentation/d/1ZPPdJJMwV_qwWgPRQYeTOgRXK4mJgPMILPL0zEHRa-A/edit",
+    "grafana_kpi": "https://graphs.rwanda.powerwatch.io/d/kpi-overview/kpi-overview?orgId=2"
+  },
+  "model_audit": {
+    "reported_training_windows": [
+      [
+        "2023-02-01",
+        "2023-02-28"
+      ],
+      [
+        "2024-08-12",
+        "2024-09-09"
+      ]
+    ],
+    "source_status": "Reported in May 15, 2025 draft; final executable model inputs, labels and split manifest not inspected.",
+    "direct_overlap_with_January_2025": false,
+    "validation_date_conflict": "Draft methods refer to June 2023 validation, but Table 2 and model summary label June 2022. Resolve against actual labels and code.",
+    "reason_for_2025_digitization": "Workbook contains manual logbook and model predictions side by side; generator-project presentation describes logbook validation. Training use of these particular rows has not been established.",
+    "required_checks": [
+      "Obtain exact label-generation code, model versions, training/tuning/test windows and source hashes.",
+      "Identify whether January 2025 rows or derived labels entered training, tuning, evaluation, or only logbook validation.",
+      "If conflict data were used, evaluate held-out contiguous conflict and routine blocks; fit preprocessing on training only, purge shared rolling windows, and assess class-specific performance and hour-total error.",
+      "Do not use voltage-derived generator labels or predictions as independent confirmation of the same voltage series."
+    ],
+    "bias_conclusion": "No training-bias conclusion established yet; reported older windows alone do not demonstrate final model provenance."
+  },
+  "consumption_audit": {
+    "reported_annual_energy_year": 2023,
+    "reported_annual_generator_energy_kWh": 22295,
+    "direct_date_overlap_with_2025_event": false,
+    "interpretation": "Reported generator-energy estimate for 2023, not measured total facility consumption. Later retraining or load-profile transfer could introduce indirect dependence and remains unaudited.",
+    "january_register_result_reference": "source_manifest.json#january_runtime_sensitivity",
+    "required_checks": [
+      "Trace generator runtime classifier, grid energy, load profile, generator ratings and runtime-to-kWh conversions separately.",
+      "Report January 2025 with and without the four register dates using matched coverage denominators; extend to full interruption after grid-specific boundary verification.",
+      "Compare equivalent routine and conflict periods with measured whole-facility power if available; account for service volume, PSA installation, switching and season.",
+      "Keep generator hours, fuel-column entries, inferred kWh and metered whole-facility kWh as different quantities."
+    ],
+    "limitation": "Available HOPmeter load files end January 2024. January 2025 voltage/frequency exports do not measure facility energy."
+  },
+  "grafana_inspection": {
+    "window_local": [
+      "2025-01-14 00:00:00",
+      "2025-02-08 23:59:59"
+    ],
+    "zone": "Africa/Kigali (UTC+02:00)",
+    "inspected_modes": [
+      "facility",
+      "room"
+    ],
+    "query_source": "saidi_respondent_id_day",
+    "query_operation": "Room-level outage panel averages/min/max/percentiles of precomputed daily SAIDI by respondent_id, site_id and location_comment.",
+    "upstream_SAIDI_derivation": "Not exposed by inspected panel query; missing-data handling and outage algorithm not yet verified.",
+    "visible_facility_mean_daily_outage_hours": {
+      "S001": 8.28,
+      "S003": 8.09,
+      "S004": 0.00576
+    },
+    "visible_room_mean_daily_outage_hours": {
+      "S001_lab_reference": 8.29,
+      "S003_office_reference": 8.09,
+      "S004_lab_reference": 0
+    },
+    "interpretation": "Displayed context-window KPIs suggest heterogeneous service continuity, not common grid-cutoff timestamps. Sensor-level gaps and backup supply require reconciliation.",
+    "private_evidence": "data/raw/private/goma/kpi_audit/",
+    "full_KPI_csv_export_status": "Download attempt timed out; successful full KPI CSV capture not established. Saved DOM/query evidence only.",
+    "public_bucket_audit": "../powerwatch/conflict_audit/daily_measurement_states.csv",
+    "next": "Read/export underlying daily SAIDI and its construction, reconcile sensor mappings and deployment dates, then compare dates across actual grid-facing sites."
+  },
+  "uninspected": [
+    "Original register photograph pages",
+    "Final DRC6 label/code/split artifacts",
+    "January 2025 measured whole-facility power",
+    "Underlying daily SAIDI construction and complete export"
+  ],
+  "source_files_changed": false
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "package_version": "0.2.0",
+  "status": "descriptive_event_export",
+  "source_timezone": "Africa/Kigali",
+  "source_timezone_evidence": "Grafana absolute time picker shows Africa/Kigali, CAT, UTC+02:00",
+  "analysis_window_start_local": "2025-01-14T00:00:00",
+  "analysis_window_end_exclusive_local": "2025-02-09T00:00:00",
+  "candidate_event_start_local": "2025-01-26T00:00:00",
+  "candidate_event_end_exclusive_local": "2025-01-30T00:00:00",
+  "event_boundary_status": "provisional_requires_source_and_circuit_verification",
+  "expected_interval_seconds": 120,
+  "export_window_max_days": 7,
+  "qa_screen": {
+    "low_voltage_candidate_below_V": 23,
+    "frequency_review_below_Hz": 45,
+    "frequency_review_above_Hz": 65,
+    "status": "screening_only_not_validated_outage_or_device_operating_thresholds"
+  },
+  "release_status": "user_authorized_deidentified_derivatives",
+  "release_conditions": [
+    "No raw identities, precise locations, personal contacts or credentials are released.",
+    "Named Ndosho case and canonical source references limit anonymity."
+  ]
+}

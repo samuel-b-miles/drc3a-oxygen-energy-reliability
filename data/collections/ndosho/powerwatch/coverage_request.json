@@ -1,0 +1,46 @@
+{
+  "collection_id": "N001",
+  "component": "powerwatch_paired_monitoring",
+  "requested_start": "2022-01-01",
+  "requested_end": "2026-10-11",
+  "requested_end_meaning": "current date, not verified sensor coverage endpoint",
+  "paired_event_export_confirmed": true,
+  "confirmed_export_start_local": "2025-01-14T00:00:00",
+  "confirmed_export_end_exclusive_local": "2025-02-09T00:00:00",
+  "confirmed_series": [
+    "M004",
+    "M008"
+  ],
+  "historical_continuous_paired_coverage_status": "not_confirmed",
+  "source_programme_reference": "https://doi.org/10.1016/j.apenergy.2025.126830",
+  "source_programme_scope": "2022\u20132024 regional programme, not an audit of uninterrupted Ndosho sensor coverage",
+  "history_attempt": "Three long-span measurement queries returned 502 server timeouts; installation-week query succeeded. No continuous coverage conclusion drawn.",
+  "next_acquisition": "daily or <=7-day coverage chunks plus complete raw history, preserving dated deployment links",
+  "public_source": "../../goma/powerwatch/readings.csv.gz",
+  "row_filter": {
+    "site_id": "S004"
+  },
+  "physical_sensor_identity_status": "CSV identifiers are deployment respondent aliases; link hardware IDs and dated circuit placement before long-term pooling",
+  "placement_reference_status": "laboratory / clinic assignment follows previously inspected placement reference; placement in January 2025 and oxygen connection remain unverified",
+  "deployment_pair_recorded_date": "2022-05-27",
+  "confirmed_installation_week_start_utc": "2022-05-27T08:06:03Z",
+  "confirmed_installation_week_end_utc": "2022-06-02T23:58:03Z",
+  "installation_week_pair_confirmed": true,
+  "installation_week_source": "installation_summary.csv",
+  "deployment_source": "deployment.csv",
+  "current_week": {
+    "confirmed_series": [
+      "M004"
+    ],
+    "not_returned_series": [
+      "M008"
+    ],
+    "first_exported_bucket_utc": "2026-10-05T06:46:00Z",
+    "last_exported_bucket_utc": "2026-10-11T19:44:00Z",
+    "query_start_local": "2026-10-05T00:00:00",
+    "export_manifest": "current_week/export_manifest.json",
+    "interpretation": "one ongoing series, no current paired monitoring or uninterrupted coverage inference"
+  },
+  "study_display_name": "GridWatch monitoring",
+  "source_platform_name": "nLine PowerWatch"
+}

@@ -12,6 +12,7 @@ data/external/private/
 !data/README.md
 !data/raw/
 !data/raw/README.md
+data/raw/private/
 !data/intermediate/
 !data/intermediate/README.md
 !data/clean/
@@ -59,3 +60,10 @@ outputs/**/google_pdf_render_final/
 
 # Row-level exploratory audit outputs should be reviewed before sharing.
 outputs/drc3a_cost_quality/cost_value_audit_long.csv
+
+# Auditable collection inputs and answer-level review materials remain controlled.
+outputs/private/
+config/private/
+node_modules/
+node_modules
+.venv/

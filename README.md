@@ -4,9 +4,18 @@ Reproducible analysis workspace for the DRC health-facility energy, reliability,
 
 ## Current Status
 
-This repository contains the analysis scripts and generated aggregate tables/figures for the DRC3a manuscript workflow. Before any public release, confirm that the shared data bundle is anonymized and excludes respondent-level identifiers, raw submissions, phone numbers, precise facility identifiers, and free-text fields that could identify individuals or facilities.
+This public repository contains analysis code, credited source manifests, deidentified electrical records, and aggregate survey results for DRC3a. Original survey answers, personal identifiers, raw facility/sensor crosswalks, and controlled source files remain outside Git. A named hospital case and canonical source references limit anonymity; the released electrical packages are deidentified rather than irreversibly anonymous.
 
 Google Drive remains the human-readable source of truth for manuscript drafts, canonical seed documents, and controlled source data. This repository is the executable source of truth for reproducible calculations and manuscript figures.
+
+## Auditable data collections
+
+- [Ndosho collection](data/collections/ndosho/README.md): Charlie Huang's preserved kWh workbook, generator/fuel registers, all 13 available HOPmeter load files, and paired PowerWatch references.
+- [Goma event exports](data/collections/goma/powerwatch/README.md): five unformatted dashboard exports covering 14 January–8 February 2025, with source hashes and 430,560 pseudonymous measurement records.
+- [First descriptive event figure](outputs/event_figure/figure_1_event_descriptive.pdf) and [updated collection timeline](outputs/data_timeline/drc3a_collection_timeline.pdf).
+- [DRC2 equipment-answer audit](outputs/drc2_failure_audit/README.md): reproduced legacy coding, a narrower concentrator category, and controlled answer-to-label provenance.
+
+Start with [reproduction commands and evidence limits](docs/auditable-data-packages.md). The event figure describes exported voltage; it does not establish oxygen flow or uninterrupted clinical service. Full paired PowerWatch coverage from 2022 to the present remains an acquisition and coverage-audit target.
 
 ## Reproduce The Main Tables
 
@@ -31,7 +40,7 @@ Raw survey submissions and facility-level analytical files are intentionally exc
 
 ## Repository Organization
 
-This private repo is organized as the working version of a later public publication-reference repo:
+The public repository separates released research packages from controlled inputs:
 
 - `data/`: local data staging, with raw and private row-level files ignored by git
 - `src/`: analysis code for facility master construction, uptime, energy-oxygen models, equipment failure, and figures

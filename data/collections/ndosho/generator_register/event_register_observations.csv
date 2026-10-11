@@ -1,0 +1,5 @@
+collection_id,date_local,source_tab,source_cells_runtime,logged_generator_minutes,source_cells_fuel,fuel_column_liters_recorded,fuel_interpretation,generator_groups
+N001,2025-01-26,ChCbNdosho 2025,K50,1440.0,F50,200.0,entered under Fuel Consumption; purchase/dispensing/burn distinction requires original-register audit,1
+N001,2025-01-27,ChCbNdosho 2025,K51,1440.0,F51,200.0,entered under Fuel Consumption; purchase/dispensing/burn distinction requires original-register audit,1
+N001,2025-01-28,ChCbNdosho 2025,K52,1440.0,F52,200.0,entered under Fuel Consumption; purchase/dispensing/burn distinction requires original-register audit,1
+N001,2025-01-29,ChCbNdosho 2025,K53;K54,1440.0,F53;F54,0,entered under Fuel Consumption; purchase/dispensing/burn distinction requires original-register audit,1;2

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.1",
+  "source_provider": "nLine PowerWatch; organization 2",
+  "status": "current_week_ndosho_export_one_returned_series_pair_not_confirmed",
+  "exports": [
+    {
+      "export_id": "E008",
+      "sha256": "59da3c924704a620fa48689e17f529644c80fc5fa4be95a59598d46925049b13",
+      "bytes": 243799,
+      "acquired_at_utc": "2026-10-11T19:45:31.100715+00:00",
+      "source_url": "https://graphs.rwanda.powerwatch.io/d/power-data/power-data?orgId=2",
+      "organization_id": 2,
+      "panel_title": "Voltage Time Series",
+      "query_start_local": "2026-10-05T00:00:00",
+      "query_end_exclusive_local": "2026-10-11T21:45:31.100715",
+      "source_timezone": "Africa/Kigali",
+      "timestamp_format": "unix_ms",
+      "selected_site_ids": [
+        "S004"
+      ],
+      "include_outages": true,
+      "formatted_data": false,
+      "download_for_excel": false,
+      "aggregation_status": "verified_120_second_bucket_voltage_prefers_energized_subsamples_frequency_is_mean",
+      "active_for_pipeline": true,
+      "actual_ui_query_end_local": "2026-10-11T23:59:59",
+      "denominator_note": "Expected slots capped at acquisition timestamp, not future dashboard end-of-day"
+    }
+  ],
+  "released_readings_sha256": "9cb43966f9301e1a23af05ca5b32cd83ab3d4fc1925a83af5788c60cda7f1105",
+  "release_pipeline_sha256": "f746dfc2cfe13b552fc7430a1728e4e82bb85f436827f28298dde2e985c35cd6"
+}

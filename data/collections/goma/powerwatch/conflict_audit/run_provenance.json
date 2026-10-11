@@ -1,0 +1,28 @@
+{
+  "source_sha256": "8812019b2d3dba4a227e80a09b17dc135a55f43681f233b1f2a9ef0bc69e6741",
+  "script_sha256": "99f0848d8cb576a7dd070bc7c6cbd00cd85e68bd13777ba30c3dac65766f4deb",
+  "periods": [
+    [
+      "pre_context",
+      "2025-01-14",
+      "2025-01-24"
+    ],
+    [
+      "conflict_calendar_context",
+      "2025-01-24",
+      "2025-01-31"
+    ],
+    [
+      "later_context",
+      "2025-01-31",
+      "2025-02-09"
+    ],
+    [
+      "register_four_calendar_days",
+      "2025-01-26",
+      "2025-01-30"
+    ]
+  ],
+  "interval_seconds": 120,
+  "interpretation": "Calendar contexts, not verified grid outage boundaries. Bucket proportions are not exact uptime. Missing measurements remain separate from low observations. Source voltage aggregation prefers energized readings. No generator classifier or kWh estimate is applied."
+}

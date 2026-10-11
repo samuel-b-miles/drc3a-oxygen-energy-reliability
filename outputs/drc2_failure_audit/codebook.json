@@ -1,0 +1,165 @@
+[
+  {
+    "category": "Oxygen concentrator",
+    "patterns": [
+      "\\bconcentr\\w*",
+      "\\bconcentret\\w*",
+      "\\bconscent\\w*",
+      "\\bcontracteur\\s+d.?ox\\w*"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Oxygen device unspecified",
+    "patterns": [
+      "\\boxygen\\w*"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Sterilization equipment",
+    "patterns": [
+      "autoclave",
+      "st[ée]ril",
+      "poup",
+      "popin",
+      "certauclave",
+      "conclave",
+      "casserole"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Ultrasound / echography",
+    "patterns": [
+      "[ée]chograph",
+      "echograph"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Computer / printer / office electronics",
+    "patterns": [
+      "ordinateur",
+      "imprim",
+      "photocop",
+      "serveur",
+      "informat",
+      "t[ée]l[ée]vision",
+      "unite centrale",
+      "unit[ée] centrale",
+      "chargeur"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Lighting / surgical theatre electrical devices",
+    "patterns": [
+      "lampe",
+      "scial",
+      "sial",
+      "cyal",
+      "sciat",
+      "bistouri",
+      "bloc",
+      "salle d.?op"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Laboratory equipment",
+    "patterns": [
+      "microscope",
+      "centrif",
+      "santrif",
+      "automate",
+      "spectro",
+      "analyseur",
+      "[ée]lectrophor",
+      "h[ée]matolog",
+      "balance",
+      "dop"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Refrigeration / cold chain / morgue",
+    "patterns": [
+      "frigo",
+      "r[ée]frig",
+      "cong[ée]lat",
+      "morgue",
+      "mortuaire"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Maternal / neonatal equipment",
+    "patterns": [
+      "couveuse",
+      "incubat",
+      "table chauff",
+      "n[ée]onat"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Patient monitoring / bedside clinical devices",
+    "patterns": [
+      "moniteur",
+      "monitoring",
+      "ecg",
+      "oxym",
+      "tensio",
+      "aspirat",
+      "ventilat",
+      "endoscope",
+      "gastroscope"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Radiography / X-ray",
+    "patterns": [
+      "radiograph",
+      "radio",
+      "\\brx\\b"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Electrical components / power system",
+    "patterns": [
+      "batter",
+      "stabilis",
+      "onduleur",
+      "disjonct",
+      "rallonge",
+      "adaptateur",
+      "ampoule",
+      "panneau",
+      "circuit",
+      "installation",
+      "prise",
+      "inverseur",
+      "\\bfil",
+      "convertisseur",
+      "r[ée]gulateur",
+      "regulateur"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  },
+  {
+    "category": "Laundry / water / utility equipment",
+    "patterns": [
+      "lessiv",
+      "buander",
+      "lave",
+      "pompe",
+      "traitement d.?eau",
+      "chauffe.?eau",
+      "fer [aà] repasser"
+    ],
+    "rule": "any retained respondent per facility; multilabel; unspecified oxygen excluded when concentrator named"
+  }
+]

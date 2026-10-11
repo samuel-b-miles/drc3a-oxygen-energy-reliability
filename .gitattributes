@@ -1,0 +1,10 @@
+# Preserve released research artifact bytes across clone platforms.
+data/collections/** -text
+# CSV source text and conventional CSV CRLF endings are intentional.
+data/collections/**/*.csv whitespace=cr-at-eol,-blank-at-eol
+outputs/data_timeline/*.csv -text whitespace=cr-at-eol
+outputs/drc2_failure_audit/*.csv -text whitespace=cr-at-eol
+outputs/event_figure/*.csv -text whitespace=cr-at-eol
+# Matplotlib SVG path strings conventionally end with whitespace.
+outputs/data_timeline/*.svg whitespace=-blank-at-eol linguist-generated=true
+outputs/event_figure/*.svg whitespace=-blank-at-eol linguist-generated=true

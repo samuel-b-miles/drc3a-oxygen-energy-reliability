@@ -1,0 +1,3 @@
+sensor_id,source_export_id,source_csv_line,measurement_time_type,first_time_source,last_time_source,raw_rows,observed_2min_buckets
+M004,Q002,2,timestamp with time zone,2022-05-27 08:20:03+00,2022-06-02 23:58:03+00,4782,4782
+M008,Q002,3,timestamp with time zone,2022-05-27 08:06:03+00,2022-06-02 23:58:03+00,4788,4788
