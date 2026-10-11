@@ -1,0 +1,41 @@
+{
+  "source_provider": "nLine PowerWatch organization 2, Grafana Timescale datasource",
+  "retrieved_date_utc": "2026-10-11",
+  "scope": "bounded installation-week measurements, dated deployment metadata and current-week export; not continuous coverage audit",
+  "history_attempts": [
+    {
+      "scope": "all-history, bounded full-span and recent-period extrema",
+      "result": "three 502 server timeouts; no long-span rows used"
+    }
+  ],
+  "timestamp_note": "measurement timestamps are timezone-aware UTC; deployment times are source timezone-naive and retained without assuming a zone",
+  "exports": [
+    {
+      "export_id": "Q001",
+      "kind": "deployment",
+      "sha256": "dadb1d5f02dc1953f3c76567c152222d5d8a0824630ee719363a3394978f393a",
+      "bytes": 812,
+      "acquired_at_utc": "2026-10-11T19:51:42.926567+00:00",
+      "source_url": "https://graphs.rwanda.powerwatch.io/explore",
+      "format": "Table",
+      "query": "deployment_pwdata, Ndosho/ARE-Virunga/Hopital Provincial; public projection retains only Ndosho rows"
+    },
+    {
+      "export_id": "Q002",
+      "kind": "installation_summary",
+      "sha256": "45a59a2c69b369dd65f6794fee8a186e488af4f7feeea5b63d6d596072fdbc2c",
+      "bytes": 298,
+      "acquired_at_utc": "2026-10-11T19:54:37.445686+00:00",
+      "source_url": "https://graphs.rwanda.powerwatch.io/explore",
+      "format": "Table",
+      "query_start_utc": "2022-05-27T00:00:00Z",
+      "query_end_exclusive_utc": "2022-06-03T00:00:00Z",
+      "query": "deployment-valid particle observations; COUNT(*) and distinct 120s time_bucket; no voltage >-0.5 filter"
+    }
+  ],
+  "pipeline_sha256": "c8af54999f350d9cd031a0a844e3b80ce1950a6877796c2c5b3572f47b5d0692",
+  "outputs_sha256": {
+    "installation_summary.csv": "9bf888c3033b35610341e760b073715f1e1becac107d18b01ffeb97ece66317c",
+    "deployment.csv": "d828f56af30afe996ab86a29bbbe707b8f35ca3d1cd544c9540379525625ab36"
+  }
+}

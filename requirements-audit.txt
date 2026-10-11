@@ -1,0 +1,6 @@
+pandas==2.2.3
+numpy==2.3.5
+openpyxl==3.1.5
+matplotlib==3.11.2
+# Optional supervised model after independent label adjudication.
+scikit-learn==1.6.1

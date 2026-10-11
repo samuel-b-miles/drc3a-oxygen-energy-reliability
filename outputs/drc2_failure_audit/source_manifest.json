@@ -1,0 +1,33 @@
+{
+  "source_original_local_export_sha256": "cfee566a033489838210f072a80e2adbd612bacf52935b1a674a231156b6442f",
+  "source_original_shape": [
+    565,
+    128
+  ],
+  "source_original_local_file_title": "DRC2 survey export, version dated 2026-04-07; original CSV bytes preserved locally",
+  "controlled_original_path": "data/raw/private/drc2/original_survey_export.csv",
+  "drive_augmented_export_url": "https://drive.google.com/file/d/1DUSYVTdVie8xopZfC13lc0nmZkhtf5T9/view",
+  "drive_augmented_export_sha256": "d6f02b1dd19c37a385f423a16aeff1741e9bc9e02090032d9a5bdb17a887ee69",
+  "drive_augmented_export_modified_utc": "2026-07-27T20:35:23.621Z",
+  "drive_augmented_shape": [
+    565,
+    163
+  ],
+  "drive_export_status": "original 128 columns plus 35 existing helper fields; audit rerun starts with original local 128-column export",
+  "codebook_url": "https://docs.google.com/spreadsheets/d/16fFKPg7mWylEkmiAgoUW8boB2xsoqEmL/edit",
+  "codebook_modified_utc": "2026-08-11T19:18:37.997Z",
+  "codebook_sha256": "ca11ab3c811940fc8cfd735ccca736cd9613fa98b836bd9279fbaa026d7adf9b",
+  "question_scope": {
+    "H1_medequip": {
+      "range": "Codebook!A38:B38",
+      "wording": "Est-ce que certains de vos équipements médicaux ont  été endommagés à cause d'une mauvaise alimentation électrique?"
+    },
+    "H1_a_medequip": {
+      "range": "Codebook!A39:B39",
+      "wording": "Lesquels?  Donnez tout contexte possible sur les équipements non fonctionnels et la cause de non-fonctionnalité"
+    }
+  },
+  "source_attribution": "DRC2 survey study team; source instrument and existing processing scripts referenced, no new authorship assigned",
+  "privacy_policy": "raw text, direct identifiers, exact facility keys, phone linkage and model-review materials stay ignored; public outputs are whole-sample aggregates",
+  "method_status": "legacy rule-based parser reproduced; strict concentrator category added; independent expert labels required before supervised model training"
+}

@@ -1,0 +1,97 @@
+part,action,original_text_sha256,released_text
+xl/comments1.xml,text_deidentified,91ebb4db53448d42f69c33e91e5ab55cdfdbc5f2954bec9b785c347dd908aaf7,"omg
+
+
+
+i
+
+
+love
+
+
+
+this
+1 total reaction
+[source analyst] reacted with 😁 at 2024-11-06 16:16 PM
+	-[source collector]
+----
+changed from blank
+	-[source analyst]"
+xl/comments2.xml,text_deidentified,d7ed6ec3c38927d317f87debedff7a6c14ad6bad6f471ee80362515fbe73ff8c,"@[contact redacted] really well done.
+
+can we get a CAGR value on all trend lines?  (% growth normalized over year)
+	-[source collector]"
+xl/comments2.xml,text_deidentified,152ce85503edfe6133792d1460a772c6c083c50ede5267da70ab8af0088dc104,"missing entry - should be 600?
+	-[source analyst]"
+xl/comments2.xml,text_deidentified,7cd9f2456a0a46bcb44d904c07814ca6d2c052e4fe7ea0004ca1d18e3eea52ad,"Fixed from 23-20-2021
+	-[source analyst]"
+xl/comments2.xml,text_deidentified,99805a6c01156206900e2162be6d664e3d36895d4e6bac9c4746d8d3fc24a518,"day of the week
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,215b52e61528d519ac6e32fa0b3ce473d03333da29ed58d9222a016895f6bf0e,"Hour/ time
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,c62058777b2e740b51a6e6c05f7310f2186f944b88b43cabc61db20f9180d58b,"KwH bought
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,189f0765978fc969aed43b2671f084edf0ae4335d3b3c6a32b20c679316b17af,"KwH left
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,1bbeeca92e7250567c18f54e5c1b39d2822d7a1f5304e528e870252d76055d7a,"I could not find a photo of the data from March 18, 2022 - April 24th, 2022
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,bc513269aa2dedf106a2a43d55696f75b140f51d0934a6cc5b13bb7cd02963f0,"periode de l'eruption volcanique panne au niveau de virunga energie
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,6c1a07e761802149d9d9f6fafcf265edec601d8f0246d6f625e9b1439cecdc51,"Panne au hi veau du compteur ou a de cemte la panne eu appellant le service cluet du virunga energie (probably some misread words here, see photos)
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,9f018c949a5f2dbb421605ae371ce8700873c9036056f748d41b46623100ca9f,"Vain Ir de virunga energie paur les unites charges (see photo for observations column...)
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,5d7cb6004094fe6b88ffddee39892a873469262f5852dc7e2efa7a3c13ce20da,"Pan he au compteau
+	-[source annotator]"
+xl/comments2.xml,text_deidentified,602148606676cce31e52e9b0fab86233c1e9c491ab348a01fbeaf4ec801d90bb,"installation d'un nouveau compteur..
+	-[source annotator]"
+xl/comments8.xml,text_deidentified,c163de907f9a6cf145843cc0c5fcd31288d76e62302d99a9313c5e6238f7f2e7,"total fuel bought
+	-[source annotator]"
+xl/comments8.xml,text_deidentified,c567c92d45e31ad834cbf69cb3a0c9d643be0ca069a22c4da229b255fa37e0c9,"generator 2 fuel bought
+	-[source annotator]"
+xl/comments8.xml,text_deidentified,fdcb911c5a183ac835728b30822381f60b56d66f3f2462d42c899e5707c17155,"generator 1 fuel bought
+	-[source annotator]"
+xl/comments8.xml,text_deidentified,9c33b5d6c2ca1b6dce7a52f51f1ff1a5fd112f3dbd8ebe2eaa13a17f59b66d96,"number of total hours
+	-[source annotator]"
+xl/comments8.xml,text_deidentified,635cf557e980c651209faddd5d5d586da588444cae3b62c31352a58a5187dae3,"hour: stop
+	-[source annotator]"
+xl/comments8.xml,text_deidentified,66e2e16338e5793da3bfb562a8c341bba144a83996628a475291a8b2fcc3e03d,"hour: on
+	-[source annotator]"
+xl/comments19.xml,text_deidentified,95771665ec0936ec1b2229be97f886432650fd30a018ba0bb711e51f5ee668c2,"can we also try monthly energy cost breakdown with just one lefthand axis ($) and then blue and red stacked area - such that the two summed total energy spend (gen + kwh) per month on y axis
+	-[source collector]"
+xl/comments19.xml,text_deidentified,d6805c0580b6726174db64b29738ed7b6d1a28438b8a1570d395b809125c76c4,"i like this - good to have as a 100% stacked column as well, as clean a visual as possible
+	-[source collector]"
+xl/charts/chart63.xml,text_deidentified,faa7a12613a80cc572cd91914fb59b4a393424abb085fa4182d0371a85fde25e,Weekly Outage Duration (CBCA N001)
+xl/charts/chart65.xml,text_deidentified,c1de6c29c5f287f40d03f3bc84c4c504052491164f344ce63edbce7ac8ade2c2,Weekly Outage Frequencies (CBCA N001)
+xl/drawings/drawing1.xml,poster_drawing_omitted,575e5935d78953f8c15912ddadd840efa92c24bb3244afd408d758ea26a59ec4,
+xl/drawings/_rels/drawing1.xml.rels,poster_drawing_omitted,cd31aba7c923e69aa0742c49b9c0f6300a45a049873c409773576170d7ce08c1,
+xl/sharedStrings.xml,text_deidentified,39c587b2d3dd7b44c120d80f9ae94f0edea74a7597f355e678fa048f1a0cbca3,"Analysis: Digitization of generator and grid spend, captured by camera during fieldwork from technician hand-written log-book at N001 , Goma, eastern DRC"
+xl/sharedStrings.xml,text_deidentified,143b9c1beef5c0be809f265729d48a8c4edeff96d6a42b81727020282a62cbfb,Analyst Weekly Findings slides:
+xl/sharedStrings.xml,text_deidentified,fb6ccc7fcccc159bd61beef2fa371ac0e75a805caefd56b8e5d381efb17f8e08,Analyst Weekly Findings
+xl/sharedStrings.xml,text_deidentified,b9d7e8fd078db272ff850236769816a344f594721b6d7600a78b7a9db803300a,Average Hourly Load N001:
+xl/sharedStrings.xml,text_deidentified,4cd0da2642de0b7671daec56fc55868468335ddf80640d55456f44f08019800d,F025
+xl/sharedStrings.xml,text_deidentified,58d26bbea076928e3172953cb4f05d31f8aa8cb3e4f4cef02a859be017e7ef6b,N001
+xl/sharedStrings.xml,text_deidentified,f581bf803c40183aa995af097c1683444832c54e7ad4528b7c4ff7c712938124,F022
+xl/sharedStrings.xml,text_deidentified,acf71743efd137c990981cc37261e4f7fc6adb5cf4ecb5c054162b7659cf9fde,F024
+xl/sharedStrings.xml,text_deidentified,5e24c4a0456005d740b1fb63cc1bb7d4e26eaab63c67b96863d79c4808e74de1,F001
+xl/sharedStrings.xml,text_deidentified,1f9ceb1d12ab54ec4b7faa5f63d62693c8ea2e9ea19c0b292db7c5b045468869,F011
+xl/sharedStrings.xml,text_deidentified,612760671b638f55b327c85241cf01197438db96bb4fc967c34fa3ac12936cad,F005
+xl/sharedStrings.xml,text_deidentified,7c599320f51060f20367925db030789574f975808b06dfafb24b7c4a23db6b8d,F014
+xl/sharedStrings.xml,text_deidentified,4e201d940dd0505540b1d554712f98e9c9c4a6df866c08869a1ac1af038c1ee6,F004
+xl/sharedStrings.xml,text_deidentified,0dcb4e2774ec60817901473adf89a6426318c90e52088a31dff6bdb2865ef0cc,F012
+xl/sharedStrings.xml,text_deidentified,43bb923d22f09308485c21ee5f639674855c038f7f17e1a71a4b22dc00967845,F018
+xl/sharedStrings.xml,text_deidentified,d4246ac998e9ac86c5fc0dd335c9d2fdf806c97626f6599ef10b1bf13b574c64,F019
+xl/sharedStrings.xml,text_deidentified,4e1f2a15ffe9ad8f7c552724aef5605af33ad0f0c4e5a04d480772861ea59de5,F013
+xl/sharedStrings.xml,text_deidentified,a5a72b70287a88edc0a7fd5abaa09830c7de0644a7eafbf6f88006058cd296f9,F015
+xl/sharedStrings.xml,text_deidentified,4aa683d72fd8195da3da6cc52b447d1def9e679e105fe98a8e199436291fe1ad,F003
+xl/sharedStrings.xml,text_deidentified,0bcbd51a5639f12a52a9dbff17e78a8a6a47722122d32f75115d728bfa6ba9b0,F016
+xl/sharedStrings.xml,text_deidentified,97882432b1b3d77c00d0282133d74b2af921b1ef6d35638d6b366bab96a51c86,F017
+xl/sharedStrings.xml,text_deidentified,92698c769af22050bbc6928523f7cb6d09ae22dc3f70cdf443263be930e86fd2,F009
+xl/sharedStrings.xml,text_deidentified,dab6c5144deb5a22ba490a6fe158cfb44f762db4cd0bff9c02f50c3b4987528c,F010
+xl/sharedStrings.xml,text_deidentified,92ea3d52d7c0ded374f248513a44f155701dde431f48869294a92003cd59990d,F007
+xl/sharedStrings.xml,text_deidentified,a24ce2274a83b2419b305ebfa9a4e372109ae37606a47a8d0168ad1c127aba4b,F023
+xl/sharedStrings.xml,text_deidentified,f3a311e8c198a07099e90de3e48dc5e3a35649a01bd52c0aebcb4a81dd685d37,F020
+xl/sharedStrings.xml,text_deidentified,d6344561ad29ddb87bfa27cb1507d19f01a1ecc14a681dd47e074f308da8a46c,F021
+xl/sharedStrings.xml,text_deidentified,0f2cc3de8d5ce8a6f23af50050f6e0110efe0ac006eef6d828092170edf9fe5d,F008
+xl/sharedStrings.xml,text_deidentified,4568fd8907bea95a25a8794668d64a0acdd06e88ea4f26fc97e70115427984ed,F006
+xl/media/image1.png,embedded_poster_omitted,2e79fc797141325f0e02b825ed1d04a51978a410dd803b5d39ca89e885052544,

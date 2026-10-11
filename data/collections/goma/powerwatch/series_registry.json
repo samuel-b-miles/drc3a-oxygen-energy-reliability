@@ -1,0 +1,169 @@
+{
+  "sites": [
+    {
+      "site_id": "S001",
+      "requested_for_goma_export": true,
+      "case_label": "S001"
+    },
+    {
+      "site_id": "S002",
+      "requested_for_goma_export": true,
+      "case_label": "S002"
+    },
+    {
+      "site_id": "S003",
+      "requested_for_goma_export": true,
+      "case_label": "S003"
+    },
+    {
+      "site_id": "S004",
+      "requested_for_goma_export": true,
+      "case_label": "Ndosho"
+    },
+    {
+      "site_id": "S005",
+      "requested_for_goma_export": true,
+      "case_label": "S005"
+    },
+    {
+      "site_id": "S006",
+      "requested_for_goma_export": true,
+      "case_label": "S006"
+    },
+    {
+      "site_id": "S007",
+      "requested_for_goma_export": true,
+      "case_label": "S007"
+    },
+    {
+      "site_id": "S008",
+      "requested_for_goma_export": true,
+      "case_label": "S008"
+    },
+    {
+      "site_id": "S009",
+      "requested_for_goma_export": true,
+      "case_label": "S009"
+    },
+    {
+      "site_id": "S010",
+      "requested_for_goma_export": false,
+      "case_label": "Kyeshero (unreconciled)"
+    }
+  ],
+  "sensors": [
+    {
+      "site_id": "S001",
+      "sensor_id": "M001",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S002",
+      "sensor_id": "M002",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S003",
+      "sensor_id": "M003",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S004",
+      "sensor_id": "M004",
+      "circuit_id": "C004L",
+      "mapping_status": "placement_reference_available_period_and_oxygen_connection_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S005",
+      "sensor_id": "M005",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S006",
+      "sensor_id": "M006",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S008",
+      "sensor_id": "M007",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S004",
+      "sensor_id": "M008",
+      "circuit_id": "C004C",
+      "mapping_status": "placement_reference_available_period_and_oxygen_connection_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S001",
+      "sensor_id": "M009",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S002",
+      "sensor_id": "M010",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S009",
+      "sensor_id": "M011",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_site_label_only_deployment_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S010",
+      "sensor_id": "M012",
+      "circuit_id": "unresolved",
+      "mapping_status": "user_identified_kyeshero_sensor_dashboard_alias_and_event_deployment_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S005",
+      "sensor_id": "M013",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_respondent_id_alias_physical_sensor_and_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    },
+    {
+      "site_id": "S007",
+      "sensor_id": "M014",
+      "circuit_id": "unresolved",
+      "mapping_status": "dashboard_respondent_id_alias_physical_sensor_and_period_unverified",
+      "valid_from": null,
+      "valid_to": null
+    }
+  ],
+  "status": "pseudonymous; physical sensor identities and dated circuit crosswalk controlled"
+}

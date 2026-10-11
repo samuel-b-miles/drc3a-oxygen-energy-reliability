@@ -1,4 +1,4 @@
-"""Basic repository hygiene checks for the private DRC3a workspace."""
+"""Basic repository hygiene checks for the public DRC3a workspace."""
 
 from __future__ import annotations
 
@@ -10,6 +10,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 FORBIDDEN_TRACKED_PATTERNS = [
+    "outputs/private/",
+    "config/private/",
+    "node_modules",
     "data/private/",
     "data/raw/private/",
     "data/intermediate/private/",

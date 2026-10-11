@@ -1,0 +1,66 @@
+{
+  "collection_id": "N001",
+  "component": "historical_grid_generator_ledger",
+  "source_title": "kWh Mega Spreadsheet - Charlie Huang.xlsx",
+  "source_url": "https://docs.google.com/spreadsheets/d/1K_aHhbYLCz5Et6Uk_BhBVQELlUPLvhVX/edit",
+  "source_drive_modified_utc": "2026-10-05T12:40:08.677Z",
+  "retrieved_date_utc": "2026-10-11",
+  "retrieved_file_bytes": 3417442,
+  "retrieved_sha256": "6f149fe2e6d36176f2d22d428668df5e2b27b985289e55d79b1ff6c0838da75f",
+  "snapshot_sha256": "2e0dae48f452327939b0035a7fad7aa669ba4b5910e35869317ea1248a300777",
+  "source_credit": [
+    {
+      "name": "Charlie Huang",
+      "role": "data analysis; Description!B6"
+    },
+    {
+      "name": "Samuel Miles",
+      "role": "source collection and project context; embedded 2024 poster"
+    },
+    {
+      "name": "Layla Kwong",
+      "role": "co-credited on embedded 2024 poster; specific contribution not independently established"
+    }
+  ],
+  "source_annotation_credits": [
+    "Aashika Nair",
+    "Allison Wong"
+  ],
+  "license_status": "no blanket data license supplied or newly assigned; source credit retained",
+  "public_artifacts": [
+    "charlie_kwh_snapshot_deidentified.xlsx",
+    "cell_ledger.csv.gz",
+    "preservation_audit.json",
+    "redaction_ledger.csv",
+    "sheet_inventory.json"
+  ],
+  "transformation": "privacy-only literal text changes, one sheet alias, omitted poster image and private Slides links; source numbers, dates, formulas, cached results, source errors, native charts and styles preserved",
+  "privacy_note": "Deidentified/pseudonymous source. The named case and canonical source reference prevent irreversible anonymity. Private contact details and facility/home labels have been removed.",
+  "analysis_status": "source snapshot; not corrected or validated estimates",
+  "limitations": [
+    {
+      "range": "virunga!B:C",
+      "issue": "mixed day/month representations; reconcile with dates, weekday labels and original register pages"
+    },
+    {
+      "range": "generators!L1:M1",
+      "issue": "generator II calculations explicitly marked not calculated correctly"
+    },
+    {
+      "range": "generators!V1",
+      "issue": "fuel purchase units explicitly uncertain (probably dollars)"
+    },
+    {
+      "range": "comparisons - usage!D1",
+      "issue": "generator kWh estimated from runtime; embedded poster assumes rated capacity and power factor 0.8, not measured electrical energy"
+    },
+    {
+      "range": "comparisons - purchases!C1",
+      "issue": "grid cost assumes 0.20 USD per kWh; do not treat as independently observed tariff each day"
+    },
+    {
+      "range": "all worksheets",
+      "issue": "13 existing error cells retained; derived source estimates are not newly audited analytical results"
+    }
+  ]
+}

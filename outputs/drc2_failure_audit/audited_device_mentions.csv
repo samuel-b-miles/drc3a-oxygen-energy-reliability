@@ -1,0 +1,14 @@
+category,facilities_mentioning,all_facilities_denominator,percent_all_facilities,facilities_mentioning_and_reporting_damage,damage_reporting_facilities_denominator,percent_damage_reporting_facilities,text_answer_facilities_denominator,percent_text_answer_facilities,coding_status
+Oxygen concentrator,65,491,13.238,65,235,27.66,235,27.66,provisional_keyword_mentions_not_failure_incidence
+Lighting / surgical theatre electrical devices,45,491,9.165,45,235,19.149,235,19.149,provisional_keyword_mentions_not_failure_incidence
+Electrical components / power system,43,491,8.758,43,235,18.298,235,18.298,provisional_keyword_mentions_not_failure_incidence
+Ultrasound / echography,40,491,8.147,40,235,17.021,235,17.021,provisional_keyword_mentions_not_failure_incidence
+Patient monitoring / bedside clinical devices,39,491,7.943,39,235,16.596,235,16.596,provisional_keyword_mentions_not_failure_incidence
+Computer / printer / office electronics,35,491,7.128,35,235,14.894,235,14.894,provisional_keyword_mentions_not_failure_incidence
+Sterilization equipment,35,491,7.128,35,235,14.894,235,14.894,provisional_keyword_mentions_not_failure_incidence
+Laboratory equipment,29,491,5.906,29,235,12.34,235,12.34,provisional_keyword_mentions_not_failure_incidence
+Refrigeration / cold chain / morgue,22,491,4.481,22,235,9.362,235,9.362,provisional_keyword_mentions_not_failure_incidence
+Maternal / neonatal equipment,21,491,4.277,21,235,8.936,235,8.936,provisional_keyword_mentions_not_failure_incidence
+Laundry / water / utility equipment,20,491,4.073,20,235,8.511,235,8.511,provisional_keyword_mentions_not_failure_incidence
+Radiography / X-ray,18,491,3.666,18,235,7.66,235,7.66,provisional_keyword_mentions_not_failure_incidence
+Oxygen device unspecified,5,491,1.018,5,235,2.128,235,2.128,provisional_keyword_mentions_not_failure_incidence
