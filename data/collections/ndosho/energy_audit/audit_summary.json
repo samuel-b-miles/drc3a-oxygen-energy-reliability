@@ -1,0 +1,69 @@
+{
+  "audit_date": "2026-10-11",
+  "source_files_unchanged": true,
+  "total_load": {
+    "source_url": "https://github.com/astroash11/drc3/blob/c21987d8c0cb3d3653d6aad485ee32661e3a5565/data/total_load.csv",
+    "source_sha256": "32fb1364458a7de84ea666cc69e15cf88f885c466071d708c1a9ca7c1ca69cb7",
+    "rows": 216667,
+    "first_time": "2023-02-16 00:00:00",
+    "last_time": "2023-07-16 23:59:00",
+    "timezone": "unverified source clock",
+    "total_load_placement": "source whole-facility label; physical deployment not independently verified",
+    "method": "Sort timestamps; parse explicit W/kW; trapezoidal power integration on intervals <=60 seconds; no gap filling or prorating; assign intervals to endpoint source-clock date.",
+    "days_with_95pct_coverage": 149,
+    "mean_daily_energy_kWh": 243.8351704697986,
+    "median_daily_energy_kWh": 247.34483333333333,
+    "daily_p10_kWh": 180.22313333333332,
+    "daily_p90_kWh": 296.0666,
+    "mean_observed_load_kW": 10.195844877161726,
+    "mean_daily_energy_at_99pct_coverage_kWh": 244.3741973744292,
+    "cached_workbook_load_profile": "comparisons - usage!AA76:AB99; total generator usage!U2",
+    "cached_profile_implied_daily_kWh": 244.58605428571428
+  },
+  "ledger": {
+    "energy_proxy": {
+      "source_tab": "comparisons - usage",
+      "source_range": "A13:D123",
+      "matched_weeks": 111,
+      "first_week_label": "2020-05-30 00:00:00",
+      "last_week_label": "2022-07-09 00:00:00",
+      "grid_total": 110741.27033300001,
+      "generator_total": 74601.9839997,
+      "generator_share": 0.40250714420815054,
+      "grid_share": 0.5974928557918495,
+      "mean_total_per_week": 1669.7590480423423
+    },
+    "cost_proxy": {
+      "source_tab": "comparisons - purchases",
+      "source_range": "A14:D124",
+      "matched_weeks": 111,
+      "first_week_label": "2020-05-30 00:00:00",
+      "last_week_label": "2022-07-09 00:00:00",
+      "grid_total": 22230.4,
+      "generator_total": 5335.0,
+      "generator_share": 0.19353972733934569,
+      "grid_share": 0.8064602726606543,
+      "mean_total_per_week": 248.33693693693695
+    }
+  },
+  "workbook_sha256": "6f149fe2e6d36176f2d22d428668df5e2b27b985289e55d79b1ff6c0838da75f",
+  "energy_assumptions": {
+    "source_cells": "total generator usage!P2:Q3",
+    "generator_I_kW": 64,
+    "generator_II_kW": 16,
+    "formula": "80*0.8 and 20*0.8; fixed assumed output multiplied by logged/inferred runtime",
+    "status": "Not measured generator electrical output. Generator-II calculation warnings, date alignment and missing-to-zero formulas remain unresolved."
+  },
+  "cost_assumptions": {
+    "source_cells": "comparisons - purchases!C14:D124; generators!R:T,V1",
+    "grid_tariff_USD_per_kWh": 0.2,
+    "generator_purchase_units": "Source comment: units are probably dollars",
+    "status": "Conditional bookkeeping proxy, not verified USD expenditure. Grid purchases differ from energy used; fuel inventory, unit price, maintenance and battery/solar supply are not reconciled."
+  },
+  "existing_notebook_issue": {
+    "source_url": "https://github.com/astroash11/drc3/blob/c21987d8c0cb3d3653d6aad485ee32661e3a5565/full_facility_box_plot.ipynb",
+    "issue": "Sums 60 kW readings without dividing by 60 and labels as kWh. Also groups unsorted source rows into positional blocks. Those energy results are not used."
+  },
+  "period_limits": "2023 total-load baseline and 2020-2022 ledger shares are different periods. Do not apply historical energy shares to 2023 measured kWh/day or describe them as current post-PSA demand. January 2025 logged generator hours are not whole-facility kWh.",
+  "script_sha256": "941a39773d14f9c6972486755b7577eaf2ff5d778ce61bc4225c93ded973ddc1"
+}
