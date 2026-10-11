@@ -1,25 +1,12 @@
-group,dataset,start,end,status,kind,source
-Ndosho,Historical grid and generator ledger,2020-01-01,2023-12-31,coarse date range; mixed date formats,records,data/collections/ndosho/historical/source_manifest.json
-Ndosho,2023 generator register,2023-01-01,2023-12-31,year confirmed; day/month audit pending,records,data/collections/ndosho/generator_register/source_manifest.json
-Ndosho,PowerWatch paired monitoring target,2022-05-27,2026-10-11,both deployed May 2022; intervening coverage unverified,target,data/collections/ndosho/powerwatch/coverage_request.json
-Ndosho,PowerWatch paired installation week,2022-05-27,2022-06-03,both series returned; UTC measurement timestamps,telemetry,data/collections/ndosho/powerwatch/installation_summary.csv
-Ndosho,PowerWatch current-week export,2026-10-05,2026-10-11,one series returned; current pair not confirmed,telemetry,data/collections/ndosho/powerwatch/current_week/export_manifest.json
-Ndosho,PowerWatch paired event exports,2025-01-14,2025-02-09,two series exported; missing bins retained,telemetry,data/collections/goma/powerwatch/export_manifest.json
-Ndosho,2024–2025 generator and fuel register,2024-12-26,2025-03-01,dated manual entries plus separate model estimates,records,data/collections/ndosho/generator_register/source_manifest.json
-Ndosho,HOPmeter H001 · 10 L/min concentrator,2023-07-27 14:35:23,2024-01-17 03:30:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H002 · 5 L/min concentrator,2023-07-26 00:00:00,2023-11-24 23:59:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H003 · anesthesiology load,2023-02-10 00:00:00,2023-07-25 23:59:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H004 · blood analyzer load,2023-02-21 07:45:56,2024-01-18 04:00:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H005 · blood refrigerator load,2023-02-21 00:00:00,2024-01-18 04:00:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H006 · neonatology aggregate load,2023-02-21 00:00:00,2024-01-15 07:00:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H007 · neonatology concentrator load,2023-09-11 06:18:42,2024-01-18 04:00:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H008 · phase 1 load,2023-02-16 00:00:00,2023-07-25 13:16:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H009 · phase 2 load,2023-02-16 00:00:00,2023-07-20 15:45:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H010 · phase 3 load,2023-02-16 00:00:00,2023-07-20 15:45:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H011 · recovery room load,2023-02-08 12:18:31,2023-03-31 09:14:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H012 · X-ray load,2023-01-28 00:00:00,2024-01-17 23:59:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Ndosho,HOPmeter H013 · total load (source label),2023-02-16 00:00:00,2023-07-16 23:59:00,source timestamp span; gaps and clock zone unverified,telemetry,data/collections/ndosho/hopmeter/series_inventory.csv
-Comparative data,Valentin ward assessment,2024-10-08,2024-11-04,17 dated facility visits; Ndosho 15 Oct 2024,survey,"Valentin thesis, Table 34, printed p. 102"
-Comparative data,Goma event exports · nine requested sites,2025-01-14,2025-02-09,13 returned series; census of all Goma sensors unverified,telemetry,data/collections/goma/powerwatch/export_manifest.json
-Comparative data,DRC2 survey · submission timestamps,2025-05-29 00:00:00,2025-11-21 00:00:00,565 submissions / 491 facilities; interview dates unverified,survey,outputs/drc2_failure_audit/run_audit.json
-Ndosho follow-up,Retrospective field interview,2026-01-27,2026-01-27,account recorded in 2026; PSA installation date unresolved,interview,https://docs.google.com/document/d/1TKk1lK1sBN_XpJI80o6OH_NnTJVLZYoZYsAHRBCoRZ8/edit
+dataset,start,end,kind,date_label,qualifier,coverage_status,source,display_style
+Historical grid and generator records,2020-01-01,2023-12-31,records,2020-2023,Master spreadsheet and overlapping 2023 transcription,coarse year span; source overlap and mixed day/month dates not reconciled,data/collections/ndosho/historical/source_manifest.json; data/collections/ndosho/generator_register/source_manifest.json,coarse
+"GridWatch monitoring
+(two sensors deployed; one reporting now)",2022-05-27,2026-10-11,telemetry,May 2022-Oct 2026,Two sensor histories grouped in one monitoring band,both returned in installation week and event; M004 returned in October 2026; intervening paired coverage unverified,data/collections/ndosho/powerwatch/coverage_request.json,monitoring_span
+Event-period generator and fuel register,2024-12-26,2025-03-01,records,Dec 2024-Mar 2025,Runtime and fuel entries spanning the January event,manual entries and separate model-derived estimates; fuel entries are not measured fuel burn,data/collections/ndosho/generator_register/source_manifest.json,observed
+"HOPmeter monitoring
+(5 L/min concentrator, 10 L/min concentrator,
+neonatology concentrator, whole facility)",2023-01-28 00:00:00,2024-01-18 04:00:00,telemetry,Jan 2023-Jan 2024,13 load files combined; listed loads are selected examples,"union of file spans; devices have different coverage, gaps and unverified clock zones",data/collections/ndosho/hopmeter/series_inventory.csv,observed
+Preliminary oxygen survey (n=18),2024-10-08,2024-11-04,survey,Oct-Nov 2024,Facility and ward oxygen assessment,"n=18 requested by study lead; 17 dated visits in displayed window, one January 2024 date remains to reconcile","Valentin thesis, Table 34, printed p. 102; sample label specified by study lead 2026-10-11",observed
+Cross-sectional survey (n=491 facilities),2025-05-29 00:00:00,2025-11-21 00:00:00,survey,May-Nov 2025,Submission dates; 565 forms / 518 retained respondents,"facility count from current deduplication; dates are submission timestamps, not verified interview dates",outputs/drc2_failure_audit/run_audit.json,observed
+Retrospective field interview,2026-01-27,2026-01-27,interview,27 Jan 2026,Recorded retrospective account,interview date; PSA installation date remains unresolved,https://docs.google.com/document/d/1TKk1lK1sBN_XpJI80o6OH_NnTJVLZYoZYsAHRBCoRZ8/edit,observed
+Retrospective field interview,2026-11-01,2026-12-01,interview,Nov 2026 - planned,Follow-up interview; exact date to be set,"planned month, not collected data; end is exclusive month boundary","Study lead requested November 2026 follow-up, 2026-10-11",planned

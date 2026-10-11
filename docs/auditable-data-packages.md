@@ -56,3 +56,9 @@ The equipment audit does not overwrite an existing human review queue. After ind
 This build adds no measured oxygen flow, patient outcome linkage, verified PSA outage duration or causal regression result. Each stronger claim remains attached to its required evidence.
 
 Variable definitions and observation boundaries are in [the data dictionary](data-dictionary.md). Read-only bounded query templates are in `config/powerwatch_coverage_queries.sql`.
+
+## Study-level timeline
+
+The compact timeline shows eight study/source groups. The historical master workbook and 2023 generator-register transcription occupy one row because the source periods overlap; individual record equivalence is not yet audited. The later generator/fuel register is the event-period transcription, covering 26 December 2024 to 1 March 2025. GridWatch uses one monitoring-period band from 27 May 2022 to 11 October 2026, with two deployed sensors and one current return; it does not assert continuous paired observations or a dated change from two to one. HOPmeter shows the union of the 13 file spans, with concentrator, neonatology and whole-facility loads as selected examples.
+
+The preliminary oxygen survey label is n=18 as specified by the study lead; the one date exception remains in the mapping. The cross-sectional survey uses the audited n=491 facility sample. The January 2026 interview is recorded; November 2026 is planned and shown as a month rather than an invented interview date.

@@ -40,5 +40,7 @@
     "query_start_local": "2026-10-05T00:00:00",
     "export_manifest": "current_week/export_manifest.json",
     "interpretation": "one ongoing series, no current paired monitoring or uninterrupted coverage inference"
-  }
+  },
+  "study_display_name": "GridWatch monitoring",
+  "source_platform_name": "nLine PowerWatch"
 }
