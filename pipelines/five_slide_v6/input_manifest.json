@@ -1,0 +1,144 @@
+{
+  "snapshot": "v6",
+  "expected_packet_sha256": "8b337f7c6fdae6dab78470be2103156f98fab1f5d7ec3fefe865009790712d2d",
+  "inputs": [
+    {
+      "path": "original_scripts/build_latest_five_slide_revision.py",
+      "sha256": "ab788d2cc883fe2e86f932724c309156570b5c0d4d60b6895be903d789dc941c",
+      "bytes": 13323,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "original_scripts/build_goma_native_event_figures.py",
+      "sha256": "af2f89a8581d486cad51d47ac40ad5640b076bc84066b652ce0f9d3082281877",
+      "bytes": 24846,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "original_scripts/build_distribution_review.py",
+      "sha256": "caac8812509f6d5dad1d0377675c6a324870ea5cab97012bbe187a91d5642548",
+      "bytes": 8349,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "original_scripts/build_source_calendar_revision.py",
+      "sha256": "eef4410eb3d0f9cde7528782bae8d7de321dc956aacabc6813f8f545abe892da",
+      "bytes": 11980,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "original_scripts/build_damage_power_comparison_figure.py",
+      "sha256": "8e674e128550499e308b9e02ec4fdc2820acf8c80963e3c72ed4f16e643257ba",
+      "bytes": 11229,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "reference/oxygen_electricity_five_slide_review.pdf",
+      "sha256": "8b337f7c6fdae6dab78470be2103156f98fab1f5d7ec3fefe865009790712d2d",
+      "bytes": 2061943,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "reference/method_and_assembly_validation.json",
+      "sha256": "5b44cbdc61603e3057246ee58fc1748645eda7589b252c89d267527da6401aea",
+      "bytes": 3405,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "reference/final_visual_qa.json",
+      "sha256": "c0cd61ca0c9669595563ccf0111ab91fc2930d322628e5cdc0dfa45ec1b5895d",
+      "bytes": 949,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "reference/figure_handoff_manifest.json",
+      "sha256": "db3530848b80ad126fb647b8a69f4f18eba8368ac65197cf12a12b98b1c13aea",
+      "bytes": 14831,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "workspace/three_panel_voltage_revision_20261012/oxygen_electricity_five_slide_review.pdf",
+      "sha256": "2379647db38165088fda3b55669a5f21ec2fd32a0749992eae4484b1dfd2f59a",
+      "bytes": 1857903,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "workspace/goma_native_event_build_20261012/private_inputs/tidy_native_2min.csv.gz",
+      "sha256": "39c76e26d1bf9450747dcc755dd05c00b8773426065515a48b6afb3c6493577b",
+      "bytes": 4774451,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "workspace/figure_pack_2026_10_11/private_audit/drc2_plot_inputs_deidentified.csv",
+      "sha256": "048e85697b00040868df1725a463b5b0ddabaf008173806192b0ddc041bcb2e7",
+      "bytes": 30072,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "expansion/derived/additional_tidy_native_2min.csv.gz",
+      "sha256": "33d0851fabfc36e891ec0e001dd9df4c1b80840fb8697ff33bfb3f3867857176",
+      "bytes": 2264573,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "expansion/expansion_manifest.json",
+      "sha256": "de8726986334a46bb29dd28010e090eb342dd95c0974fcccc724ec2263af15a0",
+      "bytes": 4412,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "expansion/plotter_handoff.txt",
+      "sha256": "222d8450eb8c6d880e1d86dd03616b9160392480704e1590a039822bd00a3567",
+      "bytes": 5271,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "expansion/derived/verified_additional_crosswalk.csv",
+      "sha256": "64fd7b188f017b034be9354b9058c983fd97b42d2dfcba9cf0b21580babf3929",
+      "bytes": 1707,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "calendar/source_calendar_revision.png",
+      "sha256": "3fe1cce7890b4a8e59e724fbed9f3ac0c394a407e18134b8d9ffcf4b7b8479b1",
+      "bytes": 685994,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "calendar/source_calendar_review.pdf",
+      "sha256": "5bae5881aedc16dac63ddde0d87c1678121a994bf8efaab03a9180abf55aece0",
+      "bytes": 38611,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "calendar/validation.json",
+      "sha256": "c9d574056ea232d5b1d2c6d98de996309e2a6ad23352a0dc8a7c706d6317e448",
+      "bytes": 1452,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "calendar/README.md",
+      "sha256": "36957116b60961cf5efb1ba46ce32bd8cfa66588b5803d9978f1121e7ecf94e2",
+      "bytes": 4593,
+      "access": "controlled; not distributable without approval"
+    },
+    {
+      "path": "workspace/build_latest_five_slide_revision.py",
+      "sha256": "15dde3980f1479eb76be37776502abba770fa586c019085a2003e1929b411e83",
+      "bytes": 13374,
+      "access": "controlled relocated runtime script"
+    },
+    {
+      "path": "workspace/build_distribution_review.py",
+      "sha256": "caac8812509f6d5dad1d0377675c6a324870ea5cab97012bbe187a91d5642548",
+      "bytes": 8349,
+      "access": "controlled relocated runtime script"
+    },
+    {
+      "path": "workspace/build_goma_native_event_figures.py",
+      "sha256": "af2f89a8581d486cad51d47ac40ad5640b076bc84066b652ce0f9d3082281877",
+      "bytes": 24846,
+      "access": "controlled relocated runtime script"
+    }
+  ]
+}
