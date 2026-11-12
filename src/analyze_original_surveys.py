@@ -40,6 +40,12 @@ FIELDS={
  'Responses':{14:'mortality_relevant_power_impacts',16:'health_challenge',17:'power_attributed_equipment_failure',20:'power_attributed_equipment_failure',22:'mortality_relevant_power_impacts'}
 }
 
+def screen_codes(tab, context, text):
+    codes=[c for c,p in PATTERNS.items() if re.search(p,coding_text(text))]
+    if tab=='FOSA_TECH' and context in ('rank_peak_power_load','rank_energy_consumption') and 'resuscitation_broad' in codes:
+        codes=[c for c in codes if c!='concentrator_explicit']
+    return codes
+
 def write_csv(path, rows, fields):
     path.parent.mkdir(parents=True,exist_ok=True)
     with path.open('w',newline='') as f:
@@ -72,9 +78,7 @@ def run(root):
                 text=' | '.join(texts)
                 # URL-only answers are not transcribed evidence.
                 if re.fullmatch(r'https?://\S+',text.strip()):continue
-                codes=[c for c,p in PATTERNS.items() if re.search(p,coding_text(text))]
-                if tab=='FOSA_TECH' and context in ('rank_peak_power_load','rank_energy_consumption') and 'resuscitation_broad' in codes:
-                    codes=[c for c in codes if c!='concentrator_explicit']
+                codes=screen_codes(tab,context,text)
                 status='numeric_only_unmapped' if re.fullmatch(r'[\d\s,;.|]+',text) else 'text_not_adjudicated'
                 status_context[context][status]+=1
                 if norm(row[0]): valid_context[context].append(set(codes))

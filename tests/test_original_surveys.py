@@ -11,4 +11,10 @@ class ConservativeDedup(unittest.TestCase):
  def test_composite_not_split(self):
   text='Resuscitation (oxygen concentrators, defibrillators, medical aspirators)'
   self.assertIn('oxygen concentrators, defibrillators',p.norm(text))
+ def test_composite_does_not_imply_device_priority(self):
+  codes=p.screen_codes('FOSA_TECH','rank_peak_power_load','Resuscitation (oxygen concentrators, defibrillators, medical aspirators)')
+  self.assertIn('resuscitation_broad',codes);self.assertNotIn('concentrator_explicit',codes)
+ def test_accents_fold_for_coding_only(self):
+  self.assertIn('sterilization',p.screen_codes('FOSA_MED','all_cause_equipment_failure','stérilisation'))
+  self.assertNotEqual(p.fingerprint(['stérilisation']),p.fingerprint(['sterilisation']))
 if __name__=='__main__':unittest.main()
