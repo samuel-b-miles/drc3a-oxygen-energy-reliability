@@ -1,0 +1,9 @@
+{
+  "extracted_date": "2026-11-12",
+  "source_files": {
+    "fosa.json": "8502202014e49cae4695162eb1175cfc4edbf09cac0222791e1dc46ff52ec44a",
+    "mcz.json": "07c878bf19d54e5005ed46dfe54a5520b00870a853565dac8618559dc0ffdbd3"
+  },
+  "method": "exact-cell duplicate removal only; derived tabs excluded",
+  "codebook_version": "0.1-dictionary-pilot"
+}
